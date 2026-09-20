@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Dashboard = () => (
+  <div className="max-w-7xl mx-auto px-4 py-12 text-center">
+    <h1 className="text-3xl font-bold text-slate-900 mb-4">User Dashboard</h1>
+    <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-900 max-w-lg mx-auto">
+      Dashboard analytics and recommendations active in subsequent phases.
+    </div>
+  </div>
+);
+
+export default Dashboard;

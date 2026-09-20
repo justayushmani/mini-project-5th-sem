@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pm-kisan-001",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "slug": "pm-kisan-samman-nidhi",
+    "description": "Financial support of ₹6,000 per year provided to all eligible landholding farmer families across the country.",
+    "benefits": "₹6,000 annually paid in three equal installments of ₹2,000 directly into bank accounts via DBT.",
+    "eligibility": "Small and marginal farmers holding cultivable land in their names.",
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land ownership documents (Khasra/Khatauni)",
+      "Bank Account details",
+      "Mobile number linked with Aadhaar"
+    ],
+    "applicationProcess": "Apply online at pmkisan.gov.in or visit nearby Common Service Centers (CSC).",
+    "officialUrl": "https://pmkisan.gov.in/",
+    "state": "All India",
+    "categories": ["General", "OBC", "SC", "ST"],
+    "occupations": ["farmer"],
+    "incomeLimit": null,
+    "ageCriteria": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "tags": ["agriculture", "financial-assistance", "farmers"],
+    "language": "en",
+    "source": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "id": "post-matric-scholarship-002",
+    "name": "Post Matric Scholarship for SC/ST/OBC Students",
+    "slug": "post-matric-scholarship-students",
+    "description": "Financial assistance to students belonging to minority/reserved categories studying at post-matriculation or post-secondary stage.",
+    "benefits": "Complete maintenance allowance, non-refundable fee reimbursement, and book bank support.",
+    "eligibility": "Students pursuing higher education post 10th grade whose annual family income is below ₹2.5 Lakh.",
+    "requiredDocuments": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Mark sheets of previous qualifying examinations",
+      "Fee receipt of current academic session",
+      "Aadhaar Card"
+    ],
+    "applicationProcess": "Apply online through National Scholarship Portal (NSP) or State Scholarship Portal.",
+    "officialUrl": "https://scholarships.gov.in/",
+    "state": "All India",
+    "categories": ["SC", "ST", "OBC"],
+    "occupations": ["student"],
+    "incomeLimit": 250000,
+    "ageCriteria": {
+      "minAge": 15,
+      "maxAge": 35
+    },
+    "tags": ["education", "scholarship", "students"],
+    "language": "en",
+    "source": "Ministry of Social Justice and Empowerment"
+  }
+]
