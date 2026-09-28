@@ -1,0 +1,62 @@
+.authPage {
+  background: var(--grey-50);
+  display: flex;
+  align-items: center;
+}
+
+.authCard {
+  background: var(--white);
+  border: var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-10) var(--space-10);
+  margin: var(--space-8) auto;
+}
+
+.authHeader {
+  margin-bottom: var(--space-8);
+}
+
+.authTitle {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: var(--space-2);
+}
+
+.passwordWrapper {
+  position: relative;
+}
+.passwordWrapper .input {
+  padding-right: 48px;
+}
+.eyeBtn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--grey-500);
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 4px;
+  transition: color var(--transition);
+}
+.eyeBtn:hover { color: var(--black); }
+
+.authSwitch {
+  margin-top: var(--space-6);
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--grey-700);
+}
+
+@media (max-width: 480px) {
+  .authCard {
+    padding: var(--space-6);
+    margin: var(--space-4) auto;
+  }
+}

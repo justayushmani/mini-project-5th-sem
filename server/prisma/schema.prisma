@@ -1,0 +1,230 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ── User ──────────────────────────────────────────────────────────────────────
+model User {
+  id                String    @id @default(cuid())
+  email             String    @unique
+  name              String
+  passwordHash      String
+  preferredLanguage String    @default("en")
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  profile           Profile?
+  bookmarks         Bookmark[]
+  recommendations   Recommendation[]
+  chatSessions      ChatSession[]
+
+  @@index([email])
+  @@map("users")
+}
+
+// ── Profile ───────────────────────────────────────────────────────────────────
+model Profile {
+  id               String   @id @default(cuid())
+  userId           String   @unique
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Core eligibility fields (nullable — not all users provide everything)
+  age              Int?
+  gender           String?
+  state            String?
+  district         String?
+  occupation       String?
+  annualIncome     Float?
+  category         String?   // General, OBC, SC, ST, EWS
+  education        String?
+  employmentStatus String?
+  landOwnership    Boolean?
+  disability       Boolean?
+  maritalStatus    String?
+  otherInfo        Json?     // Flexible bucket for edge cases
+
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@map("profiles")
+}
+
+// ── Scheme ────────────────────────────────────────────────────────────────────
+model Scheme {
+  id                 String    @id @default(cuid())
+  name               String
+  slug               String    @unique
+  description        String
+  ministry           String?
+  category           String    // Agriculture, Health, Housing, etc.
+  state              String?   // null = Central scheme available everywhere
+  level              String    @default("Central") // Central | State | District
+  applicationProcess String?
+  officialUrl        String?
+  status             String    @default("Active") // Active | Inactive | Under Review
+  lastVerifiedAt     DateTime?
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  eligibility        SchemeEligibility[]
+  benefits           SchemeBenefit[]
+  documents          SchemeDocument[]
+  source             SchemeSource?
+  bookmarks          Bookmark[]
+  recommendationSchemes RecommendationScheme[]
+  chatSessions       ChatSession[]
+
+  @@index([category])
+  @@index([state])
+  @@index([level])
+  @@index([status])
+  @@map("schemes")
+}
+
+// ── SchemeEligibility ─────────────────────────────────────────────────────────
+// One row per eligibility criterion (flexible, not rigid columns)
+model SchemeEligibility {
+  id           String  @id @default(cuid())
+  schemeId     String
+  scheme       Scheme  @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+
+  criteriaType String  // age, gender, occupation, income, state, category, education, etc.
+  operator     String? // eq, lte, gte, in, between
+  value        String  // The value as string (parsed at runtime)
+  description  String  // Human-readable: "Must be between 18 and 40 years old"
+  isRequired   Boolean @default(true)
+
+  @@index([schemeId])
+  @@index([criteriaType])
+  @@map("scheme_eligibility")
+}
+
+// ── SchemeBenefit ─────────────────────────────────────────────────────────────
+model SchemeBenefit {
+  id          String  @id @default(cuid())
+  schemeId    String
+  scheme      Scheme  @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+
+  benefitType String  // Financial, Insurance, Subsidy, Training, Equipment, Other
+  description String
+  amount      String? // "₹6,000/year" or "50% subsidy" — stored as text for flexibility
+
+  @@index([schemeId])
+  @@map("scheme_benefits")
+}
+
+// ── SchemeDocument ────────────────────────────────────────────────────────────
+model SchemeDocument {
+  id           String  @id @default(cuid())
+  schemeId     String
+  scheme       Scheme  @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+
+  documentName String
+  description  String?
+  isRequired   Boolean @default(true)
+
+  @@index([schemeId])
+  @@map("scheme_documents")
+}
+
+// ── SchemeSource ──────────────────────────────────────────────────────────────
+model SchemeSource {
+  id             String    @id @default(cuid())
+  schemeId       String    @unique
+  scheme         Scheme    @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+
+  sourceName     String    // "myScheme", "Ministry of Agriculture", etc.
+  sourceUrl      String
+  lastVerifiedAt DateTime?
+
+  @@map("scheme_sources")
+}
+
+// ── Bookmark ──────────────────────────────────────────────────────────────────
+model Bookmark {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  schemeId  String
+  scheme    Scheme   @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  // Prevents duplicate bookmarks at the database level
+  @@unique([userId, schemeId])
+  @@index([userId])
+  @@map("bookmarks")
+}
+
+// ── Recommendation ────────────────────────────────────────────────────────────
+model Recommendation {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // Snapshot of the profile used — results remain reproducible even if profile changes
+  profileSnapshot Json
+  createdAt       DateTime @default(now())
+
+  schemes         RecommendationScheme[]
+
+  @@index([userId])
+  @@index([createdAt])
+  @@map("recommendations")
+}
+
+// ── RecommendationScheme ──────────────────────────────────────────────────────
+model RecommendationScheme {
+  id               String  @id @default(cuid())
+  recommendationId String
+  recommendation   Recommendation @relation(fields: [recommendationId], references: [id], onDelete: Cascade)
+  schemeId         String
+  scheme           Scheme  @relation(fields: [schemeId], references: [id])
+
+  status           String  // ELIGIBLE | POSSIBLY_ELIGIBLE | NOT_ELIGIBLE
+  relevanceScore   Float   @default(0)
+  matchedCriteria  Json    // Array of matched criteria descriptions
+  missingCriteria  Json    // Array of criteria we couldn't verify
+  explanation      String  // AI-generated explanation (grounded in verified data)
+
+  @@index([recommendationId])
+  @@index([status])
+  @@map("recommendation_schemes")
+}
+
+// ── ChatSession ───────────────────────────────────────────────────────────────
+model ChatSession {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String   @default("New Chat")
+  schemeId  String?  // Optional: scheme-specific chat session
+  scheme    Scheme?  @relation(fields: [schemeId], references: [id])
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  messages  ChatMessage[]
+
+  @@index([userId])
+  @@index([updatedAt])
+  @@map("chat_sessions")
+}
+
+// ── ChatMessage ───────────────────────────────────────────────────────────────
+model ChatMessage {
+  id        String   @id @default(cuid())
+  sessionId String
+  session   ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  role      String   // user | assistant
+  content   String
+  createdAt DateTime @default(now())
+
+  @@index([sessionId])
+  @@index([createdAt])
+  @@map("chat_messages")
+}

@@ -1,0 +1,225 @@
+.main { flex: 1; }
+
+/* ── Hero ── */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--white);
+  border-bottom: var(--border);
+  padding: var(--space-16) 0 var(--space-12);
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border: var(--border-sm);
+  border-radius: var(--radius-sm);
+  background: var(--yellow);
+  color: var(--black);
+  margin-bottom: var(--space-6);
+  width: fit-content;
+}
+
+.heroTitle {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -0.04em;
+  margin-bottom: var(--space-6);
+}
+.heroAccent {
+  color: var(--white);
+  background: var(--black);
+  padding: 0 12px;
+  display: inline-block;
+}
+
+.heroSubtitle {
+  font-size: 1.15rem;
+  color: var(--grey-700);
+  max-width: 480px;
+  margin-bottom: var(--space-8);
+  line-height: 1.7;
+}
+
+.heroCta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.heroNote {
+  font-size: 0.85rem;
+  color: var(--grey-500);
+  font-weight: 500;
+}
+
+/* Floating cards */
+.heroCards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.floatCard {
+  border: var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: var(--space-4) var(--space-5);
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+}
+
+.floatCardName {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--black);
+  margin: var(--space-2) 0 var(--space-1);
+}
+.floatCardBenefit {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--grey-700);
+}
+
+/* Decorative shapes */
+.shapeYellow {
+  position: absolute;
+  top: -60px; right: -60px;
+  width: 300px; height: 300px;
+  background: var(--yellow);
+  border-radius: 50%;
+  border: var(--border-lg);
+  opacity: 0.4;
+  z-index: 0;
+}
+.shapeBlue {
+  position: absolute;
+  bottom: -80px; left: 30%;
+  width: 200px; height: 200px;
+  background: var(--blue-light);
+  border-radius: 50%;
+  border: var(--border);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+/* ── How it works ── */
+.howSection {
+  background: var(--black);
+  padding: var(--space-12) 0;
+}
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: var(--space-8);
+  text-align: center;
+}
+.stepsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+.step {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.stepNum {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  background: var(--yellow);
+  border: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--black);
+  flex-shrink: 0;
+}
+.stepLabel {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--white);
+  max-width: 120px;
+}
+.stepArrow { color: var(--grey-500); flex-shrink: 0; }
+
+/* ── Features ── */
+.featuresSection {
+  background: var(--grey-50);
+  border-top: var(--border);
+  padding: var(--space-16) 0;
+}
+.featuresGrid { margin-top: 0; }
+.featureCard { border-left: 5px solid var(--yellow); }
+.featureIcon {
+  width: 56px; height: 56px;
+  background: var(--yellow);
+  border: var(--border-sm);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+  color: var(--black);
+}
+.featureTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+}
+
+/* ── CTA Banner ── */
+.ctaBanner {
+  background: var(--yellow);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  padding: var(--space-16) 0;
+}
+.ctaTitle {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin-bottom: var(--space-4);
+}
+.ctaSub {
+  font-size: 1.1rem;
+  max-width: 540px;
+  margin: 0 auto var(--space-8);
+  color: var(--grey-700);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .heroInner { grid-template-columns: 1fr; }
+  .heroCards { display: none; }
+  .heroCta   { flex-direction: column; }
+  .stepsRow  { flex-direction: column; align-items: flex-start; }
+  .stepArrow { transform: rotate(90deg); }
+}
