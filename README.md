@@ -1,4 +1,4 @@
-# Yojana Saathi
+# Yojana Saathii
 
 Yojana Saathi is an AI-powered government scheme discovery and recommendation platform for India. It helps citizens discover relevant central and state welfare schemes, save bookmarked schemes, manage a profile, and ask follow-up questions through a chat assistant grounded in scheme data.
 
