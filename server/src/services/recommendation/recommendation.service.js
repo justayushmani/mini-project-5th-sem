@@ -16,17 +16,19 @@ import { VOCABULARY, normalizeValue } from '../../constants/schemeVocabulary.js'
  * This is the deterministic engine. Semantic/RAG relevance is layered on in Phase 9.
  */
 
-function normalizeProfileSnapshot(profile) {
+export function normalizeProfileSnapshot(profile) {
   const norm = { ...profile };
   if (norm.otherInfo && typeof norm.otherInfo === 'object') {
     for (const [k, v] of Object.entries(norm.otherInfo)) {
-      norm[k] = v;
+      if (norm[k] === null || norm[k] === undefined) {
+        norm[k] = v;
+      }
     }
   }
   // normalize according to vocabulary
   for (const k of Object.keys(norm)) {
     if (VOCABULARY[k]) {
-      norm[k] = normalizeValue(k, norm[k]);
+      norm[k] = normalizeValue(k, norm[k], true);
     }
   }
   return norm;

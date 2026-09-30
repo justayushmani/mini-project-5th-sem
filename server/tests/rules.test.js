@@ -1,10 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert';
+import fs from 'fs';
+import path from 'path';
 import { validateSchemeRules } from '../src/validators/schemeRules.validator.js';
-import { evaluateScheme, evaluateRule } from '../src/services/recommendation/recommendation.service.js';
+import { evaluateScheme, evaluateRule, normalizeProfileSnapshot } from '../src/services/recommendation/recommendation.service.js';
 import { schemes } from '../prisma/schemeData.js';
 import { normalizeValue } from '../src/constants/schemeVocabulary.js';
-import { diffRules } from '../scripts/updateSchemeRules.js';
+import { diffRules, validateBackup } from '../scripts/updateSchemeRules.js';
 
 test('Validator rejects each old bad rule', () => {
   const badCategory = {
@@ -30,6 +32,23 @@ test('Validator rejects each old bad rule', () => {
   };
   const err4 = validateSchemeRules(badOperator);
   assert.ok(err4.some(e => e.includes("operator 'magic' is not allowed")));
+
+  const badHousing = {
+    eligibility: [{ criteriaType: 'housing', operator: 'eq', value: 'kutcha', description: 'Desc', isRequired: true }]
+  };
+  const err5 = validateSchemeRules(badHousing);
+  assert.ok(err5.some(e => e.includes("is not in the allowed vocabulary")));
+
+  const badArea = {
+    eligibility: [{ criteriaType: 'area', operator: 'eq', value: 'rural', description: 'Desc', isRequired: true }]
+  };
+  // 'area' is valid now in vocabulary, so this doesn't fail on criteriaType. 
+  // Let's add an invalid occupation instead for out-of-vocabulary enum:
+  const badOccupation = {
+    eligibility: [{ criteriaType: 'occupation', operator: 'eq', value: 'Software Engineer', description: 'Desc', isRequired: true }]
+  };
+  const err6 = validateSchemeRules(badOccupation);
+  assert.ok(err6.some(e => e.includes("is invalid for field")));
 });
 
 test('Validator accepts all 5 rewritten schemes', () => {
@@ -39,10 +58,45 @@ test('Validator accepts all 5 rewritten schemes', () => {
   }
 });
 
-test('Normalizer maps kisan->Farmer, invalid enum->null, never invents gender', () => {
+test('Normalizer maps synonyms and nulls invalid enums', () => {
   assert.strictEqual(normalizeValue('occupation', 'kisan'), 'Farmer');
   assert.strictEqual(normalizeValue('gender', 'magic'), null); // invalid enum
   assert.strictEqual(normalizeValue('annualIncome', '1000'), 1000);
+});
+
+test('normalizeValue: numbers and state aliases', () => {
+  assert.strictEqual(normalizeValue('annualIncome', '1,20,000'), 120000);
+  assert.strictEqual(normalizeValue('annualIncome', '120000 rupees'), 120000);
+  assert.strictEqual(normalizeValue('annualIncome', 'Rs. 60000'), 60000);
+  assert.strictEqual(normalizeValue('annualIncome', 'abc'), null);
+  
+  assert.strictEqual(normalizeValue('state', 'up'), 'Uttar Pradesh');
+  assert.strictEqual(normalizeValue('state', 'Delhi NCT'), 'Delhi');
+  assert.strictEqual(normalizeValue('state', 'unknown state'), null);
+});
+
+test('normalizeProfileSnapshot: top-level wins, otherInfo fills, original state kept', () => {
+  const profile = {
+    state: 'Unknown Place',
+    age: null,
+    otherInfo: {
+      age: 25,
+      state: 'Delhi',
+      annualIncome: '1,20,000'
+    }
+  };
+  
+  const norm = normalizeProfileSnapshot(profile);
+  
+  // top-level 'Unknown Place' wins over otherInfo.state ('Delhi')
+  // state keepOriginal logic keeps 'Unknown Place' since it doesn't match enum
+  assert.strictEqual(norm.state, 'Unknown Place');
+  
+  // otherInfo.age fills null top-level age
+  assert.strictEqual(norm.age, 25);
+  
+  // otherInfo.annualIncome is applied and normalized
+  assert.strictEqual(norm.annualIncome, 120000);
 });
 
 test('Matcher P1..P7 exact statuses', () => {
@@ -123,12 +177,48 @@ test('PM-JAY is never ELIGIBLE for any profile', () => {
   assert.strictEqual(evaluateScheme(pmJay, profile).status, 'POSSIBLY_ELIGIBLE');
 });
 
-test('updateSchemeRules dry-run diff logic', () => {
-  const current = [{ slug: 'test', name: 'Test', eligibility: [{ criteriaType: 'age', operator: 'gte', value: '18', isRequired: true }] }];
-  const newS = [{ slug: 'test', name: 'Test', eligibility: { create: [{ criteriaType: 'age', operator: 'gte', value: '21', isRequired: true }] } }];
+test('updateSchemeRules backup validation and diff logic', () => {
+  // test diffRules
+  const current = [{ slug: 'pm-vishwakarma-yojana', name: 'Test', description: 'old', eligibility: [{ criteriaType: 'age', operator: 'gte', value: '18', isRequired: true }] }];
+  const newS = [{ slug: 'pm-vishwakarma-yojana', name: 'Test', description: 'new', eligibility: { create: [{ criteriaType: 'age', operator: 'gte', value: '21', isRequired: true }] } }];
   
-  const diff = diffRules(current, newS);
-  assert.ok(diff.includes('=== Test ==='));
+  const diff = diffRules(current, newS, ['pm-vishwakarma-yojana']);
+  assert.ok(diff.includes('DESCRIPTION CHANGE'));
+  assert.ok(diff.includes('RULES TO REMOVE'));
   assert.ok(diff.includes('age gte 18'));
+  assert.ok(diff.includes('RULES TO ADD'));
   assert.ok(diff.includes('age gte 21'));
+
+  // diffRules for non-allowed description slug
+  const current2 = [{ slug: 'other-scheme', name: 'Test', description: 'old', eligibility: [] }];
+  const newS2 = [{ slug: 'other-scheme', name: 'Test', description: 'new', eligibility: { create: [] } }];
+  const diff2 = diffRules(current2, newS2, ['pm-vishwakarma-yojana']);
+  assert.ok(!diff2.includes('DESCRIPTION CHANGE'));
+
+  // test validateBackup
+  const tmpDir = path.join(process.cwd(), 'backups');
+  if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true });
+  
+  const file = path.join(tmpDir, 'test-backup.json');
+  
+  // too old
+  fs.writeFileSync(file, JSON.stringify([]));
+  const oldDate = new Date(Date.now() - 15 * 60 * 1000); // 15 min old
+  fs.utimesSync(file, oldDate, oldDate);
+  assert.strictEqual(validateBackup(file, ['test']).valid, false);
+
+  // recent but missing slug
+  fs.writeFileSync(file, JSON.stringify([{ slug: 'other' }]));
+  assert.strictEqual(validateBackup(file, ['test']).valid, false);
+  
+  // recent but missing eligibility
+  fs.writeFileSync(file, JSON.stringify([{ slug: 'test' }]));
+  assert.strictEqual(validateBackup(file, ['test']).valid, false);
+
+  // recent and valid
+  fs.writeFileSync(file, JSON.stringify([{ slug: 'test', eligibility: [] }]));
+  assert.strictEqual(validateBackup(file, ['test']).valid, true);
+  
+  // cleanup
+  if (fs.existsSync(file)) fs.unlinkSync(file);
 });

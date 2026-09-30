@@ -69,7 +69,23 @@ export const SYNONYM_MAP = {
   'aurat': 'Female'
 };
 
-export function normalizeValue(field, value) {
+export const STATE_ALIASES = {
+  'up': 'Uttar Pradesh',
+  'orissa': 'Odisha',
+  'delhi nct': 'Delhi',
+  'nct of delhi': 'Delhi',
+  'new delhi': 'Delhi',
+  'pondicherry': 'Puducherry',
+  'j&k': 'Jammu and Kashmir',
+  'jammu & kashmir': 'Jammu and Kashmir',
+  'uttaranchal': 'Uttarakhand',
+  'andaman & nicobar islands': 'Andaman and Nicobar Islands',
+  'andaman & nicobar': 'Andaman and Nicobar Islands',
+  'dadra & nagar haveli': 'Dadra and Nagar Haveli',
+  'daman & diu': 'Daman and Diu'
+};
+
+export function normalizeValue(field, value, keepOriginal = false) {
   if (value === null || value === undefined || value === '') return null;
   
   const def = VOCABULARY[field];
@@ -78,7 +94,7 @@ export function normalizeValue(field, value) {
   if (def.type === 'boolean') {
     if (typeof value === 'boolean') return value;
     if (typeof value === 'string') {
-      const v = value.toLowerCase();
+      const v = value.toLowerCase().trim();
       if (v === 'true' || v === 'yes' || v === '1') return true;
       if (v === 'false' || v === 'no' || v === '0') return false;
     }
@@ -86,22 +102,30 @@ export function normalizeValue(field, value) {
   }
   
   if (def.type === 'number') {
-    const n = Number(value);
+    if (typeof value === 'number') return isNaN(value) ? null : value;
+    const match = String(value).replace(/,/g, '').match(/\d+(\.\d+)?/);
+    if (!match) return null;
+    const n = Number(match[0]);
     return isNaN(n) ? null : n;
   }
   
   if (def.type === 'enum') {
     let strVal = String(value).trim();
-    const lStrVal = strVal.toLowerCase();
+    let lStrVal = strVal.toLowerCase();
     
     // Check synonym map
     if (SYNONYM_MAP[lStrVal]) {
       strVal = SYNONYM_MAP[lStrVal];
+      lStrVal = strVal.toLowerCase();
+    }
+    
+    if (field === 'state' && STATE_ALIASES[lStrVal]) {
+      strVal = STATE_ALIASES[lStrVal];
     }
     
     // Match exact (case-insensitive search against defined values)
     const exact = def.values.find(v => v.toLowerCase() === strVal.toLowerCase());
-    return exact || null;
+    return exact || (keepOriginal && field === 'state' ? String(value).trim() : null);
   }
   
   return String(value);
