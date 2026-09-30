@@ -243,6 +243,9 @@ export function evaluateRule(rule, profile) { // exported for testing
  * Map a criteria type to the corresponding profile field value.
  */
 function getProfileValue(criteriaType, profile) {
+  if (criteriaType === 'officialCheck') {
+    return 'UNKNOWN'; // A profile can never confirm officialCheck
+  }
   if (!VOCABULARY[criteriaType]) {
     logger.warn(`Unknown criteriaType encountered: ${criteriaType}`);
     return 'UNKNOWN';

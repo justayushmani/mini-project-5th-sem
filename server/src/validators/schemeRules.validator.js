@@ -30,6 +30,15 @@ export function validateSchemeRules(schemeObject) {
       errors.push(`${context}: operator '${rule.operator}' is not allowed.`);
     }
 
+    if (rule.criteriaType === 'officialCheck') {
+      if (rule.operator !== 'eq' || rule.value !== 'confirmed') {
+        errors.push(`${context}: officialCheck must have operator 'eq' and value 'confirmed'.`);
+      }
+      if (rule.isRequired !== true) {
+        errors.push(`${context}: officialCheck must be required (isRequired: true).`);
+      }
+    }
+
     if (typeof rule.description !== 'string' || rule.description.trim() === '') {
       errors.push(`${context}: description must be a non-empty string.`);
     }

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { PrismaClient } from '@prisma/client';
-import { schemes } from '../prisma/seed.js';
+import { schemes } from '../prisma/schemeData.js';
 import { validateSchemeRules } from '../src/validators/schemeRules.validator.js';
 
 const prisma = new PrismaClient();

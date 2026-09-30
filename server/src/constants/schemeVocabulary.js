@@ -36,7 +36,8 @@ export const VOCABULARY = {
   education: { type: 'string' },
   employmentStatus: { type: 'enum', values: ['Employed', 'Self-Employed', 'Unemployed', 'Student', 'Retired'] },
   disability: { type: 'boolean' },
-  maritalStatus: { type: 'enum', values: ['Single', 'Married', 'Widowed', 'Divorced', 'Separated'] }
+  maritalStatus: { type: 'enum', values: ['Single', 'Married', 'Widowed', 'Divorced', 'Separated'] },
+  officialCheck: { type: 'string' }
 };
 
 export const ALLOWED_OPERATORS = ['eq', 'gte', 'lte', 'between', 'in', 'exclude'];
