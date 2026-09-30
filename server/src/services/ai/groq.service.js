@@ -1,5 +1,6 @@
 import groq from '../../lib/groq.js';
 import env from '../../config/env.js';
+import { VOCABULARY, normalizeValue } from '../../constants/schemeVocabulary.js';
 
 const PROFILE_FIELDS = [
   'age',
@@ -30,56 +31,23 @@ function sanitizeJson(rawText) {
   return cleaned;
 }
 
-function parseNumber(value) {
-  if (value === null || value === undefined || value === '') return null;
-  if (typeof value === 'number') return Number.isFinite(value) ? value : null;
-  if (typeof value === 'string') {
-    const trimmed = value.replace(/[^0-9.]/g, '');
-    if (!trimmed) return null;
-    const num = Number(trimmed);
-    return Number.isFinite(num) ? num : null;
-  }
-  return null;
-}
-
-function parseBoolean(value) {
-  if (typeof value === 'boolean') return value;
-  if (value === null || value === undefined || value === '') return null;
-  if (typeof value === 'string') {
-    const normalized = value.trim().toLowerCase();
-    if (['yes', 'true', 'y', '1'].includes(normalized)) return true;
-    if (['no', 'false', 'n', '0'].includes(normalized)) return false;
-  }
-  return null;
-}
-
 function normalizeProfile(raw = {}) {
   const profile = {};
 
+  // For fields defined in VOCABULARY, use its normalizer
   for (const field of PROFILE_FIELDS) {
-    const value = raw[field];
-
-    if (field === 'age') {
-      profile.age = parseNumber(value);
-      continue;
-    }
-
-    if (field === 'annualIncome') {
-      profile.annualIncome = parseNumber(value);
-      continue;
-    }
-
-    if (field === 'landOwnership' || field === 'disability') {
-      profile[field] = parseBoolean(value);
-      continue;
-    }
-
-    if (value === null || value === undefined || value === '') {
+    let value = raw[field];
+    if (value === undefined || value === null || value === '') {
       profile[field] = null;
       continue;
     }
-
-    profile[field] = typeof value === 'string' ? value.trim() : value;
+    if (VOCABULARY[field]) {
+      const normVal = normalizeValue(field, value);
+      profile[field] = normVal;
+    } else {
+      // For string fields without vocabulary, keep string
+      profile[field] = typeof value === 'string' ? value.trim() : value;
+    }
   }
 
   return profile;
@@ -95,7 +63,17 @@ export async function extractProfileWithGroq({ text, language = 'en' }) {
   }
 
   const prompt = `Extract user profile from this text. Return ONLY valid JSON.
-Never guess missing information — use null for unknown fields.
+Never guess missing information — use null for anything not explicitly stated. NEVER infer gender, category, income or land ownership.
+If annualIncome is stated in Hindi words like "ek lakh bees hazaar", convert it to numeric 120000. Keep annualIncome numeric.
+
+Allowed enum values:
+- gender: ${VOCABULARY.gender.values.join(', ')}
+- category: ${VOCABULARY.category.values.join(', ')}
+- employmentStatus: ${VOCABULARY.employmentStatus.values.join(', ')}
+- maritalStatus: ${VOCABULARY.maritalStatus.values.join(', ')}
+- state: (Standard Indian States)
+- occupation: ${VOCABULARY.occupation.values.join(', ')} (or synonyms like kisan, artisan, homemaker)
+
 Text: "${text.replace(/"/g, '\\"')}"
 Language hint: ${language}
 Return JSON with these fields:

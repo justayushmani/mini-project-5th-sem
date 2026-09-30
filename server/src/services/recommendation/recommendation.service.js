@@ -1,5 +1,6 @@
 import prisma from '../../lib/prisma.js';
 import logger from '../../utils/logger.js';
+import { VOCABULARY, normalizeValue } from '../../constants/schemeVocabulary.js';
 
 /**
  * Recommendation Service
@@ -9,17 +10,37 @@ import logger from '../../utils/logger.js';
  *
  * Status logic:
  *   ELIGIBLE          — All required criteria matched
- *   POSSIBLY_ELIGIBLE — No conflicts found, but missing information
+ *   POSSIBLY_ELIGIBLE — No conflicts found, but missing information for required criteria
  *   NOT_ELIGIBLE      — At least one required criterion definitely fails
  *
  * This is the deterministic engine. Semantic/RAG relevance is layered on in Phase 9.
  */
+
+export function normalizeProfileSnapshot(profile) {
+  const norm = { ...profile };
+  if (norm.otherInfo && typeof norm.otherInfo === 'object') {
+    for (const [k, v] of Object.entries(norm.otherInfo)) {
+      if (norm[k] === null || norm[k] === undefined) {
+        norm[k] = v;
+      }
+    }
+  }
+  // normalize according to vocabulary
+  for (const k of Object.keys(norm)) {
+    if (VOCABULARY[k]) {
+      norm[k] = normalizeValue(k, norm[k], true);
+    }
+  }
+  return norm;
+}
 
 /**
  * Generate recommendations for a given profile snapshot.
  * Returns { id, schemes: [...] } after persisting to DB.
  */
 export async function generateRecommendations(userId, profileSnapshot) {
+  const normalizedProfile = normalizeProfileSnapshot(profileSnapshot);
+
   // 1. Fetch all active schemes with their eligibility rules
   const schemes = await prisma.scheme.findMany({
     where: { status: 'Active' },
@@ -32,7 +53,7 @@ export async function generateRecommendations(userId, profileSnapshot) {
 
   // 2. Evaluate each scheme against the profile
   const evaluatedSchemes = schemes.map((scheme) =>
-    evaluateScheme(scheme, profileSnapshot)
+    evaluateScheme(scheme, normalizedProfile)
   );
 
   // 3. Sort: ELIGIBLE first, then POSSIBLY_ELIGIBLE, then NOT_ELIGIBLE
@@ -47,7 +68,7 @@ export async function generateRecommendations(userId, profileSnapshot) {
   const recommendation = await prisma.recommendation.create({
     data: {
       userId,
-      profileSnapshot,
+      profileSnapshot, // Store original snapshot, not normalized
       schemes: {
         create: evaluatedSchemes.map((ev) => ({
           schemeId: ev.schemeId,
@@ -83,7 +104,7 @@ export async function generateRecommendations(userId, profileSnapshot) {
  * Evaluate a single scheme against the user profile.
  * Returns { schemeId, status, relevanceScore, matchedCriteria, missingCriteria, explanation }
  */
-function evaluateScheme(scheme, profile) {
+export function evaluateScheme(scheme, profile) { // exported for testing
   const matched = [];
   const missing = [];
   const failed  = [];
@@ -96,12 +117,20 @@ function evaluateScheme(scheme, profile) {
       matched.push(rule.description);
       score += rule.isRequired ? 20 : 10;
     } else if (result === 'FAIL') {
-      failed.push(rule.description);
-      if (rule.isRequired) score -= 50; // Heavy penalty for required-fail
+      if (rule.isRequired) {
+        failed.push(rule.description);
+        score -= 50; // Heavy penalty for required-fail
+      } else {
+        // Optional rule failed
+        score -= 5;
+      }
     } else {
       // UNKNOWN — profile doesn't have this data
-      missing.push(rule.description);
-      if (!rule.isRequired) score += 2; // Slight bonus: not disqualified
+      if (rule.isRequired) {
+        missing.push(rule.description);
+      } else {
+        score += 2; // Slight bonus for optional unknown
+      }
     }
   }
 
@@ -151,46 +180,63 @@ function evaluateScheme(scheme, profile) {
  * Evaluate a single eligibility rule against the profile.
  * Returns 'MATCH' | 'FAIL' | 'UNKNOWN'
  */
-function evaluateRule(rule, profile) {
+export function evaluateRule(rule, profile) { // exported for testing
   const { criteriaType, operator, value } = rule;
 
-  // Map criteria type → profile field
   const profileValue = getProfileValue(criteriaType, profile);
 
-  // If we don't have the data, we can't evaluate
-  if (profileValue === null || profileValue === undefined) {
+  if (profileValue === null || profileValue === undefined || profileValue === 'UNKNOWN') {
     return 'UNKNOWN';
   }
 
+  const def = VOCABULARY[criteriaType];
+  const targetVal = normalizeValue(criteriaType, value);
+
   switch (operator) {
     case 'eq':
-      return normalizeStr(String(profileValue)) === normalizeStr(value) ? 'MATCH' : 'FAIL';
+      if (def && def.type === 'boolean') {
+         return profileValue === targetVal ? 'MATCH' : 'FAIL';
+      }
+      return String(profileValue).toLowerCase() === String(targetVal).toLowerCase() ? 'MATCH' : 'FAIL';
 
     case 'gte':
-      return Number(profileValue) >= Number(value) ? 'MATCH' : 'FAIL';
+      return Number(profileValue) >= Number(targetVal) ? 'MATCH' : 'FAIL';
 
     case 'lte':
-      return Number(profileValue) <= Number(value) ? 'MATCH' : 'FAIL';
+      return Number(profileValue) <= Number(targetVal) ? 'MATCH' : 'FAIL';
 
     case 'between': {
-      const [min, max] = value.split(',').map(Number);
+      let min, max;
+      if (Array.isArray(value)) {
+        [min, max] = value.map(Number);
+      } else {
+        [min, max] = String(value).split(',').map(Number);
+      }
       const num = Number(profileValue);
       return num >= min && num <= max ? 'MATCH' : 'FAIL';
     }
 
     case 'in': {
-      const options = value.split(',').map(normalizeStr);
-      return options.includes(normalizeStr(String(profileValue))) ? 'MATCH' : 'FAIL';
+      let options = Array.isArray(value) ? value : String(value).split(',');
+      options = options.map(v => {
+        const n = normalizeValue(criteriaType, v);
+        return def && def.type === 'boolean' ? n : String(n).toLowerCase();
+      });
+      const pv = def && def.type === 'boolean' ? profileValue : String(profileValue).toLowerCase();
+      return options.includes(pv) ? 'MATCH' : 'FAIL';
     }
 
-    case 'exclude':
-      // "exclude" means the user should NOT match this value
-      // For categories like "income_tax_payer" or "institutional", these are disqualifiers
-      // If user doesn't match, they pass; if they do match, they fail
-      return normalizeStr(String(profileValue)) === normalizeStr(value) ? 'FAIL' : 'MATCH';
+    case 'exclude': {
+      let options = Array.isArray(value) ? value : String(value).split(',');
+      options = options.map(v => {
+        const n = normalizeValue(criteriaType, v);
+        return def && def.type === 'boolean' ? n : String(n).toLowerCase();
+      });
+      const pv = def && def.type === 'boolean' ? profileValue : String(profileValue).toLowerCase();
+      return options.includes(pv) ? 'FAIL' : 'MATCH';
+    }
 
     default:
-      // Unknown operator — can't evaluate, treat as unknown
       return 'UNKNOWN';
   }
 }
@@ -199,27 +245,14 @@ function evaluateRule(rule, profile) {
  * Map a criteria type to the corresponding profile field value.
  */
 function getProfileValue(criteriaType, profile) {
-  const CRITERIA_MAP = {
-    age:              profile.age,
-    gender:           profile.gender,
-    occupation:       profile.occupation,
-    income:           profile.annualIncome,
-    annualIncome:     profile.annualIncome,
-    state:            profile.state,
-    district:         profile.district,
-    category:         profile.category,
-    education:        profile.education,
-    employmentStatus: profile.employmentStatus,
-    landOwnership:    profile.landOwnership,
-    disability:       profile.disability,
-    maritalStatus:    profile.maritalStatus,
-  };
-
-  return CRITERIA_MAP[criteriaType] ?? null;
-}
-
-function normalizeStr(s) {
-  return s?.toLowerCase().trim() ?? '';
+  if (criteriaType === 'officialCheck') {
+    return 'UNKNOWN'; // A profile can never confirm officialCheck
+  }
+  if (!VOCABULARY[criteriaType]) {
+    logger.warn(`Unknown criteriaType encountered: ${criteriaType}`);
+    return 'UNKNOWN';
+  }
+  return profile[criteriaType];
 }
 
 /**
