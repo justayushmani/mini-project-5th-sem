@@ -1,6 +1,7 @@
 import prisma from '../../lib/prisma.js';
 import groq from '../../lib/groq.js';
 import env from '../../config/env.js';
+import logger from '../../utils/logger.js';
 import { searchRelevantSchemes } from '../rag/rag.service.js';
 
 function sanitizeMessage(message) {
@@ -13,7 +14,38 @@ function buildSessionTitle(message) {
   return text.length > 40 ? `${text.slice(0, 37)}...` : text;
 }
 
-async function getRelevantSchemes(query, schemeId = null) {
+async function fallbackKeywordSearch(query) {
+  const words = [...new Set(String(query || '').toLowerCase().match(/[a-z0-9]{3,}/g) || [])].slice(0, 8);
+  if (!words.length) {
+    return [];
+  }
+
+  const orConditions = words.flatMap((word) => [
+    { name: { contains: word, mode: 'insensitive' } },
+    { description: { contains: word, mode: 'insensitive' } },
+    { category: { contains: word, mode: 'insensitive' } },
+    { ministry: { contains: word, mode: 'insensitive' } },
+  ]);
+
+  return prisma.scheme.findMany({
+    where: {
+      status: 'Active',
+      OR: orConditions,
+    },
+    take: 5,
+    select: {
+      id: true,
+      name: true,
+      description: true,
+      category: true,
+      ministry: true,
+      state: true,
+      level: true,
+    },
+  });
+}
+
+export async function getRelevantSchemes(query, schemeId = null) {
   if (schemeId) {
     const scheme = await prisma.scheme.findUnique({
       where: { id: schemeId },
@@ -31,25 +63,35 @@ async function getRelevantSchemes(query, schemeId = null) {
     return scheme ? [scheme] : [];
   }
 
-  const result = await searchRelevantSchemes(query, 5);
-  const schemeIds = [...new Set(result.map((item) => item.payload?.schemeId).filter(Boolean))];
+  let schemeIds = [];
 
-  if (!schemeIds.length) {
-    return [];
+  try {
+    const result = await searchRelevantSchemes(query, 5);
+    schemeIds = [...new Set(result.map((item) => item.payload?.schemeId).filter(Boolean))];
+  } catch (error) {
+    logger.warn(`Qdrant search failed, falling back to keyword search: ${error.message}`);
   }
 
-  return prisma.scheme.findMany({
-    where: { id: { in: schemeIds }, status: 'Active' },
-    select: {
-      id: true,
-      name: true,
-      description: true,
-      category: true,
-      ministry: true,
-      state: true,
-      level: true,
-    },
-  });
+  if (schemeIds.length > 0) {
+    const schemes = await prisma.scheme.findMany({
+      where: { id: { in: schemeIds }, status: 'Active' },
+      select: {
+        id: true,
+        name: true,
+        description: true,
+        category: true,
+        ministry: true,
+        state: true,
+        level: true,
+      },
+    });
+
+    if (schemes.length > 0) {
+      return schemes;
+    }
+  }
+
+  return fallbackKeywordSearch(query);
 }
 
 function buildPrompt({ userMessage, history = [], relevantSchemes = [] }) {
@@ -57,7 +99,7 @@ function buildPrompt({ userMessage, history = [], relevantSchemes = [] }) {
     ? relevantSchemes.map((scheme) => (
         `- ${scheme.name} (${scheme.category || 'General'}) | State: ${scheme.state || 'All India'} | Level: ${scheme.level || 'Central'} | ${scheme.description || ''}`
       )).join('\n')
-    : 'No direct scheme matches were found in the vector index.';
+    : 'No direct scheme matches were found in the scheme database.';
 
   const recentHistory = history.length
     ? history
@@ -222,6 +264,7 @@ export const chatService = {
   getSessionForUser,
   deleteSessionForUser,
   sendChatMessage,
+  getRelevantSchemes,
 };
 
 export default chatService;
