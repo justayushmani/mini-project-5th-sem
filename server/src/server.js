@@ -3,6 +3,7 @@ import app from './app.js';
 import env from './config/env.js';
 import logger from './utils/logger.js';
 import prisma, { withConnectionRetry } from './lib/prisma.js';
+import { warmUpEmbeddings } from './services/rag/embedding.service.js';
 
 const PORT = env.port;
 
@@ -16,6 +17,11 @@ async function startServer() {
       logger.info(`🚀 Yojana Saathi server running on port ${PORT}`);
       logger.info(`📍 Environment: ${env.nodeEnv}`);
       logger.info(`🔗 Health check: http://localhost:${PORT}/api/health`);
+
+      // Warm up local embedding model in the background (non-blocking)
+      warmUpEmbeddings().catch((err) => {
+        logger.error(`❌ Embedding warmup failed: ${err.message}`);
+      });
     });
   } catch (error) {
     logger.error('❌ Failed to start server:', error);

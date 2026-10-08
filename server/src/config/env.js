@@ -1,5 +1,11 @@
 import crypto from 'crypto';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import 'dotenv/config';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const DEFAULT_CACHE_DIR = path.resolve(__dirname, '..', '..', '.cache', 'models');
 
 /**
  * Environment configuration with validation.
@@ -18,6 +24,11 @@ function requireEnv(name) {
 function optionalEnv(name, defaultValue) {
   return process.env[name] || defaultValue;
 }
+
+const configuredCacheDir = optionalEnv('EMBEDDING_CACHE_DIR', DEFAULT_CACHE_DIR);
+const resolvedCacheDir = path.isAbsolute(configuredCacheDir)
+  ? configuredCacheDir
+  : path.resolve(__dirname, '..', '..', configuredCacheDir);
 
 const env = {
   // Core
@@ -44,6 +55,10 @@ const env = {
   qdrantUrl: optionalEnv('QDRANT_URL', ''),
   qdrantApiKey: optionalEnv('QDRANT_API_KEY', ''),
   qdrantCollection: optionalEnv('QDRANT_COLLECTION', 'yojana_schemes'),
+
+  // Embeddings
+  embeddingModel: optionalEnv('EMBEDDING_MODEL', 'Xenova/multilingual-e5-small'),
+  embeddingCacheDir: resolvedCacheDir,
 };
 
 export default env;
