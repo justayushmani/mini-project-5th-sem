@@ -157,16 +157,10 @@ export default function Chat() {
           </aside>
 
           <section className={styles.chatPanel}>
-            {!selectedSession && !activeSessionId ? (
-              <div className={styles.emptyState}>
-                <Sparkles size={42} />
-                <h1>Ask Yojana Saathi</h1>
-                <p>Ask about schemes, benefits, eligibility, or where to apply.</p>
-              </div>
-            ) : (
+            {selectedSession || activeSessionId ? (
               <>
                 <header className={styles.chatHeader}>
-                  <button className="btn btn-ghost btn-sm" onClick={() => navigate('/chat')}>
+                  <button className="btn btn-ghost btn-sm" onClick={() => { navigate('/chat'); setActiveSessionId(null); setMessages([]); }}>
                     <ArrowLeft size={16} /> Back
                   </button>
                   <div>
@@ -191,26 +185,32 @@ export default function Chat() {
                     </div>
                   ))}
                 </div>
-
-                <form className={styles.inputBar} onSubmit={handleSendMessage}>
-                  <textarea
-                    rows={1}
-                    placeholder="Ask about schemes, eligibility, or support programs..."
-                    value={draft}
-                    onChange={(e) => setDraft(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' && !e.shiftKey) {
-                        e.preventDefault();
-                        handleSendMessage(e);
-                      }
-                    }}
-                  />
-                  <button className="btn btn-primary" type="submit" disabled={sending || !draft.trim()}>
-                    {sending ? 'Sending...' : <><Send size={16} /> Send</>}
-                  </button>
-                </form>
               </>
+            ) : (
+              <div className={styles.emptyState}>
+                <Sparkles size={42} />
+                <h1>Ask Yojana Saathi</h1>
+                <p>Ask about schemes, benefits, eligibility, or where to apply.</p>
+              </div>
             )}
+
+            <form className={styles.inputBar} onSubmit={handleSendMessage}>
+              <textarea
+                rows={1}
+                placeholder="Ask about schemes, eligibility, or support programs..."
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    handleSendMessage(e);
+                  }
+                }}
+              />
+              <button className="btn btn-primary" type="submit" disabled={sending || !draft.trim()}>
+                {sending ? 'Sending...' : <><Send size={16} /> Send</>}
+              </button>
+            </form>
 
             {error && <div className="alert alert-error mt-4">{error}</div>}
           </section>
