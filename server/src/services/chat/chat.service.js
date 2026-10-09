@@ -2,7 +2,38 @@ import prisma from '../../lib/prisma.js';
 import groq from '../../lib/groq.js';
 import env from '../../config/env.js';
 import logger from '../../utils/logger.js';
-import { searchRelevantSchemes } from '../rag/rag.service.js';
+import { searchRelevantSchemes, chunkSchemeText } from '../rag/rag.service.js';
+
+const SCHEME_SELECT = {
+  id: true,
+  name: true,
+  slug: true,
+  description: true,
+  category: true,
+  ministry: true,
+  state: true,
+  level: true,
+  applicationProcess: true,
+  officialUrl: true,
+  benefits: {
+    select: {
+      benefitType: true,
+      description: true,
+      amount: true,
+    },
+  },
+  eligibility: {
+    select: {
+      description: true,
+    },
+  },
+  documents: {
+    select: {
+      documentName: true,
+      description: true,
+    },
+  },
+};
 
 function sanitizeMessage(message) {
   return String(message || '').trim();
@@ -14,8 +45,53 @@ function buildSessionTitle(message) {
   return text.length > 40 ? `${text.slice(0, 37)}...` : text;
 }
 
+function formatAndCapSchemes(schemes, maxPerScheme = 1500, maxTotal = 6000) {
+  const result = [];
+  let totalLength = 0;
+
+  for (const scheme of schemes) {
+    const rawText = chunkSchemeText(scheme).join('\n\n');
+    const contextText = rawText.length > maxPerScheme
+      ? rawText.slice(0, maxPerScheme).trim()
+      : rawText;
+
+    if (result.length > 0 && totalLength + contextText.length > maxTotal) {
+      break;
+    }
+
+    scheme.contextText = contextText;
+    totalLength += contextText.length;
+    result.push(scheme);
+  }
+
+  return result;
+}
+
+function countMatchedWords(scheme, words) {
+  const combinedText = [
+    scheme.name,
+    scheme.description,
+    scheme.category,
+    scheme.ministry,
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  return words.reduce((count, word) => {
+    return combinedText.includes(word) ? count + 1 : count;
+  }, 0);
+}
+
+const STOPWORDS = new Set([
+  'the', 'and', 'for', 'with', 'any', 'can', 'you', 'are',
+  'how', 'what', 'which', 'does', 'have', 'has', 'from',
+  'that', 'this', 'need', 'get',
+]);
+
 async function fallbackKeywordSearch(query) {
-  const words = [...new Set(String(query || '').toLowerCase().match(/[a-z0-9]{3,}/g) || [])].slice(0, 8);
+  const rawWords = String(query || '').toLowerCase().match(/[a-z]{3,}|[\p{Script=Devanagari}\p{M}]{2,}/gu) || [];
+  const words = [...new Set(rawWords.filter((w) => !STOPWORDS.has(w)))].slice(0, 8);
   if (!words.length) {
     return [];
   }
@@ -27,40 +103,32 @@ async function fallbackKeywordSearch(query) {
     { ministry: { contains: word, mode: 'insensitive' } },
   ]);
 
-  return prisma.scheme.findMany({
+  const schemes = await prisma.scheme.findMany({
     where: {
       status: 'Active',
       OR: orConditions,
     },
-    take: 5,
-    select: {
-      id: true,
-      name: true,
-      description: true,
-      category: true,
-      ministry: true,
-      state: true,
-      level: true,
-    },
+    take: 20,
+    select: SCHEME_SELECT,
   });
+
+  schemes.sort((a, b) => {
+    const diff = countMatchedWords(b, words) - countMatchedWords(a, words);
+    if (diff !== 0) return diff;
+    return a.name.localeCompare(b.name);
+  });
+
+  return formatAndCapSchemes(schemes.slice(0, 5));
 }
 
 export async function getRelevantSchemes(query, schemeId = null) {
   if (schemeId) {
     const scheme = await prisma.scheme.findUnique({
       where: { id: schemeId },
-      select: {
-        id: true,
-        name: true,
-        description: true,
-        category: true,
-        ministry: true,
-        state: true,
-        level: true,
-      },
+      select: SCHEME_SELECT,
     });
 
-    return scheme ? [scheme] : [];
+    return scheme ? formatAndCapSchemes([scheme]) : [];
   }
 
   let schemeIds = [];
@@ -75,30 +143,32 @@ export async function getRelevantSchemes(query, schemeId = null) {
   if (schemeIds.length > 0) {
     const schemes = await prisma.scheme.findMany({
       where: { id: { in: schemeIds }, status: 'Active' },
-      select: {
-        id: true,
-        name: true,
-        description: true,
-        category: true,
-        ministry: true,
-        state: true,
-        level: true,
-      },
+      select: SCHEME_SELECT,
     });
 
     if (schemes.length > 0) {
-      return schemes;
+      const schemeMap = new Map(schemes.map((s) => [s.id, s]));
+      const orderedSchemes = schemeIds
+        .map((id) => schemeMap.get(id))
+        .filter(Boolean);
+
+      return formatAndCapSchemes(orderedSchemes);
     }
   }
 
   return fallbackKeywordSearch(query);
 }
 
-function buildPrompt({ userMessage, history = [], relevantSchemes = [] }) {
+export function buildPrompt({ userMessage, history = [], relevantSchemes = [] }) {
   const schemeContext = relevantSchemes.length
-    ? relevantSchemes.map((scheme) => (
-        `- ${scheme.name} (${scheme.category || 'General'}) | State: ${scheme.state || 'All India'} | Level: ${scheme.level || 'Central'} | ${scheme.description || ''}`
-      )).join('\n')
+    ? relevantSchemes
+        .map((scheme) => {
+          const text = scheme.contextText || `${scheme.name}. ${scheme.description || ''}`;
+          return scheme.officialUrl
+            ? `${text}\nOfficial website: ${scheme.officialUrl}`
+            : text;
+        })
+        .join('\n\n')
     : 'No direct scheme matches were found in the scheme database.';
 
   const recentHistory = history.length
@@ -109,9 +179,13 @@ function buildPrompt({ userMessage, history = [], relevantSchemes = [] }) {
     : 'No previous chat yet.';
 
   return `You are Yojana Saathi, a helpful government-scheme assistant for India.
-Use only the scheme information in the context below.
-Do not invent schemes, benefits, or eligibility rules.
-If no relevant scheme is found, say clearly that you do not have enough information and ask one clarifying question.
+Follow these strict grounding rules:
+1. Use ONLY facts written in the scheme information in the context below. Do not add outside knowledge, unwritten steps, website features, form fields, OTP or verification steps, helpline or help-desk details, deadlines, or amounts that are not written there.
+2. When asked how to apply, restate ONLY the Application Process text from the context and give the official website, without elaborating or adding procedural steps beyond it.
+3. Only mention or recommend schemes that appear in the scheme information below. If none fits, or if asked about a scheme/category not present in the context, say that you do not have a matching scheme in your database. Do NOT name or recommend any schemes outside the provided context.
+4. If the context has no detail relevant to the question (such as an unstated income limit, rule, or requirement), say plainly in the user's language that you don't have that detail and suggest checking the official portal.
+5. Always mention the relevant scheme name when discussing a scheme.
+6. Reply in the same language as the user's message if it is English or Hindi, otherwise reply in English.
 
 Recent chat history:
 ${recentHistory}
@@ -121,17 +195,17 @@ ${schemeContext}
 
 User question: ${userMessage}
 
-Answer in a concise, friendly way in English. Provide practical next steps and mention relevant scheme names when they fit.`;
+Answer concisely, strictly following the rules above. State only what is directly supported by the scheme context.`;
 }
 
-async function generateAssistantReply({ userMessage, history, relevantSchemes }) {
+export async function generateAssistantReply({ userMessage, history, relevantSchemes }) {
   if (!groq) {
     throw new Error('GROQ_API_KEY is not configured. Please add it to server/.env.');
   }
 
   const response = await groq.chat.completions.create({
     model: env.groqModel,
-    temperature: 0.3,
+    temperature: 0.1,
     messages: [
       {
         role: 'system',
@@ -265,6 +339,8 @@ export const chatService = {
   deleteSessionForUser,
   sendChatMessage,
   getRelevantSchemes,
+  buildPrompt,
+  generateAssistantReply,
 };
 
 export default chatService;
