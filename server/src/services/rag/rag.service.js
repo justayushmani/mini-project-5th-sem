@@ -48,6 +48,18 @@ export function chunkSchemeText(scheme, targetChunkSize = 1200) {
     }
   }
 
+  if (scheme.officialUrl) {
+    parts.push(`Official Portal: ${scheme.officialUrl}`);
+  }
+
+  if (scheme.source?.sourceUrl) {
+    parts.push(`Source Reference: ${scheme.source.sourceUrl}`);
+  }
+
+  if (scheme.status === 'NeedsVerification') {
+    parts.push('Verification Status: Pending official government verification. Details should be confirmed via the official portal.');
+  }
+
   const fullText = parts.join('\n\n');
   const prefix = `${scheme.name}. `;
 
@@ -86,24 +98,39 @@ export function chunkSchemeText(scheme, targetChunkSize = 1200) {
   return chunks.length ? chunks : [`${prefix}${fullText}`.trim()];
 }
 
-export async function ingestSchemesToRAG(schemes = []) {
+export async function ingestSchemesToRAG(schemes = [], options = {}) {
   await qdrantService.ensureCollection();
 
-  let totalPoints = 0;
+  let targetSchemes = schemes;
+  if (options.skipExisting) {
+    const existingIds = await qdrantService.getAllIndexedSchemeIds();
+    const skippedCount = schemes.filter(s => existingIds.has(s.id)).length;
+    targetSchemes = schemes.filter(s => !existingIds.has(s.id));
+    if (skippedCount > 0) {
+      console.log(`⏩ Skipping ${skippedCount} schemes already indexed in Qdrant.`);
+    }
+  }
 
-  for (const scheme of schemes) {
-    // Delete older points for this scheme before upserting new ones
-    await qdrantService.deletePointsBySchemeId(scheme.id);
+  console.log(`🚀 Ingesting ${targetSchemes.length} schemes into Qdrant...`);
+
+  let totalPoints = 0;
+  let batchPoints = [];
+  const BATCH_SIZE = 50;
+
+  for (let sIdx = 0; sIdx < targetSchemes.length; sIdx++) {
+    const scheme = targetSchemes[sIdx];
+    if (!options.skipExisting) {
+      await qdrantService.deletePointsBySchemeId(scheme.id);
+    }
 
     const chunks = chunkSchemeText(scheme);
-    const points = [];
 
     for (let chunkIndex = 0; chunkIndex < chunks.length; chunkIndex += 1) {
       const chunkText = chunks[chunkIndex];
       const vector = await embedPassage(chunkText);
       const pointId = qdrantService.generatePointId(scheme.id, chunkIndex);
 
-      points.push({
+      batchPoints.push({
         id: pointId,
         vector,
         payload: {
@@ -115,15 +142,28 @@ export async function ingestSchemesToRAG(schemes = []) {
           category: scheme.category,
           state: scheme.state || null,
           ministry: scheme.ministry || null,
+          status: scheme.status || 'Active',
+          officialUrl: scheme.officialUrl || null,
+          sourceUrl: scheme.source?.sourceUrl || null,
           text: chunkText,
         },
       });
+
+      if (batchPoints.length >= BATCH_SIZE) {
+        await qdrantService.upsertPoints(batchPoints);
+        totalPoints += batchPoints.length;
+        batchPoints = [];
+      }
     }
 
-    if (points.length > 0) {
-      await qdrantService.upsertPoints(points);
-      totalPoints += points.length;
+    if ((sIdx + 1) % 50 === 0 || sIdx === targetSchemes.length - 1) {
+      console.log(`  Indexed [${sIdx + 1}/${targetSchemes.length}] schemes (${totalPoints + batchPoints.length} chunks so far)`);
     }
+  }
+
+  if (batchPoints.length > 0) {
+    await qdrantService.upsertPoints(batchPoints);
+    totalPoints += batchPoints.length;
   }
 
   return totalPoints;

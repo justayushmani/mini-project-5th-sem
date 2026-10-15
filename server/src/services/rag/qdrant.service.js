@@ -209,6 +209,47 @@ export function getCollectionName() {
   return normalizeCollectionName();
 }
 
+export async function getAllIndexedSchemeIds(collectionName = COLLECTION_NAME) {
+  if (!QDRANT_URL) {
+    throw new Error('QDRANT_URL is not configured.');
+  }
+
+  const name = normalizeCollectionName(collectionName);
+  const schemeIds = new Set();
+  let offset = null;
+
+  do {
+    const response = await fetch(`${QDRANT_URL}/collections/${name}/points/scroll`, {
+      method: 'POST',
+      headers: buildHeaders(),
+      body: JSON.stringify({
+        limit: 1000,
+        offset,
+        with_payload: ['schemeId'],
+        with_vectors: false,
+      }),
+    });
+
+    if (!response.ok) {
+      if (response.status === 404) return schemeIds;
+      const text = await response.text();
+      throw new Error(`Qdrant scroll failed: ${response.status} ${text}`);
+    }
+
+    const data = await response.json();
+    const points = data?.result?.points || [];
+    for (const pt of points) {
+      if (pt.payload?.schemeId) {
+        schemeIds.add(pt.payload.schemeId);
+      }
+    }
+
+    offset = data?.result?.next_page_offset || null;
+  } while (offset);
+
+  return schemeIds;
+}
+
 export const qdrantService = {
   ensureCollection,
   getCollectionInfo,
@@ -217,6 +258,7 @@ export const qdrantService = {
   searchPoints,
   getCollectionName,
   generatePointId,
+  getAllIndexedSchemeIds,
 };
 
 export default qdrantService;

@@ -15,7 +15,8 @@
     "db:studio": "npx prisma studio",
     "db:seed": "node prisma/seed.js",
     "db:reset": "npx prisma migrate reset",
-    "ingest": "node scripts/ingestSchemes.js"
+    "ingest": "node scripts/ingestSchemes.js",
+    "db:import": "node scripts/importSchemes.js"
   },
   "keywords": [
     "yojana",

@@ -7,18 +7,19 @@ async function main() {
   const isDryRun = process.argv.includes('--dry-run');
 
   const schemes = await prisma.scheme.findMany({
-    where: { status: 'Active' },
+    where: { status: { in: ['Active', 'NeedsVerification'] } },
     include: {
       benefits: true,
       eligibility: true,
       documents: true,
+      source: true,
     },
     orderBy: { slug: 'asc' },
   });
 
   if (isDryRun) {
     console.log('--- RAG INGEST (DRY RUN - No Qdrant calls) ---');
-    console.log(`Active schemes fetched: ${schemes.length}`);
+    console.log(`Active + NeedsVerification schemes fetched: ${schemes.length}`);
     console.log(`Embedding model: ${EMBEDDING_MODEL_ID} (dimension: ${EMBEDDING_DIM})\n`);
 
     let totalChunks = 0;
@@ -52,7 +53,8 @@ async function main() {
     return;
   }
 
-  const count = await ingestSchemesToRAG(schemes);
+  const force = process.argv.includes('--force');
+  const count = await ingestSchemesToRAG(schemes, { skipExisting: !force });
   console.log(`✅ Ingested ${count} scheme chunks to Qdrant.`);
 }
 
