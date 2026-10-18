@@ -59,6 +59,12 @@ const env = {
   // Embeddings
   embeddingModel: optionalEnv('EMBEDDING_MODEL', 'Xenova/multilingual-e5-small'),
   embeddingCacheDir: resolvedCacheDir,
+
+  // Gemini AI / Doc Simplifier
+  geminiApiKey: optionalEnv('GEMINI_API_KEY', ''),
+  geminiModel: optionalEnv('GEMINI_MODEL', 'gemini-3.5-flash-lite'),
+  docSimplifierMock: optionalEnv('DOC_SIMPLIFIER_MOCK', 'false') === 'true',
+  docSimplifierRateMax: parseInt(optionalEnv('DOC_SIMPLIFIER_RATE_MAX', '10'), 10) || 10,
 };
 
 export default env;

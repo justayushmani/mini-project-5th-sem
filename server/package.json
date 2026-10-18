@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
-    "test": "node --test tests/rules.test.js",
+    "test": "node --test tests/rules.test.js tests/docSimplifier.test.js",
     "test:retrieval": "node --test tests/retrieval.test.js",
     "prefetch-model": "node scripts/prefetchModel.js",
     "db:migrate": "npx prisma migrate dev",
@@ -27,6 +27,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@google/genai": "^2.30.0",
     "@huggingface/transformers": "4.3.1",
     "@prisma/client": "^6.0.0",
     "bcryptjs": "^2.4.3",
@@ -38,6 +39,7 @@
     "groq-sdk": "^0.33.0",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
+    "multer": "^2.4.0",
     "winston": "^3.14.0",
     "zod": "^3.23.0"
   },

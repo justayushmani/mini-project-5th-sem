@@ -11,6 +11,7 @@ import Recommendations from './pages/Recommendations.jsx';
 import SchemeDetails from './pages/SchemeDetails.jsx';
 import SavedSchemes from './pages/SavedSchemes.jsx';
 import Chat from './pages/Chat.jsx';
+import DocSimplifier from './pages/DocSimplifier.jsx';
 import ProtectedRoute from './components/ui/ProtectedRoute.jsx';
 
 function App() {
@@ -22,10 +23,11 @@ function App() {
             <Navbar />
             <Routes>
               {/* Public routes */}
-              <Route path="/"            element={<Home />} />
-              <Route path="/login"       element={<Login />} />
-              <Route path="/register"    element={<Register />} />
-              <Route path="/schemes/:id" element={<SchemeDetails />} />
+              <Route path="/"               element={<Home />} />
+              <Route path="/login"          element={<Login />} />
+              <Route path="/register"       element={<Register />} />
+              <Route path="/schemes/:id"    element={<SchemeDetails />} />
+              <Route path="/doc-simplifier" element={<DocSimplifier />} />
 
               {/* Protected routes */}
               <Route path="/voice"   element={<ProtectedRoute><VoiceInput /></ProtectedRoute>} />

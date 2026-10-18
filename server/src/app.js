@@ -13,6 +13,7 @@ import recommendationRoutes from './routes/recommendation.routes.js';
 import bookmarkRoutes from './routes/bookmark.routes.js';
 import aiRoutes from './routes/ai.routes.js';
 import chatRoutes from './routes/chat.routes.js';
+import docSimplifierRoutes from './routes/docSimplifier.routes.js';
 
 const app = express();
 
@@ -46,6 +47,7 @@ app.use('/api/recommendations', recommendationRoutes);
 app.use('/api/bookmarks', bookmarkRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/chat', chatRoutes);
+app.use('/api/doc-simplifier', docSimplifierRoutes);
 
 // ── 404 handler ──
 app.use('/api/*', (req, res) => {

@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { Mic, BookMarked, MessageCircle, LogOut, LogIn, Menu, X, User } from 'lucide-react';
+import { Mic, BookMarked, MessageCircle, LogOut, LogIn, Menu, X, User, FileText } from 'lucide-react';
 import { useState } from 'react';
 import { useAuth } from '../../context/AuthContext.jsx';
 import { useLanguage } from '../../context/LanguageContext.jsx';
@@ -39,6 +39,10 @@ export default function Navbar() {
               <option key={l.code} value={l.code}>{l.flag} {l.label}</option>
             ))}
           </select>
+
+          <Link to="/doc-simplifier" className={styles.navLink} aria-label="Doc Simplifier" title="Simplify Document">
+            <FileText size={18} />
+          </Link>
 
           {user ? (
             <>
@@ -90,6 +94,10 @@ export default function Navbar() {
               <option key={l.code} value={l.code}>{l.flag} {l.label}</option>
             ))}
           </select>
+
+          <Link to="/doc-simplifier" className={styles.mobileLink} onClick={() => setMenuOpen(false)}>
+            <FileText size={18} /> Doc Simplifier
+          </Link>
 
           {user ? (
             <>

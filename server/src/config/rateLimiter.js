@@ -1,4 +1,5 @@
 import rateLimit from 'express-rate-limit';
+import env from './env.js';
 
 /**
  * Rate limiters for different endpoint categories.
@@ -39,4 +40,14 @@ export const chatLimiter = rateLimit({
   message: { success: false, message: 'Too many chat requests, please try again later.' },
   standardHeaders: true,
   legacyHeaders: false,
+});
+
+// Doc Simplifier endpoints — configurable requests per 15 minutes (stricter limit for shared Gemini quota)
+export const docSimplifierLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: env.docSimplifierRateMax,
+  message: { success: false, message: 'Too many document simplification requests, please try again later.' },
+  standardHeaders: true,
+  legacyHeaders: false,
+  skip: () => process.env.NODE_ENV === 'test',
 });
