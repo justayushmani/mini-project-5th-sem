@@ -3,11 +3,13 @@ import { Mic, BookMarked, MessageCircle, LogOut, LogIn, Menu, X, User, FileText 
 import { useState } from 'react';
 import { useAuth } from '../../context/AuthContext.jsx';
 import { useLanguage } from '../../context/LanguageContext.jsx';
+import { useChat } from '../../context/ChatContext.jsx';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const { user, logout } = useAuth();
   const { language, changeLanguage, languages } = useLanguage();
+  const { toggleChat, openChat } = useChat();
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -52,9 +54,16 @@ export default function Navbar() {
               <Link to="/saved" className={styles.navLink} aria-label="Saved schemes">
                 <BookMarked size={18} />
               </Link>
-              <Link to="/chat" className={styles.navLink} aria-label="Chat">
+              <button
+                type="button"
+                onClick={toggleChat}
+                className={styles.navLink}
+                aria-label="Saathi Assistant"
+                title="Ask Saathi Assistant"
+                style={{ background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+              >
                 <MessageCircle size={18} />
-              </Link>
+              </button>
               <Link to="/profile" className={styles.navLink} aria-label="Profile">
                 <User size={18} />
               </Link>
@@ -104,7 +113,17 @@ export default function Navbar() {
               <Link to="/voice"   className={styles.mobileLink} onClick={() => setMenuOpen(false)}><Mic size={18} /> Find Schemes</Link>
               <Link to="/profile" className={styles.mobileLink} onClick={() => setMenuOpen(false)}><User size={18} /> Profile</Link>
               <Link to="/saved"   className={styles.mobileLink} onClick={() => setMenuOpen(false)}><BookMarked size={18} /> Saved Schemes</Link>
-              <Link to="/chat"    className={styles.mobileLink} onClick={() => setMenuOpen(false)}><MessageCircle size={18} /> Chat</Link>
+              <button
+                type="button"
+                className={styles.mobileLink}
+                onClick={() => {
+                  setMenuOpen(false);
+                  openChat();
+                }}
+                style={{ background: 'none', border: 'none', textAlign: 'left', width: '100%', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}
+              >
+                <MessageCircle size={18} /> Saathi Assistant
+              </button>
               <button onClick={handleLogout} className={styles.mobileLink}><LogOut size={18} /> Logout</button>
             </>
           ) : (

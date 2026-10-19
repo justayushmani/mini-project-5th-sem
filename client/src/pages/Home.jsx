@@ -6,6 +6,7 @@ import {
   Eye, Languages, UserCheck, ClipboardList, ArrowDown,
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext.jsx';
+import { useChat } from '../context/ChatContext.jsx';
 import styles from './Home.module.css';
 
 /* ── Intersection Observer hook for scroll-reveal ── */
@@ -204,8 +205,8 @@ const CAPABILITIES = [
   },
   {
     icon: <MessageCircle size={22} />,
-    title: 'Follow-up chatbot',
-    desc: 'Ask follow-up questions about any scheme, eligibility requirement, or documentation through the built-in assistant.',
+    title: 'Saathi AI Assistant',
+    desc: 'Ask questions about any scheme, eligibility requirement, or documentation directly from the floating Saathi assistant on any page.',
     featured: false,
   },
 ];
@@ -276,6 +277,7 @@ const MARQUEE_ITEMS = [
    ═══════════════════════════════════════════════════════════════ */
 export default function Home() {
   const { user } = useAuth();
+  const { openChat } = useChat();
   const reveal = useScrollReveal();
 
   const ctaLink = user ? '/voice' : '/register';
@@ -697,7 +699,14 @@ export default function Home() {
               <span className={styles.footerColTitle}>Platform</span>
               <Link to={ctaLink} className={styles.footerLink}>Find Schemes</Link>
               <Link to={user ? '/saved' : '/login'} className={styles.footerLink}>Saved Schemes</Link>
-              <Link to={user ? '/chat' : '/login'} className={styles.footerLink}>Chat Assistant</Link>
+              <button
+                type="button"
+                onClick={openChat}
+                className={styles.footerLink}
+                style={{ background: 'none', border: 'none', padding: 0, textAlign: 'left', cursor: 'pointer', font: 'inherit' }}
+              >
+                Saathi Assistant
+              </button>
               <Link to="/doc-simplifier" className={styles.footerLink}>Doc Simplifier</Link>
             </div>
             <div className={styles.footerCol}>

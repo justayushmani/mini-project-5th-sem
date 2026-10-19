@@ -4,12 +4,14 @@ import { ExternalLink, FileText, CheckCircle, BookMarked, ArrowLeft, MessageCirc
 import schemeService from '../services/scheme.service.js';
 import bookmarkService from '../services/bookmark.service.js';
 import { useAuth } from '../context/AuthContext.jsx';
+import { useChat } from '../context/ChatContext.jsx';
 import { formatDate, getErrorMessage } from '../utils/formatters.js';
 import styles from './SchemeDetails.module.css';
 
 export default function SchemeDetails() {
   const { id } = useParams();
   const { user } = useAuth();
+  const { openChat } = useChat();
   const [scheme, setScheme]       = useState(null);
   const [loading, setLoading]     = useState(true);
   const [error, setError]         = useState('');
@@ -100,9 +102,19 @@ export default function SchemeDetails() {
             </button>
           )}
           {user && (
-            <Link to={`/chat?schemeId=${scheme.id}`} className="btn btn-secondary">
+            <button
+              type="button"
+              className="btn btn-secondary"
+              onClick={() =>
+                openChat({
+                  schemeId: scheme.id,
+                  schemeTitle: scheme.title,
+                  initialMessage: `I want to know about eligibility and requirements for ${scheme.title}.`,
+                })
+              }
+            >
               <MessageCircle size={18} /> Ask Questions
-            </Link>
+            </button>
           )}
         </div>
 
