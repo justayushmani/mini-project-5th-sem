@@ -123,22 +123,20 @@ export default function VoiceInput() {
                 ═════════════════════════════════════════════════════ */}
             <div className={styles.leftCol}>
               
-              {/* A. Editorial Heading */}
+              {/* 1. Small yellow introductory label, Heading & Description */}
               <div className={styles.headingBlock}>
-                <div className={styles.eyebrowBadge}>
+                <span className={styles.eyebrowBadge}>
                   YOUR NEXT STEP STARTS HERE
-                </div>
+                </span>
                 <h1 className={styles.mainTitle}>
-                  LET'S FIND<br />
-                  <span className={styles.highlightText}>WHAT'S RIGHT</span><br />
-                  FOR YOU.
+                  LET'S FIND <span className={styles.highlightText}>WHAT'S RIGHT</span> FOR YOU.
                 </h1>
                 <p className={styles.supportingCopy}>
                   Tell us a little about yourself. We'll help you discover government schemes that may match your circumstances.
                 </p>
               </div>
 
-              {/* B. Prominent Voice Panel */}
+              {/* 2. Prominent Voice Panel */}
               <section className={styles.voiceCard} aria-label="Voice Input Section">
                 <div className={styles.voiceCardHeader}>
                   <div>
@@ -152,8 +150,10 @@ export default function VoiceInput() {
                   </span>
                 </div>
 
+                <div className={styles.cardDivider} />
+
                 {!isSupported && (
-                  <div className="alert alert-warning">
+                  <div className="alert alert-warning" style={{ marginBottom: 16 }}>
                     Voice input isn't supported in this browser. Please type below instead.
                   </div>
                 )}
@@ -169,7 +169,7 @@ export default function VoiceInput() {
                       disabled={!isSupported}
                       id="mic-button"
                     >
-                      {isListening ? <MicOff size={44} /> : <Mic size={44} />}
+                      {isListening ? <MicOff size={42} /> : <Mic size={42} />}
                       {isListening && <div className={styles.pulseWaveRing} />}
                     </button>
                   </div>
@@ -206,11 +206,11 @@ export default function VoiceInput() {
                   </div>
                 )}
 
-                {voiceError && <div className="alert alert-error">{voiceError}</div>}
-                {extractError && <div className="alert alert-error">{extractError}</div>}
+                {voiceError && <div className="alert alert-error" style={{ marginTop: 14 }}>{voiceError}</div>}
+                {extractError && <div className="alert alert-error" style={{ marginTop: 14 }}>{extractError}</div>}
               </section>
 
-              {/* C. Text Input Alternative */}
+              {/* 3. Text Input Alternative */}
               <section className={styles.textAltCard} aria-label="Manual text entry">
                 <button
                   type="button"
@@ -219,10 +219,10 @@ export default function VoiceInput() {
                   aria-expanded={showTextInput}
                 >
                   <div className={styles.textAltToggleLeft}>
-                    <Edit3 size={17} />
+                    <Edit3 size={18} />
                     <span>Prefer to write? <strong>Type your details instead</strong></span>
                   </div>
-                  <span className={styles.toggleCaret}>{showTextInput ? '▲' : '▼'}</span>
+                  <span className={styles.toggleCaret}>{showTextInput ? '▲ Collapse' : '▼ Expand'}</span>
                 </button>
 
                 {showTextInput && (
@@ -266,7 +266,7 @@ export default function VoiceInput() {
                 )}
               </section>
 
-              {/* D. Trust and Privacy Note */}
+              {/* 4. Trust and Privacy Note */}
               <div className={styles.trustBanner}>
                 <Shield size={20} className={styles.trustIcon} />
                 <p className={styles.trustText}>
@@ -280,10 +280,10 @@ export default function VoiceInput() {
                 ═════════════════════════════════════════════════════ */}
             <aside className={styles.rightCol} aria-label="Guidance and examples">
               
-              {/* Section A: What should I tell you? */}
-              <div className={styles.guideCard}>
-                <h3 className={styles.guideTitle}>HELP US UNDERSTAND YOUR NEEDS</h3>
-                <p className={styles.guideSubtitle}>
+              {/* Panel 1: Help us understand your needs */}
+              <section className={styles.guideCard}>
+                <h3 className={styles.panelTitle}>HELP US UNDERSTAND YOUR NEEDS</h3>
+                <p className={styles.panelSubtitle}>
                   Share what you're comfortable sharing. Include relevant details to help us identify potentially suitable schemes:
                 </p>
                 <div className={styles.detailsList}>
@@ -313,15 +313,15 @@ export default function VoiceInput() {
                     <span className={styles.detailDesc}>General, OBC, SC, ST, or EWS provisions</span>
                   </div>
                 </div>
-              </div>
+              </section>
 
-              {/* Section B: Try saying something like this */}
-              <div className={styles.examplesCard}>
+              {/* Panel 2: Try saying something like this */}
+              <section className={styles.examplesCard}>
                 <div className={styles.examplesHeader}>
                   <Sparkles size={18} />
-                  <h3 className={styles.examplesTitle}>TRY SAYING SOMETHING LIKE THIS</h3>
+                  <h3 className={styles.panelTitle}>TRY SAYING SOMETHING LIKE THIS</h3>
                 </div>
-                <p className={styles.examplesSub}>
+                <p className={styles.panelSubtitle}>
                   Click any example to paste it into the text box:
                 </p>
                 <div className={styles.exampleChips}>
@@ -334,44 +334,43 @@ export default function VoiceInput() {
                       title="Click to copy to text input"
                     >
                       <span className={styles.quoteMark}>“</span>
-                      <span>{promptText}</span>
+                      <span className={styles.exampleChipText}>{promptText}</span>
                     </button>
                   ))}
                 </div>
                 <p className={styles.exampleDisclaimer}>
                   *Illustrative examples to help guide your input.
                 </p>
-              </div>
+              </section>
 
-              {/* Section C: How it works */}
-              <div className={styles.howItWorksCard}>
-                <h3 className={styles.howItWorksTitle}>HOW IT WORKS</h3>
-                <div className={styles.stepsTimeline}>
-                  <div className={styles.stepItem}>
-                    <div className={styles.stepNumber}>1</div>
-                    <div className={styles.stepBody}>
-                      <span className={styles.stepTitle}>Tell us about yourself</span>
+              {/* Panel 3: How it works */}
+              <section className={styles.howItWorksCard}>
+                <h3 className={styles.panelTitle}>HOW IT WORKS</h3>
+                <div className={styles.timelineContainer}>
+                  <div className={styles.timelineLine} aria-hidden="true" />
+                  <div className={styles.timelineStep}>
+                    <div className={styles.stepCircle}>1</div>
+                    <div className={styles.stepContent}>
+                      <strong className={styles.stepTitle}>Tell us about yourself</strong>
                       <p className={styles.stepDesc}>Speak in your natural language or type a short description.</p>
                     </div>
                   </div>
-                  <div className={styles.stepConnector} />
-                  <div className={styles.stepItem}>
-                    <div className={styles.stepNumber}>2</div>
-                    <div className={styles.stepBody}>
-                      <span className={styles.stepTitle}>Review extracted profile</span>
+                  <div className={styles.timelineStep}>
+                    <div className={styles.stepCircle}>2</div>
+                    <div className={styles.stepContent}>
+                      <strong className={styles.stepTitle}>Review extracted profile</strong>
                       <p className={styles.stepDesc}>Our AI reads your parameters. Confirm or edit any detail.</p>
                     </div>
                   </div>
-                  <div className={styles.stepConnector} />
-                  <div className={styles.stepItem}>
-                    <div className={styles.stepNumber}>3</div>
-                    <div className={styles.stepBody}>
-                      <span className={styles.stepTitle}>Explore matching schemes</span>
+                  <div className={styles.timelineStep}>
+                    <div className={styles.stepCircle}>3</div>
+                    <div className={styles.stepContent}>
+                      <strong className={styles.stepTitle}>Explore matching schemes</strong>
                       <p className={styles.stepDesc}>Get a curated list of government schemes you qualify for.</p>
                     </div>
                   </div>
                 </div>
-              </div>
+              </section>
 
             </aside>
           </div>

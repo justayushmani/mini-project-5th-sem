@@ -1,39 +1,38 @@
 /* ========================================================
    YOJANA SAATHI — SCHEME FINDING PAGE (NEO-POP BRUTALIST)
+   Layout Refinement: Alignment, Spacing, Visual Hierarchy
    ======================================================== */
 
 .page {
   background-color: var(--white);
   min-height: calc(100vh - 70px);
-  padding: 32px 0 100px; /* Generous bottom padding to clear floating Saathi button */
+  padding: 36px 0 140px; /* Safe 140px bottom padding prevents floating Saathi collision */
   font-family: var(--font-body);
   color: var(--black);
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 36px;
+  width: 100%;
 }
 
 /* ── Two-Column Main Layout ── */
 .twoColGrid {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  gap: 36px;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 32px;
   align-items: start;
 }
 
-.leftCol {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
+.leftCol,
 .rightCol {
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 100%;
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -48,12 +47,11 @@
 .eyebrowBadge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
   align-self: flex-start;
   background: var(--yellow);
   color: var(--black);
-  border: 2px solid var(--black);
-  box-shadow: 2.5px 2.5px 0 var(--black);
+  border: 2.5px solid var(--black);
+  box-shadow: 3px 3px 0 var(--black);
   border-radius: var(--radius-sm);
   padding: 4px 10px;
   font-family: var(--font-heading);
@@ -65,29 +63,29 @@
 
 .mainTitle {
   font-family: var(--font-heading);
-  font-size: clamp(2.4rem, 4.2vw, 3.8rem);
+  font-size: clamp(2.4rem, 3.6vw, 3.4rem);
   font-weight: 900;
-  line-height: 1.04;
-  letter-spacing: -0.04em;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
   color: var(--black);
   margin: 0;
+  text-align: left;
 }
 
 .highlightText {
   background: var(--yellow);
   color: var(--black);
-  padding: 0 8px;
+  padding: 2px 8px;
   border: 2.5px solid var(--black);
   box-shadow: 3px 3px 0 var(--black);
   display: inline-block;
-  transform: rotate(-0.5deg);
+  white-space: nowrap;
 }
 
 .supportingCopy {
   font-size: 1.05rem;
   color: var(--grey-700);
-  line-height: 1.6;
-  max-width: 580px;
+  line-height: 1.55;
   margin: 0;
 }
 
@@ -97,13 +95,12 @@
 .voiceCard {
   background: #FFFFFF;
   border: 3px solid var(--black);
-  box-shadow: 6px 6px 0 var(--black);
+  box-shadow: 8px 8px 0 var(--black);
   border-radius: var(--radius-lg);
-  padding: 28px 24px;
+  padding: 24px 28px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  position: relative;
+  width: 100%;
 }
 
 .voiceCardHeader {
@@ -111,8 +108,6 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 16px;
-  border-bottom: 2px solid var(--black);
-  padding-bottom: 16px;
 }
 
 .voiceCardTitle {
@@ -143,13 +138,19 @@
   flex-shrink: 0;
 }
 
+.cardDivider {
+  border-bottom: 2px solid var(--black);
+  margin: 18px 0;
+  width: 100%;
+}
+
 /* ── Microphone Control Center ── */
 .micControlArea {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 16px 0 8px;
+  padding: 8px 0 6px;
   gap: 16px;
 }
 
@@ -240,7 +241,7 @@
   color: var(--grey-700);
   background: var(--grey-100);
   border: 1.5px solid var(--black);
-  padding: 4px 12px;
+  padding: 4px 14px;
   border-radius: 999px;
 }
 
@@ -314,6 +315,7 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
+  margin-top: 14px;
   animation: fadeIn 0.2s ease;
 }
 
@@ -352,23 +354,24 @@
    ══════════════════════════════════════════════════════════ */
 .textAltCard {
   background: #FFFFFF;
-  border: 2.5px solid var(--black);
-  box-shadow: 4px 4px 0 var(--black);
-  border-radius: var(--radius);
+  border: 3px solid var(--black);
+  box-shadow: 8px 8px 0 var(--black);
+  border-radius: var(--radius-lg);
   overflow: hidden;
+  width: 100%;
 }
 
 .textAltToggle {
   width: 100%;
   background: transparent;
   border: none;
-  padding: 14px 18px;
+  padding: 16px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
   font-family: var(--font-body);
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--black);
   text-align: left;
   transition: background-color var(--transition);
@@ -385,17 +388,19 @@
 }
 
 .toggleCaret {
-  font-size: 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
   color: var(--grey-700);
 }
 
 .textAltForm {
   border-top: 2px solid var(--black);
-  padding: 16px 18px;
+  padding: 18px 20px;
   background: var(--grey-50);
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
 .textAreaInput {
@@ -409,7 +414,7 @@
   background: #FFFFFF;
   color: var(--black);
   resize: vertical;
-  min-height: 80px;
+  min-height: 85px;
   outline: none;
   box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.05);
   transition: border-color var(--transition), box-shadow var(--transition);
@@ -431,13 +436,14 @@
    ══════════════════════════════════════════════════════════ */
 .trustBanner {
   background: #FFFFFF;
-  border: 2px solid var(--black);
-  box-shadow: 3px 3px 0 var(--black);
+  border: 2.5px solid var(--black);
+  box-shadow: 4px 4px 0 var(--black);
   border-radius: var(--radius);
-  padding: 14px 16px;
+  padding: 14px 18px;
   display: flex;
   align-items: flex-start;
   gap: 12px;
+  width: 100%;
 }
 
 .trustIcon {
@@ -454,22 +460,35 @@
 }
 
 /* ══════════════════════════════════════════════════════════
-   RIGHT COLUMN: HELPFUL GUIDANCE (3 SECTIONS)
+   RIGHT COLUMN: STANDARDIZED SUPPORTING PANELS
+   All 3 panels: 3px border, 8px shadow, identical width
    ══════════════════════════════════════════════════════════ */
-
-/* ── Section A: Help Us Understand Your Needs ── */
-.guideCard {
-  background: #FFFFFF;
-  border: 2.5px solid var(--black);
-  box-shadow: 5px 5px 0 var(--black);
+.guideCard,
+.examplesCard,
+.howItWorksCard {
+  border: 3px solid var(--black);
+  box-shadow: 8px 8px 0 var(--black);
   border-radius: var(--radius-lg);
-  padding: 22px 20px;
+  padding: 22px 24px;
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 14px;
 }
 
-.guideTitle {
+.guideCard {
+  background: #FFFFFF;
+}
+
+.examplesCard {
+  background: var(--blue-light);
+}
+
+.howItWorksCard {
+  background: #FFFFFF;
+}
+
+.panelTitle {
   font-family: var(--font-heading);
   font-size: 0.95rem;
   font-weight: 900;
@@ -479,28 +498,30 @@
   text-transform: uppercase;
 }
 
-.guideSubtitle {
+.panelSubtitle {
   font-size: 0.86rem;
   color: var(--grey-700);
   line-height: 1.45;
   margin: 0;
 }
 
+/* ── Panel 1: Help Us Understand Your Needs ── */
 .detailsList {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 9px;
 }
 
 .detailRow {
-  display: flex;
+  display: grid;
+  grid-template-columns: 28px 95px 1fr;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   background: var(--grey-50);
-  border: 1.5px solid var(--black);
+  border: 2px solid var(--black);
   border-radius: var(--radius-sm);
   padding: 8px 12px;
-  font-size: 0.85rem;
+  min-height: 44px;
 }
 
 .detailBadge {
@@ -510,68 +531,49 @@
   font-family: var(--font-heading);
   font-size: 0.72rem;
   font-weight: 800;
-  padding: 2px 6px;
-  border-radius: 3px;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
 }
 
 .detailLabel {
-  font-weight: 700;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 0.88rem;
   color: var(--black);
-  min-width: 90px;
+  white-space: nowrap;
 }
 
 .detailDesc {
+  font-size: 0.82rem;
   color: var(--grey-700);
-  font-size: 0.8rem;
+  line-height: 1.35;
+  margin: 0;
 }
 
-/* ── Section B: Try Saying Something Like This ── */
-.examplesCard {
-  background: var(--blue-light);
-  border: 2.5px solid var(--black);
-  box-shadow: 5px 5px 0 var(--black);
-  border-radius: var(--radius-lg);
-  padding: 22px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
+/* ── Panel 2: Try Saying Something Like This ── */
 .examplesHeader {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.examplesTitle {
-  font-family: var(--font-heading);
-  font-size: 0.95rem;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  color: var(--black);
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.examplesSub {
-  font-size: 0.84rem;
-  color: var(--grey-700);
-  margin: 0;
-}
-
 .exampleChips {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 9px;
 }
 
 .exampleChip {
   background: #FFFFFF;
   border: 2px solid var(--black);
-  box-shadow: 2.5px 2.5px 0 var(--black);
+  box-shadow: 3px 3px 0 var(--black);
   border-radius: var(--radius-sm);
-  padding: 10px 12px;
+  padding: 10px 14px;
   text-align: left;
   cursor: pointer;
   font-family: var(--font-body);
@@ -580,13 +582,14 @@
   color: var(--black);
   display: flex;
   align-items: flex-start;
-  gap: 8px;
+  gap: 10px;
+  width: 100%;
   transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition);
 }
 
 .exampleChip:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 4.5px 4.5px 0 var(--black);
+  box-shadow: 5px 5px 0 var(--black);
   background: #FFFAF0;
 }
 
@@ -597,63 +600,60 @@
 
 .quoteMark {
   font-family: var(--font-heading);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 900;
   color: var(--black);
   line-height: 1;
   flex-shrink: 0;
 }
 
+.exampleChipText {
+  flex: 1;
+}
+
 .exampleDisclaimer {
   font-size: 0.74rem;
   color: var(--grey-700);
-  margin-top: 2px;
+  margin: 2px 0 0;
 }
 
-/* ── Section C: How It Works ── */
-.howItWorksCard {
-  background: #FFFFFF;
-  border: 2.5px solid var(--black);
-  box-shadow: 5px 5px 0 var(--black);
-  border-radius: var(--radius-lg);
-  padding: 22px 20px;
+/* ── Panel 3: How It Works Vertical Timeline ── */
+.timelineContainer {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
+  padding-left: 2px;
 }
 
-.howItWorksTitle {
-  font-family: var(--font-heading);
-  font-size: 0.95rem;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  color: var(--black);
-  margin: 0;
-  text-transform: uppercase;
+.timelineLine {
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  bottom: 16px;
+  width: 2px;
+  background: var(--black);
+  z-index: 1;
 }
 
-.stepsTimeline {
+.timelineStep {
   display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.stepItem {
-  display: flex;
-  gap: 14px;
   align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  z-index: 2;
 }
 
-.stepNumber {
-  width: 28px;
-  height: 28px;
+.stepCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   background: var(--yellow);
   color: var(--black);
   border: 2px solid var(--black);
   box-shadow: 2px 2px 0 var(--black);
-  border-radius: 50%;
   font-family: var(--font-heading);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 900;
   display: flex;
   align-items: center;
@@ -661,32 +661,25 @@
   flex-shrink: 0;
 }
 
-.stepBody {
+.stepContent {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  padding-bottom: 4px;
+  padding-top: 3px;
 }
 
 .stepTitle {
   font-family: var(--font-heading);
-  font-size: 0.88rem;
+  font-size: 0.92rem;
   font-weight: 800;
   color: var(--black);
 }
 
 .stepDesc {
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: var(--grey-700);
   line-height: 1.4;
   margin: 0;
-}
-
-.stepConnector {
-  width: 2px;
-  height: 20px;
-  background: var(--black);
-  margin-left: 13px;
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -867,21 +860,32 @@
 
 /* ══════════════════════════════════════════════════════════
    RESPONSIVE BREAKPOINTS
+   Desktop: >= 1024px (2 columns)
+   Tablet:  768px - 1023px (1 column or narrower)
+   Mobile:  < 768px (stacked)
    ══════════════════════════════════════════════════════════ */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+  .page {
+    padding: 28px 0 130px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
   .twoColGrid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 28px;
   }
 
   .mainTitle {
-    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    font-size: clamp(2.2rem, 5vw, 3rem);
   }
 }
 
 @media (max-width: 640px) {
   .page {
-    padding: 20px 0 110px;
+    padding: 20px 0 130px;
   }
 
   .container {
@@ -893,8 +897,18 @@
   }
 
   .micButton {
-    width: 106px;
-    height: 106px;
+    width: 110px;
+    height: 110px;
+  }
+
+  .detailRow {
+    grid-template-columns: 26px 85px 1fr;
+    gap: 8px;
+    padding: 8px 10px;
+  }
+
+  .detailDesc {
+    font-size: 0.78rem;
   }
 
   .profileGrid {
