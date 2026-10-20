@@ -4,7 +4,7 @@ import { successResponse, errorResponse } from '../utils/apiResponse.js';
 // GET /api/schemes
 export async function getSchemes(req, res, next) {
   try {
-    const { page, limit, category, state, level, search } = req.query;
+    const { page, limit, category, state, level, search, language } = req.query;
     const result = await schemeService.getSchemes({
       page: parseInt(page, 10) || 1,
       limit: parseInt(limit, 10) || 10,
@@ -12,6 +12,7 @@ export async function getSchemes(req, res, next) {
       state,
       level,
       search,
+      language: language || 'en',
     });
 
     return res.status(200).json({
@@ -48,7 +49,8 @@ export async function getStates(req, res, next) {
 export async function getScheme(req, res, next) {
   try {
     const { id } = req.params;
-    const scheme = await schemeService.getSchemeById(id);
+    const { language } = req.query;
+    const scheme = await schemeService.getSchemeById(id, language || 'en');
 
     if (!scheme) {
       return errorResponse(res, 'Scheme not found', 404);

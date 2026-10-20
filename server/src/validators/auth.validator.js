@@ -21,3 +21,7 @@ export const loginSchema = z.object({
   email: z.string().email('Invalid email').toLowerCase().trim(),
   password: z.string().min(1, 'Password is required'),
 });
+
+export const updateLanguageSchema = z.object({
+  language: z.enum(['en', 'hi', 'bn']),
+});

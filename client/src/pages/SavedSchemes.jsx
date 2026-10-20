@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { BookMarked, ChevronRight, Trash2, Mic, ArrowRight } from 'lucide-react';
 import bookmarkService from '../services/bookmark.service.js';
 import { getErrorMessage } from '../utils/formatters.js';
 
 export default function SavedSchemes() {
+  const { t } = useTranslation();
   const [bookmarks, setBookmarks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -38,7 +40,7 @@ export default function SavedSchemes() {
       <main className="page">
         <div className="container text-center" style={{ paddingTop: 80 }}>
           <div className="spinner" style={{ width: 38, height: 38 }} />
-          <p className="mt-4 muted">Loading your saved schemes…</p>
+          <p className="mt-4 muted">{t('saved.loadingSaved')}</p>
         </div>
       </main>
     );
@@ -49,21 +51,21 @@ export default function SavedSchemes() {
       <div className="container">
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
           <BookMarked size={28} />
-          <h1 style={{ margin: 0 }}>SAVED SCHEMES</h1>
+          <h1 style={{ margin: 0 }}>{t('saved.title')}</h1>
         </div>
 
         <p className="muted" style={{ marginBottom: 24 }}>
-          Keep track of the schemes you want to revisit later.
+          {t('saved.subtitle')}
         </p>
 
         {error && <div className="alert alert-error" role="alert">{error}</div>}
 
         {!loading && bookmarks.length === 0 && (
           <div className="card" style={{ maxWidth: 560, margin: '24px auto 0', textAlign: 'center', padding: '32px 24px' }}>
-            <h2>No saved schemes yet</h2>
-            <p className="muted mt-4">Start by finding schemes that match your profile.</p>
+            <h2>{t('saved.noSavedSchemes')}</h2>
+            <p className="muted mt-4">{t('saved.noSavedSub')}</p>
             <Link to="/voice" className="btn btn-primary mt-8">
-              <Mic size={18} /> Find Schemes
+              <Mic size={18} /> {t('common.findSchemes')}
             </Link>
           </div>
         )}
@@ -94,10 +96,10 @@ export default function SavedSchemes() {
 
                   <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 'auto' }}>
                     <Link to={`/schemes/${scheme.id}`} className="btn btn-primary btn-sm">
-                      View Scheme <ChevronRight size={16} />
+                      {t('common.viewScheme')} <ChevronRight size={16} />
                     </Link>
                     <button type="button" className="btn btn-secondary btn-sm" onClick={() => handleRemove(scheme.id)}>
-                      <Trash2 size={16} /> Remove
+                      <Trash2 size={16} /> {t('common.remove')}
                     </button>
                   </div>
                 </article>
@@ -108,7 +110,7 @@ export default function SavedSchemes() {
 
         <div style={{ marginTop: 28 }}>
           <Link to="/voice" className="btn btn-secondary">
-            <ArrowRight size={18} /> Explore More Schemes
+            <ArrowRight size={18} /> {t('common.exploreMore')}
           </Link>
         </div>
       </div>

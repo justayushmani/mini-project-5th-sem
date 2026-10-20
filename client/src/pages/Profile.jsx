@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Save, CheckCircle, UserRound } from 'lucide-react';
 import profileService from '../services/profile.service.js';
 import { getErrorMessage } from '../utils/formatters.js';
@@ -28,6 +29,7 @@ const emptyForm = {
 };
 
 export default function Profile() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [form, setForm] = useState(emptyForm);
   const [loading, setLoading] = useState(true);
@@ -86,7 +88,7 @@ export default function Profile() {
       };
 
       await profileService.update(payload);
-      setSuccess('Profile updated successfully.');
+      setSuccess(t('profile.profileUpdated'));
     } catch (err) {
       setError(getErrorMessage(err));
     } finally {
@@ -99,7 +101,7 @@ export default function Profile() {
       <main className="page">
         <div className="container text-center" style={{ paddingTop: 80 }}>
           <div className="spinner" style={{ width: 38, height: 38 }} />
-          <p className="mt-4 muted">Loading your profile…</p>
+          <p className="mt-4 muted">{t('profile.loadingProfile')}</p>
         </div>
       </main>
     );
@@ -110,11 +112,11 @@ export default function Profile() {
       <div className="container container-md">
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
           <UserRound size={28} />
-          <h1 style={{ margin: 0 }}>YOUR PROFILE</h1>
+          <h1 style={{ margin: 0 }}>{t('profile.title')}</h1>
         </div>
 
         <p className="muted" style={{ marginBottom: 24 }}>
-          Update the information used to match you with relevant government schemes.
+          {t('profile.subtitle')}
         </p>
 
         {error && <div className="alert alert-error" role="alert">{error}</div>}
@@ -122,71 +124,71 @@ export default function Profile() {
 
         <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 20 }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 20 }}>
-            <Field label="Age" htmlFor="age">
+            <Field label={t('profile.labelAge')} htmlFor="age">
               <input id="age" type="number" min="0" max="120" className="input" value={form.age} onChange={(e) => handleChange('age', e.target.value)} />
             </Field>
 
-            <Field label="Gender" htmlFor="gender">
+            <Field label={t('profile.labelGender')} htmlFor="gender">
               <select id="gender" className="input" value={form.gender} onChange={(e) => handleChange('gender', e.target.value)}>
-                <option value="">Select gender</option>
+                <option value="">{t('profile.selectGender')}</option>
                 {GENDER_OPTIONS.map((option) => (
                   <option key={option} value={option}>{option}</option>
                 ))}
               </select>
             </Field>
 
-            <Field label="State" htmlFor="state">
+            <Field label={t('profile.labelState')} htmlFor="state">
               <select id="state" className="input" value={form.state} onChange={(e) => handleChange('state', e.target.value)}>
-                <option value="">Select state</option>
+                <option value="">{t('profile.selectState')}</option>
                 {STATES.map((option) => (
                   <option key={option} value={option}>{option}</option>
                 ))}
               </select>
             </Field>
 
-            <Field label="Occupation" htmlFor="occupation">
+            <Field label={t('profile.labelOccupation')} htmlFor="occupation">
               <select id="occupation" className="input" value={form.occupation} onChange={(e) => handleChange('occupation', e.target.value)}>
-                <option value="">Select occupation</option>
+                <option value="">{t('profile.selectOccupation')}</option>
                 {OCCUPATIONS.map((option) => (
                   <option key={option} value={option}>{option}</option>
                 ))}
               </select>
             </Field>
 
-            <Field label="Annual Income" htmlFor="annualIncome">
+            <Field label={t('profile.labelAnnualIncome')} htmlFor="annualIncome">
               <input id="annualIncome" type="number" min="0" className="input" value={form.annualIncome} onChange={(e) => handleChange('annualIncome', e.target.value)} />
             </Field>
 
-            <Field label="Category" htmlFor="category">
+            <Field label={t('profile.labelCategory')} htmlFor="category">
               <select id="category" className="input" value={form.category} onChange={(e) => handleChange('category', e.target.value)}>
-                <option value="">Select category</option>
+                <option value="">{t('profile.selectCategory')}</option>
                 {CATEGORIES.map((option) => (
                   <option key={option} value={option}>{option}</option>
                 ))}
               </select>
             </Field>
 
-            <Field label="Education" htmlFor="education">
+            <Field label={t('profile.labelEducation')} htmlFor="education">
               <select id="education" className="input" value={form.education} onChange={(e) => handleChange('education', e.target.value)}>
-                <option value="">Select education</option>
+                <option value="">{t('profile.selectEducation')}</option>
                 {EDUCATION_LEVELS.map((option) => (
                   <option key={option} value={option}>{option}</option>
                 ))}
               </select>
             </Field>
 
-            <Field label="Employment Status" htmlFor="employmentStatus">
+            <Field label={t('profile.labelEmploymentStatus')} htmlFor="employmentStatus">
               <select id="employmentStatus" className="input" value={form.employmentStatus} onChange={(e) => handleChange('employmentStatus', e.target.value)}>
-                <option value="">Select status</option>
+                <option value="">{t('profile.selectStatus')}</option>
                 {EMPLOYMENT_STATUS.map((option) => (
                   <option key={option} value={option}>{option}</option>
                 ))}
               </select>
             </Field>
 
-            <Field label="Marital Status" htmlFor="maritalStatus">
+            <Field label={t('profile.labelMaritalStatus')} htmlFor="maritalStatus">
               <select id="maritalStatus" className="input" value={form.maritalStatus} onChange={(e) => handleChange('maritalStatus', e.target.value)}>
-                <option value="">Select status</option>
+                <option value="">{t('profile.selectStatus')}</option>
                 {MARITAL_STATUS.map((option) => (
                   <option key={option} value={option}>{option}</option>
                 ))}
@@ -197,21 +199,21 @@ export default function Profile() {
           <div className="card" style={{ padding: 20, display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 16 }}>
             <label style={{ display: 'flex', alignItems: 'center', gap: 12, fontWeight: 700 }}>
               <input type="checkbox" checked={form.landOwnership} onChange={(e) => handleChange('landOwnership', e.target.checked)} />
-              Owns land
+              {t('profile.ownsLand')}
             </label>
 
             <label style={{ display: 'flex', alignItems: 'center', gap: 12, fontWeight: 700 }}>
               <input type="checkbox" checked={form.disability} onChange={(e) => handleChange('disability', e.target.checked)} />
-              Has disability
+              {t('profile.hasDisability')}
             </label>
           </div>
 
           <div style={{ display: 'flex', gap: 16, justifyContent: 'flex-end', flexWrap: 'wrap' }}>
             <button type="button" className="btn btn-secondary" onClick={() => navigate('/voice')}>
-              Back to Voice
+              {t('profile.backToVoice')}
             </button>
             <button type="submit" className="btn btn-primary" disabled={saving}>
-              {saving ? <><span className="spinner" style={{ width: 18, height: 18 }} /> Saving…</> : <><Save size={18} /> Save Profile</>}
+              {saving ? <><span className="spinner" style={{ width: 18, height: 18 }} /> {t('profile.saving')}</> : <><Save size={18} /> {t('profile.saveProfile')}</>}
             </button>
           </div>
         </form>

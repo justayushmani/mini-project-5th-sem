@@ -90,7 +90,7 @@ const STOPWORDS = new Set([
 ]);
 
 async function fallbackKeywordSearch(query) {
-  const rawWords = String(query || '').toLowerCase().match(/[a-z]{3,}|[\p{Script=Devanagari}\p{M}]{2,}/gu) || [];
+  const rawWords = String(query || '').toLowerCase().match(/[a-z]{3,}|[\p{Script=Devanagari}\p{Script=Bengali}\p{M}]{2,}/gu) || [];
   const words = [...new Set(rawWords.filter((w) => !STOPWORDS.has(w)))].slice(0, 8);
   if (!words.length) {
     return [];
@@ -185,7 +185,7 @@ Follow these strict grounding rules:
 3. Only mention or recommend schemes that appear in the scheme information below. If none fits, or if asked about a scheme/category not present in the context, say that you do not have a matching scheme in your database. Do NOT name or recommend any schemes outside the provided context.
 4. If the context has no detail relevant to the question (such as an unstated income limit, rule, or requirement), say plainly in the user's language that you don't have that detail and suggest checking the official portal.
 5. Always mention the relevant scheme name when discussing a scheme.
-6. Reply in the same language as the user's message if it is English or Hindi, otherwise reply in English.
+6. Reply in the same language as the user's message (English, Hindi, or Bengali). If the user writes in Bengali, reply in Bengali. If in Hindi, reply in Hindi. If in English, reply in English.
 
 Recent chat history:
 ${recentHistory}

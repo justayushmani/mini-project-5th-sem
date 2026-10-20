@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { LogIn, Eye, EyeOff } from 'lucide-react';
 import { useAuth } from '../context/AuthContext.jsx';
 import { getErrorMessage } from '../utils/formatters.js';
 import styles from './Auth.module.css';
 
 export default function Login() {
+  const { t } = useTranslation();
   const [form, setForm]       = useState({ email: '', password: '' });
   const [showPw, setShowPw]   = useState(false);
   const [error, setError]     = useState('');
@@ -21,7 +23,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!form.email || !form.password) {
-      setError('Email and password are required.');
+      setError(t('auth.emailPasswordRequired'));
       return;
     }
     setLoading(true);
@@ -40,8 +42,8 @@ export default function Login() {
       <div className={`container container-sm`}>
         <div className={styles.authCard}>
           <div className={styles.authHeader}>
-            <h1 className={styles.authTitle}>WELCOME<br />BACK</h1>
-            <p>Sign in to find your government schemes.</p>
+            <h1 className={styles.authTitle}>{t('auth.welcomeBack')}<br />{t('auth.back')}</h1>
+            <p>{t('auth.signInSubtitle')}</p>
           </div>
 
           {error && (
@@ -52,7 +54,7 @@ export default function Login() {
 
           <form onSubmit={handleSubmit} noValidate>
             <div className="form-group">
-              <label htmlFor="email" className="form-label">Email Address</label>
+              <label htmlFor="email" className="form-label">{t('auth.emailLabel')}</label>
               <input
                 id="email"
                 name="email"
@@ -68,14 +70,14 @@ export default function Login() {
             </div>
 
             <div className="form-group" style={{ marginTop: '16px' }}>
-              <label htmlFor="password" className="form-label">Password</label>
+              <label htmlFor="password" className="form-label">{t('auth.passwordLabel')}</label>
               <div className={styles.passwordWrapper}>
                 <input
                   id="password"
                   name="password"
                   type={showPw ? 'text' : 'password'}
                   className="input"
-                  placeholder="Your password"
+                  placeholder={t('auth.passwordPlaceholder')}
                   value={form.password}
                   onChange={handleChange}
                   autoComplete="current-password"
@@ -86,7 +88,7 @@ export default function Login() {
                   type="button"
                   className={styles.eyeBtn}
                   onClick={() => setShowPw(!showPw)}
-                  aria-label={showPw ? 'Hide password' : 'Show password'}
+                  aria-label={showPw ? t('auth.hidePassword') : t('auth.showPassword')}
                 >
                   {showPw ? <EyeOff size={18} /> : <Eye size={18} />}
                 </button>
@@ -100,13 +102,13 @@ export default function Login() {
               disabled={loading}
               id="login-submit"
             >
-              {loading ? <><span className="spinner" style={{width:18,height:18}} /> Signing in…</> : <><LogIn size={18} /> Sign In</>}
+              {loading ? <><span className="spinner" style={{width:18,height:18}} /> {t('auth.signingIn')}</> : <><LogIn size={18} /> {t('auth.signIn')}</>}
             </button>
           </form>
 
           <p className={styles.authSwitch}>
-            Don't have an account?{' '}
-            <Link to="/register">Create one free →</Link>
+            {t('auth.noAccount')}{' '}
+            <Link to="/register">{t('auth.createOne')}</Link>
           </p>
         </div>
       </div>

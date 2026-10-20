@@ -19,6 +19,11 @@ const authService = {
     const res = await api.get('/auth/me');
     return res.data.data;
   },
+
+  updateLanguage: async (language) => {
+    const res = await api.patch('/auth/language', { language });
+    return res.data.data;
+  },
 };
 
 export default authService;

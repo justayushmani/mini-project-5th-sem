@@ -175,8 +175,8 @@ const CAPABILITIES = [
   },
   {
     icon: <Languages size={22} />,
-    title: 'Hindi, English & Hinglish',
-    desc: 'Interact in the language you are most comfortable with. The AI understands mixed-language input.',
+    title: 'Hindi, English & Bengali',
+    desc: 'Interact in the language you are most comfortable with: Hindi, English, or Bengali.',
     featured: false,
   },
   {

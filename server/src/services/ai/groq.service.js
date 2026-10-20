@@ -64,18 +64,18 @@ export async function extractProfileWithGroq({ text, language = 'en' }) {
 
   const prompt = `Extract user profile from this text. Return ONLY valid JSON.
 Never guess missing information — use null for anything not explicitly stated. NEVER infer gender, category, income or land ownership.
-If annualIncome is stated in Hindi words like "ek lakh bees hazaar", convert it to numeric 120000. Keep annualIncome numeric.
+If annualIncome is stated in words (Hindi e.g. "ek lakh bees hazaar", Bengali e.g. "ek lokkho kuri hajar" or English "1.2 lakh"), convert it to numeric 120000. Keep annualIncome numeric.
 
 Allowed enum values:
 - gender: ${VOCABULARY.gender.values.join(', ')}
 - category: ${VOCABULARY.category.values.join(', ')}
 - employmentStatus: ${VOCABULARY.employmentStatus.values.join(', ')}
 - maritalStatus: ${VOCABULARY.maritalStatus.values.join(', ')}
-- state: (Standard Indian States)
-- occupation: ${VOCABULARY.occupation.values.join(', ')} (or synonyms like kisan, artisan, homemaker)
+- state: (Standard Indian States, e.g. West Bengal, Uttar Pradesh, etc.)
+- occupation: ${VOCABULARY.occupation.values.join(', ')} (or synonyms in Hindi/Bengali/English like kisan, krishok, chashi, karigar, karigor, student, chhatro, artisan, homemaker, grihini)
 
 Text: "${text.replace(/"/g, '\\"')}"
-Language hint: ${language}
+Language hint: ${language} (en = English, hi = Hindi, bn = Bengali)
 Return JSON with these fields:
 { age, state, occupation, annualIncome, gender, category, education, employmentStatus, landOwnership, disability, maritalStatus }`;
 

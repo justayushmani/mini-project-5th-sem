@@ -80,12 +80,31 @@ model Scheme {
   bookmarks          Bookmark[]
   recommendationSchemes RecommendationScheme[]
   chatSessions       ChatSession[]
+  translations       SchemeTranslation[]
 
   @@index([category])
   @@index([state])
   @@index([level])
   @@index([status])
   @@map("schemes")
+}
+
+// ── SchemeTranslation ────────────────────────────────────────────────────────
+model SchemeTranslation {
+  id                 String   @id @default(cuid())
+  schemeId           String
+  scheme             Scheme   @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+  language           String   // "hi" | "bn"
+  name               String
+  description        String
+  applicationProcess String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@unique([schemeId, language])
+  @@index([schemeId])
+  @@index([language])
+  @@map("scheme_translations")
 }
 
 // ── SchemeEligibility ─────────────────────────────────────────────────────────

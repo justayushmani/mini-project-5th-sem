@@ -22,9 +22,34 @@ const SCHEME_LIST_INCLUDE = {
 };
 
 /**
+ * Helper to overlay translated fields if available
+ */
+function applyTranslation(scheme, language) {
+  if (!scheme) return scheme;
+  if (!language || language === 'en') {
+    const { translations, ...rest } = scheme;
+    return rest;
+  }
+  const translation = scheme.translations?.[0];
+  if (!translation) {
+    const { translations, ...rest } = scheme;
+    return rest;
+  }
+  const { translations, ...rest } = scheme;
+  return {
+    ...rest,
+    name: translation.name || rest.name,
+    description: translation.description || rest.description,
+    applicationProcess: translation.applicationProcess || rest.applicationProcess,
+    isTranslated: true,
+    translatedLanguage: translation.language,
+  };
+}
+
+/**
  * Get paginated list of schemes with optional filters.
  */
-export async function getSchemes({ page = 1, limit = 10, category, state, level, search, status = 'Active' }) {
+export async function getSchemes({ page = 1, limit = 10, category, state, level, search, status = 'Active', language = 'en' }) {
   const skip = (page - 1) * limit;
   const take = Math.min(limit, 50);
 
@@ -46,10 +71,15 @@ export async function getSchemes({ page = 1, limit = 10, category, state, level,
     ];
   }
 
+  const include = {
+    ...SCHEME_LIST_INCLUDE,
+    ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
+  };
+
   const [schemes, totalCount] = await Promise.all([
     prisma.scheme.findMany({
       where,
-      include: SCHEME_LIST_INCLUDE,
+      include,
       skip,
       take,
       orderBy: { name: 'asc' },
@@ -58,7 +88,7 @@ export async function getSchemes({ page = 1, limit = 10, category, state, level,
   ]);
 
   return {
-    schemes,
+    schemes: schemes.map((s) => applyTranslation(s, language)),
     pagination: {
       page,
       limit: take,
@@ -73,21 +103,29 @@ export async function getSchemes({ page = 1, limit = 10, category, state, level,
 /**
  * Get a single scheme by ID with full details.
  */
-export async function getSchemeById(id) {
-  return prisma.scheme.findUnique({
+export async function getSchemeById(id, language = 'en') {
+  const scheme = await prisma.scheme.findUnique({
     where: { id },
-    include: SCHEME_FULL_INCLUDE,
+    include: {
+      ...SCHEME_FULL_INCLUDE,
+      ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
+    },
   });
+  return applyTranslation(scheme, language);
 }
 
 /**
  * Get a single scheme by slug with full details.
  */
-export async function getSchemeBySlug(slug) {
-  return prisma.scheme.findUnique({
+export async function getSchemeBySlug(slug, language = 'en') {
+  const scheme = await prisma.scheme.findUnique({
     where: { slug },
-    include: SCHEME_FULL_INCLUDE,
+    include: {
+      ...SCHEME_FULL_INCLUDE,
+      ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
+    },
   });
+  return applyTranslation(scheme, language);
 }
 
 /**

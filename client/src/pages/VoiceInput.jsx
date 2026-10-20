@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation, Trans } from 'react-i18next';
 import { 
   Mic, 
   MicOff, 
@@ -36,6 +37,7 @@ const EXAMPLE_PROMPTS = [
 ];
 
 export default function VoiceInput() {
+  const { t } = useTranslation();
   const { language } = useLanguage();
   const { user }     = useAuth();
   const navigate     = useNavigate();
@@ -110,6 +112,12 @@ export default function VoiceInput() {
     handleFinalTranscript(manualText);
   };
 
+  const examplePrompts = [
+    t('voice.example1'),
+    t('voice.example2'),
+    t('voice.example3'),
+  ];
+
   return (
     <main className={`page ${styles.page}`}>
       <div className={`container ${styles.container}`}>
@@ -126,13 +134,13 @@ export default function VoiceInput() {
               {/* 1. Small yellow introductory label, Heading & Description */}
               <div className={styles.headingBlock}>
                 <span className={styles.eyebrowBadge}>
-                  YOUR NEXT STEP STARTS HERE
+                  {t('voice.eyebrow')}
                 </span>
                 <h1 className={styles.mainTitle}>
-                  LET'S FIND <span className={styles.highlightText}>WHAT'S RIGHT</span> FOR YOU.
+                  {t('voice.mainTitle')} <span className={styles.highlightText}>{t('voice.mainTitleHighlight')}</span> {t('voice.mainTitleEnd')}
                 </h1>
                 <p className={styles.supportingCopy}>
-                  Tell us a little about yourself. We'll help you discover government schemes that may match your circumstances.
+                  {t('voice.supportingCopy')}
                 </p>
               </div>
 
@@ -140,9 +148,11 @@ export default function VoiceInput() {
               <section className={styles.voiceCard} aria-label="Voice Input Section">
                 <div className={styles.voiceCardHeader}>
                   <div>
-                    <h2 className={styles.voiceCardTitle}>Speak about yourself</h2>
+                    <h2 className={styles.voiceCardTitle}>{t('voice.speakAboutYourself')}</h2>
                     <p className={styles.voiceCardSub}>
-                      Speak naturally in <strong>Hindi</strong>, <strong>English</strong>, or <strong>Hinglish</strong>
+                      <Trans i18nKey="voice.speakNaturally">
+                        Speak naturally in <strong>Hindi</strong>, <strong>English</strong>, or <strong>Bengali</strong>
+                      </Trans>
                     </p>
                   </div>
                   <span className={styles.langPill} title={`Current speech language: ${language}`}>
@@ -154,7 +164,7 @@ export default function VoiceInput() {
 
                 {!isSupported && (
                   <div className="alert alert-warning" style={{ marginBottom: 16 }}>
-                    Voice input isn't supported in this browser. Please type below instead.
+                    {t('voice.voiceNotSupported')}
                   </div>
                 )}
 
@@ -164,7 +174,7 @@ export default function VoiceInput() {
                     <button
                       className={`${styles.micButton} ${isListening ? styles.micButtonListening : ''}`}
                       onClick={handleMicClick}
-                      aria-label={isListening ? 'Stop recording' : 'Start recording'}
+                      aria-label={isListening ? t('voice.stopRecording') : t('voice.startRecording')}
                       aria-pressed={isListening}
                       disabled={!isSupported}
                       id="mic-button"
@@ -179,7 +189,7 @@ export default function VoiceInput() {
                     {isListening ? (
                       <div className={styles.liveListeningRow}>
                         <span className={styles.liveRedDot} />
-                        <span className={styles.liveListeningText}>Listening… Speak now</span>
+                        <span className={styles.liveListeningText}>{t('voice.listeningText')}</span>
                         {/* Audio Waveform only when microphone is actively listening */}
                         <div className={styles.soundWaveBars} aria-hidden="true">
                           <span className={styles.bar} />
@@ -190,7 +200,7 @@ export default function VoiceInput() {
                         </div>
                       </div>
                     ) : (
-                      <span className={styles.idleMicText}>TAP TO START SPEAKING</span>
+                      <span className={styles.idleMicText}>{t('voice.tapToStart')}</span>
                     )}
                   </div>
                 </div>
@@ -199,8 +209,8 @@ export default function VoiceInput() {
                 {transcript && (
                   <div className={styles.transcriptCard}>
                     <div className={styles.transcriptHeader}>
-                      <span>YOU SAID:</span>
-                      {isListening && <span className={styles.liveIndicator}>LISTENING</span>}
+                      <span>{t('voice.youSaid')}</span>
+                      {isListening && <span className={styles.liveIndicator}>{t('voice.listening')}</span>}
                     </div>
                     <p className={styles.transcriptContent}>"{transcript}"</p>
                   </div>
@@ -220,9 +230,9 @@ export default function VoiceInput() {
                 >
                   <div className={styles.textAltToggleLeft}>
                     <Edit3 size={18} />
-                    <span>Prefer to write? <strong>Type your details instead</strong></span>
+                    <span>{t('voice.preferToWrite')} <strong>{t('voice.typeDetails')}</strong></span>
                   </div>
-                  <span className={styles.toggleCaret}>{showTextInput ? '▲ Collapse' : '▼ Expand'}</span>
+                  <span className={styles.toggleCaret}>{showTextInput ? t('voice.collapse') : t('voice.expand')}</span>
                 </button>
 
                 {showTextInput && (
@@ -231,7 +241,7 @@ export default function VoiceInput() {
                       ref={textareaRef}
                       className={styles.textAreaInput}
                       rows={3}
-                      placeholder="Example: I am a 22-year-old student from Uttar Pradesh looking for college scholarships..."
+                      placeholder={t('voice.textPlaceholder')}
                       value={manualText}
                       onChange={(e) => setManualText(e.target.value)}
                       onKeyDown={(e) => {
@@ -250,7 +260,7 @@ export default function VoiceInput() {
                         disabled={!manualText.trim()}
                         id="manual-submit-btn"
                       >
-                        <ChevronRight size={18} /> Extract My Profile
+                        <ChevronRight size={18} /> {t('voice.extractProfile')}
                       </button>
                       {manualText && (
                         <button
@@ -258,7 +268,7 @@ export default function VoiceInput() {
                           className="btn btn-ghost btn-sm"
                           onClick={() => setManualText('')}
                         >
-                          Clear
+                          {t('common.clear')}
                         </button>
                       )}
                     </div>
@@ -270,7 +280,7 @@ export default function VoiceInput() {
               <div className={styles.trustBanner}>
                 <Shield size={20} className={styles.trustIcon} />
                 <p className={styles.trustText}>
-                  Your information helps us understand your circumstances and identify relevant schemes. Always review eligibility and confirm current requirements through official government sources.
+                  {t('voice.trustText')}
                 </p>
               </div>
             </div>
@@ -282,35 +292,35 @@ export default function VoiceInput() {
               
               {/* Panel 1: Help us understand your needs */}
               <section className={styles.guideCard}>
-                <h3 className={styles.panelTitle}>HELP US UNDERSTAND YOUR NEEDS</h3>
+                <h3 className={styles.panelTitle}>{t('voice.helpTitle')}</h3>
                 <p className={styles.panelSubtitle}>
-                  Share what you're comfortable sharing. Include relevant details to help us identify potentially suitable schemes:
+                  {t('voice.helpSubtitle')}
                 </p>
                 <div className={styles.detailsList}>
                   <div className={styles.detailRow}>
                     <span className={styles.detailBadge}>01</span>
-                    <span className={styles.detailLabel}>Age</span>
-                    <span className={styles.detailDesc}>Matches youth, student, or senior citizen benefits</span>
+                    <span className={styles.detailLabel}>{t('voice.detailAge')}</span>
+                    <span className={styles.detailDesc}>{t('voice.detailAgeDesc')}</span>
                   </div>
                   <div className={styles.detailRow}>
                     <span className={styles.detailBadge}>02</span>
-                    <span className={styles.detailLabel}>State</span>
-                    <span className={styles.detailDesc}>Unlocks state-specific grants & welfare schemes</span>
+                    <span className={styles.detailLabel}>{t('voice.detailState')}</span>
+                    <span className={styles.detailDesc}>{t('voice.detailStateDesc')}</span>
                   </div>
                   <div className={styles.detailRow}>
                     <span className={styles.detailBadge}>03</span>
-                    <span className={styles.detailLabel}>Occupation</span>
-                    <span className={styles.detailDesc}>Farmer, student, artisan, worker, entrepreneur</span>
+                    <span className={styles.detailLabel}>{t('voice.detailOccupation')}</span>
+                    <span className={styles.detailDesc}>{t('voice.detailOccupationDesc')}</span>
                   </div>
                   <div className={styles.detailRow}>
                     <span className={styles.detailBadge}>04</span>
-                    <span className={styles.detailLabel}>Income</span>
-                    <span className={styles.detailDesc}>Determines income-based subsidy eligibility</span>
+                    <span className={styles.detailLabel}>{t('voice.detailIncome')}</span>
+                    <span className={styles.detailDesc}>{t('voice.detailIncomeDesc')}</span>
                   </div>
                   <div className={styles.detailRow}>
                     <span className={styles.detailBadge}>05</span>
-                    <span className={styles.detailLabel}>Category</span>
-                    <span className={styles.detailDesc}>General, OBC, SC, ST, or EWS provisions</span>
+                    <span className={styles.detailLabel}>{t('voice.detailCategory')}</span>
+                    <span className={styles.detailDesc}>{t('voice.detailCategoryDesc')}</span>
                   </div>
                 </div>
               </section>
@@ -319,13 +329,13 @@ export default function VoiceInput() {
               <section className={styles.examplesCard}>
                 <div className={styles.examplesHeader}>
                   <Sparkles size={18} />
-                  <h3 className={styles.panelTitle}>TRY SAYING SOMETHING LIKE THIS</h3>
+                  <h3 className={styles.panelTitle}>{t('voice.trySaying')}</h3>
                 </div>
                 <p className={styles.panelSubtitle}>
-                  Click any example to paste it into the text box:
+                  {t('voice.clickExample')}
                 </p>
                 <div className={styles.exampleChips}>
-                  {EXAMPLE_PROMPTS.map((promptText, idx) => (
+                  {examplePrompts.map((promptText, idx) => (
                     <button
                       key={idx}
                       type="button"
@@ -339,34 +349,34 @@ export default function VoiceInput() {
                   ))}
                 </div>
                 <p className={styles.exampleDisclaimer}>
-                  *Illustrative examples to help guide your input.
+                  {t('voice.exampleDisclaimer')}
                 </p>
               </section>
 
               {/* Panel 3: How it works */}
               <section className={styles.howItWorksCard}>
-                <h3 className={styles.panelTitle}>HOW IT WORKS</h3>
+                <h3 className={styles.panelTitle}>{t('voice.howItWorks')}</h3>
                 <div className={styles.timelineContainer}>
                   <div className={styles.timelineLine} aria-hidden="true" />
                   <div className={styles.timelineStep}>
                     <div className={styles.stepCircle}>1</div>
                     <div className={styles.stepContent}>
-                      <strong className={styles.stepTitle}>Tell us about yourself</strong>
-                      <p className={styles.stepDesc}>Speak in your natural language or type a short description.</p>
+                      <strong className={styles.stepTitle}>{t('voice.step1Title')}</strong>
+                      <p className={styles.stepDesc}>{t('voice.step1Desc')}</p>
                     </div>
                   </div>
                   <div className={styles.timelineStep}>
                     <div className={styles.stepCircle}>2</div>
                     <div className={styles.stepContent}>
-                      <strong className={styles.stepTitle}>Review extracted profile</strong>
-                      <p className={styles.stepDesc}>Our AI reads your parameters. Confirm or edit any detail.</p>
+                      <strong className={styles.stepTitle}>{t('voice.step2Title')}</strong>
+                      <p className={styles.stepDesc}>{t('voice.step2Desc')}</p>
                     </div>
                   </div>
                   <div className={styles.timelineStep}>
                     <div className={styles.stepCircle}>3</div>
                     <div className={styles.stepContent}>
-                      <strong className={styles.stepTitle}>Explore matching schemes</strong>
-                      <p className={styles.stepDesc}>Get a curated list of government schemes you qualify for.</p>
+                      <strong className={styles.stepTitle}>{t('voice.step3Title')}</strong>
+                      <p className={styles.stepDesc}>{t('voice.step3Desc')}</p>
                     </div>
                   </div>
                 </div>
@@ -380,9 +390,9 @@ export default function VoiceInput() {
         {stage === STAGE.PROCESSING && (
           <div className={styles.processingCard}>
             <div className={styles.processingSpinner} />
-            <h2 className={styles.processingTitle}>Understanding your profile…</h2>
+            <h2 className={styles.processingTitle}>{t('voice.processingTitle')}</h2>
             <p className={styles.processingSub}>
-              Our AI is extracting your age, occupation, state, and circumstances to find matching government schemes. This takes just a moment.
+              {t('voice.processingSub')}
             </p>
           </div>
         )}
@@ -396,21 +406,21 @@ export default function VoiceInput() {
                   <CheckCircle size={24} />
                 </div>
                 <div className={styles.confirmHeaderText}>
-                  <h1 className={styles.confirmTitle}>REVIEW YOUR PROFILE</h1>
+                  <h1 className={styles.confirmTitle}>{t('voice.reviewProfile')}</h1>
                   <p className={styles.confirmSub}>
-                    Verify the information extracted by AI. Make corrections if needed before discovering schemes.
+                    {t('voice.reviewSub')}
                   </p>
                 </div>
               </div>
 
               <div className={styles.confirmBody}>
                 <div className={styles.profileGrid}>
-                  <ProfileField label="Age"           field="age"           value={profile.age}            type="number"  onChange={handleProfileChange} editMode={editMode} />
-                  <ProfileField label="State"          field="state"         value={profile.state}           type="select"  options={STATES}     onChange={handleProfileChange} editMode={editMode} />
-                  <ProfileField label="Occupation"     field="occupation"    value={profile.occupation}      type="select"  options={OCCUPATIONS} onChange={handleProfileChange} editMode={editMode} />
-                  <ProfileField label="Annual Income"  field="annualIncome"  value={profile.annualIncome}    type="number"  prefix="₹" onChange={handleProfileChange} editMode={editMode} />
-                  <ProfileField label="Gender"         field="gender"        value={profile.gender}          type="text"    onChange={handleProfileChange} editMode={editMode} />
-                  <ProfileField label="Category"       field="category"      value={profile.category}        type="select"  options={CATEGORIES} onChange={handleProfileChange} editMode={editMode} />
+                  <ProfileField label={t('voice.labelAge')}           field="age"           value={profile.age}            type="number"  onChange={handleProfileChange} editMode={editMode} t={t} />
+                  <ProfileField label={t('voice.labelState')}         field="state"         value={profile.state}           type="select"  options={STATES}     onChange={handleProfileChange} editMode={editMode} t={t} />
+                  <ProfileField label={t('voice.labelOccupation')}    field="occupation"    value={profile.occupation}      type="select"  options={OCCUPATIONS} onChange={handleProfileChange} editMode={editMode} t={t} />
+                  <ProfileField label={t('voice.labelAnnualIncome')} field="annualIncome"  value={profile.annualIncome}    type="number"  prefix="₹" onChange={handleProfileChange} editMode={editMode} t={t} />
+                  <ProfileField label={t('voice.labelGender')}        field="gender"        value={profile.gender}          type="text"    onChange={handleProfileChange} editMode={editMode} t={t} />
+                  <ProfileField label={t('voice.labelCategory')}      field="category"      value={profile.category}        type="select"  options={CATEGORIES} onChange={handleProfileChange} editMode={editMode} t={t} />
                 </div>
 
                 {extractError && <div className="alert alert-error">{extractError}</div>}
@@ -422,13 +432,13 @@ export default function VoiceInput() {
                       onClick={() => setEditMode(!editMode)}
                       id="edit-profile-btn"
                     >
-                      <Edit3 size={17} /> {editMode ? 'Done Editing' : 'Edit Information'}
+                      <Edit3 size={17} /> {editMode ? t('voice.doneEditing') : t('voice.editInfo')}
                     </button>
                     <button
                       className="btn btn-ghost btn-sm"
                       onClick={() => { setStage(STAGE.IDLE); resetTranscript(); }}
                     >
-                      <ArrowLeft size={16} /> Speak or type again
+                      <ArrowLeft size={16} /> {t('voice.speakAgain')}
                     </button>
                   </div>
 
@@ -439,9 +449,9 @@ export default function VoiceInput() {
                     id="find-schemes-btn"
                   >
                     {stage === STAGE.SUBMITTING ? (
-                      <><span className="spinner" style={{ width: 18, height: 18 }} /> Finding schemes…</>
+                      <><span className="spinner" style={{ width: 18, height: 18 }} /> {t('voice.findingSchemes')}</>
                     ) : (
-                      <><ChevronRight size={20} /> FIND MY SCHEMES</>
+                      <><ChevronRight size={20} /> {t('voice.findMySchemes')}</>
                     )}
                   </button>
                 </div>
@@ -454,9 +464,9 @@ export default function VoiceInput() {
         {stage === STAGE.SUBMITTING && (
           <div className={styles.processingCard}>
             <div className={styles.processingSpinner} />
-            <h2 className={styles.processingTitle}>Finding your eligible schemes…</h2>
+            <h2 className={styles.processingTitle}>{t('voice.findingSchemesTitle')}</h2>
             <p className={styles.processingSub}>
-              Checking criteria across central and state welfare programs to find the best matches for your profile.
+              {t('voice.findingSchemesSub')}
             </p>
           </div>
         )}
@@ -467,7 +477,7 @@ export default function VoiceInput() {
 }
 
 /** Profile field — editable or read-only */
-function ProfileField({ label, field, value, type, options, prefix, onChange, editMode }) {
+function ProfileField({ label, field, value, type, options, prefix, onChange, editMode, t }) {
   return (
     <div className={styles.profileField}>
       <span className={styles.profileLabel}>{label}</span>
@@ -479,7 +489,7 @@ function ProfileField({ label, field, value, type, options, prefix, onChange, ed
             onChange={(e) => onChange(field, e.target.value)} 
             aria-label={label}
           >
-            <option value="">— Not specified —</option>
+            <option value="">— {t ? t('common.notSpecified') : 'Not specified'} —</option>
             {options?.map((o) => <option key={o} value={o}>{o}</option>)}
           </select>
         ) : (
@@ -494,7 +504,7 @@ function ProfileField({ label, field, value, type, options, prefix, onChange, ed
       ) : (
         <span className={styles.profileValue}>
           {value == null || value === '' ? (
-            <span className={styles.notSpecified}>Not specified</span>
+            <span className={styles.notSpecified}>{t ? t('common.notSpecified') : 'Not specified'}</span>
           ) : prefix ? (
             `${prefix}${Number(value).toLocaleString('en-IN')}`
           ) : (
