@@ -11,7 +11,7 @@ const prisma = globalForPrisma.prisma ?? new PrismaClient({
 });
 
 export async function withConnectionRetry(operation) {
-  const retryDelays = [2000, 4000, 8000];
+  const retryDelays = [2000, 4000, 8000, 12000];
 
   for (let attempt = 0; ; attempt += 1) {
     try {
