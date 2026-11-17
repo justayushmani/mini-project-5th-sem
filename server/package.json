@@ -5,8 +5,8 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
-    "dev": "node --watch src/server.js",
-    "start": "node src/server.js",
+    "dev": "node --no-deprecation --watch src/server.js",
+    "start": "node --no-deprecation src/server.js",
     "test": "node --test tests/rules.test.js tests/docSimplifier.test.js tests/multilingual.test.js",
     "test:retrieval": "node --test tests/retrieval.test.js",
     "prefetch-model": "node scripts/prefetchModel.js",

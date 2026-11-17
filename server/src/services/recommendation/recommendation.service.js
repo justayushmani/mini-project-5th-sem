@@ -64,40 +64,55 @@ export async function generateRecommendations(userId, profileSnapshot) {
     return b.relevanceScore - a.relevanceScore; // Higher score first within same status
   });
 
-  // 4. Persist recommendation + recommendation_schemes
+  // 4. Select most relevant schemes to store (all eligible, top possibly eligible, and top not eligible for review)
+  const eligible = evaluatedSchemes.filter((s) => s.status === 'ELIGIBLE');
+  const possibly = evaluatedSchemes
+    .filter((s) => s.status === 'POSSIBLY_ELIGIBLE')
+    .slice(0, 40);
+  const notEligible = evaluatedSchemes
+    .filter((s) => s.status === 'NOT_ELIGIBLE')
+    .slice(0, 15);
+  const relevantSchemes = [...eligible, ...possibly, ...notEligible];
+
+  // 5. Persist recommendation
   const recommendation = await prisma.recommendation.create({
     data: {
       userId,
       profileSnapshot, // Store original snapshot, not normalized
-      schemes: {
-        create: evaluatedSchemes.map((ev) => ({
-          schemeId: ev.schemeId,
-          status: ev.status,
-          relevanceScore: ev.relevanceScore,
-          matchedCriteria: ev.matchedCriteria,
-          missingCriteria: ev.missingCriteria,
-          explanation: ev.explanation,
-        })),
-      },
-    },
-    include: {
-      schemes: {
-        include: {
-          scheme: {
-            include: {
-              benefits: { take: 2 },
-              source: { select: { sourceName: true, sourceUrl: true } },
-            },
-          },
-        },
-        orderBy: { relevanceScore: 'desc' },
-      },
     },
   });
 
-  logger.info(`Generated recommendation ${recommendation.id} for user ${userId}: ${evaluatedSchemes.length} schemes evaluated`);
+  // Bulk insert all relevant evaluated schemes in a single multi-row SQL query
+  await prisma.recommendationScheme.createMany({
+    data: relevantSchemes.map((ev) => ({
+      recommendationId: recommendation.id,
+      schemeId: ev.schemeId,
+      status: ev.status,
+      relevanceScore: ev.relevanceScore,
+      matchedCriteria: ev.matchedCriteria,
+      missingCriteria: ev.missingCriteria,
+      explanation: ev.explanation,
+    })),
+  });
 
-  return recommendation;
+  const schemeMap = new Map(schemes.map((s) => [s.id, s]));
+
+  logger.info(`Generated recommendation ${recommendation.id} for user ${userId}: ${evaluatedSchemes.length} schemes evaluated, ${relevantSchemes.length} saved`);
+
+  return {
+    ...recommendation,
+    schemes: relevantSchemes.map((ev) => ({
+      id: `${recommendation.id}_${ev.schemeId}`,
+      recommendationId: recommendation.id,
+      schemeId: ev.schemeId,
+      status: ev.status,
+      relevanceScore: ev.relevanceScore,
+      matchedCriteria: ev.matchedCriteria,
+      missingCriteria: ev.missingCriteria,
+      explanation: ev.explanation,
+      scheme: schemeMap.get(ev.schemeId),
+    })),
+  };
 }
 
 /**

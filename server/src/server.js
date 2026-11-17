@@ -13,7 +13,7 @@ async function startServer() {
     await withConnectionRetry(() => prisma.$connect());
     logger.info('✅ Database connected');
 
-    app.listen(PORT, () => {
+    const server = app.listen(PORT, () => {
       logger.info(`🚀 Yojana Saathi server running on port ${PORT}`);
       logger.info(`📍 Environment: ${env.nodeEnv}`);
       logger.info(`🔗 Health check: http://localhost:${PORT}/api/health`);
@@ -22,6 +22,15 @@ async function startServer() {
       warmUpEmbeddings().catch((err) => {
         logger.error(`❌ Embedding warmup failed: ${err.message}`);
       });
+    });
+
+    server.on('error', (err) => {
+      if (err.code === 'EADDRINUSE') {
+        logger.error(`❌ Port ${PORT} is already in use. Kill it with: npx kill-port ${PORT}`);
+      } else {
+        logger.error('❌ Server error:', err);
+      }
+      process.exit(1);
     });
   } catch (error) {
     logger.error('❌ Failed to start server:', error);

@@ -11,14 +11,20 @@ const prisma = globalForPrisma.prisma ?? new PrismaClient({
 });
 
 export async function withConnectionRetry(operation) {
-  const retryDelays = [1000, 3000];
+  const retryDelays = [2000, 4000, 8000];
 
   for (let attempt = 0; ; attempt += 1) {
     try {
       return await operation();
     } catch (error) {
-      if (error?.code !== 'P1001' || attempt >= retryDelays.length) throw error;
+      const isConnectionError =
+        error?.code === 'P1001' ||
+        error?.errorCode === 'P1001' ||
+        error?.name === 'PrismaClientInitializationError';
 
+      if (!isConnectionError || attempt >= retryDelays.length) throw error;
+
+      console.warn(`[Prisma] Database connection attempt ${attempt + 1} failed (${error?.errorCode || error?.code || error?.message}). Retrying in ${retryDelays[attempt]}ms (Neon DB may be waking up)...`);
       await new Promise((resolve) => setTimeout(resolve, retryDelays[attempt]));
     }
   }
