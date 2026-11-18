@@ -42,6 +42,7 @@ export async function getCollectionInfo(collectionName = COLLECTION_NAME) {
   const response = await fetch(`${QDRANT_URL}/collections/${name}`, {
     method: 'GET',
     headers: buildHeaders(),
+    signal: AbortSignal.timeout(1500),
   });
 
   if (response.status === 404) {
@@ -65,6 +66,7 @@ export async function ensureCollection(collectionName = COLLECTION_NAME) {
   const response = await fetch(`${QDRANT_URL}/collections/${name}`, {
     method: 'GET',
     headers: buildHeaders(),
+    signal: AbortSignal.timeout(1500),
   });
 
   let created = false;
@@ -195,6 +197,7 @@ export async function searchPoints(queryVector, options = {}, collectionName = C
     method: 'POST',
     headers: buildHeaders(),
     body: JSON.stringify(payload),
+    signal: AbortSignal.timeout(1500),
   });
 
   if (!response.ok) {

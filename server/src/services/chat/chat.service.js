@@ -86,13 +86,34 @@ function countMatchedWords(scheme, words) {
 const STOPWORDS = new Set([
   'the', 'and', 'for', 'with', 'any', 'can', 'you', 'are',
   'how', 'what', 'which', 'does', 'have', 'has', 'from',
-  'that', 'this', 'need', 'get',
+  'that', 'this', 'need', 'get', 'about', 'tell', 'please',
+  'there', 'some', 'give', 'help',
 ]);
 
+const INTENT_CATEGORY_MAP = [
+  [['farmer', 'kisan', 'agriculture', 'crop', 'soil', 'irrigation', 'krishi', 'dairy', 'fishery', 'tractor'], 'Agriculture'],
+  [['student', 'scholarship', 'school', 'college', 'university', 'study', 'education', 'shiksha', 'vidya', 'tuition', 'degree'], 'Education'],
+  [['health', 'hospital', 'medical', 'medicine', 'treatment', 'doctor', 'swasthya', 'ayushman', 'disease'], 'Health'],
+  [['house', 'housing', 'home', 'awas', 'shelter', 'makan', 'ghara'], 'Housing'],
+  [['business', 'loan', 'credit', 'shop', 'dukan', 'startup', 'msme', 'self-employed', 'entrepreneur', 'artisan', 'weaver', 'craft'], 'Business & Self-employed'],
+  [['skill', 'training', 'job', 'employment', 'rozgar', 'kaushal', 'apprentice'], 'Skill Development'],
+  [['women', 'woman', 'girl', 'female', 'mahila', 'stree', 'beti', 'mother', 'maternity', 'pregnant', 'widow', 'sukanya', 'ladli'], 'Women and Child Development'],
+  [['pension', 'old age', 'elderly', 'vridha', 'disability', 'disabled', 'divyang', 'bpl', 'poor', 'garib', 'welfare'], 'Social Welfare'],
+];
+
 async function fallbackKeywordSearch(query) {
-  const rawWords = String(query || '').toLowerCase().match(/[a-z]{3,}|[\p{Script=Devanagari}\p{Script=Bengali}\p{M}]{2,}/gu) || [];
+  const queryLower = String(query || '').toLowerCase();
+  const rawWords = queryLower.match(/[a-z]{3,}|[\p{Script=Devanagari}\p{Script=Bengali}\p{M}]{2,}/gu) || [];
   const words = [...new Set(rawWords.filter((w) => !STOPWORDS.has(w)))].slice(0, 8);
-  if (!words.length) {
+
+  const matchedCategories = [];
+  for (const [kws, cat] of INTENT_CATEGORY_MAP) {
+    if (kws.some((kw) => queryLower.includes(kw))) {
+      matchedCategories.push(cat);
+    }
+  }
+
+  if (!words.length && !matchedCategories.length) {
     return [];
   }
 
@@ -102,6 +123,10 @@ async function fallbackKeywordSearch(query) {
     { category: { contains: word, mode: 'insensitive' } },
     { ministry: { contains: word, mode: 'insensitive' } },
   ]);
+
+  if (matchedCategories.length > 0) {
+    orConditions.push({ category: { in: matchedCategories } });
+  }
 
   const schemes = await prisma.scheme.findMany({
     where: {
@@ -113,7 +138,11 @@ async function fallbackKeywordSearch(query) {
   });
 
   schemes.sort((a, b) => {
-    const diff = countMatchedWords(b, words) - countMatchedWords(a, words);
+    let scoreA = countMatchedWords(a, words);
+    let scoreB = countMatchedWords(b, words);
+    if (matchedCategories.includes(a.category)) scoreA += 3;
+    if (matchedCategories.includes(b.category)) scoreB += 3;
+    const diff = scoreB - scoreA;
     if (diff !== 0) return diff;
     return a.name.localeCompare(b.name);
   });
@@ -178,14 +207,21 @@ export function buildPrompt({ userMessage, history = [], relevantSchemes = [] })
         .join('\n')
     : 'No previous chat yet.';
 
-  return `You are Yojana Saathi, a helpful government-scheme assistant for India.
-Follow these strict grounding rules:
-1. Use ONLY facts written in the scheme information in the context below. Do not add outside knowledge, unwritten steps, website features, form fields, OTP or verification steps, helpline or help-desk details, deadlines, or amounts that are not written there.
-2. When asked how to apply, restate ONLY the Application Process text from the context and give the official website, without elaborating or adding procedural steps beyond it.
-3. Only mention or recommend schemes that appear in the scheme information below. If none fits, or if asked about a scheme/category not present in the context, say that you do not have a matching scheme in your database. Do NOT name or recommend any schemes outside the provided context.
-4. If the context has no detail relevant to the question (such as an unstated income limit, rule, or requirement), say plainly in the user's language that you don't have that detail and suggest checking the official portal.
-5. Always mention the relevant scheme name when discussing a scheme.
-6. Reply in the same language as the user's message (English, Hindi, or Bengali). If the user writes in Bengali, reply in Bengali. If in Hindi, reply in Hindi. If in English, reply in English.
+  return `You are Yojana Saathi, a helpful, polite, and grounded AI assistant for Indian government schemes.
+
+Guidelines:
+1. For greetings ("Hi", "Hello", "Namaste") or general inquiries about who you are or what you can do:
+   - Greet the user warmly and introduce yourself as Yojana Saathi, dedicated to helping Indian citizens discover and understand government schemes.
+   - Mention the key sectors you cover (Agriculture & Farmers, Education & Scholarships, Healthcare, Housing, Business & MSME Loans, Women & Child Welfare, Pensions, Skill Training).
+   - Invite the user to share their state, occupation, or what kind of assistance they are seeking.
+2. For questions about government schemes:
+   - Use ONLY facts supported by the scheme context provided below.
+   - Do NOT invent eligibility rules, unwritten amounts, dates, or application steps.
+   - Always mention the official scheme name.
+   - When asked how to apply, cite the Application Process from the context and share the official website link.
+3. If the user asks about a specific scheme or topic not found in the context:
+   - State politely that you do not have that specific scheme in the current database, and advise them to verify on the official government portal (e.g. myscheme.gov.in or the relevant ministry website). Never state that the database has no schemes.
+4. Reply in the user's language (English, Hindi, or Bengali). If the user writes in Hindi, reply in Hindi. If in Bengali, reply in Bengali. If in English, reply in English.
 
 Recent chat history:
 ${recentHistory}
@@ -195,7 +231,7 @@ ${schemeContext}
 
 User question: ${userMessage}
 
-Answer concisely, strictly following the rules above. State only what is directly supported by the scheme context.`;
+Answer concisely, helpfully, and strictly following the guidelines above.`;
 }
 
 export async function generateAssistantReply({ userMessage, history, relevantSchemes }) {
