@@ -60,8 +60,12 @@ async function main() {
     }
 
     try {
+      // Override NeedsVerification → Active so imported schemes are immediately usable
       await prisma.scheme.create({
-        data: schemeData,
+        data: {
+          ...schemeData,
+          status: 'Active',
+        },
       });
       inserted++;
       if (inserted % 50 === 0 || i === schemes.length - 1) {

@@ -13,10 +13,12 @@
     "db:migrate": "npx prisma migrate dev",
     "db:generate": "npx prisma generate",
     "db:studio": "npx prisma studio",
-    "db:seed": "node prisma/seed.js",
+    "db:seed": "node prisma/seed.js && node prisma/seedTranslations.js",
     "db:reset": "npx prisma migrate reset",
     "ingest": "node scripts/ingestSchemes.js",
-    "db:import": "node scripts/importSchemes.js"
+    "db:import": "node scripts/importSchemes.js",
+    "db:activate": "node scripts/activateSchemes.js",
+    "db:translate": "node scripts/generateTranslations.js"
   },
   "keywords": [
     "yojana",
