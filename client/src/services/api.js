@@ -10,7 +10,7 @@ const defaultApiUrl = `http://${apiHost}:5000/api`;
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL || defaultApiUrl,
   withCredentials: true, // Send cookies (HTTP-only JWT)
-  timeout: 30000,        // 30s — AI calls can be slow
+  timeout: 60000,        // 60s — AI calls and remote DB cold-starts
   headers: {
     'Content-Type': 'application/json',
   },

@@ -97,3 +97,19 @@ export async function getMe(req, res) {
   // req.user is attached by authenticate middleware
   return successResponse(res, { user: req.user });
 }
+
+// PATCH /api/auth/language
+export async function updateLanguage(req, res, next) {
+  try {
+    const { language } = req.body;
+    const user = await withConnectionRetry(() =>
+      prisma.user.update({
+        where: { id: req.user.id },
+        data: { preferredLanguage: language },
+      })
+    );
+    return successResponse(res, { user: safeUser(user) });
+  } catch (error) {
+    next(error);
+  }
+}

@@ -11,13 +11,13 @@ export function validateDocSimplifierBody(req, res, next) {
     return next(error);
   }
 
-  if (language && !['en', 'hi'].includes(language)) {
-    const error = new Error('Invalid language. Supported values are "en" and "hi".');
+  if (language && !['en', 'hi', 'bn'].includes(language)) {
+    const error = new Error('Invalid language. Supported values are "en", "hi", and "bn".');
     error.statusCode = 400;
     return next(error);
   }
 
-  req.body.language = language === 'hi' ? 'hi' : 'en';
+  req.body.language = (language === 'hi' || language === 'bn') ? language : 'en';
   next();
 }
 

@@ -6,8 +6,10 @@ const schemeService = {
     return res.data;
   },
 
-  getScheme: async (id) => {
-    const res = await api.get(`/schemes/${id}`);
+  getScheme: async (id, language) => {
+    const res = await api.get(`/schemes/${id}`, {
+      params: language ? { language } : {},
+    });
     return res.data.data;
   },
 };

@@ -64,40 +64,55 @@ export async function generateRecommendations(userId, profileSnapshot) {
     return b.relevanceScore - a.relevanceScore; // Higher score first within same status
   });
 
-  // 4. Persist recommendation + recommendation_schemes
+  // 4. Select most relevant schemes to store (all eligible, top possibly eligible, and top not eligible for review)
+  const eligible = evaluatedSchemes.filter((s) => s.status === 'ELIGIBLE');
+  const possibly = evaluatedSchemes
+    .filter((s) => s.status === 'POSSIBLY_ELIGIBLE')
+    .slice(0, 40);
+  const notEligible = evaluatedSchemes
+    .filter((s) => s.status === 'NOT_ELIGIBLE')
+    .slice(0, 15);
+  const relevantSchemes = [...eligible, ...possibly, ...notEligible];
+
+  // 5. Persist recommendation
   const recommendation = await prisma.recommendation.create({
     data: {
       userId,
       profileSnapshot, // Store original snapshot, not normalized
-      schemes: {
-        create: evaluatedSchemes.map((ev) => ({
-          schemeId: ev.schemeId,
-          status: ev.status,
-          relevanceScore: ev.relevanceScore,
-          matchedCriteria: ev.matchedCriteria,
-          missingCriteria: ev.missingCriteria,
-          explanation: ev.explanation,
-        })),
-      },
-    },
-    include: {
-      schemes: {
-        include: {
-          scheme: {
-            include: {
-              benefits: { take: 2 },
-              source: { select: { sourceName: true, sourceUrl: true } },
-            },
-          },
-        },
-        orderBy: { relevanceScore: 'desc' },
-      },
     },
   });
 
-  logger.info(`Generated recommendation ${recommendation.id} for user ${userId}: ${evaluatedSchemes.length} schemes evaluated`);
+  // Bulk insert all relevant evaluated schemes in a single multi-row SQL query
+  await prisma.recommendationScheme.createMany({
+    data: relevantSchemes.map((ev) => ({
+      recommendationId: recommendation.id,
+      schemeId: ev.schemeId,
+      status: ev.status,
+      relevanceScore: ev.relevanceScore,
+      matchedCriteria: ev.matchedCriteria,
+      missingCriteria: ev.missingCriteria,
+      explanation: ev.explanation,
+    })),
+  });
 
-  return recommendation;
+  const schemeMap = new Map(schemes.map((s) => [s.id, s]));
+
+  logger.info(`Generated recommendation ${recommendation.id} for user ${userId}: ${evaluatedSchemes.length} schemes evaluated, ${relevantSchemes.length} saved`);
+
+  return {
+    ...recommendation,
+    schemes: relevantSchemes.map((ev) => ({
+      id: `${recommendation.id}_${ev.schemeId}`,
+      recommendationId: recommendation.id,
+      schemeId: ev.schemeId,
+      status: ev.status,
+      relevanceScore: ev.relevanceScore,
+      matchedCriteria: ev.matchedCriteria,
+      missingCriteria: ev.missingCriteria,
+      explanation: ev.explanation,
+      scheme: schemeMap.get(ev.schemeId),
+    })),
+  };
 }
 
 /**
@@ -139,10 +154,10 @@ export function evaluateScheme(scheme, profile) { // exported for testing
     if (profile.state) {
       if (profile.state.toLowerCase() === scheme.state.toLowerCase()) {
         matched.push(`Your state (${profile.state}) matches this scheme`);
-        score += 15;
+        score += 20;
       } else {
         failed.push(`This scheme is for ${scheme.state}, but you are in ${profile.state}`);
-        score -= 30;
+        score -= 50;
       }
     } else {
       missing.push(`State information needed (scheme is for ${scheme.state})`);
@@ -150,7 +165,165 @@ export function evaluateScheme(scheme, profile) { // exported for testing
   } else {
     // Central scheme — available everywhere
     matched.push('Central scheme — available in all states');
-    score += 5;
+    score += 10;
+  }
+
+  // ── Contextual Profile Relevance Matching ──
+  const nameLower = (scheme.name || '').toLowerCase();
+  const descLower = (scheme.description || '').toLowerCase();
+  const text = `${nameLower} ${descLower}`;
+  const category = scheme.category || '';
+
+  // 1. Occupation & Category Affinity
+  if (profile.occupation) {
+    const occ = profile.occupation.toLowerCase();
+    if (occ === 'farmer' || occ === 'agriculture') {
+      if (category === 'Agriculture') {
+        matched.push('Agriculture scheme matching your farmer occupation');
+        score += 35;
+      } else if (/\b(farmer|kisan|crop|cultivat|agriculture|fisher|dairy|soil|seed)\b/.test(text)) {
+        matched.push('Scheme mentions agricultural or farming assistance');
+        score += 20;
+      }
+      if (category === 'Education' && /\b(scholarship|student|tuition|matric)\b/.test(text)) {
+        failed.push('Student scholarship not applicable for farming profile');
+        score -= 35;
+      }
+    } else if (occ === 'student') {
+      if (category === 'Education' || category === 'Skill Development') {
+        matched.push('Education/scholarship scheme aligned with student profile');
+        score += 35;
+      } else if (/\b(student|scholarship|stipend|fellowship|college|school|tuition)\b/.test(text)) {
+        matched.push('Scheme offers student scholarship/educational benefits');
+        score += 25;
+      }
+      if (category === 'Agriculture' || /\b(kisan|farmer|vridha pension|old age pension)\b/.test(text)) {
+        failed.push('Scheme is designed for agricultural workers or retirees');
+        score -= 35;
+      }
+    } else if (occ.includes('artisan') || occ.includes('craft')) {
+      if (category === 'Business & Self-employed' || category === 'Sports and Culture') {
+        matched.push('Matches artisan and traditional craft development');
+        score += 30;
+      }
+      if (/\b(artisan|craft|handloom|weaver|vishwakarma|potter)\b/.test(text)) {
+        matched.push('Specific benefits for artisans and craftspeople');
+        score += 25;
+      }
+    } else if (occ.includes('self-employed') || occ.includes('business')) {
+      if (category === 'Business & Self-employed' || category === 'Financial Services') {
+        matched.push('Enterprise support for self-employed individuals');
+        score += 30;
+      }
+      if (/\b(msme|startup|loan|credit|subsidy|entrepreneur|business)\b/.test(text)) {
+        matched.push('Business credit or enterprise subsidy');
+        score += 20;
+      }
+    } else if (occ === 'unemployed') {
+      if (category === 'Skill Development' || category === 'Social Welfare') {
+        matched.push('Livelihood and skill training for job seekers');
+        score += 25;
+      }
+      if (/\b(unemployed|berojgari|allowance|training|placement)\b/.test(text)) {
+        matched.push('Unemployment support and skill development');
+        score += 25;
+      }
+    }
+  }
+
+  // 2. Gender Affinity & Disqualification
+  if (profile.gender) {
+    const gen = profile.gender.toLowerCase();
+    const isWomenScheme =
+      category === 'Women and Child Development' ||
+      /\b(women only|for women|female only|pregnant|maternity|mahila|widow|bride|sukanya|balika|stree)\b/.test(text);
+
+    if (gen === 'female') {
+      if (isWomenScheme) {
+        matched.push('Targeted benefit for women beneficiaries');
+        score += 30;
+      }
+    } else if (gen === 'male') {
+      if (isWomenScheme && !/\b(child|children|infant|boy|family)\b/.test(nameLower)) {
+        failed.push('Exclusively for women beneficiaries');
+        score -= 45;
+      }
+    }
+  }
+
+  // 3. Age Restrictions & Affinity
+  if (profile.age != null) {
+    const age = Number(profile.age);
+    if (age >= 60) {
+      if (/\b(senior citizen|old age|pension|vridha|elderly|aged)\b/.test(text)) {
+        matched.push('Special assistance for senior citizens (age 60+)');
+        score += 35;
+      }
+      if (/\b(school student|matric|class 10|undergraduate degree course)\b/.test(text)) {
+        failed.push('Age restriction: scheme is for school/degree students');
+        score -= 35;
+      }
+    } else if (age < 18) {
+      if (/\b(child|children|girl child|balika|school student)\b/.test(text)) {
+        matched.push('Applicable for children and minors');
+        score += 25;
+      }
+      if (/\b(pension|senior citizen|minimum age of 18|above 18)\b/.test(text)) {
+        failed.push('Requires adult age (18+)');
+        score -= 40;
+      }
+    } else if (age >= 18 && age < 60) {
+      if (/\b(old age pension|senior citizen|vridha pension)\b/.test(text)) {
+        failed.push('Requires senior citizen age (60+)');
+        score -= 40;
+      }
+    }
+  }
+
+  // 4. Marital Status
+  if (/\b(widow|vidhwa)\b/.test(text) && !/\b(widow and|or widow)\b/.test(text)) {
+    if (profile.maritalStatus === 'Widow') {
+      matched.push('Special provision for widow applicants');
+      score += 30;
+    } else if (profile.maritalStatus && profile.maritalStatus !== 'Widow') {
+      failed.push('Exclusively for widow beneficiaries');
+      score -= 40;
+    }
+  }
+
+  // 5. Social Category (SC/ST/OBC/EWS)
+  if (profile.category) {
+    const cat = profile.category.toLowerCase();
+    if (cat === 'sc' || cat === 'st') {
+      if (/\b(scheduled caste|scheduled tribe|sc\/st|\bsc\b|\bst\b|tribal)\b/.test(text)) {
+        matched.push('Special provision for SC/ST community members');
+        score += 25;
+      }
+    } else if (cat === 'obc') {
+      if (/\b(obc|other backward|backward class)\b/.test(text)) {
+        matched.push('Provision for OBC community members');
+        score += 20;
+      }
+    }
+  }
+
+  // 6. Income
+  if (profile.annualIncome != null) {
+    const income = Number(profile.annualIncome);
+    if (income <= 150000) {
+      if (/\b(bpl|below poverty|low income|economically weaker|garib)\b/.test(text) || category === 'Social Welfare') {
+        matched.push('Low-income / welfare priority matching');
+        score += 20;
+      }
+    }
+  }
+
+  // 7. Disability
+  if (profile.disability === true) {
+    if (/\b(disability|divyang|differently abled|handicap|aids and appliances)\b/.test(text)) {
+      matched.push('Dedicated assistance for persons with disabilities');
+      score += 35;
+    }
   }
 
   // Determine status

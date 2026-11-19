@@ -48,5 +48,5 @@ export const MARITAL_STATUS = ['Single', 'Married', 'Widowed', 'Divorced', 'Sepa
 export const SPEECH_LANG_MAP = {
   en: 'en-IN',
   hi: 'hi-IN',
-  hinglish: 'hi-IN', // Hinglish uses Hindi speech recognition
+  bn: 'bn-IN',
 };

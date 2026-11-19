@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { 
   Bot, 
   Send, 
@@ -17,15 +18,15 @@ import { useChat } from '../../context/ChatContext.jsx';
 import chatService from '../../services/chat.service.js';
 import styles from './FloatingChat.module.css';
 
-const STARTER_QUESTIONS = [
-  '🌾 What agricultural subsidies and schemes can I apply for?',
-  '🎓 How can students get government scholarships and fee waivers?',
-  '🏠 Am I eligible for housing assistance under PMAY?',
-  '🩺 What healthcare schemes cover medical emergencies for families?'
-];
-
 export default function FloatingChat() {
+  const { t } = useTranslation();
   const { user } = useAuth();
+  const starterQuestions = [
+    t('chat.starter1'),
+    t('chat.starter2'),
+    t('chat.starter3'),
+    t('chat.starter4')
+  ];
   const {
     isOpen,
     toggleChat,
@@ -210,7 +211,7 @@ export default function FloatingChat() {
         <aside 
           className={styles.window} 
           role="dialog" 
-          aria-label="Saathi Chat Assistant"
+          aria-label={t('chat.saathi')}
         >
           {/* Header */}
           <header className={styles.header}>
@@ -221,11 +222,11 @@ export default function FloatingChat() {
               </div>
               <div className={styles.headerInfo}>
                 <h2 className={styles.headerTitle}>
-                  Saathi
-                  <span className={styles.headerBadge}>AI</span>
+                  {t('chat.saathi')}
+                  <span className={styles.headerBadge}>{t('chat.aiLabel')}</span>
                 </h2>
                 <p className={styles.headerSubtitle}>
-                  {user ? 'Your Scheme Companion' : 'Online Scheme Guide'}
+                  {user ? t('chat.yourCompanion') : t('chat.onlineGuide')}
                 </p>
               </div>
             </div>
@@ -236,7 +237,7 @@ export default function FloatingChat() {
                   <button
                     className={`${styles.headerBtn} ${showHistory ? styles.headerBtnActive : ''}`}
                     onClick={() => setShowHistory((prev) => !prev)}
-                    title={showHistory ? 'Hide chat history' : 'View past chats'}
+                    title={showHistory ? t('chat.hideHistory') : t('chat.viewHistory')}
                     aria-label="Toggle chat history"
                   >
                     <History size={15} />
@@ -244,8 +245,8 @@ export default function FloatingChat() {
                   <button
                     className={styles.headerBtn}
                     onClick={handleStartNewChat}
-                    title="Start new chat"
-                    aria-label="Start new chat"
+                    title={t('chat.startNewChat')}
+                    aria-label={t('chat.startNewChat')}
                   >
                     <Plus size={16} />
                   </button>
@@ -254,8 +255,8 @@ export default function FloatingChat() {
               <button
                 className={styles.headerBtn}
                 onClick={closeChat}
-                title="Close chat"
-                aria-label="Close chat"
+                title={t('common.close')}
+                aria-label={t('common.close')}
               >
                 <X size={16} />
               </button>
@@ -265,12 +266,12 @@ export default function FloatingChat() {
           {/* Scheme context banner (if asked from SchemeDetails page) */}
           {schemeContext?.title && (
             <div className={styles.contextBanner}>
-              <span>🎯 Scheme: <strong>{schemeContext.title}</strong></span>
+              <span>{t('chat.schemeLabel')} <strong>{schemeContext.title}</strong></span>
               <button 
                 className={styles.contextClearBtn} 
                 onClick={clearSchemeContext}
-                title="Clear scheme focus"
-                aria-label="Clear scheme focus"
+                title={t('chat.clearSchemeFocus')}
+                aria-label={t('chat.clearSchemeFocus')}
               >
                 <X size={14} />
               </button>
@@ -280,9 +281,9 @@ export default function FloatingChat() {
           {/* History drawer (when toggled) */}
           {user && showHistory && (
             <div className={styles.historyPanel}>
-              <div className={styles.historyHeader}>Past Conversations</div>
+              <div className={styles.historyHeader}>{t('chat.pastConversations')}</div>
               {sessions.length === 0 ? (
-                <p style={{ fontSize: 12, color: '#777', margin: 0 }}>No past conversations yet.</p>
+                <p style={{ fontSize: 12, color: '#777', margin: 0 }}>{t('chat.noPastConversations')}</p>
               ) : (
                 sessions.map((s) => (
                   <div
@@ -290,12 +291,12 @@ export default function FloatingChat() {
                     className={`${styles.historyItem} ${s.id === activeSessionId ? styles.historyItemActive : ''}`}
                     onClick={() => handleSelectSession(s.id)}
                   >
-                    <span className={styles.historyTitle}>{s.title || 'Conversation'}</span>
+                    <span className={styles.historyTitle}>{s.title || t('chat.conversation')}</span>
                     <button
                       className={styles.historyDeleteBtn}
                       onClick={(e) => handleDeleteSession(e, s.id)}
-                      title="Delete conversation"
-                      aria-label="Delete conversation"
+                      title={t('chat.deleteConversation')}
+                      aria-label={t('chat.deleteConversation')}
                     >
                       <Trash2 size={13} />
                     </button>
@@ -313,9 +314,9 @@ export default function FloatingChat() {
                 <div className={styles.authIcon}>
                   <Bot size={28} />
                 </div>
-                <h3 className={styles.authTitle}>Ask Saathi Anything</h3>
+                <h3 className={styles.authTitle}>{t('chat.askAnything')}</h3>
                 <p className={styles.authText}>
-                  Sign in to get personalized eligibility checks, find schemes in your language, and save conversations.
+                  {t('chat.signInPrompt')}
                 </p>
                 <div className={styles.authActions}>
                   <Link 
@@ -324,14 +325,14 @@ export default function FloatingChat() {
                     onClick={closeChat}
                   >
                     <LogIn size={14} style={{ display: 'inline', verticalAlign: '-2px', marginRight: 4 }} />
-                    Log In
+                    {t('chat.logIn')}
                   </Link>
                   <Link 
                     to="/register" 
                     className={`${styles.authBtn} ${styles.authBtnSecondary}`}
                     onClick={closeChat}
                   >
-                    Register
+                    {t('common.register')}
                   </Link>
                 </div>
               </div>
@@ -341,13 +342,13 @@ export default function FloatingChat() {
                 <div className={styles.emptyMascot}>
                   <Sparkles size={26} color="var(--black)" />
                 </div>
-                <h3 className={styles.emptyHeading}>Namaste! How can I help?</h3>
+                <h3 className={styles.emptyHeading}>{t('chat.namaste')}</h3>
                 <p className={styles.emptySub}>
-                  Ask any question about welfare schemes, eligibility rules, or where to submit documents.
+                  {t('chat.emptySub')}
                 </p>
 
                 <div className={styles.starterList}>
-                  {STARTER_QUESTIONS.map((q, idx) => (
+                  {starterQuestions.map((q, idx) => (
                     <button
                       key={idx}
                       className={styles.starterChip}
@@ -369,7 +370,7 @@ export default function FloatingChat() {
                       className={`${styles.messageRow} ${isUser ? styles.messageRowUser : styles.messageRowAssistant}`}
                     >
                       {!isUser && (
-                        <div className={styles.avatarMini} title="Saathi">
+                        <div className={styles.avatarMini} title={t('chat.saathi')}>
                           <Bot size={14} />
                         </div>
                       )}
@@ -387,7 +388,7 @@ export default function FloatingChat() {
                       <Bot size={14} />
                     </div>
                     <div className={styles.thinkingBubble}>
-                      <span>Saathi is thinking</span>
+                      <span>{t('chat.saathiThinking')}</span>
                       <div className={styles.dotsWrapper}>
                         <span className={styles.dot} />
                         <span className={styles.dot} />
@@ -422,7 +423,7 @@ export default function FloatingChat() {
                 ref={textareaRef}
                 className={styles.textarea}
                 rows={1}
-                placeholder="Ask Saathi a question... (Enter to send)"
+                placeholder={t('chat.inputPlaceholder')}
                 value={draft}
                 onChange={(e) => setDraft(e.target.value)}
                 onKeyDown={handleKeyDown}
@@ -433,8 +434,8 @@ export default function FloatingChat() {
                 type="submit"
                 className={styles.sendBtn}
                 disabled={sending || !draft.trim()}
-                title="Send message"
-                aria-label="Send message"
+                title={t('chat.sendMessage')}
+                aria-label={t('chat.sendMessage')}
               >
                 <Send size={16} />
               </button>
@@ -447,7 +448,7 @@ export default function FloatingChat() {
       <button
         className={`${styles.triggerBtn} ${isOpen ? styles.triggerBtnActive : ''}`}
         onClick={toggleChat}
-        aria-label={isOpen ? 'Close Saathi Assistant' : 'Open Saathi Assistant'}
+        aria-label={isOpen ? t('chat.closeAssistant') : t('chat.openAssistant')}
         aria-expanded={isOpen}
       >
         <div className={styles.iconWrapper}>
@@ -455,8 +456,8 @@ export default function FloatingChat() {
           {!isOpen && <span className={styles.onlineBadge} />}
         </div>
         <div className={styles.triggerLabel}>
-          <span className={styles.brandName}>Saathi</span>
-          <span className={styles.brandSub}>AI Assistant</span>
+          <span className={styles.brandName}>{t('chat.saathi')}</span>
+          <span className={styles.brandSub}>{t('chat.aiAssistant')}</span>
         </div>
       </button>
     </div>

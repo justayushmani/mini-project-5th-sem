@@ -43,12 +43,8 @@ export const VOCABULARY = {
 export const ALLOWED_OPERATORS = ['eq', 'gte', 'lte', 'between', 'in', 'exclude'];
 
 export const SYNONYM_MAP = {
-  'kisan': 'Farmer',
-  'kheti': 'Farmer',
+  // English / Common
   'farmer': 'Farmer',
-  'karigar': 'Artisan / Craftsperson',
-  'mistri': 'Artisan / Craftsperson',
-  'badhai': 'Artisan / Craftsperson',
   'artisan': 'Artisan / Craftsperson',
   'craftsperson': 'Artisan / Craftsperson',
   'homemaker': 'Homemaker',
@@ -56,17 +52,42 @@ export const SYNONYM_MAP = {
   'student': 'Student',
   'student/pupil': 'Student',
   'unemployed': 'Unemployed',
-  'berozgar': 'Unemployed',
   'rural': 'rural',
-  'gaon': 'rural',
   'village': 'rural',
   'urban': 'urban',
-  'shehar': 'urban',
   'city': 'urban',
   'male': 'Male',
   'female': 'Female',
+
+  // Hindi
+  'kisan': 'Farmer',
+  'kheti': 'Farmer',
+  'karigar': 'Artisan / Craftsperson',
+  'mistri': 'Artisan / Craftsperson',
+  'badhai': 'Artisan / Craftsperson',
+  'berozgar': 'Unemployed',
+  'gaon': 'rural',
+  'shehar': 'urban',
   'admi': 'Male',
-  'aurat': 'Female'
+  'aurat': 'Female',
+  'mahila': 'Female',
+
+  // Bengali
+  'krishok': 'Farmer',
+  'krishi': 'Farmer',
+  'chashi': 'Farmer',
+  'karigor': 'Artisan / Craftsperson',
+  'shilpi': 'Artisan / Craftsperson',
+  'grihini': 'Homemaker',
+  'chhatro': 'Student',
+  'chhatri': 'Student',
+  'poruya': 'Student',
+  'bekar': 'Unemployed',
+  'gram': 'rural',
+  'shohor': 'urban',
+  'purush': 'Male',
+  'mohila': 'Female',
+  'nari': 'Female',
 };
 
 export const STATE_ALIASES = {
@@ -82,7 +103,11 @@ export const STATE_ALIASES = {
   'andaman & nicobar islands': 'Andaman and Nicobar Islands',
   'andaman & nicobar': 'Andaman and Nicobar Islands',
   'dadra & nagar haveli': 'Dadra and Nagar Haveli',
-  'daman & diu': 'Daman and Diu'
+  'daman & diu': 'Daman and Diu',
+  'wb': 'West Bengal',
+  'bengal': 'West Bengal',
+  'paschim banga': 'West Bengal',
+  'paschim bongo': 'West Bengal',
 };
 
 export function normalizeValue(field, value, keepOriginal = false) {

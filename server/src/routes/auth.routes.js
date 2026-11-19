@@ -2,7 +2,7 @@ import { Router } from 'express';
 import * as authController from '../controllers/auth.controller.js';
 import { authenticate } from '../middleware/auth.middleware.js';
 import validate from '../middleware/validate.js';
-import { registerSchema, loginSchema } from '../validators/auth.validator.js';
+import { registerSchema, loginSchema, updateLanguageSchema } from '../validators/auth.validator.js';
 import { authLimiter } from '../config/rateLimiter.js';
 
 const router = Router();
@@ -14,5 +14,6 @@ router.post('/register', validate(registerSchema), authController.register);
 router.post('/login',    validate(loginSchema),    authController.login);
 router.post('/logout',   authController.logout);
 router.get('/me',        authenticate,             authController.getMe);
+router.patch('/language', authenticate, validate(updateLanguageSchema), authController.updateLanguage);
 
 export default router;
