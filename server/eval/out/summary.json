@@ -1,0 +1,1203 @@
+{
+ "envInfo": {
+  "date": "2026-11-19T05:27:19.908Z",
+  "node": "v22.12.0",
+  "os": "win32 10.0.26300",
+  "gitCommit": "4d1cfea",
+  "groqModel": "openai/gpt-oss-120b",
+  "embeddingModel": "Xenova/multilingual-e5-small",
+  "schemesByStatus": {
+   "Active": 505
+  },
+  "translationsByLanguage": {
+   "hi": 20,
+   "bn": 20
+  },
+  "activeSchemesUsed": 505,
+  "activeSchemesWithEligibilityRules": 505,
+  "activeSchemesWithSource": 505
+ },
+ "profilesRun": 60,
+ "extractionFailures": 0,
+ "extraction": {
+  "overall": {
+   "n": 60,
+   "micro": {
+    "precision": 0.987,
+    "recall": 0.944,
+    "f1": 0.965,
+    "tp": 220,
+    "fp": 3,
+    "fn": 13
+   },
+   "spuriousValues": 2,
+   "wrongValues": 1,
+   "exactProfileMatch": 0.8,
+   "perField": {
+    "age": {
+     "tp": 58,
+     "missed": 0,
+     "wrong": 0,
+     "spurious": 0,
+     "tn": 2,
+     "precision": 1,
+     "recall": 1,
+     "f1": 1
+    },
+    "state": {
+     "tp": 60,
+     "missed": 0,
+     "wrong": 0,
+     "spurious": 0,
+     "tn": 0,
+     "precision": 1,
+     "recall": 1,
+     "f1": 1
+    },
+    "occupation": {
+     "tp": 38,
+     "missed": 7,
+     "wrong": 0,
+     "spurious": 0,
+     "tn": 15,
+     "precision": 1,
+     "recall": 0.844,
+     "f1": 0.916
+    },
+    "annualIncome": {
+     "tp": 27,
+     "missed": 0,
+     "wrong": 1,
+     "spurious": 1,
+     "tn": 31,
+     "precision": 0.931,
+     "recall": 0.964,
+     "f1": 0.947
+    },
+    "gender": {
+     "tp": 11,
+     "missed": 0,
+     "wrong": 0,
+     "spurious": 1,
+     "tn": 48,
+     "precision": 0.917,
+     "recall": 1,
+     "f1": 0.957
+    },
+    "category": {
+     "tp": 12,
+     "missed": 1,
+     "wrong": 0,
+     "spurious": 0,
+     "tn": 47,
+     "precision": 1,
+     "recall": 0.923,
+     "f1": 0.96
+    },
+    "disability": {
+     "tp": 2,
+     "missed": 1,
+     "wrong": 0,
+     "spurious": 0,
+     "tn": 57,
+     "precision": 1,
+     "recall": 0.667,
+     "f1": 0.8
+    },
+    "maritalStatus": {
+     "tp": 9,
+     "missed": 0,
+     "wrong": 0,
+     "spurious": 0,
+     "tn": 51,
+     "precision": 1,
+     "recall": 1,
+     "f1": 1
+    },
+    "landOwnership": {
+     "tp": 3,
+     "missed": 3,
+     "wrong": 0,
+     "spurious": 0,
+     "tn": 54,
+     "precision": 1,
+     "recall": 0.5,
+     "f1": 0.667
+    }
+   }
+  },
+  "byLanguage": {
+   "en": {
+    "n": 20,
+    "micro": {
+     "precision": 0.986,
+     "recall": 0.947,
+     "f1": 0.966,
+     "tp": 71,
+     "fp": 1,
+     "fn": 4
+    },
+    "spuriousValues": 1,
+    "wrongValues": 0,
+    "exactProfileMatch": 0.8,
+    "perField": {
+     "age": {
+      "tp": 18,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 2,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 20,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 12,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 7,
+      "precision": 1,
+      "recall": 0.923,
+      "f1": 0.96
+     },
+     "annualIncome": {
+      "tp": 8,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 1,
+      "tn": 11,
+      "precision": 0.889,
+      "recall": 1,
+      "f1": 0.941
+     },
+     "gender": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 15,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "category": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 15,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "disability": {
+      "tp": 0,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 19,
+      "precision": null,
+      "recall": 0,
+      "f1": null
+     },
+     "maritalStatus": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 17,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 2,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 18,
+      "precision": null,
+      "recall": 0,
+      "f1": null
+     }
+    }
+   },
+   "hi": {
+    "n": 20,
+    "micro": {
+     "precision": 0.987,
+     "recall": 0.962,
+     "f1": 0.974,
+     "tp": 76,
+     "fp": 1,
+     "fn": 3
+    },
+    "spuriousValues": 1,
+    "wrongValues": 0,
+    "exactProfileMatch": 0.85,
+    "perField": {
+     "age": {
+      "tp": 20,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 20,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 14,
+      "missed": 2,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 0.875,
+      "f1": 0.933
+     },
+     "annualIncome": {
+      "tp": 10,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 10,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "gender": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 1,
+      "tn": 16,
+      "precision": 0.75,
+      "recall": 1,
+      "f1": 0.857
+     },
+     "category": {
+      "tp": 4,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 16,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "disability": {
+      "tp": 1,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 19,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "maritalStatus": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 17,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "landOwnership": {
+      "tp": 1,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 18,
+      "precision": 1,
+      "recall": 0.5,
+      "f1": 0.667
+     }
+    }
+   },
+   "bn": {
+    "n": 20,
+    "micro": {
+     "precision": 0.986,
+     "recall": 0.924,
+     "f1": 0.954,
+     "tp": 73,
+     "fp": 1,
+     "fn": 6
+    },
+    "spuriousValues": 0,
+    "wrongValues": 1,
+    "exactProfileMatch": 0.75,
+    "perField": {
+     "age": {
+      "tp": 20,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 20,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 12,
+      "missed": 4,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.857
+     },
+     "annualIncome": {
+      "tp": 9,
+      "missed": 0,
+      "wrong": 1,
+      "spurious": 0,
+      "tn": 10,
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1": 0.9
+     },
+     "gender": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 17,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "category": {
+      "tp": 3,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 16,
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.857
+     },
+     "disability": {
+      "tp": 1,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 19,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "maritalStatus": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 17,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "landOwnership": {
+      "tp": 2,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 18,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     }
+    }
+   }
+  },
+  "byTag": {
+   "abbrev": {
+    "n": 6,
+    "micro": {
+     "precision": 1,
+     "recall": 1,
+     "f1": 1,
+     "tp": 23,
+     "fp": 0,
+     "fn": 0
+    },
+    "spuriousValues": 0,
+    "wrongValues": 0,
+    "exactProfileMatch": 1,
+    "perField": {
+     "age": {
+      "tp": 6,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 6,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 3,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "annualIncome": {
+      "tp": 2,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "gender": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 6,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "category": {
+      "tp": 6,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "disability": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 6,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "maritalStatus": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 6,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 6,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     }
+    }
+   },
+   "lakh": {
+    "n": 5,
+    "micro": {
+     "precision": 1,
+     "recall": 1,
+     "f1": 1,
+     "tp": 22,
+     "fp": 0,
+     "fn": 0
+    },
+    "spuriousValues": 0,
+    "wrongValues": 0,
+    "exactProfileMatch": 1,
+    "perField": {
+     "age": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 4,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 1,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "annualIncome": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "gender": {
+      "tp": 1,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "category": {
+      "tp": 1,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "disability": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "maritalStatus": {
+      "tp": 1,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     }
+    }
+   },
+   "monthly": {
+    "n": 5,
+    "micro": {
+     "precision": 1,
+     "recall": 0.95,
+     "f1": 0.974,
+     "tp": 19,
+     "fp": 0,
+     "fn": 1
+    },
+    "spuriousValues": 0,
+    "wrongValues": 0,
+    "exactProfileMatch": 0.8,
+    "perField": {
+     "age": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 4,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 0.8,
+      "f1": 0.889
+     },
+     "annualIncome": {
+      "tp": 5,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "gender": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "category": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "disability": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "maritalStatus": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     }
+    }
+   },
+   "partial": {
+    "n": 12,
+    "micro": {
+     "precision": 0.971,
+     "recall": 0.943,
+     "f1": 0.957,
+     "tp": 33,
+     "fp": 1,
+     "fn": 2
+    },
+    "spuriousValues": 1,
+    "wrongValues": 0,
+    "exactProfileMatch": 0.833,
+    "perField": {
+     "age": {
+      "tp": 10,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 2,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 12,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 3,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 8,
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.857
+     },
+     "annualIncome": {
+      "tp": 1,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 1,
+      "tn": 10,
+      "precision": 0.5,
+      "recall": 1,
+      "f1": 0.667
+     },
+     "gender": {
+      "tp": 1,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 11,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "category": {
+      "tp": 4,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 8,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "disability": {
+      "tp": 2,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 10,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "maritalStatus": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 12,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 11,
+      "precision": null,
+      "recall": 0,
+      "f1": null
+     }
+    }
+   },
+   "romanized": {
+    "n": 12,
+    "micro": {
+     "precision": 1,
+     "recall": 0.979,
+     "f1": 0.989,
+     "tp": 47,
+     "fp": 0,
+     "fn": 1
+    },
+    "spuriousValues": 0,
+    "wrongValues": 0,
+    "exactProfileMatch": 0.917,
+    "perField": {
+     "age": {
+      "tp": 12,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 12,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 9,
+      "missed": 1,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 2,
+      "precision": 1,
+      "recall": 0.9,
+      "f1": 0.947
+     },
+     "annualIncome": {
+      "tp": 6,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 6,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "gender": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 12,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "category": {
+      "tp": 6,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 6,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "disability": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 12,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "maritalStatus": {
+      "tp": 2,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 10,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 12,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     }
+    }
+   },
+   "trap": {
+    "n": 7,
+    "micro": {
+     "precision": 1,
+     "recall": 1,
+     "f1": 1,
+     "tp": 29,
+     "fp": 0,
+     "fn": 0
+    },
+    "spuriousValues": 0,
+    "wrongValues": 0,
+    "exactProfileMatch": 1,
+    "perField": {
+     "age": {
+      "tp": 7,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 7,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 7,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "annualIncome": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "gender": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 7,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "category": {
+      "tp": 2,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 5,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "disability": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 7,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "maritalStatus": {
+      "tp": 3,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 4,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 7,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     }
+    }
+   },
+   "words": {
+    "n": 11,
+    "micro": {
+     "precision": 0.978,
+     "recall": 0.978,
+     "f1": 0.978,
+     "tp": 45,
+     "fp": 1,
+     "fn": 1
+    },
+    "spuriousValues": 0,
+    "wrongValues": 1,
+    "exactProfileMatch": 0.909,
+    "perField": {
+     "age": {
+      "tp": 11,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "state": {
+      "tp": 11,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "occupation": {
+      "tp": 9,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 2,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "annualIncome": {
+      "tp": 10,
+      "missed": 0,
+      "wrong": 1,
+      "spurious": 0,
+      "tn": 0,
+      "precision": 0.909,
+      "recall": 0.909,
+      "f1": 0.909
+     },
+     "gender": {
+      "tp": 2,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 9,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "category": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 11,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "disability": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 11,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     },
+     "maritalStatus": {
+      "tp": 2,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 9,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+     },
+     "landOwnership": {
+      "tp": 0,
+      "missed": 0,
+      "wrong": 0,
+      "spurious": 0,
+      "tn": 11,
+      "precision": null,
+      "recall": null,
+      "f1": null
+     }
+    }
+   }
+  }
+ },
+ "latencyMs": {
+  "median": 1385,
+  "p95": 3513,
+  "max": 5467
+ },
+ "engineVsGoldProfile": {
+  "meanStatusAgreement": 0.9982149999999999,
+  "meanEligibleJaccard": 0.9666666666666667
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-19T05:27:19.908Z",
+ "node": "v22.12.0",
+ "os": "win32 10.0.26300",
+ "gitCommit": "4d1cfea",
+ "groqModel": "openai/gpt-oss-120b",
+ "embeddingModel": "Xenova/multilingual-e5-small",
+ "schemesByStatus": {
+  "Active": 505
+ },
+ "translationsByLanguage": {
+  "hi": 20,
+  "bn": 20
+ },
+ "activeSchemesUsed": 505,
+ "activeSchemesWithEligibilityRules": 505,
+ "activeSchemesWithSource": 505
+}
