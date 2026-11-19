@@ -1,5 +1,5 @@
 // GENERATED FILE — 500 records mapped from a third-party structured extract of MyScheme listings.
-// Status and lastVerifiedAt are deliberately marked NeedsVerification/null.
+// Status is marked Active for all imported schemes.
 // Review current eligibility, benefits, documents and status on official pages before production use.
 
 export const schemes = [
@@ -13,7 +13,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Keep the soft copies of the required documents. Go to the Official Website. Scroll down and click \"New Registration\".Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click \"Continue\".Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill the details and click \"Register\". Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number.Step 3: Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction Click on \"Login to Apply\". Enter your Application ID and password. Type the Captcha and click \"Login\".On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click \"Submit\". You will be directed to the \"Applicant's Dashboard\".Step 4: On the left pane, click \"Application Form\". The fields marked as * are compulsory. Fill the details and upload the documents. You can either click on \"Save as Draft\" to complete the application later. Else, click \"Final Submit\" to submit the application. Note - Applications will be invited once in a year on the National e-Scholarship Portal of the Government of India. Short notification will also be uploaded on the UGC website. At the time of applying, the course will be classified as a general degree or professional by the concerned University/ Institution/College. Incomplete applications will be summarily rejected. Only verified online applications will be considered for the award of scholarship.",
     "officialUrl": "https://scholarships.gov.in/fresh/newstdRegfrmInstruction",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -104,7 +104,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Visit on the Official WebsiteStep 2: Fill in the mandatory fields correctly. Upload the required documents in the said format and size.Step 3: Click \"Submit\" to complete the application process. The applicant can check his/her application status by visiting this link.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/acandabc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -184,7 +184,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The prescribed application format can be downloaded from the website: http://dsir.gov.in/#files/12plan/a2k/a2ks.html. The Applicants should submit five hard copies of the proposal duly signed + one soft copy [MS Word file and not a PDF file] through e-mail and by enclosing a pen drive to: Dr. Sujata Chaklanobis, Head (A2K+)Department of Scientific & Industrial ResearchMinistry of Science & TechnologyTechnology Bhawan, New Mehrauli RoadNew Delhi-110 016Email: priya@nic.in Note: Superscribe \"CONFIDENTIAL, A2K+ Studies\" on the document holder.",
     "officialUrl": "http://dsir.gov.in/#files/12plan/a2k/a2ks.html",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -265,7 +265,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Enrolment will be undertaken through an online centralized system for all three services with specialized rallies and campus interviews from recognized technical institutes such as Industrial Training Institutes and National Skills Qualifications Framework, among others. Enrolment will be based on an 'All India All Class' basis. The candidates will be recruited as per the existing pattern of selection into the Armed Forces. Indian Army: Official WebsiteIndian Navy: Official WebsiteIndian Air Force:\nOfficial Website",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ay",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -329,7 +329,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application Process:Step 01: To submit an online claim, the application can be made online at the website: https://esic.gov.in/Step 02: On the home page of the official website: Services-->Employees -->IP Portal -->Select Insured Person -->Sign Up.Step 03: For new users 'Sign-Up' is required to fill Insurance Number, Date of Birth, and Mobile Number after that get the User Name and password.Step 04: Now, the applicant can login through his/her credentials and select the scheme to claim the benefits.Step 05: Fill in all the mandatory details in the form including bank details etc.Step 06: Download the AB-1 Form and fill in all the details wherever required. The scanned copy of the completely filled AB-1 Form and Aadhaar Card can be uploaded on the website.Step 07: After uploading all the required documents, the application form can be submitted.Step 08: Now, the applicant will take the printouts of the claim submitted above and the letter to the employer thus generated by the system and submit the duly signed claim in an affidavit along with the required forwarding by the employer to his designated ESIC Branch Office.Step 09: On receipt of the claim the details as mentioned by the applicant IP will be checked in the system by the staff at the Branch Office under the supervision of the Branch Manager. The system will calculate the claimant's eligibility for relief under the scheme and the quantum to which the claimant is entitled based upon the details provided by the IP as well as the contribution and other details available in the system. The payment of the relief will be made to the IP's bank account. Mode of payment: The relief under ABVKY will be electronically transferred directly to the bank accounts of Insured Persons (IPs) by the Branch Office. In the event of the death of IP, the amount of Relief under ABVKY shall be paid/ payable to his/her nominee/legal heir as prescribed under Para(s) P.3.79.1 to P.3.81 of the Branch Office Manual by the account payee cheque only. The bank account details of the claimant in the ESIC Database are a pre-condition for claiming this relief, but in case the bank account details of the claimant are not available in the ESIC Database or the IP has changed his bank account then the same may be authenticated by the Branch Manager on the basis of the cancelled cheque leaf or the passbook of the bank account having the name of the claimant on it, which the claimant will provide along with the claim for this relief.",
     "officialUrl": "https://esic.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -417,7 +417,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury:\n30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -494,7 +494,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 1: Take print of the prescribed proforma of the application form (Refer Page number 8 and 9 of the scheme guidelines) and the Mandate Form (Refer Page number 10 of the scheme guidelines) available at: https://dbtyas-sports.gov.in/assets/annexure/cash_award.pdfStep 2: The moment an athlete wins a competition making him/her eligible for a cash award, the Program Officer in charge at SAI shall intimate the Ministry via electronic media followed by a written letter.Step 3: After the issue of sanction by the Ministry, SAI shall credit the cash award the same day to the bank account of the medal winner through the DBT platform. For this purpose, SAI shall draw an advance from the Ministry, which shall be recouped from time to time, and maintained with it. Note 1: For coaches, the applications will be forwarded by National Sports Federations (NSFs) to the Ministry of Youth Affairs & Sports and the Ministry will get the achievements verified from SAI before making the payment of cash award to coach(s).Note 2: For de-recognized or suspended NSF, the sportsperson/coach will apply directly to Sports Authority of India (SAI).",
     "officialUrl": "https://dbtyas-sports.gov.in/assets/annexure/cash_award.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -664,7 +664,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The hard copy of the proposal (as per Annexure-II) for seeking Central Assistance under the Scheme, Babu Jagjivan Ram ChhatrawasYojna (BJRCY) should be sent to this address (along with the details of the hostel as per Annexure-I) by the authorized representative of the implementing agency. The Joint Secretary (Backward Classes) Ministry of Social Justice and EmpowermentGovernment of India,Shastri Bhavan,New Delhi-110001",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bjrcy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -741,7 +741,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: In the Registration Form, fill in all the mandatory fields and upload the required documents.Step 2: Fill in the verification code, and click \"Submit\" to complete your registration.Step 3: Take a print of the submitted registration form, attach the self-attested copies of the required documents, and submit the same at the respective ZSB.Post-Application ProcessesStep 1: The Zila Sainik Welfare Office (ZSWO) will scrutinize the application, and if found correct in all respects, will forward it directly to Kendriya Sainik Board (KSB) Secretariat for payment.Step 2: On receipt at the KSB Secretariat, the Welfare Section-in-Charge will assign the application to a particular clerk who will enter desired data from the applications into the computer. Another clerk will be designated to check the correctness of the entries.Step 3: The Section-in-Charge will verify the same and put up the case in the relevant file for processing to JD(Welfare) who will obtain the approval of the Secretary, KSB.Step 4: After approval at KSB, the application will be processed for payment. Track Application StatusStep 1: Visit the Official Website of the Kendriya Sainik Board (KSB) and click the \"Status of Application\".Step 2: Enter your DAK ID and the verification code. Click on the \"Search\" button to check the status of your application.",
     "officialUrl": "https://ksb.gov.in/Where",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -810,7 +810,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Eligible Ex-servicemen / their widows can visit the official website of Kendriya Sainik Board Secretariat (KSBS) https://ksb.gov.in/ Click on \"Register\" which is available on the homepage of the portal. Now, the registration form will be displayed, fill the form with necessary details. Upload the PhotoSave the application by clicking on the \"Save\" button and the saved details and password will be forwarded to the registered mail id. Click the activation link which is sent to the mail id to login into the KSB portal. Provide user name, password and verification code and click on the \"Login \" button. Select the scheme name and start filling the new application form by entering the required details. Copies of the supporting documents duly attested by the respective Zila Sainik Welfare Officer (ZSWO) must be uploaded with the online application. Once the online application is submitted, ZSWO will scrutinize the online applications and give appointment to the applicant for verification, After successful verification, ZWSO will recommend the online application and forward the harp copy as well soft copy to Kendriya Sainik Board (KSB) through Rajya Sainik Boards (RSBs) for further processing. Processing at KSB SecretariatOnce the application reaches the Kendriya Sainik Board, the Section-in-charge verify the same and upload the printed list for the approval of JD (Welfare). Payment ProcedureAfter approval of Secretary KSB, the application is processed for payment by Welfare Section. The welfare section verifies the Ex-servicemen's service number, name, banker's IFS Code and bank account number & forward the list of approved cases to Accounts Section for payment. The Accounts Section then processes the list for payment directly to beneficiaries via ECS to the beneficiaries as applicable. Track Application StatusApplicant has to revisit the same portal https://ksb.gov.in/index.htm Click on \"Status of application\" link on the homepage of the portal. Now enter your DAK ID and verification code. Click on the \"Search\" button.",
     "officialUrl": "https://ksb.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -882,7 +882,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: The applicant Organisation will submit an online application for financial assistance, along with the relevant documents in the proforma (prescribed on the IC Scheme portal: https://ic.msme.gov.in) giving full details of expenditure.Step 02: To apply under the scheme, the applicant organization needs to visit the official website/portal. (https://ic.msme.gov.in/IC_APP/IC_Welcome.aspx)Step 03: On the home page, select the \"Capacity Building of First Time MSE Exporters\" to Login, if Already Registered. If the applicant Organization is a new user, click on \"New User Register Here\" to register under the scheme by selecting the type of Organization.Step 04: After successful registration, the applicant organization can login with valid credentials. After login, the user will be redirected to their Dashboard where multiple action has to be done. Note: The admissible financial assistance would be worked out in accordance with the criteria/scale. Process of seeking financial assistance under the Scheme: RCMC certificate: Ministry of MSME to sign MoU with EPCs. These EPCs will then be eligible to apply for financial assistance under the IC scheme. They will be required to apply for financial assistance claims on behalf of MSEs along with all prescribed documents on the IC Scheme portal. Export Insurance Premium: Export Credit Guarantee Corporation (ECGC) Ltd. provides insurance to Exporters. The Ministry of MSME will sign a MoU with ECGC Ltd. and claims for financial assistance for the first-time MSE exporters will be released from the IC Scheme to ECGC upon receipt of the application on the updated portal of the IC Scheme. Testing and Quality Certification: The Ministry of MSME to sign an MoU with National Small Industries Corporation Ltd. Financial assistance on certifications defined under the scheme will be released to NSIC Ltd. for further dissemination of funds to eligible MSEs.",
     "officialUrl": "https://ic.msme.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -975,7 +975,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Download the Application form for E-Shodh Sindhu Scheme. Fill in the required information. Verify that every page of the application form has signature and stamp of the Institute's Head. Attach all the below mentioned essential documents along with the filled application form. Kindly ensure all the information is correct and then sent the Application form along with all the essential documents through registered post/speed post to: Advisor (IDC),Institutional Development Cell,All India Council for Technical Education,Nelson Mandela Marg, Vasant Kunj,New Delhi-110070 When to Apply: Applications are invited in the month of October-November every year. NOTE: Only application received through registered post/speed post will be considered, no applications will be entertained through email. Helpdesk: For Scheme related information: Email address: essidc@aicte-india.org Phone Number: (011) 29581313Technical Information: Email address: it2idc@aicte-india.org Phone Number: (011) 29581334",
     "officialUrl": "https://www.myscheme.gov.in/schemes/essstj",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1063,7 +1063,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The proposals are to be submitted in Hard copy, in a sealed cover and all the documents should have the total number of pages indicated and signature of the authorized persons from the agency, in all Pages.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/jrmbs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1136,7 +1136,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The applicant need not apply for the scheme. Projects will be executed by Urban Local Bodies (ULBs). In case the ULBs do not have adequate capacity to handle projects, the State Government may recommend in State Annual Action Plan (SAAP), upon a Resolution passed by the ULB, for the execution of the projects by specialized parastatal agencies of the State or Central Governments. Such arrangements should necessarily be executed by way of a tripartite Memorandum of Understanding (MoU) amongst the State Government, the specialized Parastatal agencies and the concerned Municipality. In such a case, the capacity of the ULBs will be augmented through the capacity-building component of the AMRUT. The maintenance and upkeep of the created assets will be the responsibility of the ULB and the State Government.",
     "officialUrl": "http://amrut.gov.in/content/citiescovered_map.php",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1188,7 +1188,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Download and fill out the application form for AICTE-Grant for Augmenting Infrastructure in North Eastern Region (GAINER).Step 2: Verify that every page of the application form has the signature and stamp of the Head of the Institute.Step 3: Attach all the essential documents along with the filled application form.Step 4: Kindly ensure all the information is correct and then sent the Application form along with all the essential documents through registered post/speed post to: Advisor,Institutional Development Cell,All India Council for Technical Education,Nelson Mandela Marg, Vasant Kunj,New Delhi-110070Processing of Proposalsa. Submission of application by the institute. b. Screening/ scrutiny of applications at Council. c. Evaluation of applications by the expert committee. d. The final decision will be taken by the Council, keeping in view the recommendations made by the experts and the availability of funds for the scheme. e. After the Council's approval, the Sanction Letter and the first installment of funds for the Project will be sent to the institution.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/a-gainer",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1284,7 +1284,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline PROCEDURE TO APPLYThe student fulfilling the eligibility criteria shall apply directly to MITACS Canada via its portal and follow the procedure, guidelines, and terms and conditions mentioned therein;All materials submitted to MITACS must be in either English or French. If materials submitted are not in one of Canada's official languages, notarized transcripts must be submitted. Before leaving the country for pursuing Globalink Research Internships (GRI) in Canada, student should have a valid passport and has obtained all necessary documents and permissions including a visa, air tickets for air travel, etc.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/am-gris",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1352,7 +1352,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3: Choose type Individual or Organization. Step-4.1: Under Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2: Under Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5: Submit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select scheme name, then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".",
     "officialUrl": "https://awards.gov.in/Home/Awardpedia",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1416,7 +1416,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application(a) Applications are invited throughout the year.(b) Institute must apply through its login ID at http://www.aicte-india.org and must apply at least:(i) 6 months prior to the date of the National Conference.(ii) 8 months prior to the date of the International Conference. AICTE Portal LoginStep 1: Visit the AICTE website https://www.aicte-india.orgStep 2: Click on the \"Web Portal Login\" button.Step 3: Log in to the AICTE portal with the credentials provided by the AICTE.Step 4: After successful logging, the home page of the institute appears. AQIS ApplicationStep 1: After login, navigate to the AQIS application screen please click on the \"AICTE Quality Improvement Schemes (Financially Funded Scheme)\" icon.Step 2: The AQIS application page of the institute is open.Step 3: Click on the \"AQIS Application- Institute details\"Step 4: Institute and Bank Details will auto-populate in \"AQIS Application - Institute Details\" Please check and update according to changes. Note: 1) Bank Account should be Saving Account.\n• 2) Account Holder's name should not be a personal name.Step 5: Check the declaration flag, then click on the \"Save Bank Details\" button.Step 6: To confirm the bank details entered, kindly click on the \"Confirm Bank Details\" button.Step 7: If the bank details are incorrect, click on the Cancel button to edit the bank details again otherwise click on OK to confirm the details. Note: Once the 'OK' button is clicked. The Institute details and Bank details will become read-only mode.Step 8: Click on the \"All AQIS Application Information\"Step 9: Click on the \"Download Mandate Form\" and \"Download Declaration Certificate\"Step 10: Click on the \"AQIS Document Attachment\"Step 11: Click on the new record ( ) button.Step 12: After attaching the Mandate form, click on the save ( ) button. Note: Please attach the Verified Bank Mandate Form in scanned PDF format (Maximum Size10 MB). Application for 'Grant for Organising Conference'• Initiating New applicationStep 1: After uploading the attachment of the mandate form, Click on the \"All AQIS Application Information\"Step 2: Click on the new record ( ) button.Step 3: Select the \"GOC- Grant for Organising Conference\" in AQIS Schemes dropdown.Step 4: Click on AQIS Application IDStep 5: AQIS Detail Application for GOC.Section A: Coordinator/PI/Applicant DetailsStep 1: Click on the Coordinator/PI/Applicant DetailsStep 2: \"Has the Institute been sanctioned any conference by AICTE in the last 2 financial years?\", Select the appropriate option.Step 3: Click on the selection menu icon ( ) in the Faculty ID field to add details of the conference coordinator. Select the faculty ID from the Faculty ID list and click on the OK button.Step 4: Fill in all the fields of the Details of the Coordinator section.Step 5: Click on the selection menu icon ( ) in the Co-coordinator Faculty ID field to add details of the conference Co-coordinator. Select the faculty ID from the Faculty ID list and click on the OK button.Step 6: Fill in all the fields of Details of the Co-coordinator section.Step 7: AICTE has identified conferences of repute, organized/sponsored by leading Professional Bodies/institutions organized at a set frequency. Select the appropriate field.Step 8: Confirm the declaration Section B: AQIS Application DetailsStep 1: Click on the AQIS Application DetailsStep 2: Navigate to the AQIS Application Details, fill in all the fieldsStep 3: After filling in all the required details in the fields, click on the Save ( ) button. Section C: Academic Credentials of Coordinator /PI/ApplicantStep 1: Click on the Academic Credentials of Coordinator /PI/ApplicantStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select \"YES/NO\" according to the parameter, fill in the Count/Number, and fill in the Area of Specialisation. Click on the save ( ) button. Note: Further repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• Any state / National/International awards received?• Membership of the Professional / Learned bodies/ Societies\n• No. of National/International conferences organized\n• Number of Patents Registered\n• Number of Ph. D students Guided\n• Papers published in International Journals in the last 3 years\n• Papers published in national Journals in the last 3 years\n• Relevant experience of conducting/coordinating similar programs from AICTE and other funding agencies in the past three years\n• Research Experience in years\n• Teaching/Industry Experience in years\n• Whether the Coordinator has Ph. D.Step 4: After filling in all the required details in the fields, click on the Save ( ) button. Section D: Credentials of Co-coordinatorStep 1: Click on the Credentials of Co-coordinatorStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select \"YES/NO\" according to the parameter, fill in the Count/Number, and fill in the Area of Specialisation/Details. Click on the save ( ) button. Note: Further repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• No. of National/International conferences organized\n• Number of Ph. D students Guided\n• Membership of the Professional / Learned bodies/ Societies\n• Papers published in International Journals in the last 3 years\n• Papers published in national Journals in the last 3 years\n• Whether the Coordinator has Ph. D.\n• Teaching/Industry Experience in years\n• Relevant experience in conducting/coordinating similar programs from AICTE and other funding agencies in the past three years\n• Research Experience in yearsStep 4: After filling in all the required details in the fields, click on the Save ( ) button. Section E: Credentials of Institution / DepartmentStep 1: Click on the Credentials of Institution / DepartmentStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select \"YES/NO\" according to the parameter, fill in the Count/Number, and fill in the Details. Click on the save ( ) button. Note: Further repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• For organizing the conference institute is collaborating with Industry\n• Is the institute collaborating with the technical Society for organizing a conference\n• Number of conferences already conducted in the institute in the last 3 years\n• Number of courses Accredited in the Institute\n• Is the institute collaborating with any reputed Institute or Laboratory for organizing the conference\n• Number of Years of Establishment of the Institute\n• Whether the level of the course under which the conference is to be conducted PG?• Whether the course under which the proposal is submitted, is accredited by NBA?Step 4: After filling in all the required details in the fields, click on the Save ( ) button. Section F: Justification of proposalStep 1: Click on the Justification of proposalStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select the parameter/ Criteria, fill in the Details and Click on the save ( ) button. Note:\nFurther repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• Benefits to Faculty\n• Benefits to Students\n• Expected Outcome & Impact on Academic\n• Expected Outcome & Impact on Research\n• Name of Guest speakers with designation and organization\n• Number of participants expected\n• Objectives & Context\n• RelevanceStep 4: After filling in all the required details in the fields, click on the Save ( ) button. Section G: Foreign participants/invited speakers to the conferenceStep 1: Click on the Foreign participants/invited speakers to the conferenceStep 2: Click on the new record ( ) button to add the RecordStep 3: After filling in all the fields clicks on the ( ) Save button. Section H: Financial commitment from other organizations/agenciesStep 1: Click on the Financial commitment from other organizations/agencies.Step 2: Click on the new record ( ) button to add the RecordStep 3: After filling in all the fields click on the ( )Save button. Section I: Budget Estimates GOCStep 1: Click on the Budget Estimates GOCStep 2: Click on the new record ( ) button to add the RecordStep 3: Select 'Head of Expenditure', and fill in the 'Anticipated Expenditure' and 'Justification' of that expenditure. Note: Further repeat the above Steps 2 and 3 for the following 'Head of Expenditure'1) For Online Conferences\n• 2) For Onsite ConferencesStep 4: After filling in all the fields click on the ( ) Save button.\n• Certificate/Brochure and other documents designing.\n• Conference website designing & updating.\n• Honorarium to Experts/ Resource Persons.\n• Publication of Proceedings.\n• Miscellaneous.\n• Pre-conference printing (announcements, abstracts, etc.)\n• Banners/Folders, Pen, and other stationery material for registration and Certificate printing and brochure printing\n• Hospitality to participants /resource persons (Tea, Snacks & Lunch)\n• Boarding and lodging charges for out-stationed participants/ Experts/ resource persons\n• TA/DA & Honorarium to Experts/ resource persons\n• Misc. expenditure including Photography, LCD projector, screen, bouquets, mementos, short visit (if any), etc.\n• Publication of Proceedings (Online/printed/CD)\n• Any other required expenditureSection J: AQIS Application AttachmentStep 1: Click on the AQIS Application AttachmentStep 2: Click on the new record ( ) button to add the RecordStep 3: Click on the ( ) button in 'Attachment Name' to attach the Declaration certificate of GOC.Step 4: After attaching the Declaration Certificate, click on the save ( ) button. Note: Please attach a verified Declaration Certificate scanned copy in PDF format (Maximum Size10 MB). Section K: Keywords related to the conferenceStep 1: Click on the Keywords related to the conferenceStep 2: Click on the new record ( ) button to add the RecordStep 3: After filling in all the fields click on the ( )Save button. Note: Minimum 5 Keywords related to conference themes are required to submit the application.\n• Validate and submit the applicationStep 1: Click on the Coordinator/PI/Applicant DetailsStep 2: Click on the Validate application button.Step 3: After clicking on the Validation button the message will be populated and stated as \"Validation for Scheme: 'GOC- Grant for Organizing Conference' is completed Successfully\" Click on the OK button.Step 4: Click on the Submit button. Processing Methodology(a) Online submission of application by the institution.(b) Applications received every two months will be processed in a single lot.(c) Screening/ scrutiny of applications at Council.(d) Evaluation of applications by the expert committee.(e) The final decision will be taken by the Council, keeping in view the recommendations made by the experts and the availability of funds for the scheme.(f) After the Council's approval, the Offer Letter for the conference will be sent to the institution.(g) Offer Letters can be used by the institute to raise funds from other sponsors. For more information contact usScheme-related Information: e-mail address: gocidc@aicte-india.org Phone Number: (011) 29581334Technical Information: e-mail address: it2idc@aicte-india.org Phone Number: (011) 29581340",
     "officialUrl": "http://www.aicte-india.org",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1527,7 +1527,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The pregnant woman is referred by the competent staff of the public health facility for JSSK.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/jssk",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1579,7 +1579,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline\n• 1. Kindly visit AICTE Web Portal and log in through Institute's Login Credential (Username & Password).\n• 2. Select the Scheme to apply i.e. CAFES scheme application.\n• 3. To fill out the application form, kindly refer to the validating User Manual on the AICTE website.\n• 4. After completion, click on SUBMIT.\n• 5. Verify that every page of the application form has the signature and stamp of the Institute's Head.\n• 6. After submitting the application form, click on reports.\n• 7. In Run Report, select CAFES 2021-22 and submit (download the report).\n• 8. Upload all the essential documents along with the online application form. Kindly ensure all the information is correct and then send the Application form along with all the essential documents through registered post/ speed post to: Dr. Neeraj Saxena, Advisor Institutional DevelopmentCellAll India Council for Technical Education,Nelson Madela Marg, Vasant Kunj, New Delhi - 110070",
     "officialUrl": "https://www.myscheme.gov.in/schemes/scafe",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1679,7 +1679,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Visit the bank or post office wherever the scheme is availableStep 2: Obtain and Fill the application form for BBBP/SSAStep 3: The form is to be filled manually and attached with all the required documentsStep 4: Submit the documents to the same bank/post office. The account must be opened in the name of the girl childNote: This account can be easily transferred from one bank/post office account to another bank/post office account",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bbbp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1740,7 +1740,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Applications are invited through online mode once a year through advertisements in leading newspapers & employment news. Short notification is also uploaded to the UGC website i.e. www.ugc.ac.inStep 1: Read the Guidelines This is the home page of the website: https://frg.ugc.ac.in/â— 5 schemes are displayed on the Homepage.â— Under each scheme, UGC guidelines are available. Before applying, kindly read the guidelines carefully and ensure your eligibility.Step 2: Registrationâ— On the homepage, for registration, click on \"New User\" for the scheme you need to apply.â— Here, you need to fill in all the details for registration and provide an email address that will be used for all future correspondence.â— Please keep ready a scanned copy of your passport-size photograph and signature (size upto 1MB, format: jpg), before registration.â— The details provided at the registration stage will not be modified, after submission. It will be reflected in the Profile.â— Click on the 'Submit' button, after filling in all details.Step 3: Loginâ— After registration, you will receive an email from ugchelp@mail.inflibnet.ac.in with the Scheme Login Credentials to fill out the application form.â— You need to fill in the received login credentialsâ— Please change the password while logging in for the first time. Remember the new password, thereafter.Step 4: Dashboardâ— The details provided by you during Registration are now available in Profile.â— Various icons displayed here will be shown in red color before complete details are entered. Once all details are filled in and submitted, the color of the icons will change to green.â— Here, you need to click on the \"Eligibility Criteria\" button.Step 5: Eligibility alertâ— Read all the criteria and click on the check box next to UGC guidelines.Step 6: Eligibility â— Please provide all the required details here.â — Kindly note that, once submitted, the eligibility form will not be modified.â— And Click on the 'Submit' button.Step 7: Data Capturing Format After that, you click on the \"Apply Now\" box (see on rectangle) Here, Data Capturing Dashboard will display where you need to fill in PG and Ph. D. detailsClick on the PG Educational Qualification boxStep 8: PG detailsâ— Provide PG detailsâ— And Click on the 'Submit' buttonStep 9: Ph. D. Detailsâ— Provide Ph. D.-related details and upload the required documents â— And Click on the 'Submit' buttonStep 10: Declarationâ— Please read the declaration carefully.â— If you agree with the declaration, click on the check box next to \"I Agree with above\" â— And Click on the 'Submit' button. Please save your application for future use. Note: No hard copies of the application form will be accepted or entertained at any point of timeSelection ProcessStep 1: The applications will be evaluated by a minimum of three referees assigned by the UGC as per the area of research proposed by the applicant. The evaluation includes the merit of the proposed project, the professional standing of the candidate, and the institution where the research is to be carried out.Step 2: On the basis of the score received from the referees, the final merit list will be generated. The result shall be declared on the UGC website (www.ugc.ac.in). Selected candidates can download their award letters through the UGC website. Note: The whole process would be akin to that employed for manuscript handling and evaluation by leading international journals and will be a paperless exercise. No interim queries will be entertained. The Commission reserves the right to withdraw/cancel the award of the Research Grant without assigning any reason.",
     "officialUrl": "https://frg.ugc.ac.in/â—",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1813,7 +1813,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online a) Online submission of application by the institution.b) Applications received will be processed in a single lot.c) Screening/ scrutiny of applications at Council. d) The proposal shall be assessed by a three-member committee comprising of members, not below the rank of Associate Professor/Scientist \"E\". At least two members among them shall be the domain experts.e) The final decision will be taken by the Council, keeping in view the recommendations made by the expert and the availability of funds for the scheme.f) After the Council's approval, the Sanction Letter for the proposal will be sent to the institution.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/modrob",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1865,7 +1865,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online\n• 1. Applicants are required to visit the Scheme implementation portal and register then filling the application form.\n• 2. On submission of the above information, a mail will be sent to the Nodal Officer's e-mail id with a link for verification for mobile number.\n• 3. The information and documents submitted will be checked by PMA and once this process is completed, Applicant will receive a mail towards successful registration on the Portal within 2 working days.4 After the registration process, Nodal Officer will be able to Sign-in the Portal by using his registered mobile number and OTP and start the submission of application. The application format can also be accessed from Scheme Implementation Portal. The above format is provided only for understanding the information required to be submitted online. However, the application can only be submitted online at the portal.\n• 5. The section - 3 (commitment section) of the application is to be password protected before submission. The section 3 will get unlocked at close of the application submission period and would then be available for scrutiny of the submitted application by PMA/DoT.\n• 6. The applicant needs to pay non-refundable application fee of Rs.1 Lakh by RTGS / NEFT in the bank details as under: Bank Name: Indian Overseas Bank Beneficiary Name: PAOHQDOTNEWDELHI Account No.: 256502000001000 Branch: Sanchar Bhawan Branch, 20 Ashoka Road, New Delhi IFSC Code: IOBA0\n• 0025657. On receipt of the application, an initial scrutiny shall be carried out by the PMA to ascertain that the information, documents, certificates, proof of deposit of application fees etc. as required under the Scheme have been submitted, within 15 working days from the last date of Application submission. Deficiencies, if any, found in the applications during the initial scrutiny shall be intimated to the Applicants.\n• 8. The applicant shall rectify the deficiency within 15 working days from the date of intimation of the deficiency by PMA failing which the application may be marked ineligible for the Scheme. After completion of the scrutiny process, the list of shortlisted eligible application shall be recommended by PMA to DoT for approval of the Competent Authority.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dot-pli-scheme",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1925,7 +1925,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Visit the AICTE website https://www.aicte-india.orgStep 2: Click on the \"Web Portal Login\" button.Step 3: Log in to the AICTE portal with your institute's credentials.Step 4: After successful logging, the home page of the institute appears.Step 5: The AQIS application page of the institute is open.Step 6: Click on the \"AQIS Application- Institute details\"Step 7: Institute and Bank Details will auto-populate in \"AQIS Application - Institute Details\" Please check and update according to changes. Note: 1) Bank Account should be Saving Account.\n• 2) Account holder's name should not be a personal name.Step 8: Check the declaration flag, then click on the \"Save Bank Details\" button.Step 9: To confirm the bank details entered, kindly click on the \"Confirm Bank Details\" button.Step 10: If the bank details are incorrect, click on the Cancel button to edit the bank details again otherwise click on OK to confirm the details. Note: Once the 'OK' button is clicked. The Institute details and Bank details will become read-only mode.Step 11: Click on the \"All AQIS Application Information\"Step 12: Click on the \"Download Mandate Form\" and \"Download Declaration CertificateStep 13: Click on the \"AQIS Document Attachment\"Step 14: Click on the new record ( )button.Step 15: After attaching the Mandate form, click on the save ( ) button. Note: Please attach Verified Bank Mandate Form in scanned PDF format (Maximum Size10 MB).Note: Download the mandate form and certificate of declaration from the highlighted tab and upload them in the section of AQIS document attachments after that also fill in the details of the earlier grant. Application for 'Research Promotion Scheme'• Initiating New application:Step 1: After uploading the attachment of the mandate form, Click on \"All AQIS Application Information\"Step 2: Click on the new record ( ) button.Step 3: Select the \"RPS-Research Promotion Scheme\" in the AQIS Schemes dropdown.Step 4: Click on AQIS Application IDStep 5: After clicking on the AQIS application id fill out a further application.(Fill all the heads by clicking on a plus sign one by one) Note: Kindly fill details of the coordinator by filling in all the heads for the RPS scheme. RPS variant will be displayed under \"DETAILS of the RPS PROPOSAL IS REQUESTED\" under \"Details of Co-ordinator\". Select from the drop-down your required variant. Further application will proceed according to the variant one chooses. If some tabs are disabled that means that particular filled is not for that selected variant.Step 6: After that fill AQIS application details.Step 7: Fill academic credentials of PI by clicking on plus sign you will find a row of parameters, for filling in each parameter you need to select plus sign every time.Step 8: Similarly, likestep 7 you need to fill in all the below parameters.Step 9: After filling in all heads please validate your application and submit it. You will find validate and submit button under the first head of details of the coordinator. For any query send your query screenshot with the login credentials (ID and Password) and AQIS application id on the below-mentioned Email IDs: Itfdc2@aicte-india.org, itfdc@aicte-india.org, Contact No: 011-29581524",
     "officialUrl": "https://www.aicte-india.org",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -1990,7 +1990,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Nomination: The nominations will be accepted throughout the year. The nominations can be sent by the Heads of the Institutions/organizations, Presidents/fellows of National Science/Engineering Academies, SS Bhatnagar Awardees, and JC Bose awardees. Self-nominations shall not be accepted. Forwarding of Nominations: To download the Nomination Form and submission please visit https://www.inae.in/research-innovation/abdul-kalam-technology-innovation-national-fellowship/The submission of Nomination form along with all supporting documents/appendices should be submitted by email to INAE at inaehq@inae.inSelection: Selection of Abdul Kalam Technology Innovation National Fellows will be made by a Search -Cum-Selection Expert Committee specially constituted for the purpose, as per the broad guidelines of the fellowshipContact for more information on \"Abdul Kalam Technology Innovation National Fellowship\" at INAE:-Lt Col Shobhit Rai (Retd), Convener cum Member Secretary(Abdul Kalam Technology Innovation National Fellowship) Deputy Executive Director, Indian National Academy of Engineering (INAE) Ground Floor, Block-II, Technology Bhavan, New Mehrauli Road, New Delhi - 110016Phone: 011-26582475, Email: inaehq@inae.inWebsite:\nwww.inae.in",
     "officialUrl": "https://www.inae.in/research-innovation/abdul-kalam-technology-innovation-national-fellowship/The",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2074,7 +2074,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Process of Selection of CandidatesCall for applications from eligible candidates: Advertisements in local newspapers will be issued under intimation to local employment exchanges separately by the NTI. The NTIs may also give publicity to the scheme through Doordarshan, AIR, Private Television and Radio channels, ATMAs, Agricultural Universities, ICAR Institutions, KVKs, Banks, Agriculture Graduate Associations, Agri-Business Companies, Agriculture and allied departments, a network of trained/established Agri-preneurs, posters, leaflets etc. Besides, NTIs may adopt any innovative method for giving publicity about the scheme. Advertisements will be uploaded on the website of NTIs as well as MANAGE. MANAGE will provide credentials to NTIs for uploading the advertisements to the AC&ABC website (www.agriclinics.net).Applications for training will be accepted only through the online portal https://acabcmis.gov.in/ApplicantReg.aspxAn individual eligible to receive the benefits under the scheme is required to furnish proof of possession of an Aadhaar Number or undergo Aadhaar registration. If an individual is eligible but do not possess an Aadhaar number she/he can get enrolled by visiting the Aadhaar enrolment centre. MANAGE, Hyderabad is required to provide enrolment facilities at a convenient location(s) in coordination with the Registrars of UIDAI or by becoming an UIDAI Registrar. The beneficiaries of the Agri-Clinics & Agri-Business Centres (AC&ABC) scheme may register their request for enrolment by giving their name, address, mobile number and other details. Till such time as Aadhaar is assigned to an individual, she/he can avail of the benefit of the scheme on the production of the following documents Aadhaar enrolment ID slip/ Copy of request for Aadhaar enrolment and Voter Identity Card/ PAN/ Passport/ Ration Card/ Employee Government ID/ Passbook of Bank or Post Office/ MGNREGS Card/ Kisan Photo Passport/ Driving Licences/ any other document as specified by State/ UT.Aadhaar details need to be linked through a web-based registration process. The assistance if given in cash, needs to be transferred to the bank account of the beneficiary and in case it is given in terms of kind through Companies, the intimation be conveyed as SMS to the beneficiary mobile phone with details of assistance. It should be ensured, that no eligible beneficiary suffers for want of Aadhaar and it would be the responsibility of the implementing agency to ensure that Aadhaar enrolment of such beneficiaries is carried out on priority.",
     "officialUrl": "https://acabcmis.gov.in/ApplicantReg.aspxAn",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2130,7 +2130,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Applicant need to visit the official website https://www.scsthub.in. For registration click on sign-up and provide the following details Full NameValid Email IDMobile NumberPassword and confirm passwordFor login click on login. After login complete the required information.",
     "officialUrl": "https://www.scsthub.in.For",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2230,7 +2230,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration of New Institute:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and click on 'New Institute' button.Step 02: Users will be redirected to another website. Hover the cursor on Login and select 'Investor Login'.Step 03: New users need to click on 'Sign Up Now' to register.Step 04: Enter the details and click on 'Verify' to receive OTP on your Email Id and Mobile Number.Step 05: After successful verification Click on 'Sign Up Now' to register. Post-Registration Process:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and log in with the credentials provided by AICTE.Step 02: Navigate to AQIS Application Screen by clicking on 'AQIS Application' screen tab.Step 03: Institute details will auto populate in the AQIS Application.Step 04: Fill demographic and Bank details .Step 05: Only after confirming the Bank Details, the 'New' button will be enabled for adding the AQIS Application. Click on 'New' button to create AQIS Application.Step 06: A unique AQIS Application ID will get created. Select 'SHORT TERM TRAINING PROGRAMME-SFURTI SCHEME' as Scheme from the drop down List.Step 07: Now details to be filled for the as followed: Programme Details, Personalities Expected, Participating Industries ,Similar Events, Budget Estimate -Others, Academic Credentials of Coordinator/ PI/ Applicant, Justification, Credential of Institute / Department.Step 07: Once the user has filled all the data in the above mentioned tab, user should click on 'Validate Application' button on the 'AQIS Application' tab.Step 08: User will get a pop up message to attach a Mandate Form after downloading the sample form.Step 09: Now fill the amount in the 'Total Funds Requested' under label 'Budget Estimates Others'.Step 10: After Validation is completed successfully, read the declaration, check it and click on Save.Step 10: Click on 'Submit' button to submit the application.",
     "officialUrl": "http://portal.aicte-india.org/partnerportal_enu/start.swe",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2278,7 +2278,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Handicraft artisan registered with the office of DC (H) having valid photo identity card and such other conditions as deemed fit. The artisans should submit the application form duly filled in all respect to the nearest Handicrafts Service Centre for recommendation of loan or directly to the bank for availing MUDRA loan.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bydbta",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2330,7 +2330,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury: 30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2407,7 +2407,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application to be submitted by the Executing Agency (EA) at the concerned Regional office of the Textile Commissioner.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/chcdp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2475,7 +2475,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline For identification of the beneficiaries, the government of J&K may stipulate credible and verifiable documents. The state government will verify the documents and recommend the name of the beneficiaries along with copy of Aadhar card and Aadhar linked bank account number of the beneficiaries to the MHA.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/otsdfpc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2527,7 +2527,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline For Component 1: The eligible organizations may submit the proposal as per the proforma placed at Annexure-I of the guidelines along with all supporting documents addressed to: Joint Secretary & CEO of the FundRoom No. 527, 5th Floor, BIII WingPt. Deendayal Antyodaya Bhawan, CGO Complex, Lodhi Road, New Delhi - 1\n• 10003. For Component 2: The eligible PwDs may submit the proposal as per the proforma placed at Annexure-II of the guidelines along with all supporting documents addressed to: Joint Secretary & CEO of the FundRoom No. 527, 5th Floor, BIII WingPt. Deendayal Antyodaya Bhawan, CGO Complex, Lodhi Road, New Delhi - 1\n• 10003. For Component 3: The eligible individual persons with benchmark disabilities seeking high support needs who have been assessed by the State Assessment Boards may submit the proposal as per the proforma placed at Annexure III of the guidelines along with all supporting documents addressed to: Joint Secretary & CEO of the FundRoom No. 527, 5th Floor, BIII WingPt. Deendayal Antyodaya Bhawan, CGO Complex, Lodhi Road, New Delhi - 110003.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/fanf-pwd",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2627,7 +2627,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration Process: Visit https://lilavati.aicte-india.org/signupInsert Permanent Institute ID(PID) by clicking on 'Get Details' button. Then enter Email ID and set a password. Click on 'Sign Up'.After clicking 'Sign Up', institute will receive email for activation of account. Post-Registraion Process: Visit https://lilavati.aicte-india.org/loginEnter your Email and Password. Click on 'Sign In'.Fill 'Institute Details' and 'HOI Details'.Click on 'Faculty' tab to view Faculty Details. Click on 'Application Form 1' and fill all the required details of the Institute. Click on the 'Check Box' and then on 'Submit' button. Click on 'Next' Button to submit Part 2 of application. Under 'Application Form II' tab click on 'Create New Application'.Select 'Theme' and 'Category'.Fill 'Institute Details' and click on 'Submit'. Then Add 'Faculty Details'.Click 'Get List of Faculties'. Copy 'Faculty ID'. Paste 'Faculty ID'. Click on 'Submit'.Then fill 'Student Details'.Click'Next'. Click on 'Create New Activity' for entering details of the activities performed by Team (Max 5 activities per theme).Fill required details and upload all the necessary files then click on 'Save as Draft'.Now click on 'Preview and Submit'. Then click on 'Part II saved application'.Now click on 'Submit Application'.Click on 'Create New Application' to Submit New Application for new theme (Max 5 Applications per institute for different themes are allowed).",
     "officialUrl": "https://lilavati.aicte-india.org/signupInsert",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2724,7 +2724,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration ProcessStep 1: Visit https://internship.mea.gov.in/registrationStep 2: Register by providing your Full Name, Gender, Email ID, and Password. Now, Confirm the password and fill in the captcha code. Click \"Submit\".Step 3: You will receive a verification link (with the subject line \"Internship Portal Registration\") from egov.egit@mea.gov.in. In the email, click \"Activate Account\" to verify your Email ID.***Application ProcessStep 1: Visit https://internship.mea.gov.in/dashboard and click the \"Apply for Internship\" icon provided at the middle of the page.Step 2: You will be directed to https://internship.mea.gov.in/applicationForm/1/In the application form, provide all the mandatory details: Personal, Educational, and Internship Details. Upload the mandatory documents.Step 3: Click on \"Final Preview\" to preview your application and make any changes. Finally, click on \"Submit\" to submit your application. Note: All selected interns will be required to join the Ministry on the same day in April\n• 2022. Each intern will be engaged for a minimum period of one month and a maximum period of three months. ***Selection ProcessStep 1: The selection process will consist of two stages viz. Preliminary Screening and Personal Interview. Weightage will be based on academic performance assessed by the percentage of marks obtained in +2 and graduation exams.Step 3: State-wise merit lists will be prepared - separately for male and female candidates - by elimination based on academic performance in +2 and graduation exams. Priority will be given to applicants from TADP districts during the Preliminary Screening stage and to applicants belonging to SC/ST/OBC/EWS categories in the Personal Interview stage.Step 4: Candidates selected in the merit lists will be called for a personal interview to be conducted by video conferencing.Step 5: A maximum of 75 candidates will be selected from the interview process and offered internships. If any selected candidate opts out, the next candidate in the merit list from the individual state will be offered the opportunity. Note 1: The selection process will follow a 'quota cum weightage' system. There may be 2 interns from each of the 28 States; 2 interns from each of the 8 Union Territories and 3 more interns with maximum marks from TADP districts / underprivileged sections of the society. A minimum of 30% of the 75 internships may be filled by women candidates. Note 2: The total number of candidates called for interviews will be three times the number of interns to be engaged in each term.***",
     "officialUrl": "https://internship.mea.gov.in/registration",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2816,7 +2816,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: The application form, in the prescribed format (Annexures - A and A-1) for enlistment under the Tender Marketing Scheme is to be submitted by the applicant Micro & Small Enterprise (MSE), duly signed by the authorized signatory i.e. Proprietor/Partner(s)/Director(s) of the firm /company /society along with the documents mentioned in the application form.Step 02: Fill the form properly and attach all the necessary documents and send it to the Concerned/Regional NSIC branch office.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ctms",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2876,7 +2876,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application process:Step 01: Any person or persons, desiring to purchase a Certificate, shall present an application either in person or through an authorized agent of the small savings schemes at a Post Office or Bank. The person may visit the nearest Post Office Branch or a designated bank.Step 02: Collect the applicant form or download it from the official website.Step 03: Fill out the application form and attach all the required documents.Step 04: Fill out the declaration and nomination details.Step 05: Submit the application form with an initial amount of investment/deposit.Step 06: Upon processing your application, a KVP certificate is issued immediately. Keep the documents safe which will need at the time of maturity. Procedure for payment: Payment for the purchase of a Certificate may be made to a Post Office or Bank in any of the following modes, namely: by cash; orby locally executed cheque, pay order, or demand draft drawn in favour of the Post Master; orby presenting a duly signed withdrawal form or cheque together with the passbook for withdrawal from a Savings Account standing in a credit of the purchaser at the same Post Office or Bank. Issue of Certificates: On payment being made, except where payment is made by a cheque, pay order, or demand draft, a Certificate shall be issued immediately and the date of such Certificate shall be the date of payment. Where payment for the purchase of a Certificate is made by cheque, pay order, or demand draft, the Certificate shall not be issued before the proceeds of the cheque, pay order, or demand draft, as the case may be, are realized and the date of such Certificate shall be the date of encashment of the cheque, pay order or demand draft, as the case may be. If, for any reason a Certificate cannot be issued immediately, a provisional receipt shall be given to the purchaser which may later be exchanged for a Certificate, and in such a case the date of the Certificate shall be the date of provisional receipt. Premature closure of account: 1. The account may be prematurely closed by the account holder by filling a specified application form to the accounts office, at any time before maturity under the following circumstances, namely:-(a) on the death of the account holder in a single account, or any or all the account holders in a joint account;(b) on forfeiture by a pledgee, being a Gazetted Officer;(c) when ordered by a court.\n• 2. On the closure of the account under sub-paragraph (1) of the scheme guideline, principal amount along with simple interest calculated at the rate applicable from time to time to Post Office Savings Account for the complete months for which the account has been held, shall be payable.\n• 3. Notwithstanding anything contained in sub-paragraph (2) of the scheme guideline, if an account is closed any time after the expiry of two years and six months from the date of opening of the account, the amount, inclusive of interest shall be payable as per specified rate. Transfer of account: An account may be transferred from one individual to another, subject to the condition that the transferee is eligible to open an account under this Scheme, in the following cases, namely:-on the death of the account holder in case of a single account or on the death of all the account holders in a joint account, the amount shall be transferred to the legal heirs or the nominees, as the case may be;on the order of the court, the account shall be transferred from the account holder to the court or to any other individual as per the orders of the court;on pledging, the account shall be transferred in accordance with paragraph 7 of the scheme guideline;in the event of the death of any of the account holders in a joint account, the account shall be transferred in the name of the surviving account holder or account holder, as the case may be. Payment on the death of the account holder: In the event of the death of the depositor of a single account or of all the depositors in a joint account, the deposit shall be payable to the nominee if a nomination exists or to the legal heir(s).Where there are not more than three surviving nominees or legal heirs, they may, at their option continue the account and receive the amount of deposit along with interest on maturity in the manner provided for in this scheme, as if they had opened the account themselves. Where the account is not continued under sub-paragraph (2) of the scheme guideline, it shall be closed and the amount of deposit along with interest as provided in paragraph 6 shall be repaid. On the death of one or two of the account holders in a joint account, the surviving account holder or holders, if any, shall be treated as the owner or owners of the account and such account holder or holders may continue the account under sub-paragraph (2) of the scheme guideline or close the account under sub-paragraph (3) of the scheme guideline.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/kvps",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2936,7 +2936,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The applicant need not apply for the scheme. State Governments/ UT Administration will implement the mission based on the finalized SAP with timelines to cover all the villages of the respective State/ UT. Each village will be assessed on existing water supply infrastructure by DWSM in consultation with Gram Panchayat and/ or its sub-committee and ISA. Based on the same, FHTCs will be provided to every rural household by creating in-village water supply infrastructure including source development under any one of the following suggested categories, viz. Retrofitting of ongoing schemes taken up under erstwhile NRDWP for the last mile connectivity;Retrofitting of completed rural water supply schemes to make it JJM compliant;Single Village Scheme (SVS) in villages having adequate groundwater/ spring water/ local or surface water source of prescribed quality;Single Village Scheme (SVS) in villages having adequate groundwater that needs treatment;Multi Village Scheme (MVS) with water grids/ regional water supply scheme; andMini solar power-based piped water supply in isolated/ tribal hamlets.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/jjm",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -2988,7 +2988,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application Process:Step 01: Applications for EYCs need to be routed through the Head of the University/Institution.Step 02: The applicant University/Institution allows only online submission of proposals.Step 03: For proposal submission, the applicant University/Institution can register & apply on the BIRAC website \"www.birac.nic.in\".Criteria for selection of BIRAC's E-Yuva Centers: The BIRAC EYC Committee will be responsible for the selection of the new centers taking following criteria into consideration: Allocation of dedicated space & relevant infrastructure ready for use. Past experience of conducting innovation-promoting/entrepreneurial programs desirableNumber of Startups formed by the students (in biotech or any other area) Number of Patents filed from the University/ InstitutionNo. of Industry projects handled or Industry connectsFunds received or raised for supporting InnovationsAccessibility to experts/mentorsWillingness & commitment from the Head of the University/Institution to support the programAvailability of IP, regulatory, and business support to the EYC fellows. The Institute should be willing to support EYC fellows to facilitate networking through individuals/groups. Connects with bio incubators and other organizations actively promoting EntrepreneurshipNote: BIRAC encourages applications from Tier II/III cities for EYCs. Selection Process: The EYC Committee will be responsible for the evaluation and selection process. After the eligibility check, the proposals received will be evaluated by the EYC Expert Committee on various parameters mentioned in the previous section. The shortlisted proposals will be called for presentation at BIRAC.On the basis of the presentation, the Committee will recommend the proposals for a site visit or direct consideration. After the site visit (if recommended) the recommendations of the site visit committee would be presented to the EYC committee chair for final decision on funding. Once recommended for support, GLA signing will be done with the applicant after financial due diligence.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/e-yuvase-yuvac",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3044,7 +3044,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline AICTE approved Institutions having NIRF ranking between 01 to 500 & fulfilling the eligibility Criteria, can submit their applications online as per the notification available time to time on the AICTE portal.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ayuvfak",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3101,7 +3101,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The proposals for the Distinguished Chair Professor fellowship will be by nomination only. The nominations with all necessary details can be sent throughout the year to the following address: The Director (Faculty Development Cell) AICTE, Nelson Mandela Marg,Vasant Kunj, New Delhi-110070Director.fdc@aicte-india.org",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dcpf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3157,7 +3157,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: Promoter applies for Term Loan (TL) to Financial Institution (FI)Step 02: Tem loan sanctioned by FIsStep 03: FI applies for Advance Subsidy within 90 days of disbursal of First instalment of TL through ENSURE portal of NABARDStep 04: NABARD, sanctions and releases the Advance Subsidy to the FIStep 05: After completion of the project, FI will submit final subsidy claim to NABARD and requests for Joint Monitoring Inspection (JMI)Step 06: NABARD will initiate action for conduct of JMI and Geo-tagged photograph taken during JMI is uploaded to the Ensure PortalStep 07: NABARD sanctions and releases final subsidy to the FI",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ami",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3318,7 +3318,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "for SC/ST MSEs, the scheme fosters a more supportive environment for their entrepreneurial endeavors",
     "officialUrl": "https://www.scsthub.in.For",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3418,7 +3418,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration of New Institute:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and click on 'New Institute' button.Step 02: Users will be redirected to another website. Hover the cursor on Login and select 'Investor Login'.Step 03: New users need to click on 'Sign Up Now' to register.Step 04: Enter the details and click on 'Verify' to receive OTP on your Email Id and Mobile Number.Step 05: After successful verification Click on 'Sign Up Now' to register. Post-Registration Process:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and log in with the credentials provided by AICTE.Step 02: Navigate to AQIS Application Screen by clicking on 'AQIS Application' screen tab.Step 03: Institute details will auto populate in the AQIS Application.Step 04: Fill demographic and Bank details .Step 05: Only after confirming the Bank Details, the \"New\" button will be enabled for adding the AQIS Application. Click on \"New\" button to create AQIS Application.Step 06: A unique AQIS Application ID will get created. Select \"AICTE- TECHNICAL UNIVERSITY JOINT TRAINING PROGRAMS FOR LIBRARIANS\" as Scheme from the drop down List.Step 07: Now details to be filled for the as followed: Program Details, Personalities Expected, Participating Industries ,Similar Events, Budget Estimate -Others, Academic Credentials of Coordinator/ PI/ Applicant, Justification, Credential of Institute / Department.Step 07: Once the user has filled all the data in the above mentioned tab, user should click on 'Validate Application' button on the 'AQIS Application' tab.Step 08: User will get a pop up message to attach a Mandate Form after downloading the sample form.Step 09: Now fill the amount in the 'Total Funds Requested' under label 'Budget Estimates Others'.Step 10: After Validation is completed successfully, read the declaration, check it and click on Save.Step 10: Click on \"Submit\" button to submit the application.",
     "officialUrl": "http://portal.aicte-india.org/partnerportal_enu/start.swe",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3482,7 +3482,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Eligible persons desirous of obtaining financial assistance under NBCFDC schemes should contact the Distt. Collector or Distt. Manager/Officer/Branch Manager of respective Channel Partners (CPs) in their respective States/Distt.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/els",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3575,7 +3575,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury: 30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3647,7 +3647,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Process:Step 01: Applications are invited for financial assistance under the scheme from Not-For-Profit Organizations including Societies, Trusts, Companies, and Universities for supporting the seminars, research, workshops, festivals, production and exhibitions, etc. organized by them on different aspects of Indian Culture.Step 02: Applicant Organization may send the completely documented applications, in the prescribed proforma, along with the recommendation of any of the National Academies, any culture-related organization under the Government of India, or by State Government/UT Administration/ State Academies.Step 03: The application should be addressed to The Director, North Central Zone Cultural Centre (NCZCC), 14, CSP Singh Marg, Allahabad-2\n• 11001. Telephone No. 0532-2421855, 0532-2\n• 423698. Note 01: For any clarification please contact Section Officer, (S&F) Section at Telephone No. 011-24642157 and Director, North Central Zone Cultural Centre (NCZCC) at Telephone No. 0532-2421855, 0532-2\n• 423698. Note 02: Organizations may apply for financial assistance under the scheme throughout the year. Mode of Selection: The grant under the scheme will be considered and recommended by the Expert Committee constituted for the purpose. The scrutiny of applications by the Expert Committee will be done in its meetings held from time to time throughout the year subject to the availability of funds and applications for the grant. The same Expert may not be allowed to recommend the proposal of the organization of which he is the Office bearer or in any other way related to the organization. All the Expert Committee Members are required to give an undertaking that he/she is neither an office-bearers nor in any other way related to any of the organizations being considered for a grant in that CFPG meeting. If an Expert is found to have recommended the proposal of his/her organization, the Expert and his/her organization may be debarred from selection in that particular meeting.",
     "officialUrl": "https://indiaculture.gov.in/sites/default/files/Schemes/Application_Form_CFPGS_03_05_2019.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3731,7 +3731,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The Transgender person can visit the Garima Greh and register by filling the admission form and the personal affidavit. The location of Garima Greh can be checked online - https://transgender.dosje.gov.in/Applicant/Registration/ListofNGO",
     "officialUrl": "https://transgender.dosje.gov.in/Applicant/Registration/ListofNGODocuments",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3795,7 +3795,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Interested and eligible applicants may send their applications in the prescribed format along with all required documents to the following address: The Under Secretary (AEI Section), Department of Heavy Industry, Udyog Bhavan, Room No 428, New Delhi 110011, Tel: 011-23061490The applicant would inform DHI about the purchase of the vehicle and the Registration number of the vehicle to the Department of Heavy Industry within a period of 30 days from the date of registration of the vehicle.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gstecs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3887,7 +3887,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Advertisement for Inviting ApplicationsThe scheme of BioCARe program will be advertised on PMU and the Department of Biotechnology website. The desirous candidates are required to apply through the link created on the website or as specified. Applications received through any other mode/channel will not be considered and are liable to be rejected. The process requires one full application with two parts. Part A requires General Information of the Applicant and Part B requires details related to the research proposal, budget, and regulatory details (see Annexure). Selection Processa) The eligible applications will be screened by an Expert Committee constituted by the Department for shortlisting based on the following parameters: 1. Novelty\n• 2. Scientific merit\n• 3. Experience and the qualification of the Applicant as well as Mentor\n• 4. Publications record\n• 5. The infrastructure of the Host Institution b) Shortlisted applicants will be required to submit their full proposal which will be peer-reviewed and based on the reviews, the selected ones will have to present their research proposal to the Expert Committee. c) Once the project is technically approved, a formal sanction order will be issued as per the recommendations of the Expert Committee (EC). The total cost of the project will be based on the latest quotation(s) of equipment(s) approved under the project and other relevant documents related to consumables etc. submitted by the applicant. Post-Selection Instructions for the CandidatesApplicants cannot use this program to pursue their Ph. D./higher studies. Applicants with an MSc degree or those pursuing a PhD/ MTech/ MPharma/ MVSc/ MD/ MDS/equivalent are not eligible to apply. The applicant must have been successfully awarded Ph. D./ MTech/ MPharma/ MVSc/ MD/ MDS/equivalent degree before applying. The applicants currently availing of any postdoctoral or contractual fellowship have to resign from the same before accepting the project under BioCARe program. The applicant cannot hold another Fellowship/Grant/Award that provides them salary/stipend/emoluments/personal support concurrently with BioCARe project. The applicants holding or had availed any funding under Women specific scheme of DST or any other funding agency are also not eligible to apply. The candidates are required to spend 100% of their research time on the BioCARe project. The research time should be corroborated by the Host Institution at the time of submission of annual technical and financial reports. In case the applicant joins any regular employment during the tenure of the BioCARe project, then she will not receive any fellowship or honorarium from the BioCARe project. It will be mandatory for the applicant to get a Co-PI nominated from the Institute/Organisation where she intends to join and work as a regular employee. All the necessary documents will be required to be submitted again for the same. The applicants must indicate the number of years of experience post-qualifying degree (i.e. PhD/MTech/MVSc/MD/MDS/MPharma) in the application form and will be required to provide documents along with the application. The candidates are required to clearly indicate any non-research career break and submit evidence along with the application form.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/biocare",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -3972,7 +3972,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 1: Take a print of the application form given in Annexure-III (page no. 47) of the scheme guidelines - https://nsap.nic.in/Guidelines/nsap_guidelines_oct2014.pdf (The application forms are available with the District Social Welfare Officer (DSWO) or Tehsil Social Welfare Officer (TSWO) free of cost.)Step 2: The duly filled-in Application forms along with the required documents are to be submitted to the designated officer appointed by the respective state governments. The applicant has to complete the application form and enclose proof regarding age, income, status, address, and death certificate. Complete case is to be submitted to the concerned TSWO which consolidates the lists and forwards to the Block Level Sanctioning Committee. The cases are then submitted to DSWO for accord of sanction by District level sanctioning committee headed by the Director General, Social Welfare Department.",
     "officialUrl": "https://nsap.nic.in/Guidelines/nsap_guidelines_oct2014.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4040,7 +4040,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: The call for proposals will be notified through the website www.serbonline.in and www.serb.gov.inStep 02: Applicant(s) should first register into the online website. Click here to registerStep 03: After log-in, go to Menu --> Proposal Submission --> Form Submission. Select the scheme \"High Risk High Reward (HRR)\" and Click on the \"Start Submission\" Button.Step 04: If you have CO-PI in your proposal then it is to be ensured that all the CO-PI are registered in the SERB online portal and have filled all mandatory fields in the \"Profile Details\" section under \"Menu\" - >\"User Profile\" after login.Step 05: Some of the details of your proposal like Project Title (max 500 characters), Project summary (max 3000 characters), Keywords (max 6), Objectives of the project (max 1500 characters), Expected output, and outcome of the proposal (max 1500 characters), Budget (Research Personnel, Consumables, Travel, Equipment, Contingency, Overheads ) have to be entered at the time of proposal submission. Note: The proposals will be evaluated through peer review processes as approved by the Board. Complete guideline for Principal Investigator for SERB-online system",
     "officialUrl": "https://www.myscheme.gov.in/schemes/hr-hrr",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4105,7 +4105,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application process:Step 01: The applicant can visit the nearest Post Office Branch or a designated bank.Step 02: Collect the applicant form or download it from the official website.Step 03: Fill out the application form and attach all the required documents.Step 04: Fill out the declaration and nomination details.Step 05: Submit the application form with the initial amount of investment/deposit.Step 06: Receive the certificate that serves as proof of investment in the 'Mahila Samman Savings Certificate' scheme. Note: An application for opening an account under this Scheme shall be made by a woman for herself, or by the guardian on behalf of a minor girl on or before March 31, 2\n• 025. Premature closure of account: 1. The account shall not be closed before maturity except in the following cases, namely:-• on the death of the account holder;• where the post office or the Bank concerned is satisfied, in cases of extreme compassionate grounds such as medical support in life-threatening diseases of the account holder or death of the guardian, that the operation or continuation of the account is causing undue hardship to the account holder, it may, after complete documentation, by order and for reasons to be recorded in writing, allow premature closure of the account.\n• 2. Where an account is prematurely closed under sub-paragraph 1, interest on principal amount shall be payable at the rate applicable to the Scheme for which the account has been held.\n• 3. Premature closure of an account may be permitted, any time after the completion of six months from the date of opening of an Account, for any reason other than provided under sub-paragraph 1, and in which case the balance as stood from time to time in the account shall be eligible only for the interest rate less by 2% than the rate specified in this Scheme.\n• 4. In calculating the maturity value, any amount in fraction of a rupee shall be rounded off to the nearest rupee and for this purpose; any amount of fifty paisa or more shall be treated as one rupee and any amount less than fifty paisa shall be ignored.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mssc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4198,7 +4198,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3: Choose the type Individual or Organization. Step-4.1: Under the Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2:\nUnder Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5: Submit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select scheme name, then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, Step-5: Then click \"Submit\".",
     "officialUrl": "https://awards.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4258,7 +4258,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online For the Implementing Agencies: The proposals in the prescribed proforma along with all the (self-attested) supporting documents in hard copy should reach the concerned Handicraft Service Center (HSC), O/o the DC (HC) in time. NOTE 1: The proposal sent earlier without any invitation or received after the timeline/last date, mentioned above, will not be entertained. NOTE 2: Incomplete proposals without the mandatory enclosures and proposals that are not clearly recommended and received after the due date will not be considered.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/iats",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4418,7 +4418,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration of New Institute:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and click on 'New Institute' button.Step 02: Users will be redirected to another website. Hover the cursor on Login and select 'Investor Login'.Step 03: New users need to click on 'Sign Up Now' to register.Step 04: Enter the details and click on 'Verify' to receive OTP on your Email Id and Mobile Number.Step 05: After successful verification Click on 'Sign Up Now' to register. Post-Registration Process:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and log in with the credentials provided by AICTE.Step 02: Navigate to AQIS Application Screen by clicking on 'AQIS Application' screen tab.Step 03: Institute details will auto populate in the AQIS Application.Step 04: Fill demographic and Bank details .Step 05: Only after confirming the Bank Details, the 'New' button will be enabled for adding the AQIS Application. Click on 'New' button to create AQIS Application.Step 06: A unique AQIS Application ID will get created. Select the \"AICTE-PROFESSIONAL DEVELOPMENT SCHEME\" or \"Travel Grant Scheme\" as Scheme from the drop down List.Step 07: Now details to be filled for the as followed: Program Details, Personalities Expected, Participating Industries ,Similar Events, Budget Estimate -Others, Academic Credentials of Coordinator/ PI/ Applicant, Justification, Credential of Institute / Department.Step 07: Once the user has filled all the data in the above mentioned tab, user should click on 'Validate Application' button on the 'AQIS Application' tab.Step 08: User will get a pop up message to attach a Mandate Form after downloading the sample form.Step 09: Now fill the amount in the 'Total Funds Requested' under label 'Budget Estimates Others'.Step 10: After Validation is completed successfully, read the declaration, check it and click on Save.Step 10: Click on \"Submit\" button to submit the application.",
     "officialUrl": "http://portal.aicte-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4566,7 +4566,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Keep ready the soft copies of the required documents. Go to http://www.scholarships.gov.in/. and click \"New Registration\".Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click \"Continue\".Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill in the details and click \"Register\". Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number.Step 3: Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction Click on \"Login to Apply\". Enter your Application ID and password. Type the Captcha and click \"Login\".On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click \"Submit\". You will be directed to the \"Applicant's Dashboard\".Step 4: On the left pane, click \"Application Form\". The fields marked as * are compulsory. Fill the details and upload the documents. You can either click on \"Save as Draft\" to com",
     "officialUrl": "http://www.scholarships.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4638,7 +4638,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online\n• 1. For Govt., PSU, and Others: Online application https://itrack.apeda.gov.in/onlineregistration/fasonlinereg.aspx\n• 2. For Exporters: Online applicationhttps://itrack.apeda.gov.in/default.aspx? UType=E",
     "officialUrl": "https://itrack.apeda.gov.in/onlineregistration/fasonlinereg.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4805,7 +4805,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application process:Step 01: BIRAC issues a national call inviting applications under BIG at least twice a year (1st of January & 1st of July). The Call for Proposals is advertised through one or more means that may include the BIRAC website, newspapers, journals, and magazines. The Call for Proposals is typically open for a period of up to one and a half months.Step 02: Application for BIG needs to be submitted online ONLY through the BIRAC website www.birac.nic.in.Step 03: For proposal submission, the applicant can register on the BIRAC website under \"BIG User\".Step 04: The eligible applicants can fill up and submit their applications by visiting the official website. Note 01: The BIG Scheme is implemented across the country through BIRAC's BIG Partners. The Call will mention the names of BIG Partners for the particular call. Names of the BIG Partners and their responsibilities are mentioned in Annexure\n• 2. Note 02: Applicants are advised to provide sufficient details in their applications to allow for an informed and fair evaluation/review. Note 03: Requests for changes in a proposal once submitted will not be entertained. Note 04:\nProviding incorrect information intentionally is viewed adversely and may lead to disqualification. Selection process: BIG selection is a multi-tier process involving the following steps:Step 01: Eligibility Check: BIG Partners screen the applications for eligibility requirements as laid out in the scheme document and appropriateness under the BIG scheme.Step 02: Examination by Preliminary Selection Committee (PSC): The PSC examines all eligible proposals on the following contours:• Scheme fit\n• Availability of adequate technical details which are minimally required for online review\n• PlagiarismStep 03: Online review by subject matter experts: Proposals recommended by PSC are reviewed online by 3 or more subject matter experts.Step 04: Presentation before Thematic Technical Expert Panel (TEP): Based on expert reviews, shortlisted applications are called for a Face-to-face presentation before the Technical Expert Panel (TEP). The TEPs are conducted in a thematic manner where all proposals of a particular theme are evaluated together by a common committee. All proposals are scored by individual TEP Experts and the Geometric Mean of Individual Scores is used to arrive at the final score for a particular proposal.\n• Proposals with score â‰¥60 are considered at the next step (ESC)\n• Proposals with score <60 are not considered furtherStep 05: Scoring Cut-off decision by the Expert Selection Committee (ESC): ESC takes the final decision with regard to the cut-off score for final selection. Proposals above the decided cut-off will be considered for further due diligence. ESC may choose to have either the same or differential scoring cut off across the themes.Step 06: ESC-recommended applications are then subjected to final financial and technical due diligence by the BIG Partner. This may require a visit by BIG partner representative(s) to the applicant's site and involves the following steps:• Reconfirming eligibility by verification of original documents\n• Legal, technical, and financial due diligence\n• Confirming applicant's claimed resources: Space, equipment, manpower, advisors, incubation services, samples, etc.\n• Confirming compliance strategy with regard to safety, ethics, waste disposal, etc.\n• Confirming for any special guidance by ESC• Justification of budget (usually by verifying quotations); meeting budget caps and other requirements\n• Finalization of milestones, budget, and payment schedule; defining clear measurable milestones. Indicative evaluation criteria: BIG Proposals are reviewed on the following parameters during online review and TEP Stage: 1. Unmet Need (max 20)\n• 2. Value Proposition/Differentiation (max 20)\n• 3. Technical Viability (max 30)\n• 4. Team Strength/Passion (max 15)\n• 5. Business Perspective (max 15)\n• Potential\n• Clarity/Team's view\n• Commercialization Potential (Yes/No) Registration guidelines for BIG Scheme(Company/Individual)",
     "officialUrl": "https://www.birac.nic.in/desc_new.php?id=327â€",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4938,7 +4938,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: A unit/applicant can apply for ATUFS after the machinery is installed for undergoing a joint inspection.Step 2: The applicant can submit the ATUFS application online on the iTUFS online portal.Step 3: Once the application is submitted, it will be forwarded to different stakeholders for verification.Step 4: A Unique Identification Number (UID) is generated and provided to the applicants.Step 5: Applicants can track the application online and can opt to get SMS/e-Mail updates about the application status through the UID.Step 6: After the stakeholders approve, the Ministry of Textiles will release the funds.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/atuf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -4990,7 +4990,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Interested and eligible students can apply online in the specified format as per the process and timelines provided by FSSAI.Step 1: Visit the Official Website of the FSSAI Internship Scheme and click on the 'Apply Online' option in the header menu, you will be redirected to the online application form.Step 2: In the form, fill in all the mandatory fields, and upload the required documents in the mentioned filetype & filesize.Step 3: Please read all the questions carefully, then click \"Submit\". Note down your Application ID for future reference.Step 4: (Optional) You can view/print the form after the final submission. NOTE 1: Applicants, who have applied for internships in previous months, need to apply afresh. NOTE 2: Multiple Applications will not be entertained. NOTE 3: All candidates are to ensure that the place for the internship that they are opting for has the subject/topic available with that place i.e. in the case of FSSAI lab only technically qualified candidates will be eligible. HelpdeskFor any query related to Internship Programme at FSSAI, students may contact through email at internship-fssai@fssai.gov.in only. Mode of IntimationThe final list of selected candidates along with their date of joining and Internship tenure would be declared online on the FSSAI website by the respective office where they have opted for internship.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/fssaiis",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5059,7 +5059,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury:\n30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5131,7 +5131,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: The applicant will open the website https://dbtyas-sports.gov.in/ to registerand apply for Online Schemes of the Department of Sports.Step 2: The applicant will click on the 'Registration' tab to start the one-time registration process. Here the applicant will fill in the required personal details including verification of their mobile number through OTP.(Registration Type, Organization Name, Individual Name, Address, State, City, District, Block, Village, Pin Code, Email, Mobile Number)Step 3: After successful registration, the applicant will get the message that the login credentials have been sent to the registered email ID.Step 4: The applicant will use the login credentials received on the registered email ID to login into the online portal. Please remember to refresh the captcha before clicking on the login button.Step 5: After first-time login, the applicant will be required to update their other basic details. After filling in the details click on the 'Update' button and the profile will be successfully updated.(Name of the Applicant, Father's Name, Mother's Name, Gender, DOB, Nationality, Address, email, Mobile Number)Step 6: The applicant will click on the 'Schemes' tab and apply for the desired scheme.*****Note 1: Nominations for the award are invited in the month of January/February each year. The last date for the receipt of nominations will be 30th April or last working day of April. Note 2: The nominations will be sent to the Ministry of Youth Affairs and Sports in the prescribed proforma giving the details past performance of the nominated sportspersons in. International competitions and details of the contribution made for promotion and development of sports. Note 3: The nominating authorities are required to certify in the nomination form itself that the nominees are clear from vigilance/disciplinary angles and are not involved in acts of criminal and moral turpitude nature. Note 4: In case of sportspersons employed with Central Government/State Governments/PSUs or in private organizations, nominating authorities should obtain a requisite report from the concerned employers before certifying that the sportsperson being nominated is clear from vigilance/disciplinary angle and is not involved in any act of criminal or moral turpitude nature. While seeking report from the employer, details of chargesheet/disciplinary action taken/pending, if any, should also be obtained. Copy of the report/certificate obtained from the employer of the sportspersons should be enclosed with the application of the sportspersons being nominated. Note 5: Copies of the nominations received from organizations other than the National Sports Federations (NSFs) will be sent to the concerned NSF for verification of the details and the achievements and for checking if the nominated sportsperson has ever been warned/penalized for any unfair practice like age fraud/sexual harassment, doping etc. All details in this regard, if any, alongwith the verification report should be sent by the concerned NSF within a week of the receipt of letter from the Ministry. Note 6: The applications for nomination should be addressed to Director (Sports)/Deputy Secretary (Sports)/Under Secretary (Sports), Ministry of Youth Affairs and Sports only and date of receipt in his/her office will be the date of receipt of nomination by the government. Note 7: Received applications are to be duly stamped and recorded in a register. In addition all applications received within time will be duly acknowledged to the recommending authority.*****Ranking Criteria for the Shortlisted Candidates - 70 % weightage will be given for the medals won in various International championships and sports events of the disciplines covered in Olympic Games (Summer, Winter and Paralympics), Asian Games and Commonwealth Games. Points for winning medals will be given to each eligible sportsperson for his/her performance during his entire sporting career as per marks given in the table below: 1. Olympic Games/ Paralympics: Gold: 80, Silver: 70, Bronze: 55.\n• 2. World Championship/World Cup (once in 4 years )* : Gold: 40, Silver: 30, Bronze: 20.\n• 3. Asian Games: Gold: 30, Silver: 25, Bronze: 20.\n• 4. Commonwealth Games: Gold: 25, Silver:\n20, Bronze: 15.\n• 1. For World Championship/World Cup of different periodicities, proportionate marks will be given.\n• 2. Equivalence of any other sports discipline/tournament, not listed above, will be decided by the Selection Committee with reference to above-mentioned categories of sports tournaments and the points will be allotted accordingly.\n• 3. For team events, marks will be computed taking into consideration strength of the team. If prescribed marks for an individual event are 'A', in the case of team event, the marks will be computed as follows:(i) A team of 2 persons: 1.5 X `A'/number of persons in the team(ii) A team of 3 or 4 persons: 2 X 'A'/number of persons in the team(iii) A team of 5 to 10 persons: 3 X `A'/number of persons in the team(iv) A team of more than 10 persons: 5 X `A'/number of persons in the team4. 70 marks will be given to the sportsperson getting maximum points as computed in the table above. Rest of the sportspersons will be given marks proportionately to the said sportsperson. For example, if a sportsperson 'A' has got highest points say 45 points as per the table above and another sportsperson 'B' has got 40 points as per the table above, then 'A' will get 70 marks and 'B' will get ( 70 x 40 /45) = 62.22 marks.5. 30 % weightage will be given to the marks given by\n• the Selection Committee for assessment of the eligible sportsperson for contribution made for promotion of sports after retiement from active sports career e.g. as a coach, sports manager, etc. and for qualities of sportsmanship, leadership and sense of discipline.\n• 6. For cricket and indigenous games, not included in Olympic / Asian Games / Commonwealth Games disciplines, the Selection Committee will take into consideration their individual performances and contribution to sports after active sports career.\n• 7. Not more than one award will be given in each discipline in a particular year. This condition would be relaxed only in exceptional circumstances to be recorded in writing.\n• 8. Not more than 3 awards could be given in any calendar year. This condition will be released only in exceptional circumstances to be recorded in writing.\n• 9. In a particular sports discipline, names of not more than 2 sportspersons (1 male and 1 female) with the highest marks as per the criteria brought out in the table above will be considered by the Selection Committee,1\n• 0. Sometimes, the Selection Committee may feel that as per the given criteria, a very deserving sportsperson in a team game may not get Dhyan Chand Award. In such a situation, it may recommend such name giving full justification in writing.\n• 11. Selection Committee will recommend the final list of sportspersons for Dhyan Chand Award as per the marks obtained in terms of the criteria indicated above.\n• 12. Selection Committee may not mechanically recommend Dhyan Chand Award to the recipient of the highest marks across disciplines. But in a particular sports discipline, award will be recommended only for the recipient of the highest ageregate marks.\n• 13. The recommendations of Selection Committee will be placed before the Union Minister of Youth Affairs & Sports for the final decision.",
     "officialUrl": "https://dbtyas-sports.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5215,7 +5215,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Enrolment of PwD at the Gharaunda CentreStep 1: PwD arrives at or is brought to the Gharaunda Centre.Step 2: Gharaunda Centre conducts an Individual PwD Assessment Test with a Therapist or Counsellor to understand specific needs.Step 3: If PwD is orphaned, abandoned, or from a family in crisis, the RO certifies and enrolls the PwD with Gharaunda. Automatic inclusion in BPL category and enrollment for Niramaya.Step 4: For other cases, check eligibility for LIG or BPL funding by the National Trust. Funding based on RO-provided information, subject to verification.Step 5: Parents or guardians fill Enrolment Form, submit documents, and pay the application fee if required.Step 6: Upon successful verification, PwD enrolled at Gharaunda with ID card, starter kit, and details provided by Gharaunda representatives.Step 7: Gharaunda representatives provide insight on Niramaya health insurance scheme to parents/guardians. Mandatory registration under Niramaya, confirmed by Certification from parents or guardians",
     "officialUrl": "https://thenationaltrust.gov.in/content/centre-sanctioned-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5311,7 +5311,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline One can download UMANG App or visit website https://web.umang.gov.in/web_new/home The citizen can login using mobile number and OTP.Once logged In, citizen can search for NSAP.Click on \"Apply Online\"Fill the basic details, choose the mode of payment of pension, upload photo and click on \"Submit\".",
     "officialUrl": "https://web.umang.gov.in/web_new/home",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5379,7 +5379,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline One can download UMANG App or visit website https://web.umang.gov.in/web_new/home The citizen can login using mobile number and OTP.Once logged In, citizen can search for NSAP.Click on \"Apply Online\"Fill the basic details, choose the mode of payment of pension, upload photo and click on \"Submit\".",
     "officialUrl": "https://web.umang.gov.in/web_new/home",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5443,7 +5443,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: The eligible agencies should submit the proposal for conducting Study/Survey and /or Seminar/workshop, as per the prescribed proforma, through the NGO Portal only (Govt. agencies can submit the proposal through either online or offline mode).Step 2: A committee under the chairmanship of the Development Commissioner (Handicrafts) will be formed for consideration of proposals received from NGOs, as per the delegation of financial power of the Development Commissioner of (Handicrafts). The proposals of govt. agencies will be considered on a first come first basis and the availability of funds.Step 3: The proposals having financial implications more than the financial power of the Development Commissioner (Handicrafts) will be brought before the Project Approval and Monitoring Committee (PAMC), chaired by the Secretary (Textiles), including a representative from IFW, Ministry of Textiles.",
     "officialUrl": "http://www.handicrafts.nic.in/Pdf/final_citizen.pdfFrequently",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5602,7 +5602,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online How to ApplyVisit URL http://meity.gov.in/schemes, click on Digital India Internship Scheme->Apply for InternshipRegister yourself as an applicant (if not already registered).Click on Apply for Service or log in. Enter the User Name, Password, and Captcha code given and click on Submit. Once logged in, on the left menu click on Apply for services and then click on View servicesClick on 'Apply'",
     "officialUrl": "http://meity.gov.in/schemes",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5662,7 +5662,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application process:Step 01: The applicant can visit the nearest Post Office Branch or a designated bank.Step 02: Collect the applicant form or download it from the official website.Step 03: Fill out the application form and attach all the required documents.Step 04: Fill out the declaration and nomination details.Step 05: Submit the application form with an initial amount of investment/deposit.Step 06: Upon processing your application, an acknowledgment of the same will be provided marking the initiation of your NSC account. Premature closure of account: 1. The account shall not be closed before maturity except in the following cases, namely: on the death of the account holder in a single account, or any or all the account holders in a joint account;on forfeiture by a pledgee being a Gazetted Officer, when the pledge is in conformity with this Scheme;when ordered by a court.\n• 2. Where an account is prematurely closed under sub-paragraph (1) before the expiry of one year from the date of deposit, only the principal amount shall be payable.\n• 3. If the account is prematurely closed under sub-paragraph (1) after the expiry of one year but before the expiry of three years from the date of deposit, the premature closure shall be allowed and on such premature closure of the account interest on principal amount at the rate applicable to the Post Office Savings Account from time to time for the complete months for which the account has been held, shall be payable. Transfer of account from one individual to another: An account may be transferred from one individual to another, subject to the condition that the transferee is eligible to open an account under this Scheme, in the following cases, namely:-on the death of the account holder in case of a single account or on the death of all the account holders in a joint account, the amount shall be transferred to the legal heirs or the nominees as the case may be.on the order of the court, the account shall be transferred from the account holder to the court or to any other individual as per the orders of the court;on pledging, the account shall be transferred in accordance;in the event of the death of any of the account holders in a joint account, the account shall be transferred in the name of the surviving account holder or account holder, as the case may be. Payment on the death of the account holder: 1. In the event of the death of the depositor of a single account or of all the depositors in a joint account, the eligible balance in the account shall be payable as specified in the scheme guideline.\n• 2. If a nomination is in force at the time of death of the depositor of a single account or all the depositors of a joint account, the nominee may make a specified application to the accounts office for payment of the eligible balance and the application shall be accompanied by the proof of death of the depositor, and where any other nominee has also died, the proof of death of such nominee.\n• 3. If there are two or more surviving nominees, the eligible balance shall be paid in the proportion as specified by the depositor while making the nomination, and if no such proportion or share is specified, then in equal proportion to all the surviving nominees.\n• 4. If any nominee dies, his specified share in the eligible balance shall be distributed among the surviving nominees in the same proportion as their specified shares.\n• 5. Where the surviving nominee is a minor, the payment shall be made to a person appointed by the depositor to receive such payment and, if no such person has been appointed, to the guardian of the minor.\n• 6. If a depositor dies and there is no nomination in force at the time of his death, and probate of his will or letters of administration of his estate or a succession certificate as granted in the Indian Succession Act, 1925 (39 of 1925) is not produced within six months from the death of the depositor to the authorized officer of the accounts office where the account stands, then,(i) If the eligible amount in the account does not exceed ₹5 lacs, the authorized officer of the accounts office or the authority specified by the institution to which the accounts office belongs, may pay the same to any person appearing to him as the rightful claimant and to his satisfaction to be entitled to receive the amount or to administer the estate of the deceased, on a specified application Form accompanied by the following documents; namely:- (a) death certificate; (b) passbook or deposit receipt/statement of account in original; (c) Affidavit; (d) letter of the disclaimer; (e) Bond of Indemnity;(ii) if the eligible amount in the account of the deceased is above ₹5 lakh, the amount shall be paid by the accounts office to the claimant on submission of a 'Succession Certificate' issued by the court along with the following documents; namely:-(a) claim form;(b) passbook or deposit receipt or statement of account in original;(c) death certificate of the account holder.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/nscs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5718,7 +5718,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline The construction of household toilets may be undertaken by: the individual beneficiaries themselves with support from agencies. Community Model through agencies in the village. Note: States may also decide to give the incentive to the individuals, or to communities where the model is adopted to trigger the demand in GPs/Blocks/Districts, or to the Gram Panchayats on the achievement of community objectives. Any incentive for the IHHL, provided to the community/GP, if given, shall be used only for sanitation activities. Verification : Government shall ensure that the quality of toilet is maintained through sample physical verification through its officers",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sbm-g-i",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5770,7 +5770,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The list of road works to be taken up under the Programme will be finalized each year by the District Panchayat in accordance with the allocation of funds communicated to the district. The District Panchayat has to ensure along with the consultative process, that the lists of proposed road works are part of the Core Network and that new connectivity is given priority.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pmgsy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5884,7 +5884,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Kindly visit AICTE Website > Schemes > Staff Development Schemes > Technical Book Writing and Translation or visit https://www.aicteindia.org/schemes/staff-development-schemesClick and download the Application for Technical Book Writing and Translation. Fill in the required information. Verify that every page of the application form has signature and stamp of the Institute's Head. Attach all the essential documents along with the filled application form. Kindly ensure all the information is correct and then send the Application form along with all the essential documents through registered post/ speed post to: Prof. Dileep N Malkhede,Adviser RIFDAll India Council for Technical Education,Nelson Madela Marg, Vasant Kunj, New Delhi - 110070",
     "officialUrl": "https://www.aicteindia.org/schemes/staff-development-schemes",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -5940,7 +5940,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Keep ready the soft copies of the required documents. Go to http://www.scholarships.gov.in/. and click \"New Registration\".Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click \"Continue\".Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill in the details and click \"Register\". Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number.Step 3: Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction Click on \"Login to Apply\". Enter your Application ID and password. Type the Captcha and click \"Login\".On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click \"Submit\". You will be directed to the \"Applicant's Dashboard\".Step 4: On the left pane, click \"Application Form\". The fields marked as * are compulsory. Fill the details and upload the documents. You can either click on \"Save as Draft\" to complete the application later. Else, click \"Final Submit\" to submit the application.",
     "officialUrl": "http://www.scholarships.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6012,7 +6012,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: Apply as a beneficiary on https://agriinfra.dac.gov.in/Home/BeneficiaryRegistration and complete registration to generate a Beneficiary ID.Step 02: Download DPR template from the website. The beneficiary will be able to login with the beneficiary ID created inStep 01 .Step 03: The applicant must then login and fill project details on the portal and submit DPR in given format and submit application.Step 04: Post submission, the application will be reviewed by Ministry of Agriculture & Farmers Welfare. Eligible applications will be transferred digitally to the selected bank for credit appraisal.Step 05: Bank will review the project for viability and accordingly sanction the project. The time limit to convey the decision on the loan application to the applicant is set for a maximum period of 60 days from the date of application of the loan.",
     "officialUrl": "https://agriinfra.dac.gov.in/Home/BeneficiaryRegistration",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6216,7 +6216,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Applicants have to visit the official portal. Click on the \"Apply Now\". If already registered, log in with the UserName and password. If applicants did not register themself, click on \"New Login Registration\".After login the required details. Provide the required documents. Submit.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cuy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6280,7 +6280,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Process: The proposals from national and state level EDIs, training institutions of M/o MSME etc. for grant of financial assistance under the scheme shall be submitted to the Deputy Secretary/Director (EDI), M/o MSME, Udyog Bhawan, New Delhi\n• 110011. Post-Application Process:Step 01: The proposals for assistance shall be processed for submission to the Screening Committee for consideration.Step 02: The Screening Committee shall examine all the proposals received under the scheme and submit its recommendations to the Secretary (MSME).Step 03: After approval of the Secretary (MSME), administrative approval shall be conveyed to the applicant organization, and admissible financial assistance shall be released in accordance with the approval letter. It is clarified that private training institutions/NGOs are not covered under the scheme for assistance for infrastructure support and training programmes. Miscellaneous: An online mechanism for maintaining the details related to beneficiaries is already in place @ www.ati.msme.gov.in. To meet the expenditure related to Aadhaar authentication services and maintenance/development of online software and other miscellaneous/administrative expenses related to the Scheme will be met from the budget provision (General Head) under the Scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ati",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6369,7 +6369,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Case 01: In case the incident is informed to the police at the first hand by the Good Samaritan. After verifying details from Doctor the police shall provide Acknowledgment to such Good Samaritan, on an official letter pad, mentioning the name of the good Samaritan, his mobile number and address, place, date, and time of the incident, and how the Good Samaritan has helped in saving the life of the victim, etc. Case 02: In case the Good Samaritan takes the victim to the hospital directly. The concerned hospital shall provide all the details to the concerned police station. The police shall provide an Acknowledgment to such Good Samaritan, on an official letter pad, mentioning the name of the Good Samaritan, his mobile number and address, place, date, and time of the incident, how the Good Samaritan has helped in saving the life of the victim, etc.Step 01: The copy of the Acknowledgement (as per Annexure - A) would be sent by the concerned police station to the Appraisal Committee formed at District Level under the Chairmanship of the District Magistrate with a copy marked to the Good Samaritan(s). with a copy marked to the Good Samaritan(s).Step 02: On receipt of communication from the Police Station/Hospital, the District Level Appraisal Committee shall review and approve the proposals on a monthly basis.Step 03: This list would be sent to the Transport Commissioner of the concerned State / UT Transport Department for necessary payment.Step 04: The payment for selected Good Samaritan would be made online in their Bank Account directly by the Transport Department of the State/UT.Step 05: By 30th September or the date decided by MoRTH every year, the State Level Monitoring Committee of each State/UT will nominate the three most worthy proposals for national-level awards on yearly basis to this Ministry for further consideration. An Appraisal Committee of MoRTH headed by AS/JS (Road Safety) and also comprising of Director/ Deputy Secretary (Road safety), Director/Deputy Secretary (Transport), and Dy. Financial Advisor/ MoRTH shall review the proposals received from each State / UTs and select the best ten Good Samaritans of the year. They will be awarded Rs. 1,00,000/- each along with a Certificate and trophy during NRSM in Delhi.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sgs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6442,7 +6442,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury:\n30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6514,7 +6514,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Process:Step 01: Applications are invited for Central financial assistance from not-for-profit organizations who are engaged at least for the past three years in the desired allied cultural activities/State Governments/Union Territories/District Authorities under the scheme who fulfills the eligibility criteria prescribed in the guidelines of the scheme sub-component.Step 02: National Science Centre (NSC) under the Ministry of Culture will notify the scheme sub-component through its website/Ministry's website: http://nscd.gov.in & https://indiaculture.nic.inStep 03: Duly filled applications in the prescribed proforma along with the checklist and all the requisite enclosures would have to be sent by email to director@nscd.gov.in/ nscdl01@gmail.com or any valid medium of communication to \"The Director, National Science Centre, Near Gate No. 1, Bhairon Road, Pragati Maidan, New Delh-110001.\"Note 01: All relevant documents must accompany the application. Note 02: All registered not-for-profit organizations that want to apply under the scheme component are required to first sign up/register with NGO Darpan Portal: https://ngodarpan.gov.in/ and obtain Unique ID No. Note 03:\nAll entries in the application form should be legible and filled in clearly. Note 04: Each page of the application and enclosures should be serially numbered and signed by the authorized signatory of the organization. Further, the page number of the relevant document should clearly be indicated on the checklist. Note 05: It may be noted that incomplete applications and applications without the necessary enclosures as mentioned in the application form will not be entertained, in any respect. Applications, duly filled in and supported by all the required documents, would be taken up for consideration by the Expert Committee. Evaluation Process:Step 01: All applications received by the National Science Centre (NSC), New Delhi will be scrutinized for completeness as per the requirements of the Scheme sub-component as mentioned in the Checklist of the application form. Applications that are incomplete (without requisite documents) will not be processed further for evaluation by the Expert Committee. Deficiencies in the application will be intimated by NSC, New Delhi to the applicant organizations under intimation to the Performing Arts Section, Ministry of Culture.Step 02: Technical appraisal of the equipment for which financial assistance is sought shall be done by National Science Centre (NSC), New Delhi.Step 03: There will be an Expert Committee constituted under the Chairpersonship of Joint Secretary (P.Arts), Ministry of Culture to evaluate the applications received under the scheme subcomponent. Director, NSC, New Delhi, and Director General, NCSM, Kolkata, or his representative/nominee will be Members whereas Director/Deputy Secretary (P.Arts) will be the Member Secretary of the Committee.Step 04: Applications complete in all respects will be taken up for consideration by the Expert Committee, which will meet from time to time during the year, depending on the number of applications received for the grant.Step 05: The Expert Committee will evaluate each project proposal on its merit, with specific reference to the following:(a) Whether the applicant organization is well established in the field and has got an identity of its own;(b) Whether the proposal is well-conceived;(c) Financial appraisal of the project whether the cost estimates are reasonable; and(d) Whether the organization has the capacity or has made arrangements to bring in its matching share to complete the project.Step 06: As far as possible the proposals will be considered and recommended keeping in view the geographical spread of the country.",
     "officialUrl": "http://nscd.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6788,7 +6788,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Register on the ServicePlus Portal. Verify your Email ID and Mobile Number via OTP.Step 2: Login to the ServicePlus Portal using the Username and Password received over your registered Email ID.Step 3: In the Left Pane, click \"Apply for Service\" and then click on \"View All Available Services\".Step 4: From the list, click on \"BRU DBT Relief Rehabilitation\".Step 5: You will be directed to the application form. Fill in all the mandatory fields (highlighted in a red asterisk).Step 6: Click \"Submit\". Note down the Application ID/ Reference ID to track the status of your application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/giatprbm",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6836,7 +6836,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: Visit the official website of the concerned department of the Government of Himachal Pradesh. (https://hpahdbt.hp.gov.in/Home/Index)Step 02: Look for the scheme for Pregnant Desi/Indigenous Cow/Buffalo Ration Scheme for BPL Families Belonging To SC Category.Step 03: Read the guidelines and eligibility criteria of the scheme carefully. Further, agree with the terms & conditions and click on 'Apply Now'.Step 04: Fill out the application form for the scheme, which is available online at (https://hpahdbt.hp.gov.in/Home/MaintenanceCowBuffaloRationSchemeUnderScsp)Step 05: Attach all the necessary documents as required for the scheme, such as proof of BPL status, land documents, and bank account details.Step 06: For submitting the application form, click on 'Submit'.Step 07: Check the status & follow up with the concerned department to track the status of the application. Note 01: Farmers need to keep a copy of the application form and documents submitted for future reference. Note 02: Farmers should ensure that they comply with the guidelines and regulations of the scheme to ensure that they are eligible for the benefits of the scheme.",
     "officialUrl": "https://hpahdbt.hp.gov.in/Home/Index",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6888,7 +6888,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The eligible candidates need to register and apply at https://www.cefipra.org/ or log on to: https://cefipra.org/prowiss/",
     "officialUrl": "https://www.cefipra.org/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -6968,7 +6968,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Pre-Survey ActivitiesPermissions to conduct the survey. Organize Gram Sabha - to inform about the schedule of the survey and to sensitize aboutthe surveying methodology and its benefits to the villagers. Identification and marking of Property -Government assets, gram Sabha land parcels, individual properties, roads, open plots etc. Delineate property parcels - Ground team and owners demarcate the property by chunna linesFinalization of the boundary and survey areaPublic Notification - To notify the survey areaPermission for flying DronesSurvey ActivitiesEstablishment of CORS networkSetting up Ground control pointsAcquisition/Capturing of drone imagesProcessing of Drone data - Image processing & Feature ExtractionData verification and ground truthingDigital maps - Base maps generation and preparation of digital mapsPost Survey ActivitiesInquiry/Objection process - Survey officials verify ownership of the land parcels, with the help of gram Sabha, land owners, and review of existing documentsDispute ResolutionIssuance of Property Cards Distribution of property cards to village household owners (legal document of property ownership).Regular Update of records and storageTraining and capacity building of government officials",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pmsy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7024,7 +7024,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3: Choose type Individual or Organization. Step-4.1: Under Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2: Under Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5: Submit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select \"National Grassroots Innovation and Outstanding Traditional Knowledge Awards 2025\", then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ngiaotk",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7080,7 +7080,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Visit your nearest bank branch or post office and collect the application form. Submit the duly filled-up form along with the self-attested copies of the required documents.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/scss",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7145,7 +7145,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Applicant creates an Applicant Login ID by registering on IHHL using Name , Mobile Number , Email , Address , ID Type, ID Number. After successful login the applicant enters the following detailsIn Geographical Particulars (State, District, ULB Name, Ward No.)Toilet Owner's Particulars (Name*, Gender*, Father/ Husband's Name*, Mobile No*, Residential Address*, Status of Existing Toilet, Aadhar Linked Transfer of Incentive, Aadhar Number, Bank Account Detail*, Photograph*) After successful submission of Application, An IHHL Application Acknowledgement slip is generated with Application ID and Bank Account Detail",
     "officialUrl": "http://swachhbharaturban.gov.in/ihhl/writereaddata/UserManual_ToiletPhotoUpload_CSC_ULB_Applicant.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7201,7 +7201,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Register of NGO/Trust/Cooperative Society/Firm:Step 01: The Applicant Agency desirous of implementing the road safety programme shall submit the proposal online.Step 02: All Applicant Agency who wish to apply may visit Morth NGO Grant Portal. (https://rsa.morth.gov.in/auth/users/login.cshtml)Step 03: Click on \"Register Here\", and fill out the form providing the User and Password, which NGO wish to use for future reference.Step 04: Further, provide the NGO Darpan ID and PAN Card of the NGO/Trust/Cooperative Society/Firm registered on the NITI Aayog's Darpan Portal. On providing the above-stated information press the TAB button, this will fetch all the desired details from the NITI Aayog Portal.Step 05: Every Agency need to verify themselves, by providing OTP generated to Registered Mailing Address\"Email Address\", Please note, don't press the Generate OTP Button more than once, multiple presses will trigger multiple OTPs, from which the latest one is to be shared. On a single press, an OTP mail will be triggered to the address.Step 06: The triggered OTP must be provided in the column provided to confirm the registration. Please note: Mail once triggered might take a few minutes to deliver. Don't press the Generate OTP button twice or refresh the page. If there is any uncertainty in the records being fetched from NITI Aayog, please login into the Darpan Portal and make the required changes. Drafting and submitting Proposal:Step 01: Login on Portal: Click on the \"NGO Login Button\", and provide \"User ID\" and \"Password\".Step 02: Go to Bank Records and Enter Bank Details. (Provide Bank details of the NGO which is mandatory to fill the form, until the bank details are not provided the application form cannot be submitted.)Step 03: Go to Road Safety Advocacy and fill out the application form.Step 04: Once the Proposal is submitted you can trace the status of your request from the \"Application Status\" Tab. And from the \"Home\" Tab from the NAV bar.(User Manual to Apply Grants for Financial Assistance) The proposals shall be evaluated based on the following criteria: 1. Geographical coverage of the programme\n• 2. Alignment with the themes proposed under the Scheme\n• 3. Past experience of the participating agency in the similar programmesNote 01: The agency shall work in close coordination with ROs of MoRTH (Road wing, NHAI and NHIDCL). State and District level officials and shall also provide them with regular updates on the progress of the programme. Note 02:\nThe agency shall publicize the awareness programme/ campaign being carried out in various media and social media platforms for the purpose of assessment of impact. Note 03: Selected programme shall be publicized on the social media accounts of the Ministry of Road Transport and Highways. Note 04: The agency should ensure that coverage of the programme gets highlighted/ published in local newspapers. Note 05: The agency shall upload monthly progress reports on the MoRTH portal. Timelines for Receipt of Applications and Completion of the Projects: The Scheme shall remain in operation till 31.03.\n• 2026. As such, it shall not be feasible to release any financial assistance after 31.03.2026 under this Scheme. The agency will be required to complete the work before 31.12.2025 in order to avail of the full eligible grant amount. The proposal may be submitted on an ongoing basis, which shall be considered and decided on a monthly basis. Procedure for Selection of Award to the Agencies involved in Road safety advocacy and allied activities: The awards shall be given for the calendar year. The Individuals and Agencies shall file nominations for the award to the Principal Secretary (T)/Transport Commissioner/Transport Secretary of the State/UT Government. The State Government can also nominate any agency/ individual on its own if it is of the opinion that such an agency/ individual has done commendable work in the field of road safety. The Transport Department of State/ UT shall recommend the names of a maximum of five Agencies to this Ministry as per the format prescribed in Annexure 'E'.Date of Awards: The awards will be given away on a date, time and venue to be decided by the Government of India.",
     "officialUrl": "https://rsa.morth.gov.in/auth/users/login.cshtml",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7286,7 +7286,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online (a) Applications are invited every year at the beginning of the academic session (July/ August).(b) Institute must apply through its login ID at aicte-india.orgAICTE Portal LoginStep 1: Visit the AICTE website https://www.aicte-india.orgStep 2: Click on the \"Web Portal Login\" button.Step 3: Login to the AICTE portal with the credentials provided by the AICTE.Step 4: After successful logging, the home page of the institute appears. AQIS ApplicationStep 1: After login, navigate to the AQIS application screen please click on the \"AICTE quality Improvement Schemes (Financial Funding Schemes)\" icon.Step 2: The AQIS application page of the institute is open.Step 3: Click on the \"AQIS Application- Institute details\"Step 4: Institute and Bank Details will auto-populate in \"AQIS Application - Institute Details\" Please check and update according to changes. Note: 1) Bank Account should be Saving Account.\n• 2) Account holder's name should not be a personal name.Step 5: Check the declaration flag, then click on the \"Save Bank Details\" button.Step 6: To confirm the bank details entered, kindly click on the \"Confirm Bank Details\" button.Step 7: If the bank details are incorrect, click on the Cancel button to edit the bank details again otherwise click on OK to confirm the details. Note: Once the 'OK' button is clicked. The Institute details and Bank details will become read-only mode.Step 8: Click on the \"All AQIS Application Information\"Step 9: Click on the \"Download Mandate Form\" and \"Download Declaration Certificate\".Step 10: Click on the \"AQIS Document Attachment\"Step 11: Click on the new record ( ) button.Step 12: After attaching the Mandate form, click on the save ( ) button. Note: Please attach the Verified Bank Mandate Form in scanned PDF format (Maximum Size10 MB). Application for 'SPICES'Initiating New applicationStep 1: After uploading the attachment of the mandate form, Click on \"All AQIS Application Information\"Step 2: Click on the new record ( )button.Step 3: Select the \"SPICES- Scheme for Promoting Interests, Creativity and Ethics among Students\" in AQIS Schemes dropdown.Step 4: After selecting the scheme, click on the ( ) Save button.Step 5: Click on AQIS Application IDStep 6: AQIS Detail Application for SPICES.Section A: Coordinator/PI/Applicant DetailsStep 1: Click on the Coordinator/PI/Applicant DetailsStep 2: Click on the selection menu icon( ) in the Faculty ID field to add details of the scheme coordinator. Select the faculty ID from the Faculty ID list and click on the OK button.Step 3: Fill in all the fields of the Details of the Coordinator section.Step 4: Click on the selection menu icon( ) in the Co-coordinator Faculty ID field to add details of the scheme Co-coordinator. Select the faculty ID from the Faculty ID list and click on the OK button.Step 5: Fill in all the fields of Details of the Co-coordinator section.Step 6: Fill in all the fields of the \"Details of the Club\" section.Step 7: Confirm the declaration Section B: Academic Credentials of Coordinator /PI/ApplicantStep 1: Click on the Academic Credentials of Coordinator/ PI/ApplicantStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select \"YES/NO\" according to the parameter, fill in the Count/Number, and fill in the Area of Specialisation. Click on the save ( ) button. Note: Further repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• Whether the Coordinator has Ph. D.\n• Whether Coordinator has PG• Teaching/Industry Experience in years\n• Relevant experience in conducting/coordinating students activities/programs in the last three years\n• Any achievement received at the state level\n• Any achievement received at the national level\n• Any achievement received at the international levelStep 4: After filling in all the required details in the fields, click on the Save ( ) button. Section C: Credentials of Institution / DepartmentStep 1: Click on the Credentials of Institution / DepartmentStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select \"YES/NO\" according to the parameter, fill in the Count/Number, and fill in the Details. Click on the save ( ) button. Note: Further repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• No. of Awards and recognitions received in Department /institute in the last 3 years\n• No. of functional students clubs/students societies/students chapters\n• Number of courses Accredited in the institute\n• Skill/Social Development initiatives taken by institute/department in last 3 years\n• Student, Faculty RatioStep 4: After filling in all the required details in the fields, click on the Save ( ) button. Section D: Justification of proposalStep 1: Click on the Justification of proposalStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select the parameter/criteria and fill in the Details. Click on the save ( ) button. Note: Further repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• Action Plan of the Club for one year\n• Collaboration/ Interfacing of Club with industry/ Association/ Professional Body\n• Details of regional/state-level events organized by the Club in the last 3 years\n• Expected outcomes and benefits to students/institute\n• Details of international-level events organized by the Club in the last 3 years\n• Details of national-level events organized by the Club in the last 3 years\n• Fund Raising Strategies\n• No. of Awards/ Prize won by Club at the International level and their details\n• No. of Awards/Prize won by Club at the National level and their details\n• Vision of the ClubStep 4: After filling in all the required details in the fields, click on the Save ( ) button. Section E: Credentials of the ClubStep 1: Click on the Credentials of the ClubStep 2: Click on the new record ( ) button to add the Record and select the parameter Criteria.Step 3: Select \"YES/NO\" according to the parameter, fill in the Count/Number, and fill the Details. Click on the save ( ) button. Note:\nFurther repeat the above Steps 2 and 3 for the following Parameters/Criteria\n• Commitment of contribution by the institute to the club\n• No. of Awards/ Prize won by Club at the state level\n• Whether club have a bank account?• Whether the club is having its Bye-laws\n• No. of Students associated with the Club\n• No. of years of establishment of the clubStep 4: After filling in all the required details in the fields, click on the Save ( ) button. Validate and Submit the ApplicationStep 1: Click on the Coordinator/PI/Applicant DetailsStep 2: Click on the Validate application button.Step 3: After clicking on the Validation button the message will be populated and stated as \"Validation for Scheme: SPICES Scheme for Promoting Interests, Creativity and Ethics among Students ' is completed Successfully\" Click on the OK button.Step 4: Click on the Submit button.",
     "officialUrl": "https://www.aicte-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7374,7 +7374,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline As per RKVY guidelinesStep 01: Proposals can be submitted to States. The State Government will examine the project proposal from the viewpoint of suitability to the priorities and objectives of the State and the general framework of RKVY.Step 02: If found suitable, the proposal will be forwarded to the State Level Sanctioning Committee (SLSC) chaired by Chief Secretary for consideration.Step 03: Based on the approval of the SLSC, the project will be rolled out after an agreement has been signed between the State Government and Project Promoter.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/agroforestry",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7466,7 +7466,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Steps for availing assistance:Step 01: Submit a Detailed project report (DPR) in the prescribed format to the nearest ROs/SROs of the Board through online.Step 02: Obtain the In-Principle Approval (IPA) for the project from the BoardStep 03: Procure the plant & machinery as per the approvalStep 04: Erect the machinery and establish the unitStep 05: Obtain Udhyog AadhaarStep 06: Register the unit in Coir BoardStep 07: Commence the productionStep 08: Submit the applications within one year after starting the productionFor modernization: The units which have Coir Board registration and have successfully completed 5 years after commencement of production, can apply for availing assistance under this component. Stage 1 - New Login RegistrationStep 01: Click on the link \"Apply Now\" of the CITUS Scheme.Step 02: Click on the link \"New Login Registration\" in the Login.Step 03: Enter Name, Aadhaar Number, email and Mobile Phone Number as per the format given on the screenStep 04: PAN number, email, and Mobile Phone Number once entered cannot be changed later in the application form.Step 05: Now you should select a secret question from the pull-down menu and then type your answer in the next field. Note down the secret question and the answer immediately.Step 06: You should now choose your User Name (minimum 8 characters and maximum 15 characters, numbers are allowed and no special characters are allowed).Step 07: Enter the Given Security PIN displayed on the screen.Step 08: You can now finalize the above details by clicking the CONFIRM Button. Remember, the email-id already used by anyone else for online application submission cannot be used again.Step 09: Immediately you will receive your username and password by email/SMS.Note: In the Future, all communications will be sent to this email and Mobile Number OnlyStage-2 Submit Detailed Project Report (DPR):Step 01: In the login, type your user name and password received through email/SMS and click \"Sign In\"Step 02: Immediately you will be asked to change your password. Here you should set a new password and confirm it. Remember, the password is case-sensitive and the password should contain a minimum 8 characters.Step 03: After successful login, You will be redirected to your Home Page.Step 04: Expand the Scheme CITUS by clicking on the + symbolStep 05: Click on the Link Detailed project Report and fill the Report as per the given FormatStep 06: After submitting the Form, you will get a registration Number.Step 07: You will receive an SMS/email when the Coir Board Approves/Rejects your DPR (IPA) so that you can submit an online Application. Stage - 3 Application status: You can check your application status on the website by login to your Home Page with your username and Password. Keep visiting your home page of www.coirservices.gov.in for the latest developments in your application",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cvy-citus",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7570,7 +7570,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline\nProcess 1: One can also open an APY account online using one's Net banking facility. The applicant can login into his/her internet banking account and search for APY on dashboard. Customer has to fill basic and Nominee details. Customer has to give consent for auto debit of premium from the account and submit the form.\nProcess 2: Visit website \"https://enps.nsdl.com/eNPS/NationalPensionSystem.html \" and select \"Atal Pension Yojana\".Select \"APY Registration\"Fill the basic details in the form. One can complete KYC through 3 options - Offline KYC - Where one has to upload XML file of AadhaarAadhaar - Where KYC is done through OTP verification on Mobile Number register with AadhaarVirtual ID - Where Aadhaar virtual ID is created for KYC Citizen can select either one of three options. Once the basic details are filled, an acknowledgement number is generated. Citizen then has to fill personal details and decide the pension amount he/she wants after 60 years. The Citizen also has to decide the frequency of contribution for the scheme. Once the citizen \"confirms\" for personal details, he/she has to then fill nominee details. After submitting the personal and Nominee details, Citizen is redirected to NSDL website for eSign. Once Aadhaar is OTP verified, Citizen gets successfully registered in APY.One can also join digitally through e-APY portal or through web portal of banks providing such facility. Visit website \"https://enps.nsdl.com/eNPS/NationalPensionSystem.html \" and select \"Atal Pension Yojana\".Helpline Number - - Toll Free Helpline number for APY Scheme is 1800-110-069",
     "officialUrl": "https://www.npscra.nsdl.co.in/nsdl/scheme-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7618,7 +7618,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Submission of Claim - To apply for a claim under the insurance scheme, follow the procedure specified below: Immediate written notice of claim should be given to the Insurance company through Coir Board along with the particulars. In case of death, notice should be given before internment/cremation within one month from the death. In case of loss of sight or amputation of limbs, claim notice should be provided within one month from the loss of sight or loss of a limb. In the case of permanent total or partial disablement and temporary total disablement claims, the insured persons are required to obtain a claim form along with the Doctor's certificate, medical bills, diagnostic reports, like x-rays, etc. to prove the extent of accidental injuries occurred. In case of any interpretation required from the insurance company, the underwriting office should ensure the insured is examined by a surgeon or Physician on the Company's panel and settlement of such claims will be processed based on that report submitted. The specified capital sum insured is payable only in the event of death occurs by accident, i.e. within 12 months from the date of occurrence of the event but not necessarily instantaneous death in such case the incident should be investigated appropriately or verified as to the proximate cause of death. This time limit of 12 months is enforced to prevent belated claims as per the policy and for which renewal had been refused for several years earlier. It has to be ensured that the accident must occur during the operational period of the policy. In case of fatal claims, the nominee of the insured's person or legal heir should be asked to submit the post-mortem report and the original copy of the death certificate to the insurance company. The concerned person should make sure that death had occurred solely due to the accident. Also, the concerned officials should satisfy with the identity of the nominee. The legal heirs will have to furnish evidence of their titles such as probate, succession certificate, or letters of administration.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gpaiscw",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7704,7 +7704,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury:\n30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -7776,7 +7776,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Process:Step 01: Applications are invited from voluntary cultural organizations and government-aided cultural organizations for assistance under Financial Assistance for Cultural Activities in Performing Arts for Building Grants including Studio Theatres. The application form may be downloaded from the Ministry of Culture website www.indiaculture.nic.inStep 02: All applications should be addressed to The Director, West Zone Cultural Centre, (WZCC), Bagore Ki Haweli, Gaugaur Ghat, Udaipur, Rajasthan - 313001, and should be sent along with complete enclosures only by Speed Post or Registered Post. Note 01: \"Application under the Scheme of Building Grants, including Studio Theatres\" should be clearly superscribed on the envelope. For any clarifications, Shri Sanjay Kumar, Deputy Secretary (P.Arts) may be contacted at Telephone No. 011-24642148 or email ID: sanjay.k65@nic.inNote 02: Please read the scheme carefully before filling up the application form. Note 03:\nThe application should be recommended by any of the National Akademies or any other culture-related organization under the Government of India or by the concerned State Government /UT Administration, State Akademies. Note 04: Any deficiency in the Application Form(s) intimated by the West Zone Cultural Centre to the applicant organization (s), may be furnished directly to WZCC itself. Note 05: The Scheme is open throughout the year. Note 06: A cut-off date for submission of application before convening the Expert Committee meeting will be notified through WZCC's/Ministry's websites: https://wzccindia.com and https://indiaculture.gov.in. Note 07: All documents must accompany the application. Applications received without mandatory documents will not be considered and will be returned to the sender. Evaluation Process: 1. All applications received by the West Zone Cultural Centre (WZCC), Udaipur will be scrutinized for completeness as per the requirements of the Scheme. Applications that are found incomplete will not be processed further for evaluation by the Expert Committee.\n• 2. Before evaluation by the Expert Committee, wherever the Committee so desires, the applications may also be subjected to a physical verification by an organization under the Ministry of Culture or a group of experts or officer(s)of the Ministry of Culture.\n• 3. Applications complete in all respects will be placed for consideration by the Expert Committee, which will be appointed by the Ministry of Culture and will meet from time to time during the year, depending on the number of applications received for the grant.\n• 4. The Expert Committee will evaluate each project proposal on its merit, with specific reference to the following: Whether the applicant organization is well established in the field and has got an identity of its own. Whether the proposal is well-conceivedWhether the cost estimates are reasonable; andWhether the organization has the capacity or has made arrangements to bring in their matching share to complete the project. (Where the applicant organization has already spent the full amount of the matching share, this requirement will be deemed to have been fulfilled).\n• 5. The Expert Committee will include artists, representing different fields of performing arts and culture, and may also include an Architect, a Civil Engineer, and a Technical Expert in light/sound/stagecraft, as also concerned officials of the Ministry of Culture.\n• 6. The recommendations of the Expert Committee will be placed before Hon'ble Culture Minister for consideration/approval.",
     "officialUrl": "https://wzccindia.com",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8143,7 +8143,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: All recommendations for the award shall be made through State Governments/UT Administrations. (Nomination Form-Annexure-I)Step 02: The proposals shall be placed before the Screening Committee consisting of the Union Home Secretary, Director (Intelligence Bureau), and Secretary in the Ministry of Social Justice & Empowerment (formerly Ministry of Welfare).Step 03: The recommendations of this Committee shall be placed before the Union Home Minister and the Prime Minister for approval. Note: There is no fixed number of the Award in any of the three Grades. The State Governments/UT Administrations may recommend the nominations of any number of persons who fulfill the relevant provisions of the Scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/kps",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8234,7 +8234,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Call for ApplicationsMinistry of Social Justice & Empowerment, Department of Empowerment of Persons with Disabilities (Divyangjan) shall intimate the opening of the National Awards Portal as well as the prescribed period for submission of applications through advertisement in the newspapers/website of the Department. Applications/nominations are invited through online mode only on the centralized portal of the Ministry of Home Affairs. (www.awards.gov.in) which is open (w.e.f. 15th June to 31st July).RegistrationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"National Awards for Empowerment of Persons with Disabilities\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Note 1: The Application should be in Hindi or English language only. Calendar of Activities\n• 1. Advertisement of National Awards/Opening of National Awards Portal: 1st May\n• 2. Last date of receipt of applications: 31st July\n• 3. Constitution of Screening Committees and National Selection Committees: 31st August\n• 4. Meetings of the Screening Committees: 30thSeptemebr\n• 5. Meeting of the National Selection Committee: 15th October\n• 6. Verification of short-listed candidates: 15th October\n• 7. Information/confirmation to awardees: 31st October\n• 8. Presentation of National Awards: 3rd December (International Day of Persons with Disabilities)",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8323,7 +8323,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Visit the official website of NSFDC or your state government portal to apply. Download the Mahila Samridhi Yojana application form. Fill up the application form carefully and provide the necessary details, such as your age, name, contact information, required amount, etc. Submit the form along with the required documents. NSFDC provides loans to the eligible target group under its schemes through its Channel Partners. The loan applications are to be submitted by the eligible target group (Scheduled Castes persons having annual family income up to Rs. 3.00 lakhs ) to the District Offices of State Channelizing Agencies (SCAs).The District Offices of SCAs/CAs forward these applications, after scrutiny, to their Head Offices. Eligible target group can also submit their loan application to other Channelizing Agencies of NSFDC such as Regional Rural Banks/ Public Sector Banks/ NBFC-MFIs etc. with whom NSFDC has signed Memorandum of Agreements. After acceptance of the terms and conditions of the sanction and fulfillment of Prudential Norms, as applicable, funds are disbursed to the SCAs/ RRBs/ Nationalized Bank for onward disbursement to the beneficiaries. The disbursement of funds is made by NSFDC on receipt of demand from the SCAs/ RRBs/ Public Sector Banks/ NBFC MFIs. The loans are to be repaid by the beneficiaries as per the repayment schedule stipulated by the SCAs/CAs.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cbssc-msy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8379,7 +8379,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline To open an account under Post Office Monthly Income Scheme, follow the steps given below-First, you must have a Post Office savings account. Open the same account if you do not have oneGet an application form from your Post Office or download the POMIS Account application form from the following link:\nhttps://www.indiapost.gov.in/VAS/DOP_PDFFiles/form/Accountopening.pdfFill and submit the form along with the self-attested copies of all the required documents at the post office. You must carry the original documents for verification. Mention the Name, DOB, and Mobile no. of the nominees (if any) Proceed to make initial deposits (Minimum Rs.1000/-) via cash or cheque",
     "officialUrl": "https://www.indiapost.gov.in/VAS/DOP_PDFFiles/form/Accountopening.pdfFill",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8460,7 +8460,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Nomination Procedure: Call for nomination will not be periodic in nature and will be made from time to time subject to vacancies available every year. Proposal in the prescribed form will be invited from the current and former Presidents of any of the national science academies (including Engineering, Agriculture, Medicine, etc.), Directors of premier institutes like IISc, Bangalore, IISERs, IITs, NITs, National Laboratories, etc., Vice-Chancellors of Universities as well as members of Scientific Advisory Councils to the Hon'ble PM & Cabinet and members of governing bodies of Science and Engineering Research Board and Secretaries to Govt. of India in Ministries / Departments. The proposed nomination duly completed in all respects, signed, and routed through the Head of the Institution wherein a scientist/technologist intends to work or get associated with, should be submitted online at www.serbonline.in as and when the calls are announced. Application Procedure:Step 01: The nominee needs to register in the SERB online portal. Click here to registerStep 02: After login, the Nominee needs to fill in all the mandatory fields in the Nominee Details section under User Profile which includes Photo, Institution, Address, etc.Step 03: Under Form Submission, choose Scheme: National Science Chair, and fill out the National Science Chair nomination form which includes details of the Nominee Details, Qualification Details, Employment Details, Professional Recognition/Fellowship, Scientific Research Index, Publication Details, Patent Details, Upload Documents, Nominator Details, and Other Information, etc.Step 04: Proposed area of research and a brief outline of the proposal of Nominee to be uploaded in a single PDF file of not more than 5 pages.Step 05: After filling in the details, the Nominee should click on \"Send to Nominator\".Step 06: Nominators will receive intimation via email with a link to the SERB online portal, to view the filled-in National Science Chair Nomination form.Step 07: The Nominator can choose to submit the nomination to SERB or resend the form to the Nominee for any revision.Step 08: Once submitted, Nominee and Nominator will receive an intimation regarding the successful submission. Selection Procedure: The proposals will be examined by the NSCAC to ascertain their merit. The recommendations of the Committee will be considered by the SERB to make funding decisions.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/nsc-sl",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8544,7 +8544,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline A Sukanya Samriddhi Yojana (SSY) account can be opened at any participating bank or Post Office branch. To open the account, complete the steps outlined below: Go to the bank or Post Office where you want to open the account. Fill out the application form with the necessary information and attach any supporting papers. Pay the first deposit in cash, check, or demand draught. The payment can range between Rs.250 and Rs.1.5 lakh. Your application and payment will be processed by the bank or the Post Office. After processing, your SSY account will be activated. A passbook will be supplied for this account to commemorate the account's opening.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ssy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8609,7 +8609,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline The construction of household toilets may be undertaken by: the individual beneficiaries themselves with support from agencies. Community Model through agencies in the village. States may also decide to give the incentive to the individuals, or to communities where the model is adopted to trigger the demand in GPs/Blocks/Districts, or to the Gram Panchayats on the achievement of community objectives. Note: Any incentive for the IHHL, provided to the community/GP, if given, shall be used only for sanitation activities. Government shall ensure that the quality of toilet is maintained through sample physical verification through its officers",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sbm-g-ii",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8661,7 +8661,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration of New Institute:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and click on New Institute button.Step 02: Users will be redirected to another website. Hover the cursor on Login and select 'Investor Login'.Step 03: New users need to click on 'Sign Up Now' to register.Step 04: Enter the details and click on 'Verify' to receive OTP on your Email Id and Mobile Number.Step 05: After successful verification Click on 'Sign Up Now' to register. Post-Registration Process:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and log in with the credentials provided by AICTE.Step 02: Navigate to AQIS Application Screen by clicking on 'AQIS Application' screen tab.Step 03: Institute details will auto populate in the AQIS Application.Step 04: Fill demographic and Bank details .Step 05: Only after confirming the Bank Details, the \"New\" button will be enabled for adding the AQIS Application. Click on \"New\" button to create AQIS Application.Step 06: A unique AQIS Application ID will get created. Select \"AICTE- TECHNICAL UNIVERSITY JOINT TRAINING PROGRAMS FOR TEACHERS\" as Scheme from the drop down List.Step 07: Now details to be filled for the as followed: Program Details, Personalities Expected, Participating Industries ,Similar Events, Budget Estimate -Others, Academic Credentials of Coordinator/ PI/ Applicant, Justification, Credential of Institute / Department.Step 07: Once the user has filled all the data in the above mentioned tab, user should click on 'Validate Application' button on the 'AQIS Application' tab.Step 08: User will get a pop up message to attach a Mandate Form after downloading the sample form.Step 09: Now fill the amount in the 'Total Funds Requested' under label 'Budget Estimates Others'.Step 10: After Validation is completed successfully, read the declaration, check it and click on Save.Step 10: Click on \"Submit\" button to submit the application.",
     "officialUrl": "http://portal.aicte-india.org/partnerportal_enu/start.swe",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8735,7 +8735,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application SubmissionApplication Forms can only be submitted online mode on the website https://icar.nta.ac.in. The Application Form other than online mode will not be accepted. Selection ProcedureFor M.F.Sc. A combined examination for the award of ICAR Junior Research Fellowship and admissions to 100% seats of the Master's Degree Programme at CIFE is conducted by the Indian Council of Agricultural Research, Krishi Anusandhan Bhavan, Pusa, New Delhi, in the first week of June. Candidates are selected for the award of ICAR Junior Research Fellowship and admission to State Agricultural Universities and Deemed Universities on the basis of merit in the Entrance Examination and Counselling. For Ph. D. Admissions are made on the basis of written tests and interviews for Ph. D. The academic score has a weightage of 20%, the subject matter written test score constitutes 70 %, while the interview score contributes the remaining 10%. However, from the year 2020, the National Testing Agency (NTA) is organizing national-level Ph. D. entrance tests for admission to the CIFE.For Foreign students The last date for receipt of applications and results/marks-sheets from the applicants who are foreign nationals but are resident in India will be the same as prescribed for the applicants who are Indian citizens, and the self-financing foreign students out of them are called for the written test and interview only if they have prescribed qualifications as for the Indian applicants, admission is through the open competition",
     "officialUrl": "https://icar.nta.ac.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8787,7 +8787,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Export Market Promotion Scheme has Two Parts: 1. Exporter & RCMC Registration\n• 2. Export Market Development Assistance (EMDA) The applicant may fill up the Online Application through the Board online. Exporter & RCMC Registration: Stage 1 - New Login Registration:Step 01: Click on the link \"New Login Registration\" in the Login.Step 02: Enter Name, PAN Number, email, and Mobile Phone Number as per the format given on the screenStep 03: PAN number, email, and Mobile Phone Number once entered cannot be changed later in the application form.Step 04: Now, the applicant should select a secret question from the drop-down menu and then type the answer in the next Column.Step 05: Applicant should now choose your User Name (Please refer to the User Name Policy provided).Step 06: Enter the Given Security PIN displayed on the screen.Step 07: Applicant can now finalize the above details by clicking the CONFIRM Button. Please note that the email ID, as well as the Mobile Number provided, should be that of your own as all correspondences in the future will be through email and SMS.Step 08: Applicant will receive your username and password by email as well as by SMS.Stage-2 Login to the Portal:Step 01: In the login section of the login page, type your username and password received through email/SMS and click \"Sign In\"Step 02: Immediately applicant will be asked to change your password. Here applicant should set a new password as per the password policy of the site and confirm. Applicants will be automatically asked to re-login with new credentials.Step 03: After successful login, Applicant will be redirected to your Home Page. Stage -3 Submit Online ApplicationStep 01: From The Left side Menu, Expand the Menu item +RegistrationStep 02: Further Expand the Menu item + Exporter and Select the Link - RegistrationStep 03: Give All the Details and Submit the FormStep 04: For RCMC Registration Repeat the same steps by selecting the + RCMC Menu Item and -Registration LinkStep 05: Give all the details and submit the Application for RCMC.Step 06: Take the Print Out of Exporter Registration and RCMC Registration submitted application form from the Portal, and send it to Coir Board along with the Demand draft. Application status: Applicants can check and verify the status of the application on the website by login to your Home Page with their Username and Password. Beneficiary/Applicant should visit respective home pages of www.coirservices.gov.in for the latest developments against your application. Export Market Development Assistance (EMDA): Stage 1 - New Login RegistrationThe applicant may follow the same steps as for Exporter & RCMC Registration. Stage-2 Login to the PortalThe applicant may follow the same steps as for Exporter & RCMC Registration. Stage-3 Submit Beneficiary Registration (Part - A)Step 01: An Application for EMDA contains two Parts. Part -A consists of common details related to the beneficiary and is called the Beneficiary Registration form. PART-A is common to All Coir Beneficiary schemes.Step 02: Expand the link +Beneficiary Registration by clicking on the + symbol, the applicant will get the link Registration Part-AStep 03: After completing Beneficiary registration (Part-A), the beneficiary will get a beneficiary registration Number. Stage-3: Submit EMDA ApplicationStep 01: Expand the Link +Export Market Development Assistance by clicking the mouse on the + symbol,Step 02: Applicant will get the Link - Online applicationStep 03: Fill up the Details and submit the Form.Step 04: Applicant can check Application status at any time by Login to your Home Page and Select the Application Status Link under the + Export Market Development Assistance Menu ItemStage -4: Submit ClaimStep 01: If the Application is approved by the Coir Board, the applicant can submit the Claim details as soon as the applicant comes back from the Exhibition.Step 02: Under the EMDA Menu Select the Submit Claim link and fill in the details and submit the claim.",
     "officialUrl": "https://www.coirservices.gov.in/Forgetpassword.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -8863,7 +8863,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Eligible candidates can obtain application forms from the Institute office or from Institute's Website.Step 2: The applicant should submit the duly filled application form along with all the documents and application fees. Application Fee\n• 1. The fees chargeable to the applicant/eventual trainee would be ₹ 100/- for general candidates, a 50% fee (i.e. ₹ 50/-) for Women and Physically Handicapped, and no fees from the SC/ST candidates.\n• 2. The Application Fee will be accepted in cash (by the Accounts Department of the institute) or as a Demand Draft in favor of the Principal of the Institute and payable at the city of the institute.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cbsp-ep",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9043,7 +9043,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: The application form can be downloaded from the following link: https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdfStep 2: Take print of the application form and duly fill the mandatory fields.Step 3: The duly filled application needs to be submitted to either of the following: Doctor / HOD / Medical Superintendent of the Hospital.",
     "officialUrl": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9147,7 +9147,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury: 30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9224,7 +9224,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: The organization shall submit a complete application along with all the necessary documents/ information through the concerned State Government/UTs. The application form may be downloaded from the Ministry of Culture website www.indiaculture.nic.in.Step 02: The organization located in North Eastern States, Sikkim, Leh and Kargil districts of the Union Territory of Ladakh are exempted to submit their applications direct to the Ministry of Culture only with the recommendation of the concerned District Collector/Dy. Commissioner.Step 03: The application in the prescribed format complete in all respect, duly spiral bound and continuously page numbered, along with a check-list duly recommended by the State Government will be sent to the Section Officer, BTI Section, Ministry of Culture, 'D' Block, 2nd Floor, Puratatav Bhawan, INA, New Delhi-1\n• 10023. Note 01: The Organization against which the previous grant/ Utilization Certificate under this scheme is pending will not be considered for a fresh grant. Note 02: The organization shall also submit the requisite documents such as (i) Bond (ii) Resolution (iii) Bank Authorization letter and (iv) Agency registration form along with the application form. Note 03: The organization should register its Society on the Website of NITI Ayog i.e. \"https://ngodarpan.gov.in/\" for obtaining a Unique ID, if not registered earlier. The organization should also link their bank account number with their PAN Card. The Unique ID of NITI Aayog and the PFMS user ID is mandatory. Note 04: The organization shall submit a detailed break-up of expenditure under the head \"Maintenance\" in a separate annexure forming part of accounts.",
     "officialUrl": "https://ngodarpan.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9328,7 +9328,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online To apply, interested and eligible students should submit their applications, along with their CV, areas of interest for work, and two references, using the designated application form. The candidate's educational institution must sponsor these applications. Applications can be submitted on the Authority's website or through https://www.myscheme.gov.in/. The Authority may also announce the invitation for intern applications on its website. Furthermore, regional offices/headquarters can identify interns for specific areas based on inquiries from academic institutions. Students from BBIN countries are encouraged to follow the same application procedure, and the Authority may extend the application process to academic institutions within the BBIN region to facilitate broader participation. NOTE 1: These applications need to be sponsored by the institution of the candidate seeking an internship. NOTE 2: Integrated Check Posts (ICPs)/ HQrs can also identify interns for specific areas based on enquiry from academic institutions. Selection Process(a) Following the initial eligibility assessment, the applications of shortlisted candidates will be presented to the selection committee for further consideration.b) The Selection Committee will be formed with the approval of the Secretary, LPAI.c) The selection committee may conduct personal or telephonic interviews if necessary. Candidates attending personal interviews will not receive any TA/DA reimbursement.d) Any requests for relaxation will be submitted to the Secretary, LPAI, for approval.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/lpaiis",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9388,7 +9388,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Call for ApplicationsMinistry of Social Justice & Empowerment, Department of Empowerment of Persons with Disabilities (Divyangjan) shall intimate the opening of the National Awards Portal as well as the prescribed period for submission of applications through advertisement in the newspapers/website of the Department. Applications/nominations are invited through online mode only on the centralized portal of the Ministry of Home Affairs. (www.awards.gov.in) which is open (w.e.f. 15th June to 31st July).RegistrationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"National Awards for Empowerment of Persons with Disabilities\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Note 1: The Application should be in Hindi or English language only. Calendar of Activities\n• 1. Advertisement of National Awards/Opening of National Awards Portal: 1st May\n• 2. Last date of receipt of applications: 31st July\n• 3. Constitution of Screening Committees and National Selection Committees: 31st August\n• 4. Meetings of the Screening Committees: 30thSeptemebr\n• 5. Meeting of the National Selection Committee: 15th October\n• 6. Verification of short-listed candidates: 15th October\n• 7. Information/confirmation to awardees: 31st October\n• 8. Presentation of National Awards: 3rd December (International Day of Persons with Disabilities)",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9481,7 +9481,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Eligible applicant needs to visit nearest SCA office, apply on prescribed form for Swarnima Scheme for Women. You can find your nearest SCA office at this link - https://nsfdc.nic.in/channel-patrners/scasStep 2: Enter the necessary details in the application form and mention the needs and choice of vocation and training requirements, if any.Step 3: Submit your application form and the required documents to the same SCA office. After reviewing the application, the loan will be sanctioned by SCA.",
     "officialUrl": "https://nsfdc.nic.in/channel-patrners/scas",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9533,7 +9533,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Interested persons shall visit the nearest Fair Price Shop with the Ration Card: Beneficiaries can quote either their ration card number or the Aadhaar number to any Fair Price Shop dealer across the country. Beneficiaries can undergo Aadhaar authentication by using their fingerprints or iris-based identification.",
     "officialUrl": "https://nfsa.gov.in/portal/ration_card_state_portals_aad",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9581,7 +9581,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3: Choose type Individual or Organization. Step-4.1: Under Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2: Under Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5: Submit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select \" Awards \", then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".",
     "officialUrl": "https://awards.gov.in/Registration/SignUp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9643,7 +9643,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration Process: Go to https://idealnet.aicte-india.org/ and click on 'Log In' then on 'Register' button. Click on Get Details button. The details of the Institute including Name, Address and Email will auto populate. Now Enter your Institute's Permanent Id. Enter all the mandatory details. Set a password for and click on 'Register'.After successful registration, the applicant will get an e-mail for the account activation to the registered Email Id during registration. Click on the 'Verify Email' button in the e-mail to activate your account. Post-Registration Process: After the successful account activation, you can login to the website using the email id and password: https://idealnet.aicte-india.org/loginOpen the side menu bar and nagigate to the follwing tabs then fill the required data Click on 'Save' button to save the details: Institute Details; HOI & Faculty Coordinator Details; Build Up Area Details; Credentials of Institute/Department; Credentials of Chief Mentor(HOI); Credentials of Faculty Coordinator; Credentials of Faculty Co-coordinator; Proposal for the Project;Now Navigate to 'Non-Recurring Expenditure' tab, This consists of Four tabs: Part-I (Equipment); Part-II (Consumables); Part-III (Tools) and Part-IV (Optional Equipment/Consumable/Tool).Fill the required data and Click on 'Save' button to save the details. Navigate to 'Non-Recurring Expenditure' tab, using the side menu bar. This consists of two parts: Part-I and Part-II.Fill the required data and Click on 'Save' button to save the details. Navigate to \"Contribution to Budget\" tab, using the side menu bar. Upload the files and click on 'Save' button. Navigate to \"Preview & Submit\" tab, using the side menu bar,Check all the filled details and can submit the application by clicking on 'Submit' button afterchecking the declaration. You cannot edit any details once submitted.",
     "officialUrl": "https://idealnet.aicte-india.org/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9813,7 +9813,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Process: Farmers/growers desiring insurance may directly contact representatives/authorized agents of the Insurance Company or may contact the nearest office of the Agriculture/Horticulture Department. Premium will be paid by farmer/grower, net off premium subsidy, through cash, cheque/bank draft, drawn in favour of Insurance Company. Claim assessment & settlement procedure: Loss of insured palms will be intimated by insured farmers to the insurance company within 15 (fifteen) days from the occurrence of peril, with all relevant details. The claims may also be intimated through concerned State Government Call Centers until the Implementing Agency (i.e. insurance company) sees up its own call centre. Loss assessment certification is required to be furnished by the Coconut Development Board (CDB)/Agriculture/Horticulture Department/State Agriculture University (SAU), as authorized by the insurance company for each district, justifying cause for loss of palm, within 15 days from the intimation of loss. The insurance company, at its discretion may send its representative to assess loss jointly with the agency designated to certify loss. The insurance company will release the claim to the insured farmer/grower within one month from the date, all relevant certified details of the claim are received in their office. Release of the claim amount, however, is subject to receiving a premium subsidy from both CDB and the concerned State. Insurance ceases to operate once a full claim is paid. Personal Accident cover for climbers registered with CDB/State government may be arranged with the public sector general insurance companies. The sum insured and the premium will be negotiated depending on the likely number of climbers to be insured.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cpis",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9881,7 +9881,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The interested eligible person shall contact the nearest Channeling Agency (https://nsfdc.nic.in/channel-patrners/ ) .Indicative FormatHttps://Nsfdc. Nic. In/UploadedFiles/Other/Form/Termloan-English. PdfThe loan applications are to be submitted by the eligible target group (Scheduled Castes persons having annual family income up to Rs. 3.00 lakhs ) to the District Offices of State Channelizing Agencies (SCAs).The District Offices of SCAs/CAs forward these applications, after scrutiny, to their Head Offices. The viability of the project proposals are appraised by the SCAs and the viable projects are forwarded to NSFDC along with their recommendations for sanction. Eligible target group can also submit their loan application to other Channelising Agencies of NSFDC such as Regional Rural Banks/ Public Sector Banks/ NBFC-MFIs etc. with whom NSFDC has signed Memorandum of Agreements. The said project proposals are appraised by the Project and Banking Desk. The appraisal report is submitted to the Project Clearance Committee (PCC) for their concurrence. The proposals which are found to be in order are recommended for sanction. After sanction, Sanction Letters called as Letter of Intents(LOIs), along with Terms & Conditions are issued to the SCAs/ RRBs/ Public Sector Banks/ NBFC-MFIs etc. for acceptance. After acceptance of the terms and conditions of the sanction and fulfillment of Prudential Norms, as applicable, funds are disbursed to the SCAs/ RRBs/ Nationalized Bank for onward disbursement to the beneficiaries. The disbursement of funds is made by NSFDC on receipt of demand from the SCAs/ RRBs/ Public Sector Banks/ NBFC MFIs. The loans are to be repaid by the beneficiaries as per the repayment schedule stipulated by the SCAs/CAs",
     "officialUrl": "https://nsfdc.nic.in/channel-patrners/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9937,7 +9937,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Fresh applications for empanelment as Training Provider under the \"Hunar Se Rozgar Tak\" Programme of the Ministry Of Tourism would be received by -Project ManagerPMUSD, Ministry of TourismRoom No.30, C-1 Hutments, Dara Shikoh RoadNew Delhi-110011from Private Bodies/Institutions/Organisations quarterly i.e., upto 31st March, 30th June, 30th September and 31st December every year and be considered by the Screening and Inspection Committees in the succeeding quarter.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cbsp-hsrt",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -9998,7 +9998,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Compensation Claims for Indian Nationals who died Abroad: The application process and the",
     "officialUrl": "https://www.mea.gov.in/images/pdf/compendium.pdfSample",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10188,7 +10188,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury: 30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10248,7 +10248,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Process:Step 01: An advertisement will be placed annually on the Website of the National School of Drama, New Delhi and Ministry of Culture. The application form and full details of the Scheme are available on the website of the Ministry of Culture.Step 02: The Organizations may submit the applications for the coming financial year, before last date of advertisement, which will be evaluated periodically by the Expert Committee set up for the purpose.Step 03: The hard copy of the application along with all the necessary enclosures as mentioned in the scheme and application form & check-list should be sent to \"The Director, National School of Drama, Bahawalpur House, Plot No. 1, Bhagwan Das Road, New Delhi-110001\"Note 01: The application should be duly recommended by concerned State Governments /U.T. Administrations or any of the State Academies or National Academies including National School of Drama (NSD), Kalakshetra Foundation, Centre for Cultural Resources and Training (CCRT), Indira Gandhi National Centre for Arts (IGNCA), Zonal Cultural Centers (ZCCs) and bodies of similar stature. Note 02: All registered organizations that want to apply under the Scheme are required to first sign up/register with NGO-PS Portal(NGO-DARPAN): https://ngodarpan.gov.in/ mandatorily to obtain a system generated Unique ID and must include 'Art and Culture' in their key working areas. Note 03: The organisations already registered with NGODARPAN portal are requested to add/update their information in the said portal with Aadhaar & PAN Numbers of their Board members/Office bearers, if not done already. Note 04: The application must be accompanied by all the relevant documents. Any application submitted without these documents is liable to be rejected. Note 05: The envelope super scribed as \"Application for renewal/enhancement/fresh category under the scheme of Financial Assistance for Promotion of Guru-Shishya Parampara (Repertory Grant) for the financial year .........\" within the prescribed date (as mentioned in advertisement published by NSD) for submission of application under the Scheme. Note 06:\nNational School of Drama (NSD) under Ministry of Culture will notify the 'Scheme' annually through NSD's/Ministry's websites:\nhttps://nsd.gov.in/delhi/Note 07: Separate application may be submitted for Renewal and Enhancement of Repertory Grant, but boththe applications should be submitted together in a single envelope. Note 08: The application for enhancement of artists will be considered only if sufficient justification with necessary supporting documents is furnished for this and the applications for renewal and enhancement are received together. Mode of Selection: 1. Financial Assistance under the scheme will be considered and recommended by the Expert Committee constituted for the purpose. The constitution of the Expert Committee will be approved by the Ministry. The Expert Committee will give justification on case to case basis for its recommendations.\n• 2. The scrutiny of applications by the Expert Committee will be done periodically subject to the availability of funds and applications for the grant.\n• 3. Initially the scheme for new organizations may be for one Guru and two Artists which may be gradually increased up to one Guru and eighteen Artists. However, the increase should not be more than 100% of the existing strength at any point of time and for dance and music, it should not exceed one Guru and ten Artists.\n• 4. Keeping in view the budgetary constraints and in order to give opportunity to new Artists group/organizations, 10% of the existing organizations getting financial assistance under the scheme may be phased out every year. Criteria of phasing out may be past performance, reputation, art of working (rare/ traditional / experimental /innovative/original/endangered art form etc.).\n• 5. There will be personal interaction for renewal of scheme proposals.",
     "officialUrl": "https://ngodarpan.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10512,7 +10512,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Beneficiary Registration Manual - https://pmayg.nic.in/netiayHome/Document/Document-PMAYG-Registratio-Manual.pdfThere are four sections to the beneficiary registration process: Personal details, Bank account details, Convergence details, and Details from the concerned office. To successfully register or add the beneficiary, follow the steps given below: Visit the official website for login PMAY-G.Fill in the details required in the personal details section (such as gender, mobile number, Aadhaar number, etc.)Upload the consent form required to use the Aadhaar number. Click on the search button to find the beneficiary name, PMAY ID, and priority. Click on ''Select to Register''.The beneficiary details will be automatically generated and displayed. The remaining beneficiary details can now be filled in, such as ownership type, relation, Aadhaar number, etc. Upload the consent form required to use the Aadhaar number on behalf of the beneficiaryIn the next section, add the beneficiary account details in the required fields, such as beneficiary name, bank account number, etc. If the beneficiary wants to avail a loan, select ''Yes'' and enter the required loan amount. In the next section, enter the MGNREGA job card number and Swachh Bharat Mission (SBM) number of the beneficiaryThe next section will be filled in by the concerned office.",
     "officialUrl": "https://secc.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10581,7 +10581,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Call for ApplicationsMinistry of Social Justice & Empowerment, Department of Empowerment of Persons with Disabilities (Divyangjan) shall intimate the opening of the National Awards Portal as well as the prescribed period for submission of applications through advertisement in the newspapers/website of the Department. Applications/nominations are invited through online mode only on the centralized portal of the Ministry of Home Affairs. (www.awards.gov.in) which is open (w.e.f. 15th June to 31st July).RegistrationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"National Awards for Empowerment of Persons with Disabilities\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Note 1: The Application should be in Hindi or English language only. Calendar of Activities\n• 1. Advertisement of National Awards/Opening of National Awards Portal: 1st May\n• 2. Last date of receipt of applications: 31st July\n• 3. Constitution of Screening Committees and National Selection Committees: 31st August\n• 4. Meetings of the Screening Committees: 30thSeptemebr\n• 5. Meeting of the National Selection Committee: 15th October\n• 6. Verification of short-listed candidates: 15th October\n• 7. Information/confirmation to awardees: 31st October\n• 8. Presentation of National Awards: 3rd December (International Day of Persons with Disabilities)",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10674,7 +10674,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online A woman affected by violence can access OSC in the following manner: By herself; Through any person including any public-spirited citizen, public servant (as defined under section 21 of Indian Penal Code, 1860), relative, friend, NGO, volunteer, etc. , Through Women Helpline integrated with police, ambulance, and other emergency response helplines.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/osc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10731,7 +10731,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline OfflineStep 01: Download and take print of the \"CONSENT-CUM-DECLARATION FORM\" given in the link below:\nhttps://www.jansuraksha.gov.in/Files/PMJJBY/English/ApplicationForm.pdf#zoom=250Step 02: Duly fill and sign the application form, attach the self-attested copies of the required documents, and submit the case to the authorised official of Bank / Post Office. The official will return you the \"ACKNOWLEDGEMENT SLIP CUM CERTIFICATE OF INSURANCE\".",
     "officialUrl": "https://www.jansuraksha.gov.in/Files/PMJJBY/English/ApplicationForm.pdf#zoom=250",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10774,7 +10774,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3: Choose type Individual or Organization. Step-4.1: Under Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2: Under Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5: Submit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select scheme name, then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".",
     "officialUrl": "https://www.myscheme.gov.in/schemes/rvp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10830,7 +10830,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Kindly visit AICTE Website >> Schemes >> Staff Development Schemes >> \"AICTE-INAE Distinguished Visiting Professorship Scheme\": https://www.aicte-india.org/schemes/staff-development-schemesClick and download the Application form for \"AICTE-INAE Distinguished Visiting Professorship Scheme\".Fill in the required information. Verify that every page of the application form has signature of the Applicant. Attach all the essential documents along with the Copy of AICTE letter of approval.. Kindly ensure all the information is correct and then send the Application form along with all the essential documents through registered post/ speed post to: Executive DirectorIndian National Academy of Engineering, UnitNo. 604-609, 6th Floor,Tower A, SPAZE I-Tech Park, Sector 49,Sohna Road, Gurgaon - 122018Phone: 0124-4239480Fax: 0124-4239481E-mail: inaehq@inae.inhttps://www.inae.in/Note: Application sent to AICTE Office will not be considered.",
     "officialUrl": "https://www.aicte-india.org/schemes/staff-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10894,7 +10894,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Claiming 1st InstallmentStep 1: The interested grower should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned Extension Office of the Coffee Board after completion of planting.Step 4: The concerned SLO/JLO Office shall scrutinize the documents, carry out field inspection, furnish the inspection report, and forward the claim along with enclosures with recommendations either for sanction/rejection of the claim or justification for releasing the 1st installment. Claiming 2nd InstallmentStep 1: The interested grower should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned Extension Office of the Coffee Board during the 2nd year of planting, after filling the vacancies.Step 4: The concerned SLO/JLO Office will scrutinize the documents, carry out field inspection, furnish the inspection report, and forward the claim along with enclosures with recommendations either for sanction/rejection of the claim or justification for releasing the 2nd installment.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cdpnercc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -10962,7 +10962,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The interested eligible person shall contact the nearest Channeling Agency (https://nsfdc.nic.in/channel-patrners/ ) .Indicative Formathttps://nsfdc.nic.in/UploadedFiles/other/form/termloan-english.pdfThe loan applications are to be submitted by the eligible target group (Scheduled Castes persons having annual family income up to Rs. 3.00 lakhs ) to the District Offices of State Channelizing Agencies (SCAs). The District Offices of SCAs/CAs forward these applications, after scrutiny, to their Head Offices. The viability of the project proposals are appraised by the SCAs and the viable projects are forwarded to NSFDC along with their recommendations for sanction. Eligible target group can also submit their loan application to other Channelising Agencies of NSFDC such as Regional Rural Banks/ Public Sector Banks/ NBFC-MFIs etc. with whom NSFDC has signed Memorandum of Agreements. The said project proposals are appraised by the Project and Banking Desk. The appraisal report is submitted to the Project Clearance Committee (PCC) for their concurrence. The proposals which are found to be in order are recommended for sanction. After sanction, Sanction Letters called as Letter of Intents(LOIs), along with Terms & Conditions are issued to the SCAs/ RRBs/ Public Sector Banks/ NBFC-MFIs etc. for acceptance. After acceptance of the terms and conditions of the sanction and fulfillment of Prudential Norms, as applicable, funds are disbursed to the SCAs/ RRBs/ Nationalized Bank for onward disbursement to the beneficiaries. The disbursement of funds is made by NSFDC on receipt of demand from the SCAs/ RRBs/ Public Sector Banks/ NBFC MFIs. The loans are to be repaid by the beneficiaries as per the repayment schedule stipulated by the SCAs/CAs",
     "officialUrl": "https://nsfdc.nic.in/channel-patrners/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11023,7 +11023,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline For the Trainee -Step 1: Eligible candidates can obtain application forms from the Institute office or from Institute's Website.Step 2: The applicant should submit the duly filled application form along with all the documents and application fees. For the Implementing Agency (Institute) - The Implementing agency will send the proposal in the prescribed format, along with the required documents to the Ministry of Tourism.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cbsp-stc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11135,7 +11135,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The application for grant of financial assistance under this scheme shall be sent to the following address in the form prescribed in the scheme guidelines - The Principal Director General (M&C) Press Information Bureau (PIB)'A' Wing, Shastri Bhawan,New Delhi",
     "officialUrl": "https://mib.gov.in/sites/default/files/Revised%20JWS%20Guidelines%2028.03.2018_1.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11247,7 +11247,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury: 30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11312,7 +11312,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: Advertisement to call applications from eligible organizations will be uploaded on the official website of the Ministry of Culture. https://indiaculture.gov.inStep 02: The eligible applicant organizations should submit two copies of the applications, complete in all respect at the address mentioned below:\nSection Officer (P. Arts. I), Room No.205, 2nd Floor, 'D' - Block, Puratatva Bhawan, GPO Complex, INA, New Delhi-110023Note 01: Each and every page of the application and enclosures must be signed by the authorized signatory & stamped with the seal of the organization. Note 02: Cultural organizations must submit their two copies of applications/proposals in two separate file covers. Note 03: All papers of the applications/proposals must be page numbered (on the top right-hand corner) in a back-to-back fashion. Note 04: The applicant cultural organizations must attach an Index on top of the application/proposal clearly showing the page number at which various required documents, etc. are placed in the application/proposal. Note 05: The applications duly filed in prescribed Pro forma should be recommended by the Cultural Department/Wing of the concerned Central Government/State Government/UT Administration or any of the Zonal Cultural Centers of the Ministry of Culture/National Academies including National School of Drama(NSD), Sangeet Natak Academy(SNA), Lalit Kala Akademy(LKA), CCRT, Indira Gandhi National Centre for Arts(IGCNA) and bodies of similar stature and should be routed through these Organizations only. However, the Ministry of Culture will have the discretion to entertain an application directly. Note 06: Canvassing by the applicant organizations in any form will be a disqualification for financial assistance.",
     "officialUrl": "https://indiaculture.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11388,7 +11388,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 1: Visit the Official Website of PMAY-Urban.Step 2: Select the 'Citizen Assessment' option and click on the applicable choice: \"For Slum Dwellers\" or \"Benefits under other three components\".Step 3: Enter your Aadhaar Card details. This will redirect you to the online application form. In the form, fill in all the mandatory details, and upload the required documents. The details to be filled include name, contact number, other personal details, bank account and income details, among others.Step 4: At the bottom of the form, click 'Save' and enter the Captcha code. The application is now complete and a print can be taken at this stage for future reference.",
     "officialUrl": "https://pmay-urban.gov.in/uploads/guidelines/60180813309f2-Updated%20guidelines%20of%20PMAY-U.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11461,7 +11461,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Call for ApplicationsMinistry of Social Justice & Empowerment, Department of Empowerment of Persons with Disabilities (Divyangjan) shall intimate the opening of the National Awards Portal as well as the prescribed period for submission of applications through advertisement in the newspapers/website of the Department. Applications/nominations are invited through online mode only on the centralized portal of the Ministry of Home Affairs. (www.awards.gov.in) which is open (w.e.f. 15th June to 31st July).RegistrationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"National Awards for Empowerment of Persons with Disabilities\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Note 1: The Application should be in Hindi or English language only. Calendar of Activities\n• 1. Advertisement of National Awards/Opening of National Awards Portal: 1st May\n• 2. Last date of receipt of applications: 31st July\n• 3. Constitution of Screening Committees and National Selection Committees: 31st August\n• 4. Meetings of the Screening Committees: 30thSeptemebr\n• 5. Meeting of the National Selection Committee: 15th October\n• 6. Verification of short-listed candidates: 15th October\n• 7. Information/confirmation to awardees: 31st October\n• 8. Presentation of National Awards: 3rd December (International Day of Persons with Disabilities)",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11550,7 +11550,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online A manual is available on the Skill India Portal (SIP) website (https://skillindia.nsdcindia.org) for understanding the process. SPIAs shall be responsible for entering details of the candidates on Skill India Portal (SIP).",
     "officialUrl": "https://skillindia.nsdcindia.org",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11602,7 +11602,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Applicants can join the PAHAL scheme online in two following ways-Linking Aadhaar Card with Bank AccountDownload Form 1 from http://petroleum.nic.in/dbt/forms.html. Individuals without internet access can collect the same from a gas distributor. Fill in the required details such as name, bank account number, etc. Submit this duly filled form to the LPG distributor or respective bank. Following this procedure, applicants must fill out Form 2 to link their Aadhaar number with an LPG connection. Individuals can complete this process online via the UIDAI official website. Alternatively, they can submit the duly filled form and the Aadhaar card pasted on it to the respective LPG distributor. Applicants can also register for this scheme by utilizing the IVRS or SMS facility. Without Linking Aadhaar CardIf users do not own an Aadhaar card, they can register through their savings account using Form 3 or Form\n• 4. Provide bank account details, including IFSC code, account holder's name, account number, etc., in the form. Or else, ask the bank to link the bank account with a gas connection to receive the subsidy directly.",
     "officialUrl": "http://petroleum.nic.in/dbt/forms.html",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11687,7 +11687,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application Procedure:Step 01: The Call for applications will be notified through the websites \"www.serbonline.in\" and \"www.serb.gov.in\".Step 02: The application form along with a proper research proposal highlighting the research work to be undertaken should be submitted online through the website \"www.serbonline.in\".Step 03: Applicant should first register on the online website. Click here to registerStep 04: After successful registration, the user will be sent a confirmation mail on the registered email ID. Users must click on the URL provided in the mail to confirm registration.Step 05: After login, the applicant(s) are required to fill all the mandatory fields in the Profile Detail section under User Profile, which includes Bio-data, Photo, Institute Address, etc.Step 06: Details of Patents, Publications in the last 5 years, Projects, Research Collaboration, and Academic Supervision of all investigators (PI and all Co-Inventors) have to be provided.Step 07: Some of the details of your proposed work like Title (max 500 characters), Patent summary (max 3000 characters), Keywords (max 6), Translation Methodology (max 1500 characters), Expected output and outcome (max 1500 characters), Innovation (max 1000 characters), Gap area (max 1000 characters) and Advantage of Prototype/ Product to be developed (max 1000 characters) have to be entered at the time of proposal submission.Step 08: Other relevant information of the proposal has to be uploaded in a single PDF file not more than 10 MB as other technical documents (OTD).Selection Procedure: The proposals will be evaluated through stringent peer-review processes by a suitable Programme Advisory Committee. The selection will be based on the recommendations of the Programme Advisory Committee (PAC) constituted by the Board. If required, the applicants may be called for discussion/ presentation.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/serb-tetra",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11767,7 +11767,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Procedure to ApplyThe application should be sent at least eight weeks prior to the date of presentation of the research paper through email at inaehq@inae.in and hard copy as well at the following address: Executive Director Indian National Academy of Engineering (INAE) Unit No 604-6096th Floor, Tower A, SPAZE I-Tech Park, Sector-49, Sohna Road, Gurgaon - 122 018 Phone: 0124-4239480 Fax: 0124-4239481 Website: www.inae.in",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ai-tgses",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11836,7 +11836,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Claiming 1st InstallmentStep 1: The interested grower should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned Extension Office of the Coffee Board after completion of planting.Step 4: The concerned SLO/JLO Office shall scrutinize the documents, carry out field inspection, furnish the inspection report, and forward the claim along with enclosures with recommendations either for sanction/rejection of the claim or justification for releasing the 1st installment. Claiming 2nd InstallmentStep 1: The interested grower should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned Extension Office of the Coffee Board during the 2nd year of planting, after filling the vacancies.Step 4: The concerned SLO/JLO Office will scrutinize the documents, carry out field inspection, furnish the inspection report, and forward the claim along with enclosures with recommendations either for sanction/rejection of the claim or justification for releasing the 2nd installment.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cdpnerec",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11916,7 +11916,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Enter the details of the Enterprise details and other mandatory fieldsEnter the details of the Borrower details and other mandatory fields. The applicant will fill Loan and Bank details and other mandatory fields. Save and Upload the requested documents Submit the document",
     "officialUrl": "https://ifcicegssc.inWhether",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -11972,7 +11972,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Submission of ProposalThe District Magistrate/Administration forwards the proposal for financial support to the relevant State Ministry/Department dealing with the Bonded Labour Rehabilitation Scheme (BLR). The State/UT Government submits each proposal for immediate cash assistance and rehabilitation assistance.Step 2: Release of FundsThe eligible reimbursements are disbursed directly by the MoLE to the State/UT Government. The State/UT Government transfers the allocated funds to the concerned District Magistrate/Collector to support the implementation of the Bonded Labour Rehabilitation Scheme (BLR).Step 3: Disbursement of BenefitsThe District Administration will assess the cash requirement of the beneficiary and exercise its best judgement if the amount should be put under an annuity scheme or transfer it to the beneficiary account through Direct Benefit Transfer (DBT).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cssrbl",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12044,7 +12044,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The nominee of the deceased person will have to follow the below procedure:Step 1: The beneficiary will have to furnish the original death certificate of the deceased person to the Pension Group Schemes Department of LIC of India through the Khadi Institution under which the deceased was a member.Step 2: In case of accidental deaths, the police enquiry report will also need to be submitted along with the application.Step 3: The agency will proceed further to forward the documents along with the claim records/papers to LIC as the branch which has originally finalised in the insurance cover.Step 4: The Life Insurance Corporation will settle all the claims by sending account Payee Cheque directly to the beneficiary. This intimation has to be furnished to the concerned State Government.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/kkjby",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12115,7 +12115,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury:\n30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12175,7 +12175,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The citizens need not apply to this scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/hriday",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12227,7 +12227,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Online submission for the scholarship can be done through the website of the National Scholarship Portal with the required documents: https://scholarships.gov.in/ Registration for New Applicant:Step 01: Open the official NSP website and click on \"New Registration\" under Applicant Corner.Step 02: Read the Instruction /Guidelines, provide the undertaking by clicking on the Check box then click on Continue.Step 03: Start the registration by providing the required details. Registered Applicant:Step 01: Open the official NSP website and click on 'Fresh Application' under Applicant Corner.Step 02: Login with your application ID & password.Step 03: Select the Scholarship.Step 04: Fill out the applicant form.Step 05: Upload the required documents and Submit. Letter from Hon'ble Prime Minister: All applicants selected under the new category will be given personal letters from the Hon'ble Prime Minister in appropriate language. Payment of Scholarship:• The Scholarship amount under PMSS for applicants selected under fresh and renewal categories would be credited/transferred directly into the Bank accounts of the selected applicants through the Public Finance Management System (PFMS) under the Direct Benefit Transfer (DBT) Programme of the Government. Important Instruction: It will be the sole responsibility of the applicant to make sure that he/she is eligible to apply and fulfils all the conditions prescribed for the scholarship. If the in-eligibility of the applicant is detected at any stage, before or after applying for the scholarship scheme, or during at any stage by verification by authorities, his/her scholarship will be cancelled without any notice. Disciplinary action will be taken against him/her, further, he/she will be blacklisted to opt for a scholarship sponsored by the Central Government for a period of five years. An incomplete application form and failure to attach the requisite documents will lead to rejection of the application. All the requisite information should be clearly mentioned in the respective column. The information once is generated on the part of applicants, no change/amendment will be accepted. Mobile number and Email address of applicants or wards of CAPFs & AR personnel is mandatory so as to inform the candidate of any discrepancies or developments through SMS and Email. Wards of deceased/retired and serving personnel of CAPFs/AR may contact: Telephone number: 011-23063111Email:\nsecywarb- mha@nic.in.",
     "officialUrl": "https://scholarships.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12324,7 +12324,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The applications from the eligible master craftsperson would be invited every year by making wide publicity through advertisement.Step 1: The eligible artisan should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should submit the duly filled and signed application form and the documents to the Handicrafts Service Centre/Regional Office.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application. Post-Application ProcessesStep 1: On receipts of applications inspections will be done by the field officer.Step 2: The applications completed in all respects shall be processed within 30 days. On the recommendation of the Regional Director, the Core Committee under the Chairmanship of the Development Commissioner (Handicrafts) would finalize the selection of the master craftsperson for financial assistance.Step 3: The financial assistance will be disbursed through the in-charge in the respective field formation of the Office of the Development Commissioner (Handicrafts).*If there is any gap in extending the financial support due to non-submission of income certificate/enhancement of income criteria, the applicant has to apply as a fresh application according to the financial support.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/nhdp-dba-saic",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12416,7 +12416,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Following are the prerequisites for the enrollment process: Aadhar CardRation cardAddress ProofPassport size photographBank DetailsApply the application form through online official website. Select the oil company name example Indane / Bharatgas / HP GasSelect Type of Connection like Ujjwala 2.0 New ConnectionChoose State, District and Name of Distributor. Enter Mobile Number, Captcha and OTP.Select Migrant Family status in YES or NOFor family Identifier in NO fill Annexure 1 For family Identifier in Yes fill Ration Card Select Category. Fill all Family Details, Personal details, address details, bank details, Choose Cylinder Types, Select rural or urban and select declaration and submit. Generate Reference number and visit Gas agency.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pmuy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12484,7 +12484,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online\n• 1. Registration on On Rashtriya Gram Swaraj Abhiyan Portal Link :\ngramswaraj.nirdpr.in\n• 2. Click on Register.\n• 3. Fill in the required details.",
     "officialUrl": "https://gramswaraj.nirdpr.in/login/signup.php",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12540,7 +12540,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: Application for the VAJRA Faculty Scheme can be submitted throughout the year.Step 02: The Indian collaborator should identify appropriate overseas faculty/ researcher and jointly frame a research plan.Step 03: The Lead Indian collaborator should submit the application online at www.serbonline.in.Step 04: The Indian Collaborator should register in the SERB Online Portal. click here to registerStep 05: If there are Other Indian Collaborators as part of the proposed work, then it is to be ensured that all the other Indian Collaborator(s) are registered in the SERB online portal and have filled all mandatory fields in the Profile Details section under User Profile.Step 06: Under 'Form Submission' choose Scheme: VAJRA for opening the online submission form.Step 07: All the details need to be filled in the online submission form.Step 08: Endorsement certificate from Indian Institution and consent letter from overseas faculty institution for participation as VAJRA Faculty, should be uploaded during the time of submission.Step 09: On submission of the online application, a link to view the submitted application will be sent to the overseas faculty. On his acceptance, the application would be deemed formally submitted for further consideration.Step 10: The Committee for evaluating the applications will meet twice a year and make its recommendations. SERB will announce the results subsequently.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/vajra",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12605,7 +12605,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration of New Institute:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and click on 'New Institute' button.Step 02: Users will be redirected to another website. Hover the cursor on Login and select 'Investor Login'.Step 03: New users need to click on 'Sign Up Now' to register.Step 04: Enter the details and click on 'Verify' to receive OTP on your Email Id and Mobile Number.Step 05: After successful verification Click on 'Sign Up Now' to register. Post-Registration Process:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and log in with the credentials provided by AICTE.Step 02: Navigate to AQIS Application Screen by clicking on 'AQIS Application' screen tab.Step 03: Institute details will auto populate in the AQIS Application.Step 04: Fill demographic and Bank details .Step 05: Only after confirming the Bank Details, the 'New' button will be enabled for adding the AQIS Application. Click on 'New' button to create AQIS Application.Step 06: A unique AQIS Application ID will get created. Select the \"AICTE-ISTE INDUCTION/REFRESHER PROGRAMME SCHEME\" as Scheme from the drop down List.Step 07: Now details to be filled for the as followed: Program Details, Personalities Expected, Participating Industries ,Similar Events, Budget Estimate -Others, Academic Credentials of Coordinator/ PI/ Applicant, Justification, Credential of Institute / Department.Step 07: Once the user has filled all the data in the above mentioned tab, user should click on 'Validate Application' button on the 'AQIS Application' tab.Step 08: User will get a pop up message to attach a Mandate Form after downloading the sample form.Step 09: Now fill the amount in the 'Total Funds Requested' under label 'Budget Estimates Others'.Step 10: After Validation is completed successfully, read the declaration, check it and click on Save.Step 10: Click on \"Submit\" button to submit the application.",
     "officialUrl": "http://portal.aicte-india.org/partnerportal_enu/start.swe",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12685,7 +12685,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Submission of Required DocumentsThe beneficiary/applicant must submit the application in the prescribed format along with the necessary documents for availing of the subsidy.Step 2: Document Scrutiny and Field InspectionThe Extension Officer will scrutinize the submitted documents. A field inspection will be conducted to verify the information.Step 3: Application ForwardingThe Extension Officer will forward the application along with the verification report to the concerned Joint Director (Extension)/Deputy Director (Extension).Step 4: Scrutiny by Joint Director/Deputy DirectorThe Joint Director (Extension)/Deputy Director (Extension) will scrutinize the application and verification report.Step 5: Subsidy ReleaseAfter scrutiny and satisfaction about the admissibility of the claim, the Joint Director (Extension)/Deputy Director (Extension) will release the applicable subsidy to the beneficiary through electronic fund transfer (EFT).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cdpnerqucdy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12749,7 +12749,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Processes:Step 01: The eligible applicant can apply through the financial institutions or banks that participate in the PMAY initiative.Step 02: Collect the application form through institutions or banks and fill out it completely.Step 03: The completely filled form is submitted to the lender along with the required papers.Step 04: The loan amount will be deposited into your bank account after verification.Step 05: After the loan is disbursed, your lender will contact the nodal agencies to begin the process of collecting interest subsidies.Step 06: The interest subsidy will be credited to your loan account upon verification, and your loan amount will be reduced, lowering your Equated Monthly Installment amount. Note 01: Interest subsidy will be credited upfront to the loan account of beneficiaries through Primary Lending Institutions (PLIs) resulting in reduced effective housing loans and Equated Monthly Installments (EMI).Note 02: PLIs are identified as Scheduled Commercial Banks, Housing Finance Companies, Regional Rural Banks, State Cooperative Banks, Urban Cooperative Banks, Small Finance Banks, Non-Banking Financial Company-Micro Finance Institutions (NBFC MFIs) or any other institution as may be identified by the MoHUA.Note 03: PLIs shall link the details of the Aadhaar Number(s) of the beneficiary family to avoid duplication before submitting claims to CNAs. Track Application in the CLSS tracker:Step 01: Applicant will visit CLAP Portal.Step 02: On the Home Page, there is CLSS tracker, where the applicant will enter the Application ID as received through SMS from CLAP.Step 03: On entering of valid Application ID, the system will send an OTP code on the mobile numbers of the applicant as registered in CLAP Portal during Process-1 through PLIs.Step 04: On entering a valid OTP code, the system will display the stages of the beneficiary's application. The system will display all passed stages with green colour and in the process stage with blue colour.Step 05: If the applicant existing CLSS beneficiary who has received a subsidy amount in multiple disbursements, then the CLSS tracker will display details of all past disbursements i.e. dates of disbursement and subsidy amounts. Central Nodal Agencies: National Housing Bank (NHB), Housing and Urban Development Corporation (HUDCO), and State Bank of India(SBI) have been identified as Central Nodal Agencies (CNAs) to channel this subsidy to the lending institutions and for monitoring the progress of this component. Ministry may notify other institutions as CNA in the future. Toll-Free Helpline Numbers: NHB: 1800-11-3377, 1800-11-3388HUDCO: 1800-11-6163SBI: 1800-11-2018",
     "officialUrl": "https://www.myscheme.gov.in/schemes/clssmig",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12821,7 +12821,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Self Help Groups (SHGs), NGOs registered in the Darpan portal of NITI Aayog, and Government Organizations can apply through the Regional /Sub Regional Office of the Board for organizing training programs at the field level. Application Forms for the Scheme (Skill Upgradation and Mahila Coir Yojana)",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cvy-sumcy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -12898,7 +12898,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: The full-length research proposals may be submitted online only and no proposal in physical/hard copy is to be submitted w.r.t. the advertisements published in leading newspapers and uploaded on the websites of DHR & ICMR.Step 02: Open the DHR Electronics Project Management System (e-PMS) portal.Step 03: Register yourself in the portal if you are using the e-PMS portal for the first time. The process for registration is e-PMS Login â†’ Register, registration page will be open.Step 04: Login to the portal by using the Login page.Step 05: After login verify your email by clicking verify the email. A verification link will be sent to your email. Login to your email and click on the verification link which you will receive in your email. Then, again login on the portal or refresh the e-PMS portal.Step 06: Complete your profile.Step 07: After completing the mandatory section of PI/Fellow Profile, click on Proposal Submissionâ†’ Submit New Proposal â†’ Select the appropriate sub-scheme under HRD.Step 08: Before proceeding to submission of the proposal, it is suggested to read the scheme guidelines; and make ready all relevant information, documents, and research plan. For scheme/call for proposals related queries: Contact: Department of Health Research, Ministry of Health & Family Welfare, New DelhiTelephone No. : 011-23736216For website/online submission-related queries: Contact: Technical Team, ICMR Headquarters, New DelhiTelephone No. : 011-26589571, Email: epms.dhr@icmr.gov.in",
     "officialUrl": "https://dhrschemes.icmr.org.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13034,7 +13034,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury:\n30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13094,7 +13094,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Interested and eligible students are to send their applications, along with their CVs in the enclosed proforma to - Section Officer (Admn-l), Department of Expenditure, Room No.264-B, North Block, New Delhi.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ipdop",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13174,7 +13174,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Online submission for the scholarship can be done through the website of the National Scholarship Portal with the required documents: https://scholarships.gov.in/ Registration for New ApplicantStep 01: Open the official NSP website and click on 'New Registration' under Applicant Corner.Step 02: Read the Instruction /Guidelines, provide the undertaking by clicking on the Check box then click on Continue.Step 03: Start the registration by providing the required details. Registered ApplicantStep 01: Open the official NSP website and click on 'Fresh Application' under Applicant CornerStep 02: Login with your application ID & password.Step 03: Select the Scholarship.Step 04: Fill out the applicant form.Step 05: Upload the required documents and Submit. Letter from Hon'ble Prime Minister: All applicants selected under the new category will be given personal letters from the Hon'ble Prime Minister in appropriate language. Payment of Scholarship: The Scholarship amount under PMSS for applicants selected under fresh and renewal categories would be credited/transferred directly into the Bank accounts of the selected applicants through the Public Finance Management System (PFMS) under the Direct Benefit Transfer (DBT) Programme of the Government. Important Instruction: It will be the sole responsibility of the applicant to make sure that he/she is eligible to apply and fulfils all the conditions prescribed for the scholarship. If the in-eligibility of the applicant is detected at any stage, before or after the applying for scholarship scheme, or during at any stage by verification by authorities, his/her scholarship will be cancelled without any notice. Disciplinary action will be taken against him/her, further, he/she will be blacklisted to opt for a scholarship sponsored by the Central Government for a period of five years. Incomplete application form and failure to attach the requisite documents will lead to the rejection of the application. All the requisite information should be clearly mentioned in the respective column. The information once is generated on the part of applicants, no change/amendment will be accepted. The mobile number and Email address of applicants or wards of States/UTs Police personnel is mandatory so as to inform the candidate of any discrepancies or developments through SMS and Email.",
     "officialUrl": "https://scholarships.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13255,7 +13255,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online One can download UMANG App or visit website https://web.umang.gov.in/web_new/home The citizen can login using mobile number and OTP.Once logged In, citizen can search for NSAP.Click on \"Apply Online\"Fill the basic details, choose the mode of payment of pension, upload photo and click on \"Submit\".",
     "officialUrl": "https://web.umang.gov.in/web_new/home",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13333,7 +13333,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 1: You can download Forms from the official website (given below) or get them from the nearest LPG distributor. KYC FormSupplementary KYC Document & UndertakingANNEXURE - I Self-declaration for Family Composition and Address for release of new connection under PMUY (for Migrant only) ANNEXURE - II Mechanics Pre-Installation check of Customers Premises for LPG connectionStep 2: Fill out the application form with the required information, including personal details, bank account information, and LPG distributor preference.Step 3: Attach the necessary documents along with the application form. The documents typically include proof of identity, proof of address, and proof of BPL category.Step 4: Submit the completed application form along with the supporting documents to the nearest LPG distributor.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pmuy2",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13425,7 +13425,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The Member of Parliament (MP) would identify a suitable Gram Panchayat from the rural area of any district in the country, other than his/her own village or that of his/her spouse.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sagy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13828,7 +13828,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: An institute seeking MI status will be required to forward an application signed from head of the institute along with the detailed project report (DPR).Step 02: Verify that every page of the application form has the signature and stamp of the Head of Institute.Step 03: Attach all the essential documents along with the filled application form.Step 04: Kindly ensure all the information is correct and then send the Application form along with all the essential documents to the concerned address mentioned in the circular released by the AICTE from time to time.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ams",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13896,7 +13896,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Beneficiary Identification and ApplicationThe Extension Officer identifies the beneficiary/applicant and obtains the application for procurement & supply of the baby pulper in the prescribed format (in duplicate). This process includes submitting land records and 25% of the unit cost.Step 2: Procurement DetailsIf baby pulpers are procured and supplied by the State Government/Other Agencies, the Extension Officer collects beneficiary details along with 25% of the unit cost of the pulper.Step 3: Beneficiary List CompilationThe Extension Officer compiles a list of identified beneficiaries and submits it to the concerned Deputy Director (Extn.), who consolidates the regional requirements and forwards them to the Joint Director (Extn.), Guwahati.Step 4: Tendering ProcessThe Joint Director (Extension), Guwahati completes the tendering process, adhering to all official formalities.Step 5: Financial Sanction and Order PlacementAfter the tendering process, the Joint Director (Extension), Guwahati obtains financial sanction from the Competent Authority and places the order with the accepted manufacturer. The condition is set for the manufacturer to supply the pulpers to the growers by October.Step 6: Machinery Inspection and PaymentExtension Officers conduct inspections of the machinery at the growers' fields. They then submit the physical verification report to the concerned Deputy Director (Extn.)/Joint Director (Extn.), Guwahati, to effect the suppliers' payment.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cdpnerqucsbp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -13952,7 +13952,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration Process:Step 01: After opening the website https://innovative.msme.gov.in/ , click on Design.Step 02: On the next window, click on Join Design Scheme.Step 03: Put the Udyam Registration Number along with the Registered Moblile Number.Step 04: Click on Validate.",
     "officialUrl": "https://innovative.msme.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14004,7 +14004,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The interested eligible person shall contact the nearest Channeling Agency (https://nsfdc.nic.in/channel-patrners/ ) .Indicative FormatHttps://Nsfdc. Nic. In/UploadedFiles/Other/Form/Termloan-English. PdfThe Loan Applications Are To Be Submitted By The Eligible Target Group (Scheduled Castes Persons Having Annual Family Income Up To Rs. 3.00 Lakhs ) To The District Offices Of State Channelizing Agencies (SCAs).The District Offices Of SCAs/CAs Forward These Applications, After Scrutiny, To Their Head Offices. The Viability Of The Project Proposals Are Appraised By The SCAs And The Viable Projects Are Forwarded To NSFDC Along With Their Recommendations For Sanction. Eligible Target Group Can Also Submit Their Loan Application To Other Channelising Agencies Of NSFDC Such As Regional Rural Banks/ Public Sector Banks/ NBFC-MFIs Etc. With Whom NSFDC Has Signed Memorandum Of Agreements. The Said Project Proposals Are Appraised By The Project And Banking Desk. The Appraisal Report Is Submitted To The Project Clearance Committee (PCC) For Their Concurrence. The Proposals Which Are Found To Be In Order Are Recommended For Sanction. After Sanction, Sanction Letters Called As Letter Of Intents(LOIs), Along With Terms & Conditions Are Issued To The SCAs/ RRBs/ Public Sector Banks/ NBFC-MFIs Etc. For Acceptance. After Acceptance Of The Terms And Conditions Of The Sanction And Fulfillment Of Prudential Norms, As Applicable, Funds Are Disbursed To The SCAs/ RRBs/ Nationalized Bank For Onward Disbursement To The Beneficiaries. The Disbursement Of Funds Is Made By NSFDC On Receipt Of Demand From The SCAs/ RRBs/ Public Sector Banks/ NBFC MFIs. The Loans Are To Be Repaid By The Beneficiaries As Per The Repayment Schedule Stipulated By The SCAs/CAs",
     "officialUrl": "https://nsfdc.nic.in/channel-patrners/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14060,7 +14060,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline At NACO Headquarters, the applications in the prescribed format (Annexure-IV of the Scheme Guidelines) may be sent to the office of the Joint Secretary by registered/speed post or email communication, at the following address: Deputy SecretaryNational AIDS Control Organisation 9th Floor, Chandralok Building,36, Janpath, New Delhi - 110001Email: naco.internship@gmail.comNOTE 1: An advance copy of the application along with the Covering Letter and attachments may be sent by e-mail to naco.internship@gmail.com. NOTE 1: The applications should reach at least one month before the commencement of the internship. Selection ProcessStep 1: All applications will be scrutinized by an Internship Committee.Step 2: The Internship Committee may conduct a personal interaction/ interview either through face-to-face interview or electronic media (phone, skype, etc.) with the applicant.Step 3: An intimation by email/ speed post will be sent to the selected candidates. Queries/GrievancesQuery, if any, may be addressed to Under Secretary at usadmin.dac@gmail.com.",
     "officialUrl": "https://naco.gov.in/sites/default/files/NacoInternship%20Programme.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14164,7 +14164,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury: 30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14224,7 +14224,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: The applicant will open the website https://dbtyas-sports.gov.in/ to registerand apply for Online Schemes of the Department of Sports.Step 2: The applicant will click on the 'Registration' tab to start the one-time registration process. Here the applicant will fill in the required personal details including verification of their mobile number through OTP.(Registration Type, Organization Name, Individual Name, Address, State, City, District, Block, Village, Pin Code, Email, Mobile Number)Step 3: After successful registration, the applicant will get the message that the login credentials have been sent to the registered email ID.Step 4: The applicant will use the login credentials received on the registered email ID to login into the online portal. Please remember to refresh the captcha before clicking on the login button.Step 5: After first-time login, the applicant will be required to update their other basic details. After filling in the details click on the 'Update' button and the profile will be successfully updated.(Name of the Applicant, Father's Name, Mother's Name, Gender, DOB, Nationality, Address, email, Mobile Number)Step 6: The applicant will click on the 'Schemes' tab and apply for the desired scheme.*****Note 1: Nominations for the award are invited in the month of January/February each year. The last date for the receipt of nominations will be 30th April or last working day of April. Note 2: The nominations will be sent to the Ministry of Youth Affairs and Sports in the prescribed proforma giving the details past performance of the nominated sportspersons in. International competitions and details of the contribution made for promotion and development of sports. Note 3: The nominating authorities are required to certify in the nomination form itself that the nominees are clear from vigilance/disciplinary angles and are not involved in acts of criminal and moral turpitude nature. Note 4:\nIn case of sportspersons employed with Central Government/State Governments/PSUs or in private organizations, nominating authorities should obtain a requisite report from the concerned employers before certifying that the sportsperson being nominated is clear from vigilance/disciplinary angle and is not involved in any act of criminal or moral turpitude nature. While seeking report from the employer, details of chargesheet/disciplinary action taken/pending, if any, should also be obtained. Copy of the report/certificate obtained from the employer of the sportspersons should be enclosed with the application of the sportspersons being nominated. Note 5: Copies of the nominations received from organizations other than the National Sports Federations (NSFs) will be sent to the concerned NSF for verification of the details and the achievements and for checking if the nominated sportsperson has ever been warned/penalized for any unfair practice like age fraud/sexual harassment, doping etc. All details in this regard, if any, alongwith the verification report should be sent by the concerned NSF within a week of the receipt of letter from the Ministry. Note 6: The applications for nomination should be addressed to Director (Sports)/Deputy Secretary (Sports)/Under Secretary (Sports), Ministry of Youth Affairs and Sports only and date of receipt in his/her office will be the date of receipt of nomination by the government. Note 7: Received applications are to be duly stamped and recorded in a register. In addition all applications received within time will be duly acknowledged to the recommending authority.*****Criteria for giving Major Dhyan Chand Khel Ratna to Sportspersons - 80 % weightage will be given for the medals won in various International championships and sports events of the disciplines covered in Olympic Games (Summer, Winter and Paralympics), Asian Games and Commonwealth Games. Points for winning medals will be given to each eligible sportsperson for his/her performance during the last 4 years and upto conclusion of Olympic Games, Commonwealth and Asian Games during those years when these Games are held as per marks given in the table below: 1. Olympic Games/ Paralympics: Gold: 80, Silver: 70, Bronze: 55.\n• 2. World Championship/World Cup: Gold: 40, Silver: 30, Bronze: 20. (once in 4 years)*3. Asian Games: Gold: 30, Silver: 25, Bronze:\n20.\n• 4. Commonwealth Games: Gold: 25, Silver: 20, Bronze: 15.\n• 1. For World Championship/World Cup of different periodicities, proportionate marks will be given\n• 2. Equivalence of any other sports discipline/tournament, not listed above, will be decided by the Selection Committee with reference to above-mentioned categories of sports tournaments and the points will be allotted accordingly.\n• 3. For team events, marks will be computed taking into consideration strength of the team. If prescribed marks for an individual event are 'A', in the case of team event, the marks will be computed as follows:(i) A team of 2 persons: 1.5 X 'A'/number of persons in the team(ii) A team of 3 or 4 persons: 2 X 'A'/number of persons in the team(iii) A team of 5 to 10 persons: 3 X 'A'/number of persons in the team(iv) A team of more than 10 persons: 5 X 'A'/number of persons in the team4. 80 marks will be given to the sportsperson getting maximum points as computed in the table above. Rest of the sportspersons will be given marks proportionately to the said sportsperson. For example, if a sportsperson 'A' has got highest points, say 85 points as per the table above and another sportsperson 'B' has got 80 points as per the table above, then 'A' will get 80 marks and 'B' will get ( 80 x 80/85 ) = 75.30 marks.5. 20 % weightage will be given to the marks given by the Selection Committee for assessment of the eligible sportsperson keeping in view factors like profile and standard of the sports events in which he or she has won medals.\n• 6. For cricket and indigenous games, not included in Olympic /: Asian Games / Commonwealth Games disciplines, the Selection Committee will take into consideration their individuals performances.\n• 7. There will be only one award every year to be given to an individual sportsperson. This condition will be relaxed only in exceptional circumstances to be recorded in writing.\n• 8. In a particular sports discipline, names of not more than 2 sportspersons (1 male and 1 female) with the highest marks as per the criteria brought out in the table above will be considered by the Selection Committee.\n• 9. Sometimes, the Selection Committee may feel that as per the given criteria, a very deserving sportsperson in a team game may not get Major Dhyan Chand Khel Ratna. In such a situation, it may recommend such name giving full justification in writing.\n• 10. Selection Committee will recommend the final list of sportsperson(s) for Major Dhyan Chand Khel Ratna as per the marks obtained in terms of the criteria indicated above.\n• 11. Selection Committee may not mechanically recommend Major Dhyan Chand Khel Ratna to the recipient of the highest marks across disciplines. But in a particular sports discipline, award will be recommended only for the recipient of the highest aggregate marks.\n• 12. The recommendations of Selection Committee will be placed before the Union Minister of Youth Affairs & Sports for the final decision.",
     "officialUrl": "https://dbtyas-sports.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14304,7 +14304,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: The applications are invited from eligible candidates by 30th November of each year.Step 02: Each applicant should submit his/her application to the concerned force Head Quarter. (Application Form- Annexure)Step 03: After scrutiny, all applications of selected candidates should be sent to the Chairman, Welfare And Rehabilitation Board, CPFs, CGO Complex, New Delhi so as to reach by 15th December of each year.Step 04: The final list of selected candidates will be prepared by WARB and should be forwarded to MHA by 31st December each year for further necessary action.Step 05: Selected applicants will be informed directly by the WARB, CPFs, Ministry of Home Affairs. Note 01:\nApplication received directly by WARB and MHA will not be entertained as the checklist enclosed with the application is required to be verified by the concerned forces Head Quarter. Note 02: Incomplete application forms and applications received after the specified date will NOT be considered. A wrong or misleading entry will lead to rejection of the application. Any deletion/correction should be initiated by the applicant himself/herself. Note 03: The respective offices will acknowledge receipt of only those applications received by the due date. Late receipted applications will not be processed. Note 04: Two stamped self-addressed envelopes of 27x12 cms are to be attached with each application so as to facilitate acknowledgement of receipt of the application form. Note 05: If an applicant granted a scholarship on the basis of the statement made in the application is at any subsequent date found to have made a false statement in any respect, both the wards of ex-CPFs personnel /widow will forfeit the scholarship and no application from the ex-CPFs personnel /widow would be entertained in future. In addition, the scholarship already granted would also have to be refunded. Note 06: The attested photocopies of the supporting legal documents duly attested by any Gazetted Officer or Unit Commander of CPFs are to be attached to the application form. Note 07: If the marks in the qualifying examination are expressed in grades only, then an equivalent percentage (100 point scale) duly certified by the concerned Board must be furnished. Note 08: All wards applying for scholarships will open individual bank accounts in the principal bank designated by the Institute concerned and the account number must be mentioned in the application form for release of scholarship payment. Note 09: A person having been granted a scholarship for one programme would not be entitled to the scholarship for another programme. Note 10: The scheme is open for courses mentioned above in recognized institutions irrespective of its location in the country vis-Ã -vis the residence/domicile of the wards of the CPFs personnel/widows. Note 11: The payment for the scholarship will be centrally made by the Welfare And Rehabilitation Board, CPFs directly, through account payee cheques, to be credited to the personal account of the individual ward/the mode of electronic clearing system. The first priority of the scholarship will be given to the account number which has an \"electronic clearance system\"Note 12: The amount of scholarship, including any other scholarship or financial assistance from any other source, should not exceed the total grant of assistance available under this scheme. Note 13: The Ministry of Home Affairs, Government of India can suitably modify these instructions to remove difficulties, if any, for successful implementation of the scheme, as may be deemed necessary from time to time.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pmsswwcpfp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14416,7 +14416,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: A tapper has to submit a duly filled application form countersigned by the employer/RPS President/Field Officer, along with all the relevant documents.Step 02: The application forms will be supplied to the Regional Offices of the Labour Welfare Division.Step 03: Hard copies of original application forms along with documents received should be forwarded to Labour Welfare Division, Kottayam with a forwarding letter showing the details of applicants such as Name, Address, Age, Category, and UTR No. Note 01: The scheme will be operated through the Regional Offices of the Board. Note 02: The Dy. RPC/DO in Charge of all regional offices may take steps to give wide publicity about the scheme among the tappers who have undergone our training and to enroll, the maximum number of tappers to the scheme. Note 03: The assistance of the RPSs may also be explored. The members of the tappers hank may be given priority.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pstsrp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14488,7 +14488,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Eligible Ex-servicemen / their widows can visit the official website of Kendriya Sainik Board Secretariat (KSBS) https://ksb.gov.in/ Click on \"Register\" which is available on the homepage of the portal. Now, the registration form will be displayed, fill the form with necessary details. Upload the PhotoSave the application by clicking on the \"Save\" button and the saved details and password will be forwarded to the registered mail id. Click the activation link which is sent to the mail id to login into the KSB portal. Provide user name, password and verification code and click on the \"Login \" button. Select the scheme name and start filling the new application form by entering the required details. Copies of the supporting documents duly attested by the respective Zila Sainik Welfare Officer (ZSWO) must be uploaded with the online application. Once the online application is submitted, ZSWO will scrutinize the online applications and give appointment to the applicant for verification, After successful verification, ZWSO will recommend the online application and forward the harp copy as well soft copy to Kendriya Sainik Board (KSB) through Rajya Sainik Boards (RSBs) for further processing. Processing at KSB SecretariatOnce the application reaches the Kendriya Sainik Board, the Section-in-charge verify the same and upload the printed list for the approval of JD (Welfare). Such applications of approval is then moved for sanction of the competent authority in one lot, preferably every quarter. Payment ProcedureAfter the submitted application has been approved, the same is processed for payment by the Welfare department. After verifying the service number, name, bankers, IFS Code and account number, the Welfare department forward the batch list to Accounts Section for payment, which make the payment directly via Electronic Clearing System (ECS).Track Application StatusApplicant has to revisit the same portal https://ksb.gov.in/index.htm Click on \"Status of application\" link on the homepage of the portal. Now enter your DAK ID and verification code. Click on the \"Search\" button",
     "officialUrl": "https://ksb.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14556,7 +14556,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Fresh Registration Process:Step 01: The applicant may visit the Udyam Registration website to obtain the Udyam Registration Number.Step 02: MSEs have to register themselves in MSME Data Bank using Udyam Registration Number and PAN, to get themselves registered for Single Point Registration.Step 01: To apply under the scheme, the applicant may visit the official website of the NSIC.Step 02: On the home page, select the scheme from the 'Schemes' tab.Step 03: On the right corner of the screen, click on the 'Fresh Online' tab.Step 04: A separate page will open and at the bottom of the page click on 'Apply Now'Step 05: Fill in the application form completely and submit it. Note 01: Single Point Registration has a 7-step form, each step can be filled staggered. Each step has a saved and continues option. This way form can be refilled and reviewed at any moment using your PAN and Udyam Registration Number combination. Note 02: It is always advisable to kindly place all required forms, annexures and documents on your desktop in a folder for fast uploading. Note 03: Fees will be charged based on the Unit Enterprise category (Micro or Small).Note 04: Third-party inspection is also involved for store item inspection. Units are requested to kindly choose an inspection agency according to their domain expertise and jurisdiction. Note 05: Final Certificate will be available online and the respective NSIC office will send a physical certificate copy by post. Note 06: For any communications, the registration number of the certificate may be quoted. Note 07:\nContact our NSIC field offices for any query by visiting https://nsic.co.in/Corporate/SearchBranch.aspx Note 08: Where the MSE has more than one factory located in the same state or outside the state, all the factories shall be registered at one branch and the application as such shall be considered at one branch only. Renewal Registration Process:Step 01: The applicant may visit the official website of the NSIC.Step 02: On the home page, select the scheme from the 'Schemes' tab.Step 03: On the right corner of the screen, click on the 'Renewal Online' tab.Step 04: A separate page will open and at the bottom of the page click on 'Apply Now'.Step 05: Fill in the application form completely and submit it. Note 01: Fees will be charged based on the Unit Enterprise category (Micro or Small) and MSEs coming for renewal before the expiry of the SPRS certificate get a discount of 50% on the renewal fee. Note 02: Final Certificate will be available online and the respective NSIC office will send a physical certificate copy by post. Note 03: For any communications, the registration number of the certificate may be quoted. Note 04: Contact our NSIC field offices for any query by visiting https://nsic.co.in/Corporate/SearchBranch.aspxProcedure for calculation & fixation of Monetary Limits of Micro & Small Enterprises: The monetary limit of the company is fixed based on the unit's net sales turnover during the last three years reflected in the Audited Balance Sheets. The monetary limit will be fixed based on the highest turnover during the last three years which may or may not be of last year provided the units installed and operating capacity has not been reduced.\n• In case there is no decrease in plant and machinery, then 50% of the highest turnover during the last 3 years reflected in the audited balance sheet will be the basis for the fixation of monetary limit.\n• In case there is a decrease in plant and machinery of more than 10%, the following will be considered: Where the turnover of the Enterprise has steadily increased over the last three years and the unit is in profit continuously, the Monetary Limit may be fixed at 50% of net sales turnover achieved in the last year. In case the Company/Partnership concern/Proprietorship unit is in loss for one year out of the past three years, their monetary limit will be fixed at 40% of their average net sales turnover. Similarly, when the Micro & Small Enterprise has been in loss for two years out of the past three years, the monetary limit will be accordingly fixed at 30% of their average net sales turnover of the past three years. In the event of Micro & Small Enterprise being in loss throughout the past three years, the monetary limit of the Unit will be fixed at 20% of the average net sales turnover of the Unit during the past three years. The applicant may visit http://www.nsicspronline.com/Fee_Calculator.aspx for the calculation of the Fee (Fee Calculator)",
     "officialUrl": "https://nsic.co.in/Corporate/SearchBranch.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14757,7 +14757,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: Participant need to visit:\nhttps://www.nittt.ac.in/nittt/index.php/site/register.htmlStep 02: Click on Participant Corner, then select Participant Register.Step 03: On the next page, enter your Name, Email, Mobile and verification code.Step 04: After submitting the details, the participant will receive an email which is consisting of the verification link,Step 05: By clicking the verification link, the participant will be redirected to the second phase of the registration process. In the second phase of registration the participant has to provide basic information, present employment details, experiences and registration payment.Step 06: In the basic information tab, the portal collects the details such as photo(Less than 20Kb), gender, date of birth, category, Experience, Highest Qualification, Faculty position, Password, confirm password, communication address, state, district, city and pin code.Step 07: The faculty position has options as Inductee Teacher and Aspiring Teacher. If the participant selects the Inductee Teacher then the participant will be redirected to present employment details; otherwise, the participant will be redirected to the payment gateway.Step 08: When the participant selects the option as an Inductee Teacher, the inductee teacher will be moved by submission to present employment details. The present employment tab consists of present designation, department, college/institution, district, state, and date of joining in the present employment. In this tab, all the fields are essential.Step 09: The participant has to enter the past experience which may arise from academic institutions or industry.Step 10: After submitting the experience details, the participant will be redirected to the final tab of the registration called payment. The participant has to pay the registration fee through clicking the button \"Proceed to Pay\".Step 11: Once the participant paid the registration fee, a unique registration id will be generated. The transaction details will be recorded and the module payment page will be displayed. The participant has to select the modules and do the payment for the pedagogy modules.",
     "officialUrl": "https://www.nittt.ac.in/nittt/index.php/site/register.html",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14809,7 +14809,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Procedure for Claiming SubsidyStep 1: Certification Completion and DocumentationAfter obtaining certification by the accredited certification body/agency, the SHG/growers' group of tribal growers shall submit the following documents to the concerned office of the JLO/SLO of the Coffee Board.Step 2: Submission to Coffee Board OfficeThe concerned JLO/SLO will scrutinize the documents, carry out field inspection for verification of books and records.Step 3: Review and VerificationThe JLO/SLO shall forward the claim along with the Physical Verification Report and other relevant records to the concerned Deputy Director (Extn)/Joint Director (Extn).Step 4: Approval and Subsidy DisbursementThe Deputy Director (Extn.)/Joint Director (Extn) after scrutinizing the claim and records and on confirmation about the admissibility of the claim in all respects will release the subsidy amount to the beneficiary.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cdpnerqucsecoc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14873,7 +14873,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration Process:Step 01: Visit https://www.scsthub.in/nssh-schemes/.Step 02: From the scheme list select \"Export Promotion Council Membership Fee Reimbursement Scheme\" by clicking on it.Step 03: On the pop up click on Apply Here button.Step 04: On the next page enter your Full Name, Valid Email ID, Mobile Number, and Password.Step 05: Now verify the captcha and click on Submit button.Step 06: Once the account is created Log in with the credentials and furnish all the details as required.",
     "officialUrl": "https://www.scsthub.in/nssh-schemes/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -14989,7 +14989,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online To register for DAY-NRLM, visit the following link: https://aajeevika.gov.in/en/member/registerFill out the mandatory fields. (Name, email ID, Contact Number) Provide a Username. Create a new password and confirm the same. Click on \"Create New Account\".",
     "officialUrl": "https://aajeevika.gov.in/en/member/registerFill",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15057,7 +15057,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online To register on the NIKSHAY portal, please follow these steps: Visit the NIKSHAY portal website. Click on the \"Register\" button. Enter your personal information, such as your name, email address, and phone number. Enter your healthcare facility information, such as the name and address of your facility. Create a password and confirm it. Click on the \"Register\" button. Once you have registered, you will receive an email with a verification link. Click on the link to verify your account. Once your account has been verified, you can log in to the portal and start notifying TB cases to the government. To notify a TB case, follow these steps: Click on the \"Notify TB Case\" button. Enter the patient's personal information, such as their name, date of birth, and address. Enter the patient's TB diagnosis information, such as the type of TB and the date of diagnosis. Enter the patient's treatment information, such as the start date of treatment and the type of treatment. Click on the \"Submit\" button. The government will then verify the information and process the incentive payment. Please note that all TB cases must be notified to the government through the NIKSHAY portal in order to be eligible for the incentive payment.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/nikshay",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15109,7 +15109,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online RegistrationStep 1: The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should visit the National Awards Portal. On the top right of the homepage, click \"Register\".Step 2: You will be directed to the Registration Page. Fill in all the mandatory fields (marked with a Red Asterisk).Step 3: Check the \"Declaration\" checkboxes provided at the bottom of the page. Fill in the Captcha Code, and click \"Submit\".You will receive the Login Credentials on your Registered Mobile Number. ApplicationStep 1: Visit the National Awards Portal. On the top right of the homepage, click \"Login\".Step 2: Login using credentials. From the list of awards, select \"Vayoshreshtha Samman - National Awards for Senior Citizens\", then click \"Nominate / Apply Now\".Step 3: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".Selection of Awardees\n• 1. A Screening Committee shall be constituted in the Ministry of Social Justice and Empowerment to scrutinize and shortlist the nominations, under Additional Secretary/ Joint Secretary.\n• 2. The final Selection of the Awardees shall be made by the Selection Committee chaired by the Minister of Social Justice and Empowerment. Calendar of ActivitiesIssue of Letter Inviting Nominations by the Ministry: 1st NovemberLast Date of Receipt of Nominations: 31st JanuaryShortlisting of Nominations by the Screening Committee: 28th FebruaryFinal selection by the Jury: 30th AprilApproval by the Minister: 31st MayVetting by IB: 15th AugustAnnouncement of the Awards: 1st SeptemberPresentation of the Awards: 1st October",
     "officialUrl": "https://awards.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15169,7 +15169,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: The applicant will open the website https://dbtyas-sports.gov.in/ to registerand apply for Online Schemes of the Department of Sports.Step 2: The applicant will click on the 'Registration' tab to start the one-time registration process. Here the applicant will fill in the required personal details including verification of their mobile number through OTP.(Registration Type, Organization Name, Individual Name, Address, State, City, District, Block, Village, Pin Code, Email, Mobile Number)Step 3: After successful registration, the applicant will get the message that the login credentials have been sent to the registered email ID.Step 4: The applicant will use the login credentials received on the registered emailID to login into the online portal. Please remember to refresh the captcha before clicking on the login button.Step 5: After first-time login, the applicant will be required to update their other basic details. After filling in the details click on the 'Update' button and the profile will be successfully updated.Step 6: The applicant will click on the 'Schemes' tab and apply for the desired scheme.",
     "officialUrl": "https://dbtyas-sports.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15234,7 +15234,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Procedure for sending the entries:Step 01: The applicants need to visit the official website of the department and download the application proforma.Step 02: Fill out the author entry proforma with accurate details and send it to the department before the last date so declared. Note 01: Applicant is required to send three copies of the book invariably with each entry. The copies will not be returned. Note 02: An author may send only one entry under the scheme. Note 03: The entry should be sent along with the proforma given in the Annexure; otherwise the same would not be accepted. Evaluation Procedure of Books: Books will be evaluated by a committee constituted by the Department of Official Language based on the criteria set by the Department of Official Language. A Joint Secretary, Department of Official Language will be the Chairperson of the committee. If necessary, the Committee may include non-official renowned scholars/experts along with official members. The next of kin of the authors, who are sending their entries, will not be included in the Evaluation Committee. An official from the Ministry/Department concerned with the subject may be included in the Evaluation Committee for evaluation of the entries. The Evaluation Committee shall have the right to take advice from specialists/experts on the subject before deciding on a book. The evaluation committee will determine the assessment criteria themselves. In the absence of consensus about the award the decision will be made by the majority. In case for and against votes are equal on any decision, then the Chairperson shall have the right to vote to arrive at a decision. The Department of Official Language will take decision on recommendations made by the Evaluation Committee. Declaration and distribution of awards: Decision regarding the award will be intimated through a letter/email to all the awardees and placed on the website of the Department of Official Language. Distribution of the Awards will be held on the date fixed by the Department of Official Language.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/rgpswobh",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15300,7 +15300,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Fresh ApplicationEligible Ex-Servicemen / widow can apply online between 01 Apr to 01 Mar (every year) Link - https://164.100.158.73/registration.htmScanned Copies of the supporting documents must be uploaded with the online application. Once the online application is submitted successfully, individual will be given a system generated application number, which he/she should note down for future reference. Thereafter, all the uploaded documents and certificates shall be verified By ZSWO. During verification, ZSWO shall certify that the Penury certificate uploaded by the applicantDoes not have income/ pension form any other source. He has not been provided any financial assistance from the State Govt or any other source. Confirm that the information furnished by the applicant online is correct as per the original documents uploaded with the application. Once this verification process is over, Submitted Online Application is recommended by ZWSO.Processing at KSB SecretariatOnce the application reaches the Kendriya Sainik Board, the Section-in-charge verify the same and upload the printed list for the approval of JD (Welfare). Such applications of approval is then moved for sanction of the competent authority in one lot, preferably every quarter. Payment ProcedureAfter approval of Secretary KSB, the application is processed for payment by Welfare Section. The welfare section verifies the Ex-servicemen's service number, name, banker's IFS Code and bank account number & forward the list of approved cases to Accounts Section for payment. The Accounts Section then processes the list for payment directly to beneficiaries via ECS to the beneficiaries as applicable. Track Application StatusApplicant has to revisit the same portal https://ksb.gov.in/index.htmClick on \"Status of application\" link on the homepage of the portal. Now enter your DAK ID and verification code. Click on the \"Search\" buttonFor Subsequent GrantFor subsequent years, after initial penury grant has been awarded, the beneficiary must submit a life certificate online, duly countersigned by respective ZSWO between 01 Dec and 31 Mar of current financial year. Life certificate signed by any other person/ authority other than concerned ZSWO and Digital Life Certificate will not be accepted. Submission of Life Certificate will be accepted online on KSB website only and not by any other means. Online application for renewal of Penury grant will not be accepted by website after 01 Mar of the financial year. Beneficiary will not be paid the grant for the year for which he/ she fails to upload the life certificate within the period specified above.",
     "officialUrl": "https://164.100.158.73/registration.htmScanned",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15388,7 +15388,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Eligible Ex-servicemen / their widows can visit the official website of Kendriya Sainik Board Secretariat (KSBS) https://ksb.gov.in/Click on \"Register\" which is available on the homepage of the portal. Now, the registration form will be displayed, fill the form with necessary details. Upload the PhotoSave the application by clicking on the \"Save\" button and the saved details and password will be forwarded to the registered mail id. Click the activation link which is sent to the mail id to login into the KSB portal. Provide user name, password and verification code and click on the \"Login \" button. Select the scheme name and start filling the new application form by entering the required details. Copies of the supporting documents duly attested by the respective Zila Sainik Welfare Officer (ZSWO) must be uploaded with the online application. Once the online application is submitted, ZSWO will scrutinize the online applications and give appointment to the applicant for verification, After successful verification, ZWSO will recommend the online application and forward the harp copy as well soft copy to Kendriya Sainik Board (KSB) through Rajya Sainik Boards (RSBs) for further processing. Processing at KSB SecretariatOnce the application reaches the Kendriya Sainik Board, the Section-in-charge verify the same and upload the printed list for the approval of JD (Welfare). Such applications of approval is then moved for sanction of the competent authority in one lot, preferably every quarterPayment ProcedureAfter the submitted application has been approved, the same is processed for payment of the grant in batches of 200 applications by the Welfare department. After verifying the service number, name, bankers, IFS Code and account number, the Welfare department forward the batch list to Accounts Section for payment, which make the payment directly via Electronic Clearing System (ECS) or by an account payee cheque. Subsequent GrantFor the continuation of grant in the next financial year, Life Certificate and \"Disability Certificate\" in the Government prescribed format need to be submitted every year through the respective ZSB on or before 15th January. In the cases of renewal Application is automatically forwarded to the Welfare department by 1st March. And then, the welfare department ask for sanction of a grant from the Kendriya Sainik Board for the continuation of the financial assistance during the next fiscal year. Track Application StatusApplicant has to revisit the same portal https://ksb.gov.in/index.htm Click on \"Status of application\" link on the homepage of the portal. Now enter your DAK ID and verification code. Click on the \"Search\" button.",
     "officialUrl": "https://ksb.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15456,7 +15456,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online These eligible agencies place their indents on NHDC.A tie-up between NHDC and suppliers has been established. A yarn passbook is given to first-user agencies to avail of the 10% subsidy. This can be applied to the NHDC website. (https://www.nhdc.org.in/). All types of yarn are supplied such as polyester, acrylic, rayon, jute, blended yarn, and zari. However, all of them are not eligible for a 10% subsidy. The procedure of advance payment to precede indenting and supply of yarn (15 to 45 days) is waived for individual weavers and primary weavers' societies. National Handloom Development Corporation (NHDC) has opened distribution centers to introduce cash sales of yarns to them",
     "officialUrl": "https://www.nhdc.org.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15508,7 +15508,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: The faculty who fulfils the eligibility criteria as laid down in the Scheme document, shall apply directly for admission in the Doctoral degree programme in any of the top 500 foreign universities / institutions ranked by the QS ranking, THE ranking and Shanghai ranking.Step 02: Having obtained admission in the particular University / college etc., the applicant faculty must also seek to obtain Visa, travel grant if any, fellowships/assistantship / scholarship and/ or any other grants etc.Step 03: Candidates need to fill the application form along with other required documents and submit to AICTE to the below address: All India Council for Technical Education (AICTE) Nelson Mandela Marg,Vasant Kunj, New Delhi-110070Phone: 011-26131576-78,80",
     "officialUrl": "https://www.myscheme.gov.in/schemes/qipfu",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15572,7 +15572,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Initiation by the Extension OfficerThe Extension Officers of the Coffee Board will motivate a group of tribal growers in each of the localities/villages to raise a coffee nursery on a community basis. This caters to the requirement of seedlings for annual expansion and consolidation programs.Step 2: Location and Seedling SelectionThe groups themselves decide on the nursery's location and the number of seedlings to be raised. This decision is made in consultation with the Extension Officer of the Coffee Board, considering factors like water availability and other essential resources required for a healthy nursery.Step 3: Group ResponsibilitiesThe group takes the responsibility of motivating their members to participate in raising the nursery and distributing the seedlings among the members.Step 4: Cost Estimation and ControlThe concerned Extension Officer estimates the cost involved in raising the group nurseries. It is ensured that the cost of raising each healthy coffee seedling does not exceed ₹5, inclusive of input and labor costs.Step 5: Proposal Submission and ConsolidationThe Extension Officer submits a proposal containing details of the number of seedlings to be raised and the associated expenditure to the Deputy Director (E). The Deputy Director consolidates the requirements for his region and submits them to the Joint Director (E) in Guwahati, along with recommendations.Step 6: Regional Consolidation and RecommendationsThe Joint Director (E) consolidates the overall requirements for the North Eastern Region (NER) and submits the proposal, along with recommendations, to the Director of Research.Step 7: Scrutiny and SanctionThe Director of Research scrutinizes the proposal and submits it to the Head Office in Bengaluru, along with recommendations for sanction.Step 8: Phased Funding ReleaseAfter sanction, the concerned Joint Director (Extn.) or Deputy Director (E) releases the approved amount in a phased manner at different stages of raising the nurseries.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cdpnersgn",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15624,7 +15624,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline The beneficiaries submit the loan applications to the District Offices of State Channelizing Agencies (SCAs) of NSKFDC, Branches of Regional Rural Banks (RRBs), and Nationalized Banks. The District Offices of SCAs/Branches of RRBs/Nationalised Banks send these applications after scrutiny to their Head Offices. The viability of the project proposals is being appraised by the SCAs/ RRBs/Nationalised Banks and the viable projects are sent to NSKFDC along with their recommendations.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gbs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15676,7 +15676,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration Process: All other participating services except IAS have to register on the DFFT portal first.Step 01: Interested government officers should visit the official website for registering himself/herself under the scheme.Step 02: Click on \"Other Participant Registration\" and fill in all the mandatory details.Step 03: After filling details, click on 'Submit'.Step 04: The officer will receive DFFT Application ID & password via email. Application Process:Step 01: The officers, as per their services, select the login option \"IAS Registration/Login\" or \"Other Participant Login\".Step 02: The officers of other services may use their login credentials for login and IAS officers should login from the DFFT portal using their intra-IAS username and password. After submitting the DFFT application form system allots them a Registration ID.Step 03: Now, the officers require to fill in all the details carefully and submit the application form. Note 01: Not finalized application will be considered as incomplete registration. Only Finalized application will be forwarded to the concerned officer. Note 02: Applicants/nominated officers are advised to check their respective emails for any alerts that may be indicated before the last date of application, for revising choices for the programmes as per the final availability list of courses. Check Application Status:Step 01: The status of the application can be seen by clicking `Check Application Status' on the online application portal by using their DFFT Application ID. https://dfft.nic.in/CheckApplicationStatus.aspxApplication Process-User Guide",
     "officialUrl": "https://dfft.nic.in/CheckApplicationStatus.aspxApplication",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15748,7 +15748,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: The patient must visit the nearest healthcare facility to get registered on the NIKSHAY portal: https://www.nikshay.in/",
     "officialUrl": "https://www.nikshay.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15800,7 +15800,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should submit the application of the nominee in the Prescribed Proforma online on the National Awards Portal, Ministry of Home Affairs. Note: The Application should be in Hindi or English language only. Selection of AwardeesA Screening Committee and Selection Committee shall be constituted for the purpose which shall consider the achievements of the Institutions and the Individuals nominated or recommended for the Awards by the prescribed authority and the outstanding contribution in the field shall be the primary consideration in identifying the recipients of Awards. A National Selection Committee shall consider the recommendations of the Screening Committee and would approve the names of awardees, one for each category of the awards.",
     "officialUrl": "https://socialjustice.gov.in/writereaddata/UploadFile/NA636078226610282667.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15929,7 +15929,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3: Choose type Individual or Organization. Step-4.1: Under Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2: Under Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5: Submit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select scheme name, then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".",
     "officialUrl": "https://www.myscheme.gov.in/schemes/nya",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -15977,7 +15977,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: The officials of police and intelligence departments conduct enquiries at the Quarantine camp with newly arriving refugees.Step 2: After ensuring that they do not belong to any militant groups/movements, they are permitted to stay in the regular camps. If it is known that they are associates of militant movements, it is then recommended to lodge them in the special camps. Non-Camp RegistrationIf the refugees who come by air, seek permission from the Director of Rehabilitation to stay with their relatives, are referred by the Director of Rehabilitation to the police officer of the area in which they wish to stay, to register them.\nNOTE: This category of Sri Lankan nationals will not be provided with any of the relief assistance that is provided to the refugees living in the camps. Camp AdmissionAll the details of those who are cleared at the Quarantine camp for admission to regular camps are recorded in the computer and registered at the camp. The refugees are photographed and issued family identity cards. The benefits are provided immediately to run a family along with a dwelling unit.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/rraslrrc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16035,7 +16035,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Application Procedure: The application may be made online through using the Registration/login Page of \"Culture Scheme Monitoring System (CSMS)\" on the website of the Ministry of Culture under the heading of \"MOC Schemes Application\".Selection of Applicants for Award of Artists Pension:Step 01: The applications of eligible artists found to be complete in all respects will be placed before Expert Committee constituted by the Ministry of Culture under the Scheme after getting physical inspection/verification of the applicants done by officer(s) of the Ministry of Culture or one of the organizations of Ministry of Culture.Step 02: The Expert Committee will consider the applications in terms of extant guidelines of the Scheme and recommend the names of deserving candidates for the award of Artists' Pension solely on merit considering the financial position and eminence etc. of the applicant artist.Step 03: The recommendations of the Expert Committee are to be examined by the Administration Division with reference to the Scheme guidelines and the rules of the Govt. as also the availability of funds under the Scheme to facilitate an appropriate decision by the Competent Authority.Step 04: The cases of all the recommended candidates will be submitted finally for getting approval of the Competent Authority which will be one level above the Chairperson of the Expert Committee. Before the release of financial assistance to the approved candidates, the concurrence of the Internal Finance Division shall be obtained. Disbursement of artist's pension: Monthly Artist Pension to the approved existing beneficiaries (i.e. pensioner) and new artists to be included in the beneficiaries list subsequent to the recommendation of the Expert Committee and thereafter approval of the Competent Authority, will be disbursed by the Ministry of Culture through Public Financial Management System (PFMS)/Direct Benefit Transfer(DBT) or through Service Provider (appointed by Ministry of Culture for disbursement of Artists Pension) directly into their bank account subject to receiving the following documents mandatorily online on the email of Artistes Pension Section of the Ministry i.e. documents.moc@gmail.com or artistspension.moc@gmail.com and after examination/scrutiny, the same are found to be in order: Every Year in November, the Digital Life Certificate (DLC) of the beneficiary is processed through the Jeevan Pramaan Portal (https://jeevanpramaan.gov.in) by using necessary information like Aadhaar number, Mobile number, and Pension Payment Order (PPO) displayed by the Ministry on its website [Till the time the Aadhaar Card is made mandatory by the Government for an individual residing in the State of Assam, Meghalaya, and Jammu & Kashmir, they may submit a colored scanned copy of their original Life Certificate]; andEvery Five (0\n• 5) Years, a Coloured scanned copy of the original Income Certificate in the prescribed format is issued by the concerned Competent Authority of the States/UTs. The beneficiaries will have to furnish any other requisite information/document(s) as sought by the Ministry from time to time. In case the requisite documents sought by the Ministry are not received from a beneficiary, the pension will not be released to him/her. Further, if any discrepancy is found in the documents furnished by the beneficiary, the pension may not be released or stopped forthwith till such time the discrepancy is rectified. Renewal of financial assistance to existing beneficiaries: Subject to the above provisions the recurring monthly allowance sanctioned under the Scheme to the existing beneficiaries shall be for such period as may be determined by the Central Government and/or may be continued on a year-to-year basis on receipt of Digital Life Certificate (DLC) and Income Certificate from them. Discontinuance of allowance: If the financial means of a recipient improve beyond ₹4000/- (Rupees four thousand only) per month or annual income of ₹48,000/- (Rupees forty-eight thousand only) [This excludes artiste pension assistance amount already getting by a beneficiary from the Government (i.e. concerned State Govt./UT Administration and/or Ministry of Culture)], allowance under the Scheme will be discontinued forthwith without any notice to the recipient. The government may also at its discretion terminate the allowance after giving three months' notice to the recipient. Any recipient may also relinquish his/her right to receive allowance by giving written notice to the Government. In such cases, the allowance will be discontinued with effect from the date of his/ her letter of relinquish. Contact Details: Section Officer, 210, IInd, 'D'Block, Puratatva Bhawan, G.P.O. Complex, I.N.A. New Delhi-110023. : (011)-2\n• 4642165. Manager (P & GS), Life Insurance Corporation of India (LIC), 6th & 7th Floor, Jeevan Parkash, 25, Kasturba Gandhi Marg, New Delhi- 1\n• 10001. Contact Nos. for Enquiries: 23708275, 23705953, Fax No. 23350832, Email: bo_g103[at]licindia[dot]com",
     "officialUrl": "https://jeevanpramaan.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16247,7 +16247,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Women can check the list of Hostels for working women through the given link- https://wcd.nic.in/sites/default/files/wwhlistdtd09112012.pdfThen they can physically visit the respective hostel of choice. Once, she meet all criteria of the scheme, she need to fill form with personnel details, family details, Income details, employment details etc. Once form is filled, required documents need to be attached with the form and submitted to hostel committee.",
     "officialUrl": "https://wcd.nic.in/sites/default/files/wwhlistdtd09112012.pdfThen",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16307,7 +16307,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Registration of New Institute:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and click on New Institute button.Step 02: After the redirected to another website, now hover the cursor on Login and select 'Investor Login'.Step 03: Click on 'Sign Up Now' to register.Step 04: Enter the details and click on 'Verify' to receive OTP on your Email Id and Mobile Number.Step 05: After successful verification Click on 'Sign Up Now' to register. Post-Registration Process:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and log in with the credentials provided by AICTE.Step 02: Navigate to AQIS Application Screen by clicking on 'AQIS Application' screen tab.Step 03: Institute details will auto populate in the AQIS Application.Step 04: Fill demographic and Bank details .Step 05: Only after confirming the Bank Details, the 'New' button will be enabled for adding the AQIS Application. Click on 'New' button to create AQIS Application.Step 06: A unique AQIS Application ID will get created. Select 'SHORT TERM TRAINING PROGRAMME (STTP) (UT-J&K,LADAKH AND NER)' as Scheme from the drop down List.Step 07: Now details to be filled for the as followed:\nProgramme Details, Personalities Expected, Participating Industries ,Similar Events, Budget Estimate -Others, Academic Credentials of Coordinator/ PI/ Applicant, Justification, Credential of Institute / Department.Step 07: Once the fill out all the data in the above mentioned tab, click on 'Validate Application' button on the 'AQIS Application' tab.Step 08: Will get a pop up message to attach a Mandate Form after downloading the sample form.Step 09: Now fill the amount in the 'Total Funds Requested' under label 'Budget Estimates Others'.Step 10: After Validation is completed successfully, read the declaration, check it and click on Save.Step 10: Click on 'Submit' button to submit the application.",
     "officialUrl": "http://portal.aicte-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16392,7 +16392,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Procedure for Claiming SubsidyStep 1: Submission of Required DocumentsThe beneficiary/applicant submits the necessary documents in the prescribed format after completing the relevant activity.Step 2: Document Scrutiny and Field InspectionThe Extension Officer examines the submitted documents and conducts a field inspection. They forward the application, physical verification report, and all relevant documents to the concerned Joint Director (Extension) or Deputy Director (Extension), either recommending eligible subsidy release or rejection.Step 3: Review and Recommendation by Joint Director / Deputy DirectorThe Joint Director (Extension) or Deputy Director (Extension) thoroughly scrutinizes the documents, ensuring the admissibility of the claim. They determine and approve the applicable subsidy.Step 4: Release of SubsidyUpon satisfying the claim's admissibility, the Joint Director (Extension) or Deputy Director (Extension) facilitates the release of the eligible subsidy to the beneficiary through Electronic Fund Transfer (EFT).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cdpnerwa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16444,7 +16444,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The advertisement is published in newspapers.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gws",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16500,7 +16500,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Application Process: The interested & eligible candidates may please contact the nearby MSME Development Institute, MSME-Technology Centre. Addresses and contact details of these organizations are available on Web Portal:\nhttps://dcmsme.gov.in/All_MSME_DIs_TCs.aspxProcedure for selection of candidates: Web-based MIS shall be developed for developing an integrated database of existing and potential entrepreneurs. Implementing Agencies (IAs) shall upload their progress data on MIS under ESOP on real real-time basis and each IA shall develop its own MIS for the said purpose and integrate the same with MIS under ESOP managed by % DC MSME. Aadhaar's authenticated attendance is mandatory to prevent duplication of beneficiaries under the scheme. All the field offices of DC MSME shall be involved in identifying the candidates for the programme, through inviting online applications. The minimum age of participants in the programmes should be 18 years. However, the head of the programme conducting organization may grant relaxation in special cases like school drop-outs etc. based on his/her judicious discretion. Generally, there would be no upper age limit. The qualification for participation in a particular programme shall be mentioned in the programme notification taking into consideration the subject of the training programme. Preference would be given to the candidates from SC, ST, Women, Ex-Service Persons of Defence Forces, Differently abled and BPL category persons. For Advanced E-SDP and Advanced MDP programmes, the selection of candidates will be based on the recommendations of Field Offices/Headquarter/Other Implementing Agencies. Whereas, the final decision on the selection criteria rests with the AS&DC (MSME)/Headquarters.",
     "officialUrl": "https://dcmsme.gov.in/All_MSME_DIs_TCs.aspxProcedure",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16587,7 +16587,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Enrolment process:Step 01: Parents/guardian of the PwD will visit the nearest Registered Organization (RO) for Niramaya enrolment with required documents.Step 02: RO will fill up the Niramaya application form online and upload the scanned documents as required after verification of the originals.Step 03: On successful enrolment and approval, Health ID No. /card will be issued to each beneficiary or can be downloaded by the beneficiary online or through RO.Scheme Renewal process:Step 01: The parent/guardian of the beneficiary can renew the scheme with the required documents online by logging on to the Niramaya website through providing below details: Policy Period, Beneficiary ID, UDID No/Enrollment no, Date of birth.Step 02: RO to verify the validity of documentsStep 03: Pay the application fees online.Step 04: After receipt of payment, the RO/beneficiary will be notified of the renewal for another year through the website. Scheme Claim Process: All claims for settlement under Niramaya have to be submitted to the canters of the insurance provider in the prescribed Claim Form along with relevant vouchers / bills, etc. (preferably within 30 days of treatment) or discharge from hospital.Step 01: Beneficiaries need to download the claim form from https://www.rakshatpa.com/WebPortal under \"Downloads\" menu.Step 02: Submit the filled claim form along with complete supporting documents (medical bills, prescription, hospitalization report, discharge card etc.) and submit it to the regional centres of the insurance provider.Step 03: The insurance provider will verify the documents and transfer the approved claim to the given bank account as per Insurance Regulatory and Development Authority (IRDA) guidelines. Note: The Niramaya scheme is valid till March 31st of the financial year in which enrolment is undertaken. Beneficiaries are expected to renew the scheme three months prior to expiry to continue availing the scheme. In case of APL category (family income above Rs.15000 pm), the parent/guardian of thebeneficiary can renew the scheme online by logging on to the Niramaya website.",
     "officialUrl": "https://www.rakshatpa.com/WebPortal",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16745,7 +16745,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should submit the application of the nominee in the Prescribed Proforma online on the National Awards Portal, Ministry of Home Affairs. Note: The Application should be in Hindi or English language only. Selection of AwardeesA Screening Committee and Selection Committee shall be constituted for the purpose which shall consider the achievements of the Institutions and the Individuals nominated or recommended for the Awards by the prescribed authority and the outstanding contribution in the field shall be the primary consideration in identifying the recipients of Awards. A National Selection Committee shall consider the recommendations of the Screening Committee and would approve the names of awardees, one for each category of the awards.",
     "officialUrl": "https://socialjustice.gov.in/writereaddata/UploadFile/NA636078226610282667.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16874,7 +16874,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline The online application form is available on www.nyks.nic.in After successful submission of online application form, an Application number is generated automatically and displayed on the screen which should be noted for future reference.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/nyc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16930,7 +16930,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Enrolment of PwD at the Samarth CentreStep-1: PwD need to come or is brought to the Samarth Centre with the required proof along with their parents/guardian. Step-2: The Samarth centre conducts an Individual PwD Assessment Test with the help of a Therapist or Counsellor to understand the specific needs of the PwD.Step-3: If PwD is orphaned or abandoned or is from a family in crisis, the RO should approach the competent district officials authorised by the State Government to certify the same. Apart from the document for certifying the above, no more documents are to be produced for enrolling with the Samarth Centre. Also, the PwD is automatically included in the BPL category. The PwD is enrolled for Niramaya along with registration for Samarth. Step-4: In all other cases, a check is made on whether the PwD is applicable for the LIG or BPL funding by the National TrustStep-5: The parent or guardian is required to fill the Enrolment Form along with the originals and photocopies of the below mentioned documents. The documents and records for each PwD are to be maintained in separate files. Step-6: In case of successful verification of all the above furnished documents, the PwD is enrolled at the Samarth centre - a confirmation Enrolment ID card/receipt is handed over to the PwDs parents or guardians ( if any) along with a starter kit. Further details about the starting date, rules and regulations etc. are to be mentioned by the Samarth representatives. Step-7: Parents and guardians of the PwDs are given a detailed insight on the Niramaya health insurance scheme by the Samarth representatives, in case the PwD has not availed it already. A RO representative may assist with the registration of the PwD under the Niramaya scheme, in case the parents or guardian agree for the same. In case of absence of parents or guardians, the Samarth centre needs to mandatorily enrol the PwD for Niramaya. Note: A necessary field for the intended duration of stay is also to be filled in the application form by the parents or guardian of the PwD.",
     "officialUrl": "https://thenationaltrust.gov.in/auth/login.php",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -16999,7 +16999,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline - via CSCsOnlineThrough Camp Activity: Implementing agencies will carry out assessments of beneficiaries in camp mode at district levels, followed by distribution camps. Implementing Agencies need to focus on coverage of inaccessible and unserved areas. Camps will also be organized from time to time as per emerging requirements. Through Headquarter Activity: The National Institutes/CRCs/ALIMCO/ DDRCs and other implementing agencies will utilize the grants to extend services to eligible beneficiaries who approach their headquarters or their respective Regional Centres. Some well-established NGOs having Centres/Sub-centres that carry out OPD activities and undertake corrective surgical operations for persons with disabilities may also be considered for grants-in-aid for their headquarter activities.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sadppfaa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17196,7 +17196,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Submission of the ProposalsThe applications are open throughout the year. One set of hard copy of the proposal, along with the required (self-attested) documents, should be sent by speed post to: Dr. Sujata ChaklanobisScientist 'G' and Head A2K+Department of Scientific and Industrial ResearchTechnology Bhawan, New Mehrauli RoadNew Delhi-110016Tel: 011-26520887, 2659 0277Fax: 011-26520887Email:\npriya@nic.inSanction of the ProjectThe project proposals received for assistance would be considered by the 'Technical Advisory Committee (TAC)' of the Ministry. The committee may also take the advice of an internal Screening Committee duly constituted for the purpose and/or the advice of external experts and/or the Ministry concerned with the subject matter. The proposals, which are accepted by the TAC, will be further processed for administrative/financial approval and a sanction letter would be issued indicating the amount of assistance under different budget heads, schedule of payment and other conditions of assistance. Release of FundsThe institutions receiving the assistance are then required to accept the conditions formally and sign an agreement on a judicial stamp paper of Rupees Ten only or an MOU as the case may be and as per GOI rules. On signing the agreement and its submission, the first instalment of assistance would be released.",
     "officialUrl": "https://dsir.gov.in/online-application-submissionAre",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17260,7 +17260,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: Go to Official Website. Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click \"Continue\".Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill in the details: State of domicile, Scholarship Category, Name of the Student, Scheme Type, Date of Birth, Gender, Mobile Number, Email ID, Bank Details, and Identification Details. Click \"Register\". Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number.Step 3: Go to the Official Website. Click on \"Login to Apply\". Enter your Application ID and password. Type the Captcha and click \"Login\".On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click \"Submit\". You will be directed to the \"Applicant's Dashboard\".Step 4: On the left pane, click \"Application Form\". The fields marked as * are compulsory. Fill in the details and upload the documents. You can either click on \"Save as Draft\" to complete the application later. Else, click \"Final Submit\" to submit the application. After successful submission of the application form, an application ID and password will be generated which can be used for future references. NoteAll the applicants are advised to fill out the form correctly, no changes can be made once submitted. The applicants are also advised to fill in only one application as multiple applications will cancel the form.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/aicte-ssss",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17372,7 +17372,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Procedure for Claiming SubsidyStep 1: Application Submission: After obtaining certification from an accredited certification body/agency, the grower/grower groups must submit their application along with a copy of the certificate and other relevant documents to the concerned jurisdictional Coffee Board office during the same financial year as the completion of the activity, as far as possible.Step 2: Document Scrutiny: The concerned office will scrutinize the documents and conduct field inspections to verify books and records.Step 3: Forwarding the Claim: The Joint Liaison Officer (JLO) / State Liaison Officer (SLO) shall forward the claim along with the Physical Verification Report and other relevant records to the concerned Deputy Director (Extn).Step 4: Subsidy Release: The Deputy Director (Extn.), after scrutinizing the claim and records and confirming the admissibility of the claim in all respects, will release the subsidy amount to the beneficiary's bank account through National Electronic Funds Transfer (NEFT).NOTE:\nThis incentive provides backend support only to those who obtain certification for their estates.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dsctaecc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17473,7 +17473,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration:Step 01: After opening the official website click on REGISTRATION button.Step 02: Enter all the details and clicking on Submit button.Step 03: After clicking the submit button, registration successfully message will be displayed. Clicking on OK button, login window will be displayed. HI/BI Application for Approval:Step 01: After successful login, the HI/BI dashboard will be open. HI/BI application will be open by clicking on Apply for HI/BI Approval button. After clicking on button Apply button will be displayed.Step 02: After click on Apply button, HI/BI application window will be display, fill all the detail and click on Final Submit button.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/is",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17529,7 +17529,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: The Implementing Agencies (IA) would be responsible for preparing the proposal and detailed action plan along with budgetary requirements and submitting it to the State Tribal/Welfare Department well in advance. A proposal from TRIFED would directly be submitted to the Ministry while for other IAs, the same has to reach the Ministry through their Nodal Ministry/Department. The proposal received from the implementing agencies should include the plan for the current financial year as well as a perspective plan with activities that may have to be completed in more than one financial year. As far as possible, the emphasis would be to establish systems, processes, and mechanisms that are transparent and sustainable.Step 02: The implementing Agencies will send their proposals incorporating the above factors.Step 03: The proposal shall be accompanied by utilization certificates as per provisions of GFR.Note 01: No fund will be provided for the purpose for which the fund has already been given under some other scheme. For this purpose, the implementing Agencies will certify that it has not received funds from any other sources for the activities proposed under this scheme. Note 02: State governments will also be responsible for the IA whose proposals are sponsored by them.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/isdmtpp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17612,7 +17612,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 1: An application for financial assistance from the Fund shall be addressed to the Member-Secretary of the Executive Committee in the prescribed Performa given in the scheme guidelines. The filled signed-in application is required to be sent to the following address: Member - Secretary,Pandit Deendayal Upadhyay National Welfare Fund for Sportspersons (PDUNWFS),Ministry of Youth Affairs and Sports,Shastri Bhawan, New Delhi - 110001.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pdunwfs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17718,7 +17718,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should submit the application of the nominee in the Prescribed Proforma online on the National Awards Portal, Ministry of Home Affairs. Note: The Application should be in Hindi or English language only. Selection of AwardeesA Screening Committee and Selection Committee shall be constituted for the purpose which shall consider the achievements of the Institutions and the Individuals nominated or recommended for the Awards by the prescribed authority and the outstanding contribution in the field shall be the primary consideration in identifying the recipients of Awards. A National Selection Committee shall consider the recommendations of the Screening Committee and would approve the names of awardees, one for each category of the awards.",
     "officialUrl": "https://socialjustice.gov.in/writereaddata/UploadFile/NA636078226610282667.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17851,7 +17851,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The citizens need not apply to this scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/prashad",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -17903,7 +17903,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Proforma for ClaimsThe claims for the reimbursement of Security Related Expenditures should be submitted using the prescribed proforma, duly certified by an officer, not below the rank of Additional Secretary to the concerned State Government.Step 2: Release of PaymentsAll SRE releases should be reimbursed upon verifying the State Government's claims.60% of the claim amount for approved items (except where Direct Benefit Transfer is used for disbursement) may be released based on certification by an officer of the State Government, not below the rank of Additional Secretary.40% of the claim amount may be released based on the recommendation of an audit team from IFD-MHA.In cases where Direct Benefit Transfer is used, 100% of the claim amount will be reimbursed, subject to certification by an officer of the State Government not below the rank of Additional Secretary. NOTE: In special circumstances and with the approval of the SRE Standing Committee, advance releases may be considered. Additionally, advances for the first quarter of a financial year (while the previous year's accounts are being finalized) may be released.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sre-randr",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18014,7 +18014,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application Processes:Step 01: All grant proposals from new as well as ongoing NGOs shall have to be submitted through the NGO portal of the Ministry. Physical proposals will not be entertained.Step 02: The applicant organization must first get itself registered on the NGO-Darpan Portal (www.ngodarpan.gov.in) of NITI AAYOG.Step 03: After obtaining NGO-Darpan registration, the applicant organization shall register through the NGO portal (www.ngo.tribal.gov.in) of the Ministry of Tribal Affairs and make an online application by providing complete information about the project for which grants are sought along with uploading the required documents.Step 04: An organization running multiple projects of the same nature of categories, in a district may file a single application for all such similar projects for which a grant is being sought. The same may be considered in the Ministry on the recommendation of the Principal Secretary or Officer in charge of the Tribal Welfare Department of the State concerned.Step 05: NGOs will maintain details of expenditure on the Receipt, Expenditure, Advance, Transfer (REAT) Module of PFMS and would be required to refund any bank interest earned as per provisions of the latest General Financial Rules (GFR) of the Government of IndiaStep 06: NGOs can upload any query/grievance through the communication module of the NGO portal, which will be replied to online through the same module. If the grievance is related to the district or state, the same will be transferred by the Ministry to the authority concerned through the portal. The District and State authorities are required to redress the grievance online and also update the same online. The State Government would be requested to ensure that the information of the State and District level Officer is updated on transfer or change of charge. He will also ensure that all grievances pertaining to the district and state are resolved. The helpline and details of the resource person will be displayed on the portal of the State Tribal Welfare Department (TWD).Note: The Ministry's NGO Portal will be opened for 90 days from 15th July to 30th September or as notified by the Ministry to enable the NGO to submit its application for Grants in Aid. The dates for opening and closing of the portal will be notified separately by the Ministry. This is applicable to both ongoing and new projects. Scrutiny and Inspection at the State Level:Step 01: The online applications will get directed to the account of the State/UT Tribal Welfare Department which in turn will get the projects inspected through a District Level officer. The ministry will provide Login ID and Passwords to users at the State level. The Ministry will also provide a facility to the State for making officers at the district level the authorized users and the State would provide a Login ID and Password to him. It will be the responsibility of the officer authorized at the District level to inspect and scrutinize the proposed project.Step 02: The authorized district level Officer will upload comments about the project on the portal after inspection, upload the Inspection form, duly signed and stamped, and forward the required documents to the State as stipulated by the Ministry.Step 03: The projects forwarded by the District Level Officer will be examined by the State Government/UT Administration.Step 04: The State Committee for Support of Voluntary Efforts (SCSVE under the chairmanship of the Principal Secretary/Officer in-charge of the Tribal Welfare Department/Social Welfare Department will make specific recommendations about the application of the NGO within the timelines stipulated by the Ministry. If a project is not recommended by the State Committee, the reasons will be indicated. The minutes of the meeting will be uploaded on the NGO portal in the format given by the Ministry. Screening and Approval at the Ministry Level:Step 01: Based on eligibility criteria and availability of funds, new projects duly inspected and forwarded by district administration and recommended by the State Level Committee, will be scrutinized by the NGO division, headed by the Deputy Secretary/Director. The short-listed new projects may be subjected to further assessment by an independent agency which may include field-based prefunding appraisal. Detailed notes will be drawn while making recommendations for approval or rejection of the project proposal by the NGO division, also keeping in mind the budget available under the scheme.Step 02: Constitution of Project Appraisal Committees at the Ministry level: All projects after screening shall be placed before the Project Appraisal Committee (PAC) under the Chairpersonship of Joint Secretary, Tribal Affairs for final recommendation. The PAC while appraising projects, will keep in mind the availability of funds and budget available under the scheme and may prioritize only those projects which are most needed.Step 03: The new project recommended by the Project Appraisal Committee will be eligible for grants subject to final sanction by the Minister of Tribal Affairs.Step 04: If a new project is not commenced or operationalized after approval by the Ministry of Tribal Affairs, it will be treated as a new project when it is considered for sanction of grants next year. However, the verification process except for state government recommendation in such cases will be waived subject to the applicant organization justifying the reasons for not running the project in spite of the approval of the Ministry. If the project is not run/operational in successive years then the organization has to apply as a new project following the due procedure. Procedure for Renewal of Application for the Ongoing Projects:Step 01: The organization would be required to submit its application for ongoing projects for continuation in the subsequent financial year.Step 02: The ongoing project of the Organization would be eligible for grants subject to the provisions of GFR and instructions/guidelines issued from time to time by the Ministry of Finance, Government of India, on receipt of the following documents: a. Online application in the prescribed proforma has been filed on the portalb. Utilization certificate of the grant last released, in the format prescribed under GFR-12-A.c. Audited accounts for the previous year indicating the expenditure incurred on each sanctioned item vis-a-vis the grant sanctioned.d. Budget estimates for the financial year for which grant-in-aid is requirede. Filing of Expenditure Statement in REAT Module.Step 03: The ongoing project applications filed online by the organizations will be made available to the State concerned. The Principal Secretary/officer in charge of the State Tribal Welfare Department would ensure that the documents submitted by the NGO have been examined at the State Level. He would also get the field verification done through the District Collector or District Welfare Officer, or any other authority at the district /state level, who will upload the Inspection report, duly signed and stamped, on the portal. The Inspecting Officer would be asked to specifically examine if there is any change in name, constitution, location of project, number of beneficiaries, whether there is any complaint against the Organization/Project or any reference from the Ministry for Inspection.Step 04: Applications for ongoing projects can be forwarded to the Ministry by the Principal Secretary/Officer in charge Tribal Welfare Department without seeking the approval of the SCSVE.Step 05: If there is any change in project specifications like location, the nomenclature of the project, increase in the number of beneficiaries under the project, the change will be considered by the Ministry on the specific recommendation of the Principal Secretary/Officer in charge of the TWO of the State subject to availability of funds. The recommending authority will also have to certify that the project has sufficient infrastructure to cater to the increased number of beneficiaries recommended.Step 06: In case of non-recommendation of the ongoing project for the current year, reasons for not recommending the project should be mentioned by the State Govt. In case, the State is recommending the project for the current year but the project was not recommended in the previous year(s), reasons would be given for not recommending it in previous years.Step 07: Funds will normally be released by the Ministry of Tribal Affairs on the recommendation of the State Government. Such releases will be as per the instructions issued by the Ministry of Finance from time to time and provisions of the latest GFR.",
     "officialUrl": "https://ngo.tribal.gov.in/ngo-login",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18134,7 +18134,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application Process:Step 01: Applications are accepted throughout the year and eligible candidates can apply online.Step 02: If you are a new user, click on the 'Create an Account\" link at the portal and register yourself by filling details. Existing users can click on the 'Login' button.Step 03: Enter your email ID and password to apply for the scheme.Step 04: Fill out the application form completely and submit it. Evaluation: Applications will be evaluated by a Joint Committee based on merit and compliance with the eligibility conditions. Evaluation will be based on the credentials of the applicant, relevance to STEM, scope, feasibility, content, and quality of the proposed plan, expected outcome, and future potential. The decision of the Committee will be considered as final and binding. Contact: For queriesPhone: +91-011-26543500E-mail: wiser@igstc.orgMailing Address: Indo-German Science & Technology CentreGround Floor, Block - II, Technology Bhavan,New Mehrauli Road, New Delhi - 110016, India",
     "officialUrl": "https://indo-germansciencetechnologycentre.my.salesforce-sites.com/ApplicantDashboard?campaign=Landing_Page_Wiser",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18231,7 +18231,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration of New Institute:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and click on 'New Institute' button.Step 02: Users will be redirected to another website. Hover the cursor on Login and select 'Investor Login'.Step 03: New users need to click on 'Sign Up Now' to register.Step 04: Enter the details and click on 'Verify' to receive OTP on your Email Id and Mobile Number.Step 05: After successful verification Click on 'Sign Up Now' to register. Post-Registration Process:Step 01: Visit http://portal.aicte-india.org/partnerportal_enu/start.swe and log in with the credentials provided by AICTE.Step 02: Navigate to AQIS Application Screen by clicking on 'AQIS Application' screen tab.Step 03: Institute details will auto populate in the AQIS Application.Step 04: Fill demographic and Bank details .Step 05: Only after confirming the Bank Details, the \"New\" button will be enabled for adding the AQIS Application. Click on \"New\" button to create AQIS Application.Step 06: A unique AQIS Application ID will get created. Select the \"TRAINING PROGRAMS FOR PHYSICAL EDUCATION TRAINERS/SPORT-GAMES TEACHERS/DIRECTOR OF SPORTS\" as Scheme from the drop down List.Step 07: Now details to be filled for the as followed: Program Details, Personalities Expected, Participating Industries ,Similar Events, Budget Estimate -Others, Academic Credentials of Coordinator/ PI/ Applicant, Justification, Credential of Institute / Department.Step 07: Once the user has filled all the data in the above mentioned tab, user should click on 'Validate Application' button on the 'AQIS Application' tab.Step 08: User will get a pop up message to attach a Mandate Form after downloading the sample form.Step 09: Now fill the amount in the 'Total Funds Requested' under label 'Budget Estimates Others'.Step 10: After Validation is completed successfully, read the declaration, check it and click on Save.Step 10: Click on 'Submit' button to submit the application.",
     "officialUrl": "http://portal.aicte-india.org/partnerportal_enu/start.swe",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18309,7 +18309,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Procedure for Claiming SubsidyStep 1: Obtaining Technical Feasibility Report (TFR) The applicant/s shall submit the application online and also in the prescribed format along with necessary documents to their jurisdictional Coffee Board Office before taking up the activity. The concerned office will scrutinize the documents, carry out a field inspection and issue a Technical Feasibility Report to the grower for taking up replantation activity or otherwise. The activity taken up before issuing TFR is not eligible for claiming subsidy.Step 2: Claiming 1st Instalment of SubsidyThe applicant/s shall submit the claim in the prescribed format along with relevant documents during the same financial year of replanting as far as possible. The concerned office will scrutinize the documents, carry out a field inspection, prepare a physical verification report with full details of the activity and forward the claim statement along with relevant records to the concerned Deputy Director (Extn).The Deputy Director (Extn.) after scrutinizing the claim and records and confirming the admissibility of the claim in all respects will release the 1st instalment of the replantation subsidy amount to the bank account of the applicant through EFT/RTGS/NEFT.Step-3: Claiming 2nd Instalment of SubsidyClean Replantation MethodThe applicant shall submit the claim for 2nd instalment of subsidy in the prescribed format (in duplicate) along with relevant documents at the jurisdictional Coffee Board office during the second year of replanting / financial year, after filling up vacancies and attending to necessary aftercare measures. The JLO/SLO shall recommend for release of 2nd instalment to the concerned DDE after ensuring satisfactory maintenance of the area and vacancy filling. The Deputy Director (Extn.) after scrutinizing the claim and records and confirming the admissibility of the claim, will release the 2nd instalment of subsidy amount to the bank account of the applicant through EFT/RTGS/NEFT.Replantation by Interlining MethodThe applicant shall submit the claim for 2nd instalment of subsidy in the prescribed format (in duplicate) along with relevant documents at the jurisdictional Coffee Board office after harvesting a maximum of 2 crops from the old plants and after complete removal of the old plants. The JLO/SLO shall recommend for release of 2nd instalment to the concerned DDE after ensuring the complete removal of old plants and satisfactory maintenance of the area and vacancy filling. The Deputy Director (Extn.) after scrutinizing the claim and records and confirming the admissibility of the claim, will release the 2nd instalment of subsidy amount to the bank account of the applicant through EFT/RTGS/NEFT.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dsctar",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18409,7 +18409,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: The companies desirous of seeking recognition for their in-house R&D units should apply to DSIR online through the DSIR website or through the Portal.Step 2: After successful submission of the online application, the companies are required to submit a cover letter, a completely filled-in application form (signed by Managing Director / any Director on Board) along with requisite Annexures in pdf format (in a single attachment less than 20 MB) to the email of Dr. P.K. Dutta, Scientist 'G' and Head RDI, DSIR (pkdutta@nic.in) NOTE 1: It is informed that the companies interested to apply for DSIR in-house R&D recognition for their in-house R&D unit(s) need not submit the hard copy of the application to DSIR. NOTE 2: For any software-related problems please write to: dsirsupport@tekmindz.com or by clicking on the customer support on the right-hand top corner.",
     "officialUrl": "https://dsir.gov.in/sites/default/files/2022-11/rdiren23le.pdfIn",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18509,7 +18509,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The proposals, complete in all respects, are to be submitted \"Online\" through the NJB website The hard copies of the applications and proposals, along with all prescribed supporting documents are to be submitted to the Head Office/Regional Offices of NJB, as per the jurisdictions, along with covering letter on the company's letterhead. Relevant information in the prescribed format enclosed at Annexure are to be furnished alongwith the following documents: 1. Ownership document (MoU/ AoA of Companies/ Registered Deed of Partnership/ Registration of Societies (or) Trade License, etc., and Adhaar Card / Address Proof of the authorized representative of the agency).\n• 2. Income Tax Return for last financial year along with PAN number\n• 3. Details of PAN, GST returns for the last 3 financial years\n• 4. Annual Reports for last three financial years\n• 5. Audited financial statements for last three years\n• 6. Any other documents establishing the credential of the agency\n• 7. Other supporting documents ( Project experience certificates etc.)\n• 8. Recommendation from Dist. Magistrate/Dist. Collector/DIC/ NABARD/ DRDA/BDO may be submitted\n• 9. Details of experience in Trainings, Designing/ Product development, Production and Marketing of JDP sector including Award Won and details of its creativity, work done in the past in connection to the scope of the work suggested.\n• 10. Proof of Experience and handling relevant activities to be mentioned; 1\n• 1. An Concept / Approach note, (As per guidelines indicated below) highlighting the need of the quality training focusing on development of Jute Diversified Sector through product identification, quality training with design inputs, bulk production and market sales, promotion of these JDPs in domestic and international market.\n• 12. An Undertaking from the Agency, that the JRCPC, if allotted, will be operated for atleast one year until and unless terminated by NJB earlier.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/jrcpc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18631,7 +18631,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline There is no application process for this scheme. PM POSHAN is equally applicable to all children who are studying in Government and Government - aided schools.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pm-poshan",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18684,7 +18684,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should submit the application of the nominee in the Prescribed Proforma online on the National Awards Portal, Ministry of Home Affairs. Note: The Application should be in Hindi or English language only. Selection of AwardeesA Screening Committee and Selection Committee shall be constituted for the purpose which shall consider the achievements of the Institutions and the Individuals nominated or recommended for the Awards by the prescribed authority and the outstanding contribution in the field shall be the primary consideration in identifying the recipients of Awards. A National Selection Committee shall consider the recommendations of the Screening Committee and would approve the names of awardees, one for each category of the awards.",
     "officialUrl": "https://socialjustice.gov.in/writereaddata/UploadFile/NA636078226610282667.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18817,7 +18817,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online For this scheme, the applications are being invited only online through a dedicated Portal. Entities eligible in accordance with the award guidelines are permitted to self-apply without the recommendation of the authorities/persons through the online Portal dbtyas-sports.gov.in only.Step 1: The applicant will open the website https://dbtyas-sports.gov.in/ to registerand apply for Online Schemes of the Department of Sports.Step 2: The applicant will click on the 'Registration' tab to start the one-time registration process. Here the applicant will fill in the required personal details including verification of their mobile number through OTP.(Registration Type, Organization Name, Individual Name, Address, State, City, District, Block, Village, Pin Code, Email, Mobile Number)Step 3: After successful registration, the applicant will get the message that the login credentials have been sent to the registered email ID.Step 4: The applicant will use the login credentials received on the registered email ID to login into the online portal. Please remember to refresh the captcha before clicking on the login button.Step 5: After first-time login, the applicant will be required to update their other basic details. After filling in the details click on the 'Update' button and the profile will be successfully updated.(Name of the Applicant, Father's Name, Mother's Name, Gender, DOB, Nationality, Address, email, Mobile Number)Step 6: The applicant will click on the 'Schemes' tab and apply for the desired scheme. Note: In case any issue is faced in the online application form, the applicant may contact the Department of Sports at section.sp4-moyas@govin, Tel. No. 011-23387432 from 9.00 am to 5.30 pm on any working day.",
     "officialUrl": "https://dbtyas-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18869,7 +18869,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline A woman affected by violence can access OSC in the following manner: By herself; Through any person including any public-spirited citizen, public servant (as defined under section 21 of Indian Penal Code, 1860), relative, friend, NGO, volunteer etc. , Through Women Helpline integrated with police, ambulance, and other emergency response helplines. The applicant can visit the directory website and contact helpline according to their location",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sg",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18917,7 +18917,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 1: Take a print of the prescribed proforma of the Application Form i.e. Annexure-I (Refer Page no. 4 and 5 of the guidelines) and the Mandate Form i.e. Annexure-II (Refer Page no. 6 of the guideline) of the scheme guidelines available at:\nhttps://yas.nic.in/sites/default/files/Scheme%20Meritorious%20Pension_2018.pdfStep 2: The duly filled signed application form along with the required documents are required to be sent to the address of the concerned National Sports Federation for recommendation. The List of Recognized National Sports Federations for the Year 2020-2021 is provided on the link: https://yas.nic.in/sports/list-of-recognised-national-sports-federations-for-the-year-2020-2021",
     "officialUrl": "https://yas.nic.in/sites/default/files/Scheme%20Meritorious%20Pension_2018.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -18969,7 +18969,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Candidates should keep the required documents ready before filling the form online.Step 1: Register yourself and create Login/Password at: http://115.112.95.114/wosc/online/Control.do? _mXpa=100&54003&$sa Note this data carefully as this will be required for future reference.Step 2: Follow the flow provided at the left pane to fill the details and complete the application: Login > Basic Details > Qualification > Employment > Publication > Photo / Signature > Final View / Submit. Select only one Coordination Centre, as the centre will be responsible for arranging hands-on-training. Select Examination Centre in order of your preference.(Link to the Application Process - http://115.112.95.114/wosc/online/instructions.jsp)",
     "officialUrl": "http://115.112.95.114/wosc/online/Control.do?",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19041,7 +19041,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: The applications are to be submitted only ONLINE at www.aistic.gov.in.Step 02: Applicants should first register in the ASEAN online portal. Click here to registerStep 03: After successfully registration, the applicant may login to apply for the fellowship.Step 04: Applicants are required to fill all the mandatory fields in the Profile Detail section under User Profile, which includes Bio-data, photo, Institute Address, etc.Step 05: Some of the details of the proposal like Project Title, Project summary, Keywords, Objectives of the project, Expected output and outcome of the proposal, etc. have to be entered at the time of proposal submission.Step 06: After verifying all the filled details, the applicant may submit the application form. Note 01: Other relevant information of the proposal has to be uploaded as a single PDF file, not more than 10 MB.Note 02: The hard copies of the application are not required. Note 03: The applications submitted through any other form or channel shall not be considered. For More Information About the AI-RTF program, please contact Ms. Sadia Khan (sadia.khan@ficci.com).",
     "officialUrl": "https://aistic.gov.in/ASEAN/aistdfFellowship",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19160,7 +19160,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: Furnishing the ClaimAfter the marketing of coffee, the small growers' collectives/ SHGs/ Cooperatives should furnish the claim for reimbursement in the prescribed application along with the proofs/supportive documents.Step 2: Submission of ApplicationThe application for subsidy should be submitted to the concerned Deputy Director (Extension) during the same financial year of completion of the activity as far as possible.Step 3: Scrutiny and ForwardingThe Deputy Director (Extn.) of respective regions will scrutinize the application and forward it to the Deputy Director (Market Research) at Coffee Board, Head Office, Bengaluru for approval by the competent authority. Disbursement of SubsidyThe subsidy is disbursed only after the sale of coffee is completed by small growers' collectives/SHGs/Cooperatives. The subsidy shall be released to the individual members (of the small growers' collectives/SHGs/Cooperatives mentioned in the sale note issued by the auctioneers/commodity exchange) directly to their bank account through National Electronic Funds Transfer (NEFT) in cases where the application is complete in all respects.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dsctassgcsccm",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19252,7 +19252,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application Link:\nhttps://idex.gov.in/challenge-categories Application Process: Please follow the website https://idex.gov.in for application process stepwise)",
     "officialUrl": "https://idex.gov.in/challenge-categories",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19326,7 +19326,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline - via CSCsOnlineStep 1: The application for registration may be given on plain paper to the local Gram Panchayat. An individual may appear personally before the Panchayat Secretary or Gram Rozgar Sahayak and make an oral request for registration, in which case the particulars required will be noted by the Gram Rojgar Sahayak or the Panchayat Secretary. Application for registration should contain names of those adult members of the household who are willing to do unskilled manual work. Particulars such as age, sex, SC/ST status, Rashtriya Swastha Bima Yojana (RSBY) number, Aadhar number, Below Poverty Line (BPL) status and bank/post office account number (if s/he has opened one) must be provided in the application.Step 2: The Gram Panchayat (GP) will verify the following details: Whether the household is really an entity as stated in the application. Whether the applicant household are local residents in the Gram Panchayat concerned. Whether applicants are adult members of the household. The process of verification shall be completed as early as possible, and in any case not later than a fortnight after the receipt of the application in the Gram Panchayat.Step 3: All particulars of a household found to be eligible after verification, will be entered in the MIS (NREGASoft) by the Panchayat Secretary or the Gram Rojgar Sahayak (GRS) or a person duly authorized by the State Government.Step 4: If a household is found to be eligible for registration, the GP will, within a fortnight of the application, issue a JC to the household. JC should be handed over to one of the members of the applicant household in the presence of a few other residents of the GP. The format of the Job Card is provided in the Annexure-5 of the scheme guidelines. The detailed format for application for registration is provided in Annexure-3 of the scheme guidelines.* Registrations shall be opened throughout the year at the Gram Panchayat (GP) office.* Application for registration must be made on behalf of the household by any adult member.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mgnrega",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19386,7 +19386,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 1: Visit the official website on :\nhttp://janaushadhi.gov.in/index.aspx.Step 2: Click on the 'APPLY FOR KENDRA' Tab.Step 3: Click on the 'CLICK HERE TO APPLY' Tab.Step 4: Click on the tab 'REGISTER NOW\" and fill in the applicant's details with a unique Mobile number & Email ID.Step 5: After successful registration, the applicant will get an email containing a unique 'USER ID & PASSWORD' for Portal loginStep 6: Log in with your USER ID and PASSWORD received or created through the registered email IDStep 7: The application processing fee amount must be deposited only in the PMBI's virtual account.Step 8: Fill out the application form carefully.(Basic information with details of application processing fee of Rs. 5,000/- under Govt. Category) & (Proposed Kendra Details) and other relevant details.Step 9: Upload the documents e.g., PACS ID, Certificate of Incorporation, PAN Card, Aadhaar Card, Bank Statement for 6 months, etc.Step 10: Each document must be uploaded under a size of 200KB in PDF/JPEG/PNG/JPG format only.Step 11: Review the filled-out application & click on the final Submit button. Note: After completing the above steps, the application form has been submitted successfully and confirmation will be shared on the registered email ID of the applicant. The applicant can also check their application status online at any time by login into the same portal or can call us on the helpline number 18001808080.",
     "officialUrl": "http://janaushadhi.gov.in/index.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19660,7 +19660,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should submit the application of the nominee in the Prescribed Proforma online on the National Awards Portal, Ministry of Home Affairs. Note: The Application should be in Hindi or English language only. Selection of AwardeesA Screening Committee and Selection Committee shall be constituted for the purpose which shall consider the achievements of the Institutions and the Individuals nominated or recommended for the Awards by the prescribed authority and the outstanding contribution in the field shall be the primary consideration in identifying the recipients of Awards. A National Selection Committee shall consider the recommendations of the Screening Committee and would approve the names of awardees, one for each category of the awards.",
     "officialUrl": "https://socialjustice.gov.in/writereaddata/UploadFile/NA636078226610282667.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19789,7 +19789,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: The applicant will open the website https://dbtyas-sports.gov.in/ to registerand apply for Online Schemes of the Department of Sports.Step 2: The applicant will click on the 'Registration' tab to start the one-timeregistration process. Here the applicant will fill in the required personal detailsincluding verification of their mobile number through OTP.(Registration Type, Organization Name, Individual Name, Address, State, City, District, Block, Village, Pin Code, Email, Mobile Number)Step 3: After successful registration, the applicant will get the message that the logincredentials have been sent to the registered email ID.Step 4: The applicant will use the login credentials received on the registered emailID to login into the online portal. Please remember to refresh the captcha before clicking on the login button.Step 5: After first-time login, the applicant will be required to update their otherbasic details. After filling in the details click on the 'Update' button and the profile will be successfully updated.(Name of the Applicant, Father's Name, Mother's Name, Gender, DOB, Nationality, Address, email, Mobile Number)Step 6: The applicant will click on the 'Schemes' tab and apply for the desired scheme.",
     "officialUrl": "https://dbtyas-sports.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -19865,7 +19865,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should request a free copy of the prescribed application form from either of two officers, i.e., the State Government/UT concerned or Freedom Fighters' Division, Ministry of Home Affairs, 1st Floor, Lok Nayak Bhawan, New Delhi.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest if required).Step 3: The first copy should be sent to the Chief Secretary of the State Government/Union Territory Administration concerned.Step 4: The second copy should be sent to the Deputy Secretary to the Government of India, Freedom Fighters Division, Ministry of Home Affairs, First Floor, Lok Nayak Bhawan, New Delhi - 3 as an advance copy.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sssps",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20022,7 +20022,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & Offline Beneficiary provides necessary proofs at the Vikaas Centre. Individual Assessment Test conducted for children aged 10-1\n• 4. Fit for school: Parents guided on school options or National Trust schemes. Interested in Vikaas Centre: Proceed toStep 4 .All applicant ( Including below 14 and above 14 years of age) interested in Vikas centers Check eligibility for LIG or BPL funding if enrolling in Vikaas Centre. Submit Enrolment Form with required documents for verification. Upon successful verification, PwD enrolled with ID card and starter kit. Details about the centre provided by Vikaas representatives. Inform beneficiary about Niramaya health insurance scheme, assist with registration if interested",
     "officialUrl": "https://www.myscheme.gov.in/schemes/vdcspds",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20090,7 +20090,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Application Process:Step 01: An advertisement inviting applications will be issued by the Centre for Cultural Resources and Training (CCRT), New Delhi.Step 02: Applicants are required to submit online applications on the CSMS Portal which is made available on the website of the Ministry of Culture & CCRT.Step 03: The applicant needs to visit the official website and click on \"MOC Schemes Application\".Step 04: Click on Registration and fill up the registration form.Step 05: Get Username and Password for LoginStep 06: Go to the current scheme status and click on the appropriate scheme.Step 07: Fill up the form and submit it. Post-Application Process:Step 01: The shortlisted applicants after the process of scrutiny which is done through the software made available by NIC on the CSMS portal, are called for an Interview/Test before the Expert Committee constituted by the Ministry of Culture.Step 02: Candidates will be required to appear for an interview/ performance before the expert Committee. The date, time, and venue of the interview/performance will be intimated to the candidates through e-mail given by the candidates in their online application. The selection will be made purely on merit.Step 03: The list of recommended candidates is sent to the Ministry of Culture for approval and after approval, the selected candidates are informed about the selection by sending an Award letter by post as well as by email, and the list of selected candidates is also uploaded on CCRT's website and Ministry of Culture respectively. Note 01: Any change in the address may be given to the Ministry in writing. While doing so subject/field of training, File No. (if any) should invariably be given. Note 02: Separate online applications should be submitted for each field if the candidate wants to apply for more than one field. Contact Details: Section officer (S&F Section), Room No. 211, 2nd Floor, Puratatva Bhawan, D Block, GPO Complex, INA, New Delhi-110023 at Phone No. 011-24642157 or through E-Mail: scholar-culture[at]nic[dot]inDirector, Centre for Cultural Resources and Training, 15-A, Sector-7, Dwarka, New Delhi-110075 at Phone Numbers: 011- 25309300 extns. 319, 331, 337, and 338; 011-25074256, 25309395, 25309338 and 25088638. or through e-mail: dir[dot]ccrt[at]nic[dot]in",
     "officialUrl": "https://indiaculture.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20179,7 +20179,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online For obtaining Feasibility ReportStep 1: Visit the Official Website/Portal of Coffee Board.Step 2: In the top ribbon, click on \"Online Services\", then click \"Subsidy\". You will be taken to the Online Application Form.Step 3: Fill in all the mandatory fields of the Application Form and upload all the mandatory documents in the specified format and size.Step 4: Carefully review all the information provided and the documents uploaded. Make any necessary corrections. Acknowledge and agree to the terms and conditions, declaration, and privacy policy. Click the \"Submit\" or \"Apply\" button to send your application. You'll receive a confirmation message.Step 5: Review and Inspection- The jurisdictional Coffee Board office will scrutinize your documents.- They will conduct a field inspection as part of the process.Step 6: Technical Feasibility Report (TFR)- Once the inspection is complete and the documents are verified, the office will issue a Technical Feasibility Report (TFR) to you. Important Note- Ensure you obtain the TFR before commencing any activities related to the scheme.- Activities started before obtaining the TFR are not eligible for claiming the subsidy. For Claiming SubsidyStep 1: Claim Submission: The applicant/s should submit the subsidy claim in the prescribed formats (in duplicate) along with the necessary documents to the jurisdictional Coffee Board office.Step 2: Document Scrutiny: The concerned office will scrutinize the documents provided by the applicant.Step 3: Field Inspection:\nThe office will carry out a field inspection to validate the claims made.Step 4: Physical Verification Report: A Physical Verification Report is prepared, confirming the admissibility of the claim in all respects.Step 5: Forwarding to Deputy Director (Extn): The office forwards the claim statement and relevant records to the concerned Deputy Director (Extn).Step 6: Claim Scrutiny by Deputy Director (Extn): The Deputy Director (Extn) examines the claim and records to confirm the admissibility of the claim in all respects.Step 7: Subsidy Release: Once the claim is found eligible, the Deputy Director (Extn) releases the subsidy amount directly to the bank account of the applicant.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dsctawa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20371,7 +20371,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Registration Process:Step 01: After opening the website https://innovative.msme.gov.in/ , click on Intellectual Property Rights (IPR).Step 02: On the next window ,scroll down click on For registration as IPFC.Step 03: Fill all the required details and click on Submit.Step 04: Click on Validate.",
     "officialUrl": "https://innovative.msme.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20424,7 +20424,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online & OfflineStep 01: The applicant/Promoter Agency may visit the Official Website of Mission Solar Charkha (MSC) to apply online:\nhttps://kviconline.gov.in/msc/view1.jspStep 02: The registered applicant may apply by clicking on 'Apply Online\", if not registered, click on 'New Registration' and fill in all mandatory details.Step 03: After successful registration, the registered applicant may 'Login' to apply for the scheme.Step 04: Fill in all the mandatory details required in the application form and submit.",
     "officialUrl": "https://kviconline.gov.in/msc/view1.jsp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20512,7 +20512,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline Whom to contact in case of any claim? The institution/department the insured person was working for has to be informed. Insurance company must be intimated via email id \"nia.312000@newindia.co.in\"Process of claim submissionThe claimant needs to fill up the claim form along with necessary documents as prescribed and submit the same to Healthcare Institution/organization/office where the deceased was an employee of/engaged by the institution. The respective institution will give the necessary certification and forward it to competent authority. Competent authority for State/UT is Director General Health Services /Director Health Services/ Director Medical Education or any other Official specifically authorized by the State/UT Government for this purpose. Competent authority for Central Government, Central Autonomous / PSU Hospitals, AIIMS, INIs and Hospitals of other Central Ministries is Director or Medical Superintendent or Head of the concerned institution. Competent authority will forward and submit claim to the insurance company for approval. Whom to contact from insurance company? Contact the following officials regarding any claim related queries: Contact persons:-1. Mrs. Sarika Arora, Divisional Manager, email - sarika.arora@newindia.co.in or nia.312000@newindia.co.in\n• 2. Mr. N.Ravi Rao, Deputy Manager, email id- ravin.rao@newindia.co.in or niadelbroker20@gmail.com\n• 3. Mr. Yogendra Singh Tanwar, Administrative Officer email id-yogendra.tanwar@newindia.co.in",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pmgkp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20716,7 +20716,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The agencies or persons, authorized to nominate and recommend eligible institutions or individuals, should submit the application of the nominee in the Prescribed Proforma online on the National Awards Portal, Ministry of Home Affairs. Note: The Application should be in Hindi or English language only. Selection of AwardeesA Screening Committee and Selection Committee shall be constituted for the purpose which shall consider the achievements of the Institutions and the Individuals nominated or recommended for the Awards by the prescribed authority and the outstanding contribution in the field shall be the primary consideration in identifying the recipients of Awards. A National Selection Committee shall consider the recommendations of the Screening Committee and would approve the names of awardees, one for each category of the awards.",
     "officialUrl": "https://socialjustice.gov.in/writereaddata/UploadFile/NA636078226610282667.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20809,7 +20809,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: The applicant will open the website https://dbtyas-sports.gov.in/ to registerand apply for Online Schemes of the Department of Sports.Step 2: The applicant will click on the 'Registration' tab to start the one-timeregistration process. Here the applicant will fill in the required personal detailsincluding verification of their mobile number through OTP.(Registration Type, Organization Name, Individual Name, Address, State, City, District, Block, Village, Pin Code, Email, Mobile Number)Step 3: After successful registration, the applicant will get the message that the logincredentials have been sent to the registered email ID.Step 4: The applicant will use the login credentials received on the registered emailID to login into the online portal. Please remember to refresh the captcha before clicking on the login button.Step 5: After first-time login, the applicant will be required to update their otherbasic details. After filling in the details click on the 'Update' button and the profile will be successfully updated.(Name of the Applicant, Father's Name, Mother's Name, Gender, DOB, Nationality, Address, email, Mobile Number)Step 6: The applicant will click on the 'Schemes' tab and apply for the desired scheme. Note 1: The nominations for the Award will be invited in the month of January/February each year. The last date for the receipt of nominations will be 30th April or the last working day of April. The Award will be made in respect of the calendar year during which the application is invited. Note 2: Nominations beyond a maximum of two will not be considered. Only the first two nominations sent by the nominating agencies will be considered. Note 3: The authorized signatory for sending nominations will be as follows: (i) Indian Olympic Association - President/Secretary General (ii) National Sports Federations - President/Secretary General. [In the case of Cricket, there is no federation recognized by the Ministry of Youth Affairs and Sports. Nominations for cricket will need to be sent by the President/ Secretary General of the Board for Control of Cricket in India (BCCI)] (iii) State/UT Governments/Sports Control/Promotion Boards - An officer of not less than the rank of Secretary or Director (Sports) of the organization after taking due approval of the competent authority. Dronacharya Award HelpDeskHelpline Email: section.sp4-moyas@gov.in, Helpline No.: 011-23387432Details of Nodal OfficerName: Shri Kunal, Email: js-develop-sports@gov.in, Contact No.: 011-23387432Technical Support Mobile No.: 8384058103Technical Support Email: techsupport-awards@mha.gov.in",
     "officialUrl": "https://dbtyas-sports.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20885,7 +20885,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Applicant must visit the official website. Click on \"Apply Now\" under the Youth Hostel scheme. Select the user type and scheme name. Now fill out the require details. Upload the recent photograph. Give the consent for the Aadhaar to use as biometric and KYC .",
     "officialUrl": "https://www.myscheme.gov.in/schemes/yhs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -20942,7 +20942,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Only those candidates who are selected for registering for the Ph. D. program of the university through a procedure outlined already in the UGC notification by a regular admission procedure in Universities with Potential for Excellence/Centres with Potential for Excellence / Centres of Advance Studies and Department of Special Assistance identified by UGC are eligible to apply for fellowship under the scheme. The registration for Ph. D. may follow after the admissions. They will have to apply for Research fellowships at the identified Universities/Institutions. The selections would be made by the concerned institution as per the provisions contained in these guidelines. The university shall select the Research Fellows under the scheme from amongst the eligible candidates through a process of interview by the Selection Committee with the following constitution:-a) An eminent scientist to be nominated by the Vice-Chancellorb) Head of the Departmentc) One Professor and one Reader from the department, to be nominated by the vice-chancellord) Two Experts from outside the university to be nominated by Vice-Chancellor, out of the Panel of names proposed by Head of the Department",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bsrs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21025,7 +21025,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1: The Gram Panchayat will identify the beneficiaries with the support of SHGs/FPOs/milk cooperatives/milk unions/ private entrepreneurs/CBOs developed under DAY-NRLM/agencies selected or empanelled by States/Districts/BDTCs etc.Step 2: The project plan document will be prepared with the support of identified/empanelled agencies/ BDTCs etc.masons/barefoot technicians/engineers who would construct the biogas plants will be identified.Step 3: Approval for administrative and technical proposals will be sought from competent authorities. O&M plan should also be part of the project proposal.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gobardhan",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21081,7 +21081,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Offline The Khadi institutions will apply to the financing bank for working capital along with the ISEC certificate issued by KVIC. Based on the working capital sanctioned, the financing bank will raise the reimbursement claim to the nodal branch for the differential interest rate over and above 4%.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/isec",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21129,7 +21129,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 1: RegistrationVisit the Official Portal of PM-DAKSH. Create an Account: Click on the \"Candidate Registration\" icon at the top right of the page. You will be taken to the registration page. Fill in the following mandatory fields: Basic Details: Social Category, Name of Trainee, Father's/Husband's Name, Date of Birth, Gender, State, District, Address with PIN Code, Location, Educational Qualification, Upload Photo (Upload file size 10 to 50 kb )File Format type (JPG, PNG).Training Details: Choose State, District, Job Preference, Training Institute, Duration. Bank Details:\nAccount Holder Name, Bank Name, Branch Name, Active Bank Account Number, IFSC Code.Step 2: User Credentials and OTP VerificationChoose a username, password, and email address. Ensure the password meets security requirements. You will receive a One-Time Password (OTP) on your registered mobile number or email. Enter the OTP to verify your identity.Step 3: ApplicationUse the credentials you created during registration to log in. Fill in all the mandatory fields of the Application Form and upload all the mandatory documents in the specified format and size. Carefully review all the information provided and the documents uploaded. Make any necessary corrections. Acknowledge and agree to the terms and conditions, declaration, and privacy policy. Click the \"Submit\" or \"Apply\" button to send your application. You'll receive a confirmation message. Track Application StatusYou can check your application status on your dashboard. The portal may provide updates via email or SMS regarding your application status. Help and Supporthttps://www.pmdaksh.dosje.gov.in/contact",
     "officialUrl": "https://www.pmdaksh.dosje.gov.in/contactDocuments",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21181,7 +21181,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 1 - Go to the official portal of PMJDY.Step 2 - Under the \"e-documents\" section, you will find live links for \"Account Opening Form\". Applicants can access this in both English and Hindi languages. Click on the appropriate language option.Step 3 - This will open the form in PDF format. Download it and get a printout.Step 4 - Fill the form manually with all your bank and personal data, including bank branch, name of town/village, block/district, Aadhaar number, profession, annual income, details of Kisan credit card, and others.Step 5 - Once you fill it out, visit your nearest bank branch and submit it. While submitting the form, you will need to produce certain documents along with your Mobile number or email Id to qualify for the Jan Dhan Yojana.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pmjdy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21257,7 +21257,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online The applicants willing to install rooftop solar system under simplified procedure will be required to apply through National Portal. In order to register at National Portal the applicant will require an active mobile number and an active e-mail id. The applicant will also have to download SANDES APP for received OTP.The entire process has been explained in the following steps. Step-1:\nDownload SANDES app and register on the National Portal by selecting the local Distribution Company or Electricity department, as the case may be, referred as DISCOM, and enter Electricity connection number / Consumer number mentioned in electricity bill), email id and mobile number. The registration process involves OTP authentication of mobile number and activation through email id. While sending activation link on email, the entire procedure will also be communicated to the applicant. Step-2: After successful registration the applicant can proceed for submitting application for installation of grid connected rooftop solar system at residential house. The information already entered at the time of registration will be prefilled in the application form and the applicant will have to enter details such as, name on electricity bill, address, capacity of proposed rooftop solar system and details of existing rooftop solar system capacity installed, if any. The applicant also has to upload copy of latest electricity bill. On submission of application, the applicant will get a copy of application on email and it can also be downloaded after login to the portal. Step-3: Application will be forwarded to the DISCOM for technical feasibility approval as per prevailing regulations. The applicant is advised to initiate installation of the rooftop solar system only after getting the feasibility approval from DISCOM. The technical feasibility approval or rejection, as the case may be, will be informed to the applicant through email. Step-4. On receipt of feasibility approval from DISCOM, the applicant can proceed to install rooftop solar system. It is mandatory to get the rooftop solar system installed from any of the vendor registered/empaneled with DISCOM. Ministry has specified minimum technical specifications and standards for rooftops solar systems, which are to be followed. The applicant will have the option to choose equipment of higher quality/efficiency. The domestically manufactured solar modules using domestically manufactured solar cells listed in the ALMM should only be used by the applicant. In addition, the inverter should also be BIS certified. In order to protect the interest of the applicant an agreement to be signed between applicant and the vendor and a model format of the agreement is available on National Portal under Help Document section. It is mandatory for the vendor to provide comprehensive maintenance of the rooftop solar plant installed by the firm for at least 5 years. Step-5: On completion of installation of rooftop solar system, the applicant has to submit project completion details for net-metering and approval (The project completion details will include wattage, make and numbers of solar modules, make and wattage of inverter, name of vendor that has installed the system, uploading of photograph of system, etc). Applicant also has to apply for net-metering. The net-metering application will forwarded to DISCOM and applicant has to follow instructions of DISCOM regarding payment of net-metering charges, signing of net-metering agreement, etc., as applicable. Step-6: DISCOM officials will install the net-meter and inspect the system for fulfilment of minimum technical specifications and standards. Step-7: Upon successful inspection and installation of net-meter, commissioning certificate would be generated online by DISCOM.Step-8: Applicant has to submit bank details and upload copy of cancelled cheque. The fund handling agency will release the central Government subsidy directly into the bank account. The details of central Government subsidy available under simplified procedure may be checked on the National Portal. Note: The applicant shall also check various informative material placed at Help Document section of the portal for better understanding of the procedure.",
     "officialUrl": "http://solarrooftop.gov.in.Consumer",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21305,7 +21305,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OfflineStep 01: Ministry of Culture invites applications in the prescribed format from Voluntary Organizations registered under the Societies Registration Act (XXI of 1860) or similar Acts. The application form may be downloaded from the Ministry of Culture website www.indiaculture.nic.inStep 02: The organization/individual shall submit a complete application along with all the necessary documents /information through the State Government, where the project is proposed to be implemented, to the Ministry of Culture.Step 03: The organizations located in Sikkim, Arunachal Pradesh & Leh and Kargil districts of the Union Territory of Ladakh are exempted to submit their applications direct to the Ministry of Culture only with the recommendation of the concerned District Collector/Dy. Commissioner.Step 04: The application in the prescribed format complete in all respect, duly spiral bound and continuously page numbered, along with a check-list duly recommended should be sent to the Section Officer, BTI Section, Ministry of Culture, Zed Floor, Puratatav Bhawan, D Block, GPO Complex, INA, New Delhi-1\n• 10023. Note 01: The Organization against which the previous grant/Utilization Certificate under the scheme is pending will not be considered for the fresh grant. Note 02: The organization shall also submit the requisite documents such as (i) Bond, (ii) Resolution, (iii) Bank Authorization letter, and (iv) Agency registration form along with the application form. Note 03: The organization should register their society on the Website of NITI Ayog i.e. \"https://ngodarpan.gov.in/\" for obtaining a Unique ID, if not registered earlier. The organization should also link their bank account number with their PAN Card. The Unique ID of NITI Ayog and PFMS User ID are mandatory. Note 04: Incomplete applications not supported by the required documents and applications received without the recommendation of the prescribed authority will not be considered and summarily rejected.",
     "officialUrl": "https://ngodarpan.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21378,7 +21378,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: Online Visit the CBSE official website: https://www.cbse.gov.in/Click on 'New user Registration' or 'Renewal'.Read all the instructions on the official website and then hit 'Continue'. After that, fill in the roll number, and DOB (as mentioned class 10 mark sheet). Now click on 'Continue'.Print the undertaking mentioned on the 'Guidelines' document. After that, fill it out, paste the photo, and get the same attested from school. Make an affidavit as mentioned in the 'Guidelines'.Now, scan the undertaking and affidavit. The files must be in pdf format, not exceeding 1 MB. Please note that the PDF must contain all pages. Finally, select 'Upload Document' to upload both of these documents. After that, print the confirmation page. Please Note: Only in case of successful application, a confirmation page will appear. In case of renewal, courier the duly filled and signed confirmation page to the below address: Assistant Secretary (Scholarship), CBSE, Shiksha Kendra, 2 Community Centre, Preet Vihar, Delhi - 110 092.",
     "officialUrl": "https://www.cbse.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21446,7 +21446,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineSTEP 1: Type \"http://pgs.iasri.res.in\" on your browser and hit enter (Best viewed on Google Chrome) and click on \"Filling up of Application Form and Uploading of Required Documents Online for M.Sc./M.Tech. and Ph. D. degree programme under Different Schemes for the academic session\".STEP 2: Click on \"Register Here\" button on the right side of the homepage.STEP 3: Fill up the required details in the textbox on the page shown above and click on \"Register\" button.STEP 4: After successful registration, click on \"Login\" button and enter your email ID and password you entered inStep 3 above. Change the password after the first login.STEP 5: After successful login, a page will open with multiple text & dropdown fields.STEP 6: Select your Admission Scheme from the \"Scheme\" dropdown. Fill-up all the other details as required and also fill the contact details: Then click on \"Save and Next\" button.STEP 7: After clicking save and next, a new page will open in which Education Details have to be filled. After filling all the required details, click on \"Save and Next\" button to proceed further.STEP 8: After successfully filling the education details, Upload Image, Signature and Documents Page will open, Here the applicant needs to upload his/her photo on \"Image Upload\" button, Click on \"Choose File\" and upload your photograph. The candidate's photograph should be less than 100 kb and greater than 10 kb. After uploading photograph, the candidate has to upload his/her signature. Here the applicant needs to upload his/ her signature on \"Signature Upload\" button below. The candidate's signature has to be less than 20 kb and greater than 10 kb. The Candidate has to upload all the requisite documents starting from Matriculation to Qualifying Degree Examination.STEP 9: After uploading the photo signature and documents, click on \"upload\" button. After successful upload, a message will appear \"Upload status: Images uploaded!\". Click on \"Next\" button on the right side of the same page.STEP 10: After clicking \"Next\" button, a page asking for Payment Details will appear. Here you will enter the Online Transaction details (UTR No.) of the application fee for the M.Sc./M.Tech. and Ph. D. degree programme under Different Schemes for the academic session 2021-2\n• 2. Application Fee (nonrefundable) is Rs. 400 (Rupees Four Hundred only) for all Schemes/Categories. After filling all the necessary details, click on \"Save and Next\" button.STEP 11: After clicking \"Save and Next\" button, preview of your application will appear. Here you can review all your details that have been filled. After checking all the details check the declaration checkbox on the bottom of the page. After checking the check box, a Final Submit button will appear below the checked box Click on button. After clicking on Final Submit button, an alert window will open asking for confirmation for submission. Click on \"OK\" to submit your application.STEP 12: After clicking \"OK\" a page with application form will open Click on \"Print\" to print the form.STEP 13: After successful submission, the candidate should take a printout of the online submitted Application Form for future reference.STEP 14: Please note that Application Fee shall be submitted ONLINE only as per the Payment Details uploaded on the Portal.STEP 15: In order to avoid last minute rush, the candidates are advised to apply early enough. The IARI will not be responsible for network problems in filling up/uploading of required documents and final submission of the application form online or any other problems of this nature in submission of the online application form during last days",
     "officialUrl": "http://pgs.iasri.res.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21502,7 +21502,7 @@ export const schemes = [
     "level": "Central",
     "applicationProcess": "Mode: OnlineStep 01: The applicant organization will submit an online application for financial assistance, along with the relevant documents and the budget estimate of the expenditure on the proposed event in the proforma online giving full details of expenditure.Step 02: To apply under the scheme, the applicant organization needs to visit the official website/portal. (https://ic.msme.gov.in/IC_APP/IC_Welcome.aspx)Step 03: On the home page, select \"Market Development Assistance\" to login who have already registered. If the applicant Organization is a new user, click on \"New User Register Here\" to register under the scheme by selecting the type of Organization.Step 04: After successful registration, the applicant organization can login with valid credentials. After login, the user will be redirected to their Dashboard where multiple action has to be done. Note: The admissible financial assistance would be worked out on the basis of this budget estimate and in accordance with the criteria/scale and further at the discretion of the Screening Committee. Procedure for Approval of Proposals Furnished by Coir Board and KVIC: Coir Board/KVIC will mobilize the MSME units and submit the consolidated proposal in the prescribed format on the IC Scheme Portal of the Ministry for seeking in-principle approval of the Screening Committee. As for the claim for reimbursement, Coir Board/KVIC will meet all expenditures from their own budget allocated for this purpose. Selection of the MSME units participating in the International Fairs/ Exhibitions abroad by Industry Associations/ Government Organizations: There shall be a \"Score Card\" for the selection of the MSME units participating in the International Fairs/ Exhibitions abroad. The Industry Associations/Organizations etc. will furnish the Score Card, duly filled up, along with the application and also give a self-undertaking to the effect that the information furnished in the Score Card is correct and nothing has been concealed. The minimum qualifying score/points should be 60% of the Score Card. The applicant organization must satisfy itself in this regard before proposing the name of the MSME unit in the delegation and any discrepancy, if noticed later, shall be the sole responsibility of the applicant organization. Claim will be accepted only in respect of those MSME Units whose names have been submitted by the Industry Associations/Government Institutions in the list submitted along with the application form.",
     "officialUrl": "https://ic.msme.gov.in/IC_APP/IC_Welcome.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21682,7 +21682,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Registration Process:Step 1: Applicant should visit the official website, and click on \"Have An Account\".Step 2: Click on \"New Account\". Provide your phone number and fill in the captcha code in the designated field. An OTP will be generated and sent to the registered phone number.Step 3: Enter the OTP into the application to verify your phone number.Step 4: Once your phone number is verified, you'll be prompted to create a password for your account. Choose a strong and secure password. Application Process:Step 1: Log in to the application using your registered phone number and the newly created password.Step 2: You'll be directed to the registration page again. Navigate to the registration section of the application.Step 3: Fill in all the required details in the registration form accurately, and submit the registration form.Step 4 (Optional):\nOnce your registration is successfully submitted, you may have the option to print the application form for your records or further processing.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/s30s",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21746,7 +21746,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the General Manager of the District Industries Centre (Thattanchavady, Puducherry - 605 009, 2248391, 2249392, 2248987, dic_pdy@bsnl.in), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ahst",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21814,7 +21814,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the Office/ Sub-Office of the Department of Fisheries and Fishermen Welfare.Step 1: The interested applicant should request the hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/aipbo-faascdmf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -21914,7 +21914,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). *The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://industry.py.gov.in/state-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22014,7 +22014,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Project Manager of the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://dic.py.gov.in/sites/default/files/citizencharter.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22066,7 +22066,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/fasuseiahsri-mp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22118,7 +22118,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). *The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cisscstwe-mesifai",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22214,7 +22214,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://industry.py.gov.in/grievance-redressal-mechanism",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22266,7 +22266,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Pondicherry Society for the care of the Aged (PONCARE), Puducherry, 4th Cross - Sithankudi, 6th Cross Extension, Brindavanam, West, Puducherry - 605 013, +91-413-2245317, +91-413-2246318, +91-9443405499, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to The Secretary, PONCARE.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/hfta-giapsca",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22330,7 +22330,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 1: Applicants can apply for the scheme using the prescribed format and submitting the necessary documents either to the designated officer's office, the Gram Panchayat, or a Public Service Center.Step 2: Upon submitting a complete application, the applicant will receive a mandatory acknowledgment from the office.Step 3: The District Panchayat/Gram Panchayat/Urban Body/Ward Office will scrutinize the documents submitted with the application.Step 4: If, after investigation, the documents are found to be incorrect according to the rules, the application will be rejected with written explanation.Step 5: If, after investigation, the documents are found to be correct, the pension case will be approved according to the rules.Step 6: Once the pension is approved, the beneficiary's name will be added to the pension proposal for the current month by the District Panchayat/Gram Panchayat/Urban Body/Ward Office. The approved order will be maintained on record.Step 7: The Directorate will deposit the monthly pension amount directly into the beneficiary's bank savings account through a single click, starting from the same month the approval is granted.",
     "officialUrl": "https://socialsecurity.mp.gov.in/#",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22386,7 +22386,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application ProcessFirst of all, go to the nearest Anganwadi or ICDS officeTake the Application form from here. Now you have to fill out this application form by entering all the required details. After that, you have to upload all the required documentsNow you have to submit this form to the nearest Anganwadi Centre or ICDS office.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ak",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22446,7 +22446,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1 . First of all, visit the official website of the scheme.Step 2 . You will be redirected to the homepage.Step 3 . On the Homepage, the option Karnataka Airavata scheme registration form.Step 4 . After that, you will be redirected to the application form.Step 5 . Before going to fill in all the details on the application form.Step 6 . You need to sign in under the Airavata scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/airavata",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22502,7 +22502,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should request the prescribed format of the application form from the department.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority at the Department of Fisheries, Dayanand Bandodkar Marg, Patto Colony, Panaji Goa - 403 521, or to the official posted at BDO Office/ Sub-Offices of the Department of Fisheries. Grievance RedressalAny dissatisfaction or complaint about any service or its standards can be registered with the Department's Grievance Redressal Officer. The grievance can also be lodged on the link dir-fish.goa@nic.in. All complaints will be acknowledged by us and final action taken will be communicated within 30 days.",
     "officialUrl": "https://fisheries.goa.gov.in/contact-us-2/#",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22579,7 +22579,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The application form of the scheme can be obtained from and submitted to the Additional Collector and Project Officer, Shahbad.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/fhdfh",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22631,7 +22631,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Nomination Procedure:Step 01: Applications are invited through advertisement every year.Step 02: Candidates may be nominated by Vice-Chancellors of Universities in Kerala, Directors of Research Institutes/ R & D Centres of Industries, Heads of University Departments, Principals of Colleges with approved centers of research, Fellows of the Indian National Science Academy, Indian Academy of Sciences, National Academy of Sciences, India, Indian National Academy of Engineering and Indian Academy of Agricultural Sciences.Step 03: Nominations will be valid for 3 years or the eligibility age whichever is earlier. However, a fresh nomination (only once) can be made, if the nominee has not yet crossed the age bar.Step 04: Nominations in the prescribed format along with all supporting documents must reach the Director, KSCSTE, Sasthra Bhavan, Pattom P.O., Thiruvananthapuram - 6\n• 95004. Note: Nominations that are not complete or received after the due date will not be considered. Selection Procedure:Step 01: Candidates recommended by the screening committee after a rigorous criteria-based screening will be invited for the presentation of their research work.Step 02: The candidates will be informed of their selection for the award individually by mail.Step 03: The awards will be distributed during the inaugural session of the Kerala Science Congress by the Chief Minister. The Awardees have to make a presentation of the award-winning work in the Plenary Session of the Kerala Science Congress. Contact Details: The Head, Science, Technology Promotion Division,Kerala State Council for Science, Technology and Environment (KSCSTE) Sasthra Bhavan, Pattom, Thiruvananthapuram - 695 004Tel: +91 471 2548214e-mail:\nstpd.kscste@kerala.gov.in",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ksysa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22715,7 +22715,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the district office of the Tahsildars and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Collector/Special Deputy Collector/Special Tahsildar.Step 4: Request a receipt or acknowledgement from the Tahsildars to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Application Deadline: Applications should be submitted within six months from the date of death of the breadwinner and will not be normally considered if delayed beyond this period.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/drs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22767,7 +22767,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application ProcessFirst of all, the applicants have to go to the nearest office of the Agriculture DepartmentNow applicants have to ask for the application form for Samagra Gramya Unnayan YojanaApplicants have to fill out this application form by entering all the required detailsNow applicants have to attach all the required documentsAfter that, applicants have to submit this form to the agriculture DepartmentBy following this procedure applicant can apply under Samagra Gramya Unnayan Yojana",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmsguy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22819,7 +22819,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI-Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button. Note: The couples must apply for financial assistance after 6 months from the date of marriage and not exceeding the 1-year period.",
     "officialUrl": "https://suneethi.sjd.kerala.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -22895,7 +22895,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Women and Child Development, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. ORThe interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the Deputy Director (Women Development) or the Child Development Project Officer (depending on the location), at least 30 days before the proposed marriage date.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://wcd.py.gov.in/sites/default/files/citizens-charter-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23071,7 +23071,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Screening Procedure:Step 01: To apply for ASSY, ULBs will submit the claims online on the prescribed application form as per Annexure-A along with the necessary supporting documents wherever required on or before the 30th of September every year.Step 02: On the basis of claims submitted by ULBs a report will be generated by the online platform and the report so generated will be submitted to the authorities for approval of field verification.Step 03: The field verification/inspection of top scoring two (2) Municipal Corporations, top six (6) Municipal Councils, and top six (6) Nagar Panchayats will be made by the Third Party Agency.Step 04: To rectify any clerical mistake, the Department will give additional time to ULBs for rectification. Assessment Procedure:Step 01: Field assessment/verification shall be done to verify the claims of top-scoring ULBs by the \"Third Party Agency\".Step 02: Third third-party agency (TPA) will be hired by the Department for the actual verification of claims at the field level.Step 03: TPA has the right to call for supporting documents/additional documents to verify the claim of any participating ULB.Step 04: It will be obligatory on the Third Party Agency that no information on this subject will be shared/disclosed anywhere.Step 05: The Director, Urban Development reserves the right to call for any supporting/additional documents from TPA relating to inspected ULBs in case of any doubt.Step 06: Based on the scrutiny of claims of ULBs by TPA, Director, Urban Development will recommend the names of the ULB(s) to the state-level Apex Committee for final approval.Step 07: The final declaration/announcement of the winning Urban Local Bodies will be made by the State Level Apex Committee constituted for \"Atal Shresth Shahar Yojna\" to be headed by Additional Chief Secretary/ Pr. Secy./ Secy. (UD) to the Government of Himachal Pradesh.Step 08: The decision made by the Apex committee will be deemed final and no appeal is admissible in this regard. Timeline: The competition shall take place every year and prize will be distributed to winning ULBs on 25th December every year on the birth anniversary of Late Sh. Atal Bihari Vajapyee (former Prime Minister of India).The activity timeline will be as under:-ActivityTimelineSubmission of claims by ULBs30th of September every yearScreening Process20 th of October every yearField assessment/Verification by TPA20th of November every yearPrize Distribution 25th December every year**Note: * Due to any circumstances, if the function could not be celebrated on above date the same can be held on other date as per decision of the Government.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/assy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23131,7 +23131,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Nomination for Award:Step 01: Advertisement for the award shall be uploaded every year in January on the Department Website with a prescribed application format which will be also available in the office of District Collector & DSO, Supdt. of Police, NYKS, NSS, BSG, NCC, IRCS & Sports & Youth Services Department.Step 02: The nominations can be sent by the Collector, Supdt. of Police, DSO, NYKS, NSS, BSG, the person himself/herself, any registered Voluntary Organization, NCC & Indian Red-Cross Society (State or Central Branch) to the Secretary, Odisha State Youth Welfare Board, C-1, Nayapalli, Unit-8, Bhubaneswar. Note 01: Department of Sports & Youth Services/can also suo motu nominate names for the award. Note 02: The application form and all supporting documents must be 'self-attested' by the applicant i.e., there is no need for attestation by any Gazetted Officer. Scrutiny & Selection: Scrutiny and selection will be done by a three-member Committee chaired by Commissioner-cum-Secretary, Sports & Youth Services Department with Asst. Director, Y.S. and AFA-cum-Under-Secretary of the Department as members. Recommendation of the Committee will be sent to Hon'ble Minister, Sports & Youth Services for Government approval. Timelines for the Award: Invitation of application/nomination through issue of advertisement: by 31st JanuaryLast date for receipt of application/nomination: by 31st MarchScrutiny & selection: by 31st MayAward Ceremony: by 29th August (National Sports Day)",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bpba",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23187,7 +23187,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.Step 4: Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/afm",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23235,7 +23235,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online - via CSCsOfflineStep 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgment from the CSC. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Application Deadline40 days before the marriage date (In exceptional circumstances, the application can be submitted one day before the marriage date).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/atnmasfogi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23319,7 +23319,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: Visit the official website of the Chennai district.Step 2: Click on the Departments. Select Differently Abled Welfare, after selecting click on Differently Abled Welfare Schemes.Step 3: You will land on the List of Scheme page of Differently Abled Welfare Schemes.Step 4: Scroll down to the section \"L. Tamilnadu differently abled welfare board schemes\".Step 5: Download the application form of the \"S.No. 6 Assistance for delivery/miscarriage of pregnancy/termination of pregnancy to female differently abled person\".Address to apply.- Secretary, Tamil Nadu Professional Welfare Board, PO Box No. 718, T.M.S. Campus, Thenampet, Chennai-600Â 006.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/admptpfdap",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23375,7 +23375,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application Process:Step 01: Applications for availing financial assistance under the scheme will be invited from the concerned Local Self Government.Step 02: The applicant may submit the completely filled application form along with all the relevant documents to the concerned Grama Panchayath. Selection Process:Step 01: The application will be scrutinized/evaluated and the eligible applications will be forwarded, along with the recommendation of LSGD authorities, to the Regional Deputy Directors of BCDD.Step 02: The Grama Panchayat has to prepare a seniority list based on the parameters of the selection process.Step 03: On selection, the eligible candidates will be required to submit relevant documents to the concerned Regional Deputy Director of the Backward Communities Development Department.Step 04: The applicants will have to executive an agreement with the Government on stamp paper of face value ₹1\n• 00. On signing the agreement first instalment of the total eligible amount of assistance as per the project report will be paid to the beneficiary.Step 05: The beneficiary will have to complete the work within one month of the receipt of the first installment in accordance with the project report submitted by him. After the successful completion of the work and on due verification and certification the final installment will be paid. Address for applying Village panchayath authorities: From Trivandrum to Ernakulam: Regional Deputy Director, Backward Classes Development DepartmentCivil Station, 2nd Floor, KakkanadErnakulam- 682030From Thrissur to Kasargod: Regional Deputy Director, Backward Classes Development DepartmentCivil Station, Kozhikode- 673020",
     "officialUrl": "https://www.myscheme.gov.in/schemes/brg",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23496,7 +23496,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Applicants who require the application form in person or self-addressed Rs.- PostageIt can be obtained through the enclosed envelope. Address to apply.- Secretary, Tamil Nadu Professional Welfare Board, PO Box No. 718, T.M.S. Campus, Thenampet, Chennai-600Â 006.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/matn",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23560,7 +23560,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.Step 4: Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/atlg",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23608,7 +23608,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE:\nThe applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist: D+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement: D+90 daysNOTE 1: The rebate will be reimbursed to the companies in three tranches post Commercial Operation Date or from the date of notification of the policy, whichever is later. NOTE 2: Units will be subject to evaluation at the end of each installment period to verify eligibility for the next installment.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/lbuars",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23785,7 +23785,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Secretary, State Social Welfare Board,17, Deivasigamani Nagar, Sanjay Gandhi Nagar, Ilango Nagar, Puducherry, 605013, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form and the documents to The Secretary, State Social Welfare Board.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://pgportal.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23841,7 +23841,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: First go to the official website.Step 02: Using your Aadhaar Card, do the registration and provide all the required information.Step 03: Upload all the relevant documents.Step 04: After Registration, an SMS will be sent to the couple and they can print the acknowledgement form as proof of application.Step 05: Social Welfare will do spot verification to verify the details provided by the couple and process the application further.Step 06: After successful spot verification by the department, the incentive will be credited to the joint account of the couple.",
     "officialUrl": "https://sw.kar.nic.in/swincentive/dvds/DVDSRegistrationForm.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23893,7 +23893,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline First, contact any one of the following offices: -District Program Officer. Women and Child Development Officer. Anganwadi worker. Child Development Project Officer. Get the application form of Chief Minister Kanya Vivah Yojana. Fill out all the information asked in the application form completely. Attach all the necessary documents with the application form. The application form has to be submitted. The application form will be verified by the concerned officer. After the approval of the application, the amount will be transferred to the bank account of the applicant regularly.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmkvy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23945,7 +23945,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online - via CSCsStep 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgement from the CSC. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Application Deadline: The application should be submitted within two years from the date of marriage.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dmrnicmasi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -23997,7 +23997,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 01: The applicant has to approach their respective State Social Welfare Department and obtain the application form from the concerned officer.Step 02: Fill in all the mandatory fields of the application form and attach all the (self-attested) mandatory documents and submit it to the designated receiving authority.Step 03: On receipt of an application in the prescribed Form, the same shall be scrutinized by the Selection Committee. Thereafter, the approval shall be accorded by the Secretary.Step 04: The grant and payment shall be distributed through Direct Benefit Transfer System or any other system as may be decided by the Sanctioning / Competent Authority from time to time.",
     "officialUrl": "https://pensionscheme.sikkim.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24061,7 +24061,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application:Step 1: The claims for subsidy shall be submitted by the Weavers Cooperative Societies to the Assistant Director (H&T) in the prescribed proforma on quarterly basis during the financial year within 15 days from the end of the respective quarter.Step 2: The AD(H&T) after scrutiny shall recommend the claims with in next 15 days.Step 3: All claims in complete shape should reach Head Office with in 30 days from the end of the Quarter. NOTE: Appropriate cut will be imposed on bleated claims. Disbursal of the Subsidy: The amount sanctioned as 40% Yarn subsidy, 75% amount will be credited directly to the members bank account of the concerned primary Weavers Cooperative Societies as production bonus basing on the wages earned by them. The societies may utilize the remaining 25% amount for giving rebate on sales or any other production related purpose with effect from 1st Dec 2016.",
     "officialUrl": "https://www.aphandtex.gov.in/open_record.php?ID=136Where",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24125,7 +24125,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the district Taluk office of the Tahsildars and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Collector/Revenue Divisional Officer/Special Tahsildar.Step 4: Request a receipt or acknowledgment from the Tahsildars to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Application Deadline: The application should be sent within 6 months of the death.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ars",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24173,7 +24173,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The Director, Backward Communities Development Department is permitted to invite applications from the eligible candidates after giving wide publicity through media (through press Release).Step 02: The duly filled application form along with all the relevant documents should be submitted at the following addresses: Applicants From Trivandrum to Ernakulam: Regional Deputy Director, Backward Classes Development Department,Civil Station, 2nd Floor,Kakkanad, Ernakulam- 682030, KeralaApplicants From Thrissur to Kasargode: Regional Deputy Director, Backward Classes Development DepartmentCivil Station, Kozhikode- 673020, Kerala",
     "officialUrl": "https://bcdd.kerala.gov.in/wp-content/uploads/2021/07/pdf-3.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24282,7 +24282,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. ORThe interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the authority given below - Puducherry: The Deputy Director, Differently Abled Section, Directorate of Social Welfare. Karaikal: The Assistant Director, Social Welfare Department (Sub Office).Mahe / Yanam: The Welfare Officer (i\\c), Social Welfare Department (Sub Office).Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/giango",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24334,7 +24334,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: The eligible applicant may visit the e-Samaj Kalyan Portal: https://esamajkalyan.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on New User 'Please Register Here'.Step 03: Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste, etc., and then click on 'Register'.Step 04: After successful registration, the applicants can login through their User ID and Password.Step 05: Now, click on 'User Profile' to update your profile.Step 06: Fill in all the mandatory information and then click on 'Update'.Step 07: After updating the profile successfully, select the scheme appearing on the home page; an application form will open.Step 08: Fill in all the mandatory details in the application form and upload all the relevant documents.Step 09: Now agree with the terms & conditions and click on 'Save Application'.Step 10: Submit the application form and take out the print of the application for future reference. The applicant can note down the application number to track the application status by logging into the portal using their User ID and Password. User Manual",
     "officialUrl": "https://esamajkalyan.gujarat.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24394,7 +24394,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online The applicant will have to register his profile in the website www.tribal.mp.gov.in/MPTAAS of the Sarvapatham Department .After this, private institutions will click on the application link for the coaching scheme \"Akanksha\" year 2018-19 and fill the desired information in the application and click the submit button. Selection Process:-Course-wise entrance examination will be conducted by the respective coaching institutes, the interested candidate for coaching will have to apply online. Admission will be given by M-Penled coaching institutes as per the approved seats as per the merit list on the basis of marks obtained in the entrance examination.",
     "officialUrl": "https://www.tribal.mp.gov.in/mptaas/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24442,7 +24442,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 01: The applicant needs to visit the office of the Social Welfare Department (DSWO) in his/her Block/District and collect the application form. The application form can also be downloaded from the Official Website of the Department.Step 02: The applicant should fill out the application form and attach all the essential documents.Step 03: After filling out the application form, the applicant needs to get attested to the form from the concerned authority as mentioned in the application form.Step 04: Then the application form should be submitted to the office of the Social Welfare Department (DSWO) of your Block/District.",
     "officialUrl": "https://socialjusticehry.gov.in/forms/page/2",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24550,7 +24550,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online How to ApplyApplicants can apply online through the Online registration process link. After filling out the form submit it to the Anganwadi worker for further action. The Anganwadi worker will open an account in the post office or in the bank. On completion of 18 years, the entire amount will be paid to the girl child. To get a scholarship. After admission. An application will be written by the parents to the school headmaster. Headmaster will give it to the project officer of Beti Hai Anmol Scheme. It will be passed by the project officer.",
     "officialUrl": "https://edistrict.hp.gov.in/pages/services/designForm/InfoPages/Beti_Hai_Anmol_Yojna.xhtml",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24606,7 +24606,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmacs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24662,7 +24662,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application ProcessThe applicant shall apply for Arundhati Gold Scheme on the day of applying for the registration of Marriage under the Special Marriage Act, of\n• 1954. Filled-up physical application form shall be submitted by the applicant along with the Marriage application in the office of the Marriage officer where the registration of marriage is applied for. The applicant girl shall also submit an online form for claiming the benefit under the Arundhati Gold scheme. The online application form would be available at the link. After completing the form the applicant has to submit the same both online by pressing submit button at the end of the form and also taking a printout of the form. The applicant must take the printout of the form before submission, sign the declaration part of the printed form and submit the same physically along with a copy of all documents listed at Point D above, in the office of the concerned Marriage Registration Officer. The list of Sub Register offices where the application form under the Arundhati Gold Scheme and its enclosures can be submitted is given in Point F of the guidelines. The applicant shall receive a receipt on submission of her application and required enclosures from the office of the Marriage Registering Officer where the form has been submitted. The information on acceptance/rejection of the application will be communicated to the applicant by SMS and email (on the Mobile No/ email id given in the online application form).If the application is accepted, the amount as eligible under the scheme shall be transferred to the Bank account of the applicant by the Inspector General of Registration through Direct Benefits Transfer(DBT) mode. The Bank A/c No shall be the same as per details given in the online form where Bank A/c No. with IFSC code has been given.",
     "officialUrl": "https://revenueassam.nic.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24767,7 +24767,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: To avail of the benefits of the scheme, the applicants shall apply online by accessing the website \"Telangana ePass\".Step 02: Scroll down the homepage and click on \"Kalyana Lakshmi Shaadi Mubarak\".Step 03: A \"Kalyana Laxmi Pathakam Services\" page will open up and under the \"Kalyana Lakshmi Pathakam For SC, ST, BC, EBC\", click on 'Registration'.Step 04: Fill out the registration form completely and click on 'submit'.Note 01: Under the tab 'Print/Status', the applicant can check the status of the application and take a printout of the application form for future reference. Note 02: Under the tab 'Edit/Uploads', the applicant can edit the application form and upload other relevant documents.",
     "officialUrl": "https://telanganaepass.cgg.gov.in/KalyanLakshmi.do",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24831,7 +24831,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application Form: Application in form may be obtained from the Zonal Office of the Directorate of Textiles working for the Handloom sector or from the website of the Department of Handlooms, Textiles & Handicrafts. Submission of application: Application in the prescribed form filled correctly in duplicate along with the documents (enclosed) shall be submitted to the Zonal Officer (DDT/ADT as the case may be). Zonal Officer will then make necessary entries of the particulars in a register duly maintained at his/her level in order of priority based on the date of receipt of the application. Such priority must be maintained in sanctioning of assistance under BBSY.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bbsy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -24932,7 +24932,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application in the prescribed format shall be collected from the eligible weaver-household (Head of the Family) in online mode through the website of the Directorate. First Applicant needs to create an account and credentials. Now login with earlier details. Select the schemes under the scheme section and provide the details (Personal Details, Address Details, Income/Bank/Electricity Details, Document upload).SubmitIn case of non-availability of online facilities in remote areas, the concerned Zonal Officers will collect the applications from the beneficiaries and upload the same in the Online Portal of the Directorate.",
     "officialUrl": "https://textiles.odisha.gov.in/onlineservice",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25028,7 +25028,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application ProcessApplicants should contact to their nearest District Program Officer (DPO).Application Form will be provided by the Concerned DPO.Fill up the aplication form and submit all the required documents. Verification of the applicant will be done by the concerned authority. After verification eligible applicant can avail the benefit of the Scheme.",
     "officialUrl": "https://sswcd.punjab.gov.in/en/contact-us/district-program-officerList",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25080,7 +25080,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Application ProcessFirst of all, go to the official website of Bhagya Laxmi Yojana Karnataka. The homepage of the website will open on the screen. Now click on the Bhagya Laxmi Yojana Application form link. The PDF of the application form will open on the screen. Now, fill in the form with all the required details. Finally submit the form to the concerned authority.",
     "officialUrl": "https://gadag.nic.in/en/scheme/bhagyalaxmi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25153,7 +25153,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application ProcessFirstly visit the official website. On the homepage, click the \"New Account\" link present in the main menu or directly click hereNow fill out the registration form with the required details and submit. Now log in to fill out the UP Berojgari Bhatta Yojana Online Application Form and complete their profile. After submission of the application form and profile completion, click at the \"Submit\" button to forward it to the concerned authorities for approval.",
     "officialUrl": "https://sewayojan.up.nic.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25213,7 +25213,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The application form will be available free of cost from the Anganwadi Centre or can be downloaded from the website of the Department.Step 02: The duly filled form along with the self-attested copy of the birth certificate & immunization card of the beneficiary and the Aadhaar number of child or of the parents shall be deposited with the Anganwadi Worker/Health Staff.Step 03: The Anganwadi worker/Health Staff shall submit the same to the Circle Supervisor/Medical Officer or to the Women and Child Development Project Officer/Civil Surgeon.Step 04: The Women and Child Development Project Officer/Civil Surgeon will forward the cases to the District Programme Officer of the concerned district, who will sanction the amount as per the eligibility of the beneficiaries and would deposit the said amount via Aadhaar number linked with bank account of Life Insurance Corporation of India for investment in the name of the beneficiary. Note 01: Employees of Haryana Government, but residing at Chandigarh and Delhi can apply to District Programme Officer Panchkula and District Programme Officer Gurgaon respectively. Note 02: Life Insurance Corporation of India shall issue a Membership Certificate in favour of each beneficiary enrolled with them. The said membership certificate shall be given to the concerned District Programme Officer for onward delivery to the parents/guardian of the concerned beneficiary. Note 03: The eligible girl along with her mother, father and guardian will apply on the prescribed Proforma to the District Programme Officer, Who after ascertaining the eligibility shall hand over the Membership Certificate to the beneficiary.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/abhb",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25278,7 +25278,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online To apply online, just follow the below steps: Visit the official website of Rural Housing Odisha. Find the application form and fill it in with the necessary information asked. Attach the required documents. Click on the Submit button. Selection Process BDO will conduct a survey through field functionaries to ascertain eligible households residing in the Block area. The list of eligible households will be verified with that of beneficiaries sanctioned 'houses earlier under any of the Schemes and those who have been sanctioned houses should be deleted from the list. Thereafter, BDO / will sanction houses to the eligible beneficiaries. BDO will an intimate number of the eligible household to DRDA. PD, DRDA will communicate the number of eligible households in respect of his District to PR&DW Department. PR&DW Department wij] set online target in AwaasSoft or any other software developed by the State for sanction of houses in favor of eligible households by BDO.BDO will obtain from eligible households a copy of RoR, a declaration as to staying in a Kutcha house and construction of a house on the recorded land of the concerned household, a copy of the Bank Account to which the household intends to credit the housing and other assistance, photograph of the beneficiary, her/his Aadhar UID/ EID, mobile number and will keep those in the case record opened for the beneficiaries. The BDO will issue a work order to all the eligible beneficiaries.",
     "officialUrl": "https://rhodisha.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25330,7 +25330,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Obtain the application form: The applicant can obtain the application form for the BONEEJ scheme from the nearest office of the Social Welfare Department, Assam or the official website of the department. Fill up the application form: The applicant must fill up the application form with all the necessary details such as personal information, age, address, BPL status, bank account details, etc. Attach supporting documents: The applicant must attach the supporting",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bns",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25410,7 +25410,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 1: Visit the Official Website of the e-District Portal of the Government of Puducherry.Step 2: At the top right corner of the home page, click \"Login\". In the login screen, click \"Register a New Membership\".Step 3: On the Registration Page, fill in all the mandatory fields: Username, Password, Confirm Password, Personal Details (Full Name, First Name, Email Address, Address, Current Address, Gender, Date of Birth, Mobile Number). Agree to the declaration. Fill in the Captcha Code, and click \"Signup\".Step 4: Visit the Official Website of the e-District Portal of the Government of Puducherry.Step 5: At the top right corner of the home page, click \"Login\". In the login screen, provide your Username and Password, fill in the Captcha Code, and click \"Sign In\".Step 6: On the next screen, a list of schemes by the Government of Puducherry will be displayed Department-wise.Step 7: Click on the scheme you wish to apply for. You will be taken to its online application form.Step 8: In the application form, fill in all the mandatory fields (marked with a red asterisk) and upload all the mandatory documents (self-attest if required).Step 9: Tick the declaration stating \"I hereby declare that the above-mentioned details are true and correct as per the best of my Knowledge\". Submit the application and note the application number for tracking your application. The application number will also be received on your Registered Mobile Number / Registered Email ID.*Track Your Application here* Access the User Manual for Online Application here",
     "officialUrl": "https://py.gov.in/sites/default/files/citizencharter-adidravidar.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25542,7 +25542,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The eligible applicant can obtain the application form from the respective depot by paying only rupees one.Step 02: Filled form with all documents can be submitted at the same depot.Step 03: After successful verification, the bus pass will be issued to the applicant. Note: Before applying to the concerned depot, the applicant needs to get the card from Sub Divisional Magistrate (SDM).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/btfvibc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25598,7 +25598,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE: The applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist:\nD+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement:\nD+90 days",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ciss",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25757,7 +25757,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online The applications from the parents of the children in need of financial assistance under this scheme shall be submitted to the Office of the Mission Director and/or to the Sneha Sparsha Committee, Sneha Sparsha C/o Gauhati Medical College. The applicants shall have to appear before the Sneha Sparsha Committee along with the patient on an appointed date to be notified by the Member Secretary, and submit all necessary documents for verification. The final selection shall be done by Sneha Sparsha Committee on the basis of the documents received.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ss-a",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25831,7 +25831,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE: The applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist: D+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement: D+90 days",
     "officialUrl": "https://www.goa.gov.in/wp-content/uploads/2020/08/ITPolicySchemes2018.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25919,7 +25919,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Project Manager (Cottage Industries) of the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cecdcs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -25975,7 +25975,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline RegistrationStep 1: The interested construction worker should visit the Office of the Puducherry Building and Other Construction Workers Welfare Board (Industrial Estate, Thattanchavady, Puducherry - 605 009) and obtain the prescribed format of the registration form free of cost from the concerned authority exclusively entrusted to issue and collect filled-in applications.Step 2: In the registration form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required), add a declaration stating that you are a construction worker, mentioning your worksite.Step 3: The interested construction worker should submit the duly filled and signed registration form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the registration form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Step 5: Upon verification by the inspectors under the Act towards genuineness, the concerned worker will be enrolled as a beneficiary with the approval of the Secretary (Board). *The beneficiary should pay the registration of ₹25/- at the time of enrollment and ₹100/- per year as an annual subscription.*The Board collects ₹300/- as a renewal fee once in three years. ApplicationStep 1: The interested construction worker should visit the Office of the Puducherry Building and Other Construction Workers Welfare Board (Industrial Estate, Thattanchavady, Puducherry - 605 009) and obtain the prescribed format of the application form free of cost from the concerned authority exclusively entrusted to issue and collect filled-in applications. ORThe interested construction worker should take print of the prescribed format of the application form provided in the section \"Application for Welfare Benefits\" on Page No. 77 of the Citizen's Charter.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested construction worker should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).NOTE: The application should be submitted within six months from the date of marriage.",
     "officialUrl": "https://labour.py.gov.in/sites/default/files/citizens-charter-2020.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26115,7 +26115,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Advertisements are released in June every year.Step 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents (during office hours-Monday-Friday) to the Poombukar Head Office.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pdca",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26187,7 +26187,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form for the scheme from the Official Website of the Department of Labour and Employment, Goa. ORThe interested applicant should visit the Office of the Commissioner, Labour & Employment, 2nd Floor, Sharma Shakti Bhavan, Patto Plaza, Panaji-Goa (0832-2437081/82/83, com-labo.goa@nic.in) and request a hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should submit the duly filled and signed application form and the documents to the concerned authority at the Office of the Commissioner, Labour & Employment.Step 4: A receipt of the application will be assigned to the applicant by the concerned authority.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/fa-gbocwwb",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26243,7 +26243,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Pondicherry Society for the care of the Aged (PONCARE), Puducherry, 4th Cross - Sithankudi, 6th Cross Extension, Brindavanam, West, Puducherry - 605 013, +91-413-2245317, +91-413-2246318, +91-9443405499, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to The Secretary, PONCARE.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://socwelfare.py.gov.in/sites/default/files/citizen-charter.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26307,7 +26307,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the Department of Tribal Welfare, Govt. of Goa, Shram Shakti Bhavan,5th Floor, Patto, Panaji-Goa, - 403\n• 001.Step 2: Take a print of the proforma of the application form, or request a hard copy from the concerned authority.Step 3: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).Step 4: Submit the duly filled and signed application form along with the documents to the concerned authority.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/assy-goa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26395,7 +26395,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Applicants have to visit the following centers Protection Officer (Project Officer-Integrated Child Development Project Office).One Stop Center operated in the district. Police Station.",
     "officialUrl": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=250",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26447,7 +26447,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 01: The applicant needs to visit the office of the Social Welfare Department (DSWO) in his/her Block/District and collect the application form. The application form can also be downloaded from the official website.Step 02: The applicant should fill out the application form and attach all the essential documents.Step 03: After filling out the application form, the applicant needs to get attested to the form from the concerned authority mentioned in the application form.Step 04: Then the application form has to be submitted to the office of the Social Welfare Department (DSWO) of your Block/District.",
     "officialUrl": "https://socialjusticehry.gov.in/form/application-form-for-financial-assistance-to-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26611,7 +26611,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline",
     "officialUrl": "https://www.myscheme.gov.in/schemes/icps",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26696,7 +26696,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: On Citizen Schemes Portal landing page, the citizen can log in using the Aadhaar-tagged mobile OTP Authentication. In the \"Citizen Scheme Application\" page, citizens can select \"YSR EBC Nestham\" from the schemes dropdown and click on \"Submit\".Step 2: Applications submitted are forwarded to Welfare and Education Assistant (WEA) /Ward Welfare and Development Secretary (WWDS).Step 3: The Volunteers / WEAs / WWDS conducts the field verification for each application, takes eKYC, makes a relevant recommendation, and forwards it to Mandal Parishad Development Officer (MPDO) / Municipal Commissioner (MC).Step 4: The MPDO/MC reviews the application and makes the relevant recommendations and forwards the application to the Executive Directors of the Backward Classes Welfare Department (ED BC).Step 5: The Executive Director of the Backward Classes Corporations (ED BCs) verifies the application and makes the relevant recommendations.Step 6: Based on recommendations made by the ED BCs and the applicants' eligibility as mentioned in the Scheme Eligibility Calculator, the Social Audit lists namely the Provisional eligible list and Reverification list (with reasons for ineligibility) are published in all secretariats.Step 7: The citizens in the Reverification list can raise a grievance if they think that the reason mentioned for ineligibility is incorrect.Step 8: The final list of Eligible and Ineligible Beneficiaries is published in all secretariats.Step 9: The citizens mentioned in the Final Ineligible list can raise a grievance in Citizen Schemes Portal if he/she thinks that the reason for rejection is incorrect.Step 10: The scheme benefit is disbursed to all eligible beneficiaries through Aadhaar Enabled Payment System (AEPS). The acknowledgment of receipt of the payment by the beneficiary is done by the Volunteers / WEAs / WWDS using eKYC (Biometric Authentication).Step 11: The beneficiaries can track the status of their payment on the Citizen Schemes Portal landing page by clicking on \"Track Application Status\".",
     "officialUrl": "https://gsws-nbm.ap.gov.in/NBM/#!/ApplicationStatusCheckP",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26752,7 +26752,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The interested beneficiary may apply under the scheme by filling the application form in the prescribed format (As per the guidelines of the scheme). (https://wb.gov.in/pdf/state_welfare_scheme.pdf)Step 02: Application form shall be submitted to: 1. The Block Development Officer in case the applicant residing in the rural areas;2. The Sub-Divisional Officer in case the applicant is residing in Municipal / Notified Areas outside the areas of Kolkata Municipal Corporation and to the Municipal Commissioner, Kolkata Municipal Corporation in case the applicant is residing in Kolkata Municipal Corporation area.Step 03: Verification of Application: 1. All pension applications received by the concerned authorities shall be verified with respect to the eligibility criteria.\n• 2. The supporting document, for residential status is to be provided. For housing grant, supporting document for land ownership, if any is to be provided.Step 04: Processing of Application: 1. The application form in the prescribed format in respect of all applicants shall be duly verified by the BDO/SDO, or Municipal Commissioner, KMC, to ensure eligibility under the Scheme.\n• 2. The concerned District Magistrate or Municipal Commissioner, KMC will recommend the names of the eligible persons to the Nodal Department i.e. Department of Information & Cultural Affairs.\n• 3. The Information and Cultural Affairs Department will sanction the financial assistance and effect payment directly to the bank account of the beneficiary.",
     "officialUrl": "https://wb.gov.in/pdf/state_welfare_scheme.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26833,7 +26833,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Advertisements are released in June every year.Step 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents (during office hours) to the Head Office only through Poompucar Sales and Manufacturing Plant Managers.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/hea",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26905,7 +26905,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The prescribed format for the nomination of delegates is given in Annexure-I.Step 02: In the application form, fill in all the mandatory fields, affix the passport-sized photograph and attach copies of all the mandatory documents.Step 03: Concerned Departments shall nominate delegates/ representatives, and share the list of nominated delegates along with necessary documents well in advance at least 02 (two) months before the travel (trip starting) date with the Department of Tourism / Odisha Tourism Development Corporation.Step 04: The concerned departments shall nominate a delegate only once for the scheme.Step 05: The concerned Department shall also be responsible for the submission of feedback forms of the delegates nominated by them, in the prescribed format to the Department of Tourism. (Attached as Annexure Il to the guideline)",
     "officialUrl": "https://www.myscheme.gov.in/schemes/evgodrsd",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -26969,7 +26969,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online RegistrationStep-1: Applicant have to visit the official portal. Step-2: Click on the option \"Register\".Step-3: Then you will be redirected to the SSO registration page. The registration page will appear with the following options. CitizenStep-4: Choose the either one option from the Jan Aadhaar Or Google to process further. Jan Aadhaar : Enter the Jan Aadhaar number, click on the 'Next' button,Select your name, the name of the head of the family and all the other members and Click on the 'Send OTP' button. Enter the 'OTP' and Click on the 'Verify OTP' button to Complete the registration. Google : Enter the Gmail ID, click on the 'Next' button, Enter the password. A new link appear on screen, now click on the new SSO link. SSO id will appear on the screen, now create the password. Enter Mobile number, click on registration. Step-5: Submit. APPLYStep-1: Applicant have to visit the official portal. Step-2: After login, dashboard will open. Step-3: Click on \" RAJ-KISAN \" option. Step-4: In \"Farmer\", click on \"Application Entry Request\".Step-5: Enter the \"Bhamashah ID\" or \"Janaadhaar ID\" and search. Step-6: Select the person name and scheme name. Step-7: Complete the Aadhaar Authentication and click on Get details. Step-8: Provide the required details. - Pensioner Details. - Bank Details. - Disability Details. - Verification Details. - Upload Documents. Step-9: Submit.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/kkt",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27021,7 +27021,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline To apply for the \"Feed for Seed\" program in Telangana, farmers can follow these steps: Visit the nearest agriculture office or Seed Development Corporation (SSDC) office in their district. Obtain the application form for the program from the office or download it from the official website of the SSDC.Fill in the application form with the required details, such as name, address, land details, and crop preferences. Submit the application form along with any other necessary documents, such as land documents, bank account details, and Aadhaar card. Upon verification of the application, the SSDC will provide the farmers with a seed kit containing seeds of various crops, along with instructions on how to grow and harvest the crops, as well as guidelines on seed production and storage. The farmers can then grow the crops, produce their own seeds, and sell the surplus seeds in the market. It is important to note that the program is implemented on a first-come, first-served basis, and the availability of seed kits may vary depending on the demand in each district. Therefore, farmers are encouraged to apply early to ensure they can benefit from the program. Regenerate response",
     "officialUrl": "https://www.myscheme.gov.in/schemes/feed-the-seed",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27073,7 +27073,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Download the application form https://filmfinance.assam.gov.in/portlets/film-finance from the official website. Fill in the required details accurately and completely. Attach supporting documentSubmit the application by visiting the designated government office. After submitting the application, it's advisable to follow up with the concerned department or officials to track the progress of your application.",
     "officialUrl": "https://filmfinance.assam.gov.in/portlets/film-finance",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27152,7 +27152,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Application Process Visit the official website https://blp.gujarat.gov.in/header_home.php or click here. Do the registration process with the mobile OTP authentication process. Provide the details in Citizen Register by entering name, email, password and captcha code, the login process has to be completed by clicking on RegisterProvide applicant details (Aadhar Number, Address, Enter all details based on other documents).Other information related to Project Details & Business Details, Finance Required / Project Cost and Detail Of Experience /Training will also have to be filled and click on Save & Next. Upload the necessary documents.",
     "officialUrl": "https://blp.gujarat.gov.in/header_home.php",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27212,7 +27212,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. ORThe interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the authority given below - Puducherry: The Deputy Director, Differently Abled Section, Directorate of Social Welfare. Karaikal: The Assistant Director, Social Welfare Department (Sub Office).Mahe / Yanam: The Welfare Officer (i\\c), Social Welfare Department (Sub Office).Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://pgportal.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27276,7 +27276,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineSTEP 1: Firstly visit website http://food.hp.nic.in/home.html_STEP 2: At the homepage, click at the Downloadable Forms link under Citizen Services section.STEP 3: In the new window, click at the \"Himachal Grihini Suvidha Yojna Form\" link or directly click this linkSTEP 4: Afterwards, e-KYC Form as well as HP Grihini Suvidha Yojana Application Form PDF will appear on the 1st page & 3rd pages in the pdf file. 2nd page consists of the list of documents necessary for filling e-KYC form.STEP 5: Download the PDF file, fill both the E-KYC & application forms for Grahini Suvidha Yojana and submit it to the concerned authorities to avail domestic LPG gas connections.",
     "officialUrl": "http://food.hp.nic.in/home.html_",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27365,7 +27365,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Have to contact with Gram Panchayat office and as we as your Block office.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/tgjy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27413,7 +27413,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: RegistrationWeavers need to visit the \"Swanirbhar Naari\" portal (swanirbharnaari.assam.gov.in) and register as a beneficiary. The registration process requires providing the necessary details and uploading the required documents (as stated in section 7.1 to 7.4).The registration will be accepted subject to physical field verification by departmental officials.Step 2: Verification and ApprovalDepartmental officials will conduct physical field verification of the registered weavers to validate their eligibility. Once the verification is completed, the officials will approve the weaver's registration on the portal.Step 3: Procurement and PaymentWeavers can participate in the procurement process by submitting their products based on the defined quality benchmarks. The procurement committee, consisting of officials from the Directorate of Handloom & Textiles, Assam, ARTFED, AGMC Ltd., and other relevant representatives, will examine the products and fix the price. Upon successful procurement, the weavers will receive online payments within four days.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/naari",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27469,7 +27469,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: Obtain the application form from the Department of Industries and Commerce or download it from the official website.Step 2: Fill in the form with accurate details regarding the proposed project, investment plans, employment generation, and other required information.Step 3: Attach all necessary documents, including project reports, financial statements, and supporting certificates.Step 4: Submit the completed application form along with the supporting documents to the designated authority within the specified timeframe.Step 5: The application will undergo scrutiny and evaluation by the concerned department, and applicants may be called for a discussion or presentation if required.Step 6: Upon approval, the applicant will receive an offer letter specifying the incentives and conditions of the scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/tipii",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27541,7 +27541,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application Process:Step 01: The applicant should visit the nearest Tahsil or Sub-Tahsil and collect the application form. The application form can also be downloaded from the official website: https://dharmasva.mp.gov.in/Step 02: The applicant should fill up the application form in the prescribed proforma in two copies and submit the same along with all the relevant documents at the nearest Tahsil or Sub-Tahsil before the prescribed time limit. Selection Process:Step 01: The selection of pilgrims will be made by the collector.Step 02: First, applications will be sorted place-wise.Step 03: Selection will be made through a lottery if the number of received applications is more than the allowed quota. and a waiting list of 10% quota will also be chalked out. Note 01: If pilgrims desire to avail of any other facility than prescribed by the government during the journey, then they will have to make payment for the same. Note 02:\nCarrying any inflammable or intoxicating material or jewelry will not be allowed. Note 03: The State Government will not be responsible for any accident during the journey.",
     "officialUrl": "https://dharmasva.mp.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27601,7 +27601,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The citizen need not apply to the scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/vky",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27653,7 +27653,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: Application may be submitted online (http://webservers.amtron.in/karmaShree) with the recommendations of the competent authority. Deputy Commissioner will be the competent authority to recommend the applications for the officers working in the districts. For the officers working in the Directorate, Commissionerate, or Secretariat, the Director, the Commissioner, and the Sr. most Secretary of the concerned department may recommend the application for the award.Step 02: All the columns of the application form must be duly filled as per the instructions contained therein.Step 03: The application for an award in innovation should contain the details of beneficiaries/stakeholders of the initiatives/projects.Step 04: Application with incomplete/insufficient details shall not be considered.Step 05: For an award in innovation, the organization may be represented by the serving Head of the organization or an officer nominated by him/her for receiving the award.Step 06: A legend should be provided for all abbreviations/acronyms used in the application and documentation. Note: The following points to be remembered while applying: 1. The email address must be \"authentic\".\n• 2. You will receive an \"auto-generated\" email to activate your account.\n• 3. Your email address will be the \"User ID\" while logging in to the system.\n• 4. All the 4(four) sections of the application must be specified properly and correctly.\n• 5. One must specify the \"Completed Authority\" correctly and properly with a valid email address.\n• 6. The \"Completed Authority\" will receive an email to recommend the application from his/her end as mentioned in the guidelines.\n• 7. There is a provision to attach Documents (PDFs, JPG images, and Video clips) against each application.\n• 8. Go for \"Final Submit\" to complete the application process otherwise it will be considered as incomplete application.",
     "officialUrl": "http://webservers.amtron.in/karmaShree",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27745,7 +27745,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application Process Visit the nearest government agriculture office or village panchayat office to obtain the application form for MMKSY.Fill in the application form with all the required details such as personal information, landholding details, agricultural activities, etc. Attach all the necessary documents, such as land ownership documents, identity proof, and bank account details, along with the application form. Submit the application form along with the documents to the government agriculture office or village panchayat office. After submission, the application will be verified by the concerned authorities, and financial assistance will be provided to eligible women farmers.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mmksy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27833,7 +27833,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The prescribed application form can be obtained from the respective District Women and Child Development Officer, WCD, Govt. of Delhi, or from the Govt. Recognized Schools. Delhi Ladli Yojna Application Form can even be downloaded in PDF format through the link given here - http://www.wcddel.in/pdf/LadliFormOct2015.pdfThe applicant can submit the duly filled and signed application form along with the required documents to the concerned District Office. In the case of the school-going girl within 90 days of admission of the girl and in the case of newly born girls within a year of the birth, the form must be submitted.",
     "officialUrl": "http://www.wcddel.in/pdf/LadliFormOct2015.pdfThe",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27908,7 +27908,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: First go to the official website.Step 02: Using your Aadhaar Card, do the registration and provide all the required information.Step 03: Upload all the relevant documents.Step 04: After Registration, an SMS will be sent to the applicant and they can print the acknowledgement form as proof of application.Step 05: Social Welfare will do spot verification to verify the details provided by the applicant and process the application further.Step 06: After successful spot verification by the department, the stipend will be credited to the account of the applicant.",
     "officialUrl": "https://sw.kar.nic.in/swincentive/LAW/LAWHome.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -27960,7 +27960,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: To get compensation under the scheme, the victim or his dependent may contact the office of the concerned District Magistrate & Collector/Sub Divisional Magistrate of the state.Step 02: An application along with the medical report, FIR and related papers, copy of the charge sheet/final report of the investigating officer, or any other relevant information is required to be submitted by the victim or his dependent to the office of the concerned District Magistrate & Collector/Sub Divisional Magistrate of the state.Step 03: On the basis of the approval accorded by the Home Department, the amount of compensation is to be paid to the victim or the dependent from the available fund by the concerned District Magistrate & Collector from the fund created for that purpose.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/tlmvvcs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28028,7 +28028,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application ProcessVisit the official website of the schemeDownload the application form from the website or obtain it from the nearest Gujarat Women's Economic Development Corporation (GWEDC) office. Fill in the application form with all the necessary details, including personal and business-related information. Attach all the required documents mentioned in the application form. Submit the Application Form.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mmuy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28119,7 +28119,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: Visit the District Social Welfare Office, and request a hard copy of the proforma of the application form for the scheme from the District Social Welfare Officer (DSWO) / Concerned Authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Social Welfare Officer.Step 4: Acquire the receipt/acknowledgement of the successful submission of the application from the District Social Welfare Office. Check Application Status: The District Social Welfare Officer (DSWO) can be contacted regarding the application statusÂ ofÂ theÂ scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mranmas1",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28175,7 +28175,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the Directorate Of Art & Culture, Government of Goa, 5th Floor, Shram Shakti Bhavan, Panaji, Patto, Panaji, Goa - 403001Step 2: Take a print of the proforma of the application form, or request a hard copy from the concerned authority.Step 3: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).Step 4: Submit the duly filled and signed application form along with the documents to the Director or to the ACO-II, Directorate of Art & Culture, Phone: 0832-2404623, Email: aco3-dac.goa@nic.in",
     "officialUrl": "https://www.myscheme.gov.in/schemes/spsfaoce",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28259,7 +28259,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The applicant should write a formal letter, attach copies of all the mandatory documents (self-attest, if required), and submit the same to - The DirectorDepartment of Information & Publicity18, Belcombe Street, Puducherry - 605 001+91-413-2334398, 2336415, 2337078info.pon@nic.in*The Office Timings are Monday to Friday, 08:45 am to 01:00 pm & 02:00 pm to 05:45 pm.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/spfapldcmputp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28356,7 +28356,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Step-1: Access the official website of the Uttar Pradesh Labour Welfare Board at https://skpuplabour.in/.Step-2: Select the \"Shramik Application\" option from the homepage. Step-3: For new users, proceed with the \"Register New User\" option. Fill out the registration form accurately and submit it. The system will generate a unique user ID and password, which will be sent to the registered mobile number. Step-4: Utilize the provided credentials to log in to the portal. Step-5:\nChoose the relevant scholarship scheme from the available options. Diligently complete the application form, ensuring all details are accurate and complete. Upload a recent photograph of the applicant. Finally, submit the application form for further processing. Step-6:\nObtain a printed copy of the duly submitted application form for future reference. Step-7: Present the application form at the concerned educational institution and the factory/establishment for verification and endorsement. Step-8: Log in again using the registered user ID and password. Access the \"Scheme Application Details\" section and upload a scanned copy of the verified application form along with the required supporting documents. Save the information for successful submission. Step-9: Upon successful verification and validation of the application, the scholarship amount will be disbursed to the beneficiary's bank account. The beneficiary will be notified through an SMS on the registered mobile number. Step-10: Applicants can track the status of their application by selecting the \"Application Status\" option on the portal.",
     "officialUrl": "https://skpuplabour.in/.Step-2",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28412,7 +28412,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested construction worker should visit the Office of the Puducherry Building and Other Construction Workers Welfare Board (Industrial Estate, Thattanchavady, Puducherry - 605 009) and obtain the prescribed format of the application form free of cost from the concerned authority exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested construction worker should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://labour.py.gov.in/sites/default/files/citizens-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28464,7 +28464,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Unregistered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Asangathit Shramik Panjikaran\"What do you want to do : \"Aavedan\"Click next. Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. Fill out the online \"Registration form\".Submit. Already Registered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
     "officialUrl": "https://cglabour.nic.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28512,7 +28512,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: The eligible applicant may visit the e-Samaj Kalyan Portal: https://esamajkalyan.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on New User 'Please Register Here'.Step 03: Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste etc. and then click on 'Register'.Step 04: After successful registration, the applicants can login through their User ID and Password.Step 05: Now, click on 'User Profile' to update your profile.Step 06: Fill in all the mandatory information and then click on 'Update'.Step 07: After updating the profile successfully, select the scheme appearing on the home page; an application form will open.Step 08: Fill in all the mandatory details in the application form and upload all the relevant documents.Step 09: Now agree with the terms & conditions and click on 'Save Application'.Step 10: Submit the application form and take out the print of the application for future reference. The applicant can note down the application number to track the application status by logging into the portal using their User ID and Password. User Manual",
     "officialUrl": "https://esamajkalyan.gujarat.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28572,7 +28572,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: The eligible applicant may visit the e-Samaj Kalyan Portal:\nhttps://esamajkalyan.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on New User 'Please Register Here'.Step 03: Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste etc., and then click on 'Register'.Step 04: After successful registration, the applicants can login through their User ID and Password.Step 05: Now, click on 'User Profile' to update your profile.Step 06: Fill in all the mandatory information and then click on 'Update'.Step 07: After updating the profile successfully, select the scheme appearing on the home page; an application form will open.Step 08: Fill in all the mandatory details in the application form and upload all the relevant documents.Step 09: Now agree with the terms & conditions and click on 'Save Application'.Step 10: Submit the application form and take out the print of the application for future reference. The applicant can note down the application number to track the application status by logging into the portal using their User ID and Password. User Manual",
     "officialUrl": "https://esamajkalyan.gujarat.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28652,7 +28652,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 01: The eligible applicant may visit the e-Samaj Kalyan Portal: https://esamajkalyan.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on New User 'Please Register Here'.Step 03: Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste etc. and then click on 'Register'.Step 04: After successful registration, the applicants can login through their User ID and Password.Step 05: Now, click on 'User Profile' to update your profile.Step 06: Fill in all the mandatory information and then click on 'Update'.Step 07: After updating the profile successfully, select the scheme appearing on the home page; an application form will open.Step 08: Fill in all the mandatory details in the application form and upload all the relevant documents.Step 09: Now agree with the terms & conditions and click on 'Save Application'.Step 10: Submit the application form and take out the print of the application for future reference. The applicant can note down the application number to track the application status by logging into the portal using their User ID and Password. User Manual",
     "officialUrl": "https://esamajkalyan.gujarat.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28716,7 +28716,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline PROCEDURE FOR SEEKING TREATMENT ASSISTANCE IN GOVERNMENT MEDICAL COLLEGES & HOSPITALS,SISHUBHAWAN, CUTTACK AND AHRCC, CUTTACK UNDER \"OSTF\":1. Each Department will have a nodal officer not below the rank of Asst. Professor, who will be nominated by the HOD of the concerned Department.\n• 2. The application in the prescribed format with all necessary documents attached to it shall be submitted by the applicant to the Nodal Officer of the concerned Department. The Nodal Officer will scrutinize the application and will forward the same to the HOD of the concerned Department.\n• 3. The HOD will verify the facts and forward the application along with his/her recommendation to the Screening Committee.\n• 4. The Screening Committee at the medical colleges & hospitals as well as at Sishubhawan, Cuttack and AHRCC, Cuttack will be constituted under the chairmanship of the Superintendent / Director of the respective institution and the other members will be the Accounts Officer / DDO, Administrative Officer and any one faculty (on rotation basis for a period of 2 years at a time) and will be nominated by the Superintendent / Director of the concernedInstitute.\n• 5. The meeting of Screening Committee shall be held on every alternate day and will examine the documents submitted by the applicants duly forwarded by the HODs of the concerned Department where the patient is admitted.\n• 6. If the Committee approves the same, the treatment of the patient will be done free of cost at the hospital, strictly restricting to the amount sanctioned.\n• 7. The sanctioning power of the Committee shall be limited to Rs.1.00 lakh only. Where the quantum of assistance exceeds Rs.1.00 lakh, Screening Committee will immediately sanction assistance up to Rs.1.00 lakh and with the approval of the Revenue Divisional Commissioner concerned can sanction the rest of the amount up to a maximum of Rs.2.00 lakh. In case of treatment assistance required beyond Rs.2.00 lakh, the same shall be forwarded by theScreening Committee with their views to the Executive Committee of OSTFC for consideration and approval.\n• 8. A separate bank account in State Bank of India, nearer to the medical college shall be opened by medical college under the signature of Dean & Principal, Superintendent and DDO concerned. Amount can be withdrawn with signature of at least two of the account holders.\n• 9. Each and every document relating to the patient application forms shall be kept in proper custody at the office of the Superintendent / Director.\n• 10. Necessary books of accounts and other records shall be maintained at the level of Superintendent / Director as per guideline, which will be produced to audit as and when required.\n• 11. Bi-monthly SOE/UC as per OGFR Norms along with achievement report are to be submitted by the DDO concerned to the Treasurer of the Society in time for release of additional fund. PROCEDURE FOR SEEKING TREATMENT ASSISTANCE AT DISTRICT HOSPITALS / CAPITAL HOSPITALS / RGH UNDER \"OSTF\":1. The head of all Clinical Departments in the DHH / Capital Hospital, Bhubaneswar / RGH, Rourkela will be designated as Nodal Officer for OSTF.\n• 2. The patient will submit the application form in the prescribed format with all necessary documents attached, to the Nodal Officer.\n• 3. After due scrutiny of the application, it will be forwarded to the Screening Committee through ADMO (Medical) / Dy. CMO of Capital Hospital / RGH.\n• 4. The Screening Committee at the District Hospitals shall be constituted under the chairmanship of the Chief District Medical Officer of the respective district / CMO, Capital Hospital / RGH and other members will be ADMO (Medical) at DHH / Dy. CMO, Capital Hospital / RGH and another Medical Officer, on rotation basis for a period of two years, of the rank of Joint Director Level-II / Senior Class-I as will be nominated by the CDMO / CMO of the concernedinstitution.\n• 5. The meeting of the Screening Committee shall be held every alternate day and will examine the documents submitted by the applicants duly forwarded by the MO of the concerned discipline, where the patient is admitted.\n• 6. If the Committee approves the same, the treatment of the patient will be done free of cost at the hospital, strictly restricted to the amount sanctioned.\n• 7. The sanctioning power of the Committee shall be limited to Rs.30,000/- only for District Headquarter Hospital and Rs.1.00 lakh for Capital Hospital and RGH. Where the quantum of assistance exceeds Rs.30,000/-, CDMO with the approval of the Collector-cum-District Magistrate concerned can sanction up to maximum limit of Rs.50,000/-. For CMO, Capital Hospital, BBSR and RGH, Rourkela, if the treatment cost exceeds Rs.1.00 lakh, the same will be referredto DMET, Odisha for approval. Director / CMO / CDMO will sanction the treatment cost for which they are empowered and ensure continuance of treatment of patient pending approval of designated authority for the sanction of balance required amount.\n• 8. A separate bank account in State Bank of India, nearer to the DHH / Capital Hospital / RGH will be opened with the signature of CDMO / CMO, ADMO (Medical) of DHH / DDO and one of the Specialists to operate the fund. Amount can be withdrawn with signature of at least two of the account holders.\n• 9. Each and every document relating to the patient along with the application forms shall be kept in proper custody in the office of ADMO (Medical) / DDO of the concerned Institution.\n• 10. Necessary books of accounts and other records are to be maintained at their level as per guidelines, which will be produced to audit as and when required.\n• 11. Bi-monthly SOE/UC as per OGFR Norms along with achievement report, are to be submitted by the DDO concerned to the Treasurer of the Society in time for release of additional fund.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ostf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28768,7 +28768,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI- Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button.",
     "officialUrl": "https://suneethi.sjd.kerala.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28832,7 +28832,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Applicant can file their claims in a prescribed form (Annexure-1) along with the required documents within two years of the incident to the concerned Deputy Commissioner. The CEO of Mission Youth can relax the time limit in deserving cases. Applicant need to submit the below mention documents. Certificate regarding non-involvement in militancy/anti-national activities from the concerned SDPO.Death cum Post Mortem Certificate (if applicable).Medical Certificate (in case of incapacitation of 50% and above).Any proof showing relationship of the beneficiary with the victim (Not required if victim is the claimant).Date of Birth Certificate. Unemployment certificate from Employment Department. Project report/details about the self-employment unit to be set up by the applicant. Undertaking/NOC from other family members that they have no objection of the benefit under the scheme is given to the applicant amongst the family members.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sahayta",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28912,7 +28912,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application Process: The victim or victim's parents/guardian/legal heir/family member/any relative may submit an application to the concerned District Social Security Officer. Note 01: The application is to be submitted to the District Social Security Officer. Note 02: The application must be supported by a medical certificate duly issued by the Civil Surgeon. Note 03: The ease for sanction of financial assistance to the victim shall be considered upon submission of an application to the concerned District Social Security Officer either by the victim herself or by her guardian /heir/family member/any relative, in a case where the victim has been rendered so disabled due to acid attack that she is not in a position to make an application herself. Grievances Redressal: District Social Security OfficerSanction of Cases-Step 01: On receipt of the application, the District Social Security Officer, after completing documentary formalities, shall immediately, and under no circumstances later than one week, submit the case to the Deputy Commissioner, who shall call the meeting of the District Level Committee within 7 days of the submission of the case by the District Social Security Officer.Step 02: The District Level Committee, upon being satisfied that the applicant is eligible for financial assistance under the scheme shall sanction the case. If the committee is of the view that the case is liable to be rejected, the committee may reject the same after recording reasons for the same. Intimation of sanction or rejection of the application shall be sent to the applicant.Step 03: It is clarified that under all circumstances, an application for the grant of financial assistance under the scheme shall be disposed of within a period of one month from the date of receipt of the case from the District Social Security Officer.Step 04: The disbursement of the benefit under the scheme shall be payable with effect from the month wherein the incident of acid attack occurred or the date of publication of this notification, whichever is later, and the same shall be made only through the victim's Bank Account. Appeal: An applicant aggrieved of the decision of the District Level Committee may submit an appeal to the Director, Department of Social Security and Development of Women & Children, Punjab within 15 days of the decision, who shall dispose of the same within one month by passing an appropriate order.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pfaavs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -28996,7 +28996,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI- Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button.",
     "officialUrl": "https://suneethi.sjd.kerala.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29064,7 +29064,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The application as per the prescribed format (made available at the time of the release of the press note), along with the supporting documents showing the activities of the Child Committee of the Local Body, shall be addressed/submitted directly to: The Director, Directorate of Women And Child Development, Panaji-Goa, 2nd floor, Old Education Building, 18th June Road, Altinho, Panaji, Goa - 403\n• 001. ApplicantThe application should be submitted only by the following - 1. The Village Panchayat. (a) The proposal be signed by its Secretary, along with the resolution of the Panchayat Body. (b) The proposal should be duly recommended by the concerned Block Development Officer.\n• 2. The Municipality. (a) The proposal be signed by its Chief Executive, along with the resolution of the body. DeadlineThe application shall be submitted within six months from the commencement of the financial year.",
     "officialUrl": "https://dwcd.goa.gov.in/uploads/The%20Goa%20Childrens%20Rules.pdfCitizen",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29112,7 +29112,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online RegistrationStep-1: Go to the official website of \"State Scholarship Portal 2.0\" using a web browser. Step-2: Look for the option that says \"Register yourself\" on the homepage and click on it. Step-3: Read the registration guidelines carefully before proceeding. then click Continue. Step-4: Fill in the required details accurately in the registration form. This typically includes personal information such as - Scholarship Category - State - Name - Date of birth - Gender - Contact details, etc. Step-5: Click submit Register and you get your Student application ID.ApplyStep-1: Go to the official website of \"State Scholarship Portal 2.0\" using a web browser. Step-2: click on LoginStep-3: After that enter you - Application ID. - Password - CaptchaStep-4: Click Login and select your scheme name. Step-5: After clicking your scheme name then enter your name father's name, samgra ID, Aadhar number, bank account etc. Step-6: Now upload your photo signature and important documents. Step-7: Remember, the fields marked with an asterisk (*) are mandatory. Step-8: After filling in all your information details and uploading the documents click submit",
     "officialUrl": "https://www.myscheme.gov.in/schemes/absy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29168,7 +29168,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Project Manager (Cottage Industries) of the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ahstc-dc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29220,7 +29220,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the Office/ Sub-Office of the Department of Fisheries and Fishermen Welfare.Step 1: The interested applicant should request the hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmmfbdsf-faascdmf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29320,7 +29320,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the General Manager of the District Industries Centre (Thattanchavady, Puducherry - 605 009, 2248391, 2249392, 2248987, dic_pdy@bsnl.in), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://industry.py.gov.in/grievance-redressal-mechanism",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29380,7 +29380,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Pondicherry Society for the care of the Aged (PONCARE), Puducherry, 4th Cross - Sithankudi, 6th Cross Extension, Brindavanam, West, Puducherry - 605 013, +91-413-2245317, +91-413-2246318, +91-9443405499, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to The Secretary, PONCARE.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://pgportal.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29448,7 +29448,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://industry.py.gov.in/grievance-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29500,7 +29500,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: In the prescribed format of the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).Step 2: Visit the Office of the Directorate of Women & Child Development (Old Education Building, 2nd Floor, 18th June Road, Panaji Goa\n403001), and submit the duly filled and signed application form along with the copies of the required documents to the Concerned Officer.Step 3: Acquire the receipt/acknowledgement of the successful submission of the application. HelpdeskFor any clarifications regarding the application, the applicants may contact the Directorate on Phone No. 2235308/2426112 during office hours.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/rpa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29560,7 +29560,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Project Manager (Cottage Industries) of the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://dic.py.gov.in/sites/default/files/citizencharter.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29608,7 +29608,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: To avail of the benefits of the scheme, the applicant needs to visit the nearest District Social Justice Office and collect the application form. The application form can also be downloaded from the official website of the Social Justice Department, Government of Kerala.Step 02: The applicant needs to fill out the application form completely.Step 03: The duly filled application form along with supporting documents has to be submitted to the concerned District Social Justice Officers.",
     "officialUrl": "http://sjd.kerala.gov.inWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29668,7 +29668,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application ProcessDownload the application from the following eDisha official site. Get the printout and fill out the application in the prescribed manner. Attached the photograph with the required documents. And submit to the District Social Welfare Officer.",
     "officialUrl": "https://edisha.gov.in/downloadforms",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29724,7 +29724,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Process for Application: Application for availing the benefit under the scheme should be applied to the office of the concerned Medical Officer in-charge / Medical Superintendent in the prescribed form. The concerned Medical Officer in-charge / Medical Superintendent after verification, shall in turn forward the document to the concerned District Medical Officer. Process for Claim of Maturity: The girl child beneficiary, on attaining the age of 18 years and after passing at least the class-X exam, shall file a maturity claims in the prescribed application form to the concerned DMO. The prescribed application form should be duly filled up by the girl child beneficiary herself.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dk",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29804,7 +29804,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The process of applying for the \"Amar Fasal Amar Gola\" scheme in West Bengal may vary depending on the specific implementation of the scheme by the state government. However, here are some general steps that may be involved in the application process: Eligibility check: Check if you meet the eligibility criteria for the scheme, such as residency, land ownership, type of crop, size of landholding, income criteria, etc. Obtain required documents: Gather the required documents, such as proof of residency, proof of land ownership, income statements, etc. Submit an application: Submit a completed application form, along with all the required documents, to the relevant authorities in the state of West Bengal, such as the Department of Agriculture or the Ministry of Agriculture. Review and approval: The authorities will review your application and supporting documents to determine if you are eligible for the scheme. If your application is approved, you will receive a notification of approval and instructions on how to proceed with the next steps. It is recommended to check the official website of the state government of West Bengal or contact the relevant authorities directly for the most up-to-date information on the application process for the \"Amar Fasal Amar Gola\" scheme. Application Process: 1. Application forms to be collected from Panchayat office or Block office.\n• 2. Candidates to fill all the details to complete the form and attach all required documents as specified\n• 3. Submit application form with required documents in Panchayat office or Block office. Note: The exact application process may vary, so it is advisable to check with the relevant authorities for the most accurate information.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/afag",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -29888,7 +29888,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The Proposals may be submitted by the concerned Deputy Commissioners by email or by special messenger or by post to: Secretary (Planning & Investment) Finance, Planning & Investment Department4th Floor 1st Block, Arunachal Pradesh Civil SecretariatItanagar, Arunachal PradeshNOTE: Applications submitted after the due date will not be accepted. Application Assessment Process:Step 1: The Planning Division, Planning & Finance Department will convene a State Level Screening Committee meeting.Step 2: On the appointed date the Deputy Commissioners will make a detailed presentation on the project proposal(s) as per the above requirements.Step 3: The State Level Screening Committee applies the assessment criteria to all eligible applications.Step 4: The State Level Screening Committee prioritizes the project proposals and makes appropriate recommendations to the Hon'ble Minister of Finance & Planning. Assessment Criteria for the Applications: i. Innovation (40% weightage) a) Is the project an innovative intervention to address the infrastructural gap in the district? b) Is the project an innovative intervention to meet the critical needs of the community and solve critical problems of the district? c) Does the project involve cutting-edge or unique technology to address the needs of the district? d) Does the project practically support the solutions to the problems of the district? e) Does the project demonstrate an innovative, new, or creative way of addressing the problems of the district? ii. Project planning (20% weightage)a) Is there a clearly identified need that this project is addressing?b) Does this project have a clear goal and project plan?c) Is the project leveraging collaborative partnerships or converging resources from other sources (CSS or State schemes)?d) Does the application provide an achievable timeline for completion?iii. Budget (20% weightage)a) Does the budget accurately reflect the scope and scale of the project?b) Has the DPR been prepared as per APSoR?c) Have quotes been provided to support key items (applicable in case of projects that involve direct procurement and installation of products/items)? iv. Social Impact (10% weightage) a) Does the project generate employment? b) Is it a revenue-generating project? c) Was there broader community participation in developing the idea or project plan? d) Does the proposal provide a community engagement plan with community input and/or impacts of the project outlined?v. Sustainability (10% weightage)a) Does the application provide a continuous improvement plan?b) Does the application demonstrate a sustainability plan if it is intended to continue beyond the period of funding?",
     "officialUrl": "https://cdn.s3waas.gov.in/s339059724f73a9969845dfe4146c5660e/uploads/2018/02/2018022581.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30000,7 +30000,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The application shall be forwarded by the Medical Officer i/c of the locality. The authenticity of the residence of the person shall have to be certified by the Village Council President and Block Development Officer concerned and the Medical Board shall examine the patient and issue certificate according to.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/giatb",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30052,7 +30052,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE:\nThe applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist: D+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement: D+90 days",
     "officialUrl": "https://www.goa.gov.in/wp-content/uploads/2020/08/ITPolicySchemes2018.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30152,7 +30152,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI- Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI-Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button.",
     "officialUrl": "https://suneethi.sjd.kerala.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30216,7 +30216,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The applicant may visit the nearest State Tertiary Cancer Centre and also contact the Nodal Officer for the scheme.Step 02: Application in the prescribed format may be received from the concerned State Tertiary Cancer Centre.Step 03: The applicant must ensure that the filled information should be correct before submitting the application form to the concerned department.Step 04: After successful verification, the applicant can avail the benefit of the scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmfccs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30276,7 +30276,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI- Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button. Note: The application should be submitted at least one month before the date fixed for the marriage. But if the bride is from a Muslim community, the date of the marriage after the religious ceremony called Nikah should be considered for determining the period of application.",
     "officialUrl": "https://suneethi.sjd.kerala.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30340,7 +30340,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The applicant should visit the Office of the Department of Information & Publicity or one of its Branch Offices. The Office Timings are Monday to Friday, 08:45 am to 01:00 pm & 02:00 pm to 05:45 pm. Submit the duly filled and signed application form and the documents to the Member Secretary-cum-Treasurer.Step 4: Upon successful receipt of the application, a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gfaprp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30408,7 +30408,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Adi Dravidar Welfare and Scheduled Tribes Welfare Department, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://adwelfare.py.gov.in/contact-us",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30472,7 +30472,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: Visit the District Social Welfare Office, and request a hard copy of the format of the application form for the scheme from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents.Step 3: Submit the duly filled and signed application form along with the documents to the Assistant Commissioner, District Social Welfare Office.Step 4: Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office.",
     "officialUrl": "https://sjsa.maharashtra.gov.in/Where",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30532,7 +30532,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online RegistrationStep-1: First of all applicant need to go to the official website of the Chief Minister COVID-19 Child Welfare Scheme. Step-2: After this, you will have to click on the option \"Aavedan kare\"Step-3: Now the home page will open in front of you click on \"SignUP\"Step-4: Now you will have to enter your name, mobile number, email ID, password, etc. Step-5: Now you have to click on the register option. ApplyStep-1: First of all you have to go to the official website of the Chief Minister COVID-19 Child Welfare Scheme. Step-2: After this, you will have to click on the option \"Aavedan kare\"Step-3: you will have to click on the login option. Step-4: Now you have to enter your mobile number and password. Step-5: After this you have to click on the submit option. Step-6 Now you have to click on the option of Chief Minister Covid-19 Child Welfare Scheme. Step-7: Now the application form will open in front of you. Step-8: You have to enter all the important information asked in the application form such as your name, email ID, mobile number etc. Step-9: Now you have to upload all the important documents. Step-10: After this you have to click on the submit option.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mcbsy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30597,7 +30597,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online - via CSCsOfflineStep 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgment from the CSC. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Application Deadline40 days before the marriage date (In exceptional circumstances, the application can be submitted one day before the marriage date).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/atnmasfogii",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30685,7 +30685,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: Visit the official website of the Chennai district.Step 2: Click on the Departments. Select Differently Abled Welfare, after selecting click on Differently Abled Welfare Schemes.Step 3: You will land on the List of Scheme page of Differently Abled Welfare Schemes.Step 4: Scroll down to the section \"L. Tamilnadu differently abled welfare board schemes\".Step 5: Download the application form of the \"S.No. 7 Reimbursement for purchase of spectacles for visually impaired persons Rs. 500\".Note: The application is to be submitted District Differently Abled Welfare Officer.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/apsdap",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30741,7 +30741,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: On Citizen Schemes Portal landing page, the citizen can log in using the Aadhaar-tagged mobile OTP Authentication. In the \"Citizen Scheme Application\" page, citizens can select \"Jagananna Chedodu\" from the schemes dropdown and click on \"Submit\".Step 2: Applications submitted are forwarded to Welfare and Education Assistant (WEA) /Ward Welfare and Development Secretary (WWDS).Step 3: The Volunteers / WEAs / WWDS conducts the field verification for each application, takes eKYC, makes a relevant recommendation, and forwards it to Mandal Parishad Development Officer (MPDO) / Municipal Commissioner (MC).Step 4: The MPDO/MC reviews the application and makes relevant recommendations and forwards the application to the Executive Directors of the Backward Classes Welfare Department (ED BC).Step 5: The Executive Director of the Backward Classes Corporations (ED BCs) verifies the application and makes relevant recommendations.Step 6: Based on recommendations made by the ED BCs and the applicants' eligibility as mentioned in the Scheme Eligibility Calculator, the Social Audit lists namely the Provisional eligible list and Reverification list (with reasons for ineligibility) are published in all secretariats.Step 7: The citizens in the Reverification list can raise a grievance if they think that the reason mentioned for ineligibility is incorrect.Step 8: The final list of Eligible and Ineligible Beneficiaries is published in all secretariats.Step 9: The citizens mentioned in the Final Ineligible list can raise a grievance in Citizen Schemes Portal if he/she thinks that the reason for rejection is incorrect.Step 10: The scheme benefit is disbursed to all eligible beneficiaries through Aadhaar Enabled Payment System (AEPS). The acknowledgment of receipt of the payment by the beneficiary is done by the Volunteers / WEAs / WWDS using eKYC (Biometric Authentication).Step 11: The beneficiaries can track the status of their payment on the Citizen Schemes Portal landing page by clicking on \"Track Application Status\".",
     "officialUrl": "http://www.apsmfc.ap.gov.in/assets/docs/CHEDODU-59.pdfWhere",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30805,7 +30805,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form for the scheme from the Official Website of the Department of Sainik Welfare. ORThe interested applicant should visit (on a working day, and during working hours) the Rajya Sainik Board, Jawan Bhawan, Department of Sainik Welfare, Government of Puducherry, 261, Lawspet Main Road, Pakkamudianpet, Puducherry Road, Lawspet, Puducherry - 605013, India, and request a hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should submit the duly filled and signed application form and the documents to the concerned authority at the Rajya Sainik Board.Step 4: A receipt of the application will be assigned to the applicant by the concerned authority.*The application should be sent within three months of marriage. Queries/Complaints/Suggestions/GrievancesAddress: 261, Lawspet Main Road, Pakkamudianpet, Puducherry Rd, Lawspet, Puducherry - 605013, IndiaPhone Number: (+91)(0413) 2253107Email: dirdsw.pon@nic.inHours: Monday - Friday, 2:30 pm to 5:00 pm",
     "officialUrl": "https://sainik.py.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30857,7 +30857,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the District Differently Abled Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.Step 4: Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/matsap",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -30909,7 +30909,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE: The applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist: D+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement: D+90 daysNOTE: Units will be subject to evaluation at the end of each installment period to verify eligibility for the next installment.",
     "officialUrl": "https://services.goaonline.gov.in/Downloads/Organization/BusinessProfile_UserManual.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31031,7 +31031,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application processApplication to be made online on the e-District portal www.edistrict.delhigovt.nic.in by registering through citizen log-in or by approaching the concerned District Social Welfare Office. An Aadhaar number is mandatory for filling up the application- without Aadhaar, the application portal will not work. Self-attested documentary.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dfbs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31099,7 +31099,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "and provides transparency. EligibilityKarnataka State Resident: The applicant must be a resident of Karnataka state. SC Community: The applicant must belong to the SC community. Family Income: The family income from all sources should not exceed Rs. 2 lakhs per annum. Time Limit: The scheme is applicable only within 1 year of the marriage.",
     "officialUrl": "https://sw.kar.nic.in/swincentive/dvds/DVDSRegistrationForm.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31155,7 +31155,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application ProcessStep-1. Applicant have to visit the official labour website of Chhattisgarh State. Step-2. Click on apply now under the Building and other construction. Step-3. Now applicant have to provide the below detail. District,New registration number. And click on check the detailsStep-4. Now select the scheme name here. Step-5. Fill out the online form. Step-6. Upload required documents. Labor registration card. Aadhaar Card. Invoice CopyBank account DetailsStep-7. Click on submit. Step-8. Note the application number. Trace the Application StatusStep-1. Applicant have to visit the official labour website of Chhattisgarh State. Step-2. Click on \"Check the application status\" under the Unorganized worder board option. Step-3. Select the scheme name. Step-4. Enter the application number. Step-5. Click on search.",
     "officialUrl": "https://cglabour.nic.in/ShramAyuktHome.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31207,7 +31207,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online - via CSCsStep 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgment from the CSC. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Application Deadline: The application should be submitted before the child completes 3 years of age.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/dmrnicmasii",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31259,7 +31259,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "is available only online. There is no provision of offline application for the scheme. Key FeaturesThe NFBS scheme is for below-poverty-line families. If the lead earner of the family has lost his/ her life, the next head of the family will get financial assistance from the state government of Uttar Pradesh. The applicant should be aged between 18 years to 60 years. If the applicant is below 18 i.e. minor or above 60 that is old, then the applicant might not get the compensation amount. The amount of the compensation is fixed at Rs. 30, 000/- which has increased from the earlier amount of compensation which is Rs. 20, 000/-. To apply for the scheme one must use the online process. The scheme does not have any offline mode of registration. To avail the scheme, the yearly income of the family should not be more than Rs. 56, 450/- in urban areas and Rs. 46, 080/- in rural areas. The amount of compensation will be provided to the families only after the death of the lead earner or the only earning member of the family.",
     "officialUrl": "http://nfbs.upsdc.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31311,7 +31311,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The applicant needs to visit the nearest Intensive Poultry Development Project Office or District Poultry Extension Centre and collect the application form.Step 02: Fill in all the mandatory fields of the application form, attach all the (self-attested) required documents, and submit it to the designated receiving authority.Step 03: After successful verification, the applicant can avail the benefit of the scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/sse100bbfsc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31377,7 +31377,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application process Visit the official website. With the respect to the \"Abhinandhan Education Loan Subsidy\", click on apply option. The Assam Abhinandhan Scheme Online Application Form will appear. Now provide the required details. Upload the required documents and submit",
     "officialUrl": "https://www.myscheme.gov.in/schemes/aelss",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31429,7 +31429,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Project Manager (Cottage Industries), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://dic.py.gov.in/application-forms-download-area",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31481,7 +31481,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the Office/ Sub-Office of the Department of Fisheries and Fishermen Welfare.Step 1: The interested applicant should request the hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/fgrmb-faascdmf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31585,7 +31585,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The applications would be invited from the eligible candidates by giving wide publicity through print media and electronic media.Step 1: The interested applicant should visit (during office hours) the Office of the Child Development Project Officer (CDPO) of the concerned area and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. ORThe interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the CDPO.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/da-60ada",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31645,7 +31645,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: Visit the nearest Aam aadmi bima yojana center or insurance agent to obtain the application form.Step 02: Fill in the application form with accurate details, including personal information, income, occupation, and bank account details.Step 03: Attach the necessary documents, such as Aadhaar card, age proof, address proof, bank account details, income certificate, and occupation proof, along with the application form.Step 04: Submit the completed application form and supporting documents to the Aam aadmi bima yojana center or insurance agent.Step 05: The insurance agent will verify the application and documents, and if everything is in order, they will issue a policy certificate.Step 06: The policy certificate will be sent to the applicant's registered address, and a copy will be retained by the insurance agent.Step 07: the applicant can pay the premium amount either annually or in instalments, as per the policy terms.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/aaby",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31753,7 +31753,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://dic.py.gov.in/sites/default/files/citizencharter.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31805,7 +31805,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The application form for women in rural areas is different. Applicant can visit the Tamil Nadu Corporation for Development of Women to access the form for rural areas and follow these steps: Application Form Rural :\nhttps://pmmodiyojana.in/wp-content/uploads/2020/01/Application-Form-Rural.pdfStep 1: Stick your passport-sized photograph in the designated space.Step 2: Fill in the name of your district, block, village panchayat, etc.Step 3: Furnish your details like name, address, date of birth, father/husband's name, educational qualification, and other relevant information.Step 4: Provide details including the price of the scooter you want to buy. Mention whether you are purchasing the vehicle from your funds or a loan. Also enclose your vehicle's invoice quotation and details of the bank if taking a loan, etc.Step 5: You are also required to mention the documents enclosed with the application form.Step 6: Mention the date and place and do your signature on the application form.Step 7: The application forms will be filled and submitted to the respective Block offices / Urban Local Bodies (ULBs) Application for Urban Areas :https://pmmodiyojana.in/wp-content/uploads/2020/01/Application-Form-Urban.pdfStep 1: Stick your passport-sized photograph in the designated space.Step 2: Fill in the name of your district, corporation, municipality, town panchayat, ward, etc.Step 3: Furnish your details like name, date of birth, father/husband's name, educational qualification, address, and other relevant information.Step 4: Provide driving or learner's license details and details of the vehicle you wish to buy. You must also provide the invoice quotation, bank details if availing a loan, etc.Step 5: Mention the additional documents like driver or learner's license, Aadhaar number, proof of education, community certificate, etc.Step 6: Mention the date and place and do your signature on the application form.Step 7: The application forms will be filled and submitted to the respective Block offices / Urban Local Bodies (ULBs).",
     "officialUrl": "https://pmmodiyojana.in/wp-content/uploads/2020/01/Application-Form-Rural.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31893,7 +31893,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Project Manager (Cottage Industries) of the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gccsa-dc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -31949,7 +31949,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online You can apply for Akanksha Housing Scheme by following the steps below: Visit the Akanksha Housing Scheme Official Website. Check off each item on the list now that you've reviewed the team and the terms of this plan. You must select Apply. After you've chosen all of your terms and conditions. An application form will now appear on the screen. Fill out every field on the application precisely. After you've uploaded the scanned copies of the documents, click Submit. You must generate a challan using the internet system and deposit Rs. 25,000 in any Bank of Baroda branch as Application Fees. Your application will be successfully submitted. Application must be made online only. No applicant is permitted to submit more than one application in this project. Applicant has to deposit an amount of Rs. 25,000/- as \"Application money\" in any branch of Bank of Baroda by generating challan through the online system.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ahs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32009,7 +32009,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Persons with disabilities can apply through the Office of the PWD Empowerment Officer /Jan Suvidha Kendra/Lokvani kendra. Applicants have to visit the Office of the PWD Empowerment Officer /Jan Suvidha Kendra/Lokvani. Get the application form or download it from here. Fill out the form in the prescribed manner. Attach the required documents ( Photo, Residence/domicile certificate, Certificate of disability, Caste Certificate (if belonging to Scheduled Castes / Backward Classes), Income certificate and Medical report).Submit the application form to the concerned officer. District PWD Empowerment Officer will provide approval of financial grants to applicants against the fund available, on a 'First Come and First Serve Basis' by categorizing the applications received. Auxiliary Equipment will be distributed to beneficiaries through the camps in various districts on the basis of \"First Come First Serve\".",
     "officialUrl": "https://www.myscheme.gov.in/schemes/alaes",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32061,7 +32061,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application ProcessLog on https://edistrict.delhigovt.nic.in/Under Citizen Corner click on New User Click on select the document - Aadhar or Voter ID Enter your Aadhar Card Number/Voter I Card Number Type the Captcha in the box shown Citizen Registration Form will OpenFill up all fields including details of Present Residential Address & Click on Continue. Login ID and Password will be received on the given mobile number/e-mail address. Now Registration on the e-district portal is complete Registration for Financial Assistance Services. Click on Registered User Login. Enter the given login ID and Password and Click on Login Go to Main Page (Main Page) will open click on apply online. Drop Box apply for services will open - clickA list of Departments providing online services shall open - Select Department of Social Welfare. Three Financial Assistance Schemes will be shown. Choose Disability Pension Scheme and Click on Apply. Check the BASIC/PERSONAL DETAILS FORM and click on Continue. The form will open fill up all required fields & upload all required documents as per the requirement of the scheme selected. Then click next and upload a photograph Then click on finish. One OTP will be received on the registered mobile number. Enter OTP and Submit. Acknowledgement of successful submission shall be generated.",
     "officialUrl": "https://edistrict.delhigovt.nic.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32137,7 +32137,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: The applicants can go to the official website to apply for the scheme.Step 02: Print the application form.Step 03: Submit this application form along with other relevant documents to the Selection Panel of your concerned district.Step 04: Submit this application form along with other relevant documents to the District Magistrate of their respective districts.Step 05: After verification by the District Magistrate and Taluk Committee, the selected applications will be transferred to the concerned department for further processing.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gks",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32219,7 +32219,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline For both Fresh Applications and Renewal Applications, the applicant should write a formal letter, attach copies of all the mandatory documents (self-attest, if required), and submit the same to - The DirectorDepartment of Information & Publicity18, Belcombe Street, Puducherry - 605 001+91-413-2334398, 2336415, 2337078info.pon@nic.in*The Office Timings are Monday to Friday, 08:45 am to 01:00 pm & 02:00 pm to 05:45 pm.",
     "officialUrl": "https://info.py.gov.in/archive-government-order",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32303,7 +32303,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online\n• 1. The couple needs to register their marriage under the Special Marriage Act, 1954.\n• 2. After marriage registration, the couple needs to fill out the application form for the scheme, which can be obtained from the District Social Welfare Office or the official website.\n• 3. The couple needs to submit the required documents along with the application form to the District Social Welfare Office.\n• 4. After verification of the documents, the financial assistance will be provided to the eligible couples.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/icms",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32369,7 +32369,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the official website of the Fisheries & Animal Resources Development Department.Step 2: Click on the \"Scheme\" Categories and select \"Fisheries Scheme\" on the home page.Step 3: Click on Download in the column of the 'Brief Description of the Scheme\" of \"Subsidy for Polylining Technology for Intensive Shrimp Farming (2020-21)\"Step 4: Download the \"Brief Description of the Scheme\" pdf.Step 5: You will land on the Pdf Page. Read all the details in the pdf. Scroll down to Annexure-1 for the Application process.Step 6: Fill in the application form with accurate and complete details, ensuring that all required fields are properly filled.Step 7: Gather the necessary supporting documents as specified in the application form or guidelines.Step 8: Submit the completed application form online to the Directorate of Fisheries, Odisha, Cuttack through email-director.odifish.inland@gmail.com and supporting documents through the designated mode of submission, such as online submission, email, or physical submission to the relevant authorities. Note: Keep a copy of the submitted application form and documents for your records.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/pptisf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32425,7 +32425,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline No separate application is required. As a part of the proactive governance and timely benefits delivery, the beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH. The supply will be made to the holders of red ration card who have registered with the area Anganwadi.",
     "officialUrl": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32477,7 +32477,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The schemes identified and proposed by the village communities, MLAs and/or partner organizations should be submitted along with detailed plans and estimates to the Chief Minister's Secretariat schemeStep 02: Any proposal without the plans and estimates or quotation as stated above shall be returned to the proposers by the CM's secretariat.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmsrdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32529,7 +32529,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the District Differently Abled Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.Step 4: Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/matdapmdap",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32585,7 +32585,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Women and Child Development, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the Deputy Director (Women Development) or the Child Development Project Officer (depending on the location), at least 30 days before the proposed marriage date.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://wcd.py.gov.in/contact-us",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32669,7 +32669,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: Gram Panchayat ResolutionThe Gram Panchayat should pass a resolution expressing their intention to participate in the MVSSP competition.Step 2: Application Form SubmissionThe Gram Panchayat fills out the application form (Annexure-A) provided by the MVSSP.The completed application form is submitted to the Block Development Officer (BDO) by 23rd April each year. The application form should be attested by the Gram Panchayat head and three other members.Step 3: Scrutiny by Block Development OfficerThe Block Development Officer (BDO) scrutinizes the received applications for completeness and eligibility.Step 4: Referral to District Rural Development Agency (DRDA) The Block Development Officer refers the applications to the District Rural Development Agency (DRDA) for further processing.Step 5: Assessment and DecisionAssessment Committees at different levels (block, district, division, and state) evaluate the eligible Gram Panchayats based on prescribed norms and marking criteria. The committees select the best/cleanest Gram Panchayats at each level, starting from the block level and progressing to the district, divisional, and state levels. The winners are announced and awarded prizes at the respective levels during Independence Day celebrations.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/hpmvssp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32773,7 +32773,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Advertisements are released in June every year.Step 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents (during office hours) to the Head Office only through Poompucar Sales and Manufacturing Plant Managers.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).NOTE: In this application, each member should mention his name and member's work in the production separately.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/tpa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32845,7 +32845,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline To avail of the benefits of the scheme, the application form is duly filled and the necessary documents are to be submitted directly to Executive Director, Kerala Social Security Mission. Address for Communication: Executive Director,Kerala Social Security Mission,Poojappura, Thiruvananthapuram, Kerala-695012Phone No - 0471 2341200",
     "officialUrl": "https://www.myscheme.gov.in/schemes/scis",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32929,7 +32929,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online RegistrationStep1: Go to the official website of \"The National Scholarship Portal\" (NSP) using a web browser.Step2: Look for the option that says \"New Registration\" on the homepage and click on it.Step3: Read the registration guidelines carefully before proceeding. then click Continue.Step4: Now Select your Aadhaar Category - Enter Mobile Number - Enter OTP - Enter Captcha Code, click VerifyStep5: Fill in the required details accurately in the registration form. This typically includes personal information such as - Scholarship Category - State - Name - Date of birth - Gender - Contact details, etc.Step6: Click submit Register and you get your Student application ID.ApplyStep1: Go to the official website of \"the National Scholarship Portal\" (NSP) using a web browser.Step2: click on Login \"Fresh Application\"Step3: After that enter you - Application ID. - Password - CaptchaStep4: Click Login",
     "officialUrl": "https://www.myscheme.gov.in/schemes/apmcy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -32985,7 +32985,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Project Manager of the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://dic.py.gov.in/application-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33041,7 +33041,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the office of the concerned authority i.e. Pondicherry State Fishermen Co-operative Federation Limited, Puducherry/The Karaikal Fishermen Co-operative Marketing Union, Karaikal/The Assistant Director of Fisheries and Fishermen Welfare, Mahe/The Assistant Director of Fisheries and Fishermen Welfare, Yanam of the respective regions.Step 1: The interested applicant should request the hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/wrflsncs-fbps",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33105,7 +33105,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the nearest Child Development Project Officer (CDPO) and submit the duly filled and signed application form and the documents to the CDPO.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/tpsftbp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33165,7 +33165,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Registration Process:Step 01: Before applying the under scheme, User has to register using the Citizen Registration Link given on the login Screen. (Already Registered Citizens can avail of the Service Using Login ID and Password generated after Citizen)Step 02: Applicant has to upload the Passport size scan photo (jpg image) in a clear background of size less than 50 KB.Step 03: Please, note the User ID and Password entered by the applicant during registration for Login and availing the service.Step 04: Please, select the role type Citizen while entering login credentials by the Applicant using Citizen Users ID and Password.Step 05: After Login, the applicant has to click on the e-services tab in the left menu and thereafter click on the department to which he has to avail of the service.Step 06: Please, note the Citizen ID, Username, and Password after successful registration of Citizen as it will be required at the time of availing the service. Application Process:Step 01: First of all, the applicant needs to visit the official website and login with their credentials. https://www.jk.gov.in/jkeservices/homeStep 02: At the homepage, click on Apply button for applying under \"Aasra Scheme\".Step 03: Fill all the mandatory details as required in the application form.Step 04: The applicant must ensure that all the filled information should be correct before clicking on submit button.",
     "officialUrl": "https://www.jk.gov.in/jkeservices/home",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33225,7 +33225,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). Post-Application ProcessStep 1: The applications shall be scrutinized by the Directorate of the Industries on merit basis for the grant of incentives/subsidies/assistances to determine the quantum of amount admissible will be placed before the State Level Committee.Step 2: The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy and will recommend the quantum of incentive/subsidy admissible to the unit. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/aewc-mesifai-vi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33325,7 +33325,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Applicant need to download the application form. Applications are submitted to the CDPO office. Required documents include: Certificate of retirement from the Anganwadi centerAadhar cardBank account details",
     "officialUrl": "https://wecd.uk.gov.in/files/AWK_Kalyan_Kosh_Format-1.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33377,7 +33377,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the General Manager of the District Industries Centre (Thattanchavady, Puducherry - 605 009, 2248391, 2249392, 2248987, dic_pdy@bsnl.in), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://industry.py.gov.in/grievance-redressal-mechanism",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33437,7 +33437,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Apply In-Person: To Get a Homestay Licence, the applicant has to approach the Ministry of Tourism regional office linkNote: if there is no regional office on the state the applicant has to approach nearby state offices. An application form will be provided to the applicant by the concerned officer. Or the applicant can download the application form from the following link refer page no 9The applicant has to fill in all the necessary details in the application form. (Incomplete applications are not accepted) Make sure that the applicant has attached all the necessary documents that are mentioned in the \"Required Documents\" section of this page. The applicant has to attach the photocopies of the required documents along with the application form while submitting. Submit all the documents with the completed form to the concerned officer. The applicant has to pay the prescribed fee as requested by the authority. After receiving the application, the concerned authority will check the submitted application and document set. If all are in place, the application will be accepted. All applications are processed within a reasonable time, having regard to the particular circumstances of each application, including the completeness of information and documents submitted to the authority by the applicant. The authority may seek additional information from an applicant if this is necessary to assess the application. The authority does not need to deal further with an application until the applicant has provided this additional information. The authority will conduct an onsite inspection regarding the application. Once everything is approved the authority will issues the license. This entire process can be completed within 30 days or as per the timeline advised by the respective department authority. FeesThe application fees payable for classification/reclassification of Incredible India Bed & Breakfast Establishments and Homestay Establishments will be as follows: Silver Star Category: Rs. 3,000Gold star category: Rs. 5,000.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/acbbhses",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33489,7 +33489,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Unregistered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Asangathit Shramik Panjikaran\"What do you want to do : \"Aavedan\"Click next. Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. Fill out the online \"Registration form\".Submit. Already Registered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
     "officialUrl": "https://cglabour.nic.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33545,7 +33545,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the District Differently Abled Welfare Officer and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.Step 4: Request a receipt or acknowledgement from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/faotndodap",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33597,7 +33597,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline",
     "officialUrl": "https://www.myscheme.gov.in/schemes/kv",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33669,7 +33669,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Registration Process in Employment Bank:Step 01: The applicant should be registered in the Employment Bank of the Labour Department.Step 02: For registration, the applicants need to visit the official website of the Employment Bank:\nhttps://employmentbankwb.gov.in/index.phpStep 03: Click on \"New Enrolment Job Seeker\" & accept the terms & conditions and then continue.Step 04: Fill in all the mandatory details and click on the 'submit' button. Application Process:Step 01: Applicant should get his application with all requisite documents processed by the dealer of his choice.Step 02: Select a financier for the loan required for purchasing the vehicle.Step 03: The vehicle is to be registered within one month of receipt of the offer letter for permit and subsidy under the scheme. Note: Vehicle dealers are authorized facilitators for the \"Gatidhara Scheme\".",
     "officialUrl": "https://employmentbankwb.gov.in/index.php",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33725,7 +33725,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The application form is free for this scheme. Please contact your state government school (rajkiya vidyalaya) for the same.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mmhby",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33782,7 +33782,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE: The applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist:\nD+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement:\nD+90 days",
     "officialUrl": "https://www.goa.gov.in/wp-content/uploads/2020/08/ITPolicySchemes2018.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33842,7 +33842,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Step-1: The applicant need to Downloads the document and get the application form from page no.\n• 4. Step-2: Carefully read any instructions or guidelines provided. Step-3: Collect all the information and documents. - Ration Card. - Aadhaar Card. - Bhamashah Card. - Cast Certificate - BPL Card (If applicable). - Affidavit (available in form page no. 6).Step-5: Make a copy of the completed form for your records before submitting it. This will serve as a reference in case you need to refer back to the information provided. Step-6: Submit the form to the concerned Appellate Officer (Sub Division/District Logistics Officer) .Step-7: The Appellate Officer will thoroughly scrutinize the application. If complete and correct, the applicant's name will be added to the food security list. However, if doubts arise regarding the presented documents, the officer will only proceed after clarification. Step-8: The Appellate Officer will issue an appeal order with a computer-generated digitized signature, automatically updating the applicant's name in the online food security list. Step-9:\nThe responsibility of the Appellate Officers is limited to verifying the completeness of the application and attached certificates. If any applicant is found to have provided false information to gain inclusion in the food security list, their name will be canceled, and legal action will be taken.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/rksyr",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33898,7 +33898,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The letter requesting the assistance, along with the required self-attested documents must be sent to the Official Email ID of CMRF: cmrf.cmo@rajasthan.gov.in, or in person, to the concerned Tehsil/District Collector's Office, or to the Chief Accounts Officer (CAO), Room No. 301, Chief Minister's Office, Government Secretariat, Jaipur, Rajasthan - 302\n• 005. NOTE : In case the application is incomplete, the applicant should be informed to make the corrections.",
     "officialUrl": "http://cmrelief.rajasthan.gov.in/pdf/Proforma2.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -33966,7 +33966,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the District Differently Abled Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.Step 4: Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/matnpmvip",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34018,7 +34018,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the Office/ Sub-Office of the Department of Fisheries and Fishermen Welfare, and request the hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gsis-icfsfpu",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34074,7 +34074,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: The applicant interested to avail of the subsidy shall apply to the Go-Sugam Portal through a registration process by submitting the requisite documents.Step 02: Visit the official website:\nhttps://sugam.odisha.gov.in/website/homeStep 03: Click on \"Apply\" and then click on \"Register Now\"Step 04: On the registration page, fill in the mandatory details (Name, Email, Mobile Number, Address, and Password) and click on \"Register\". The login credentials will be sent to your registered Email ID / Mobile Number. Application Process:Step 01: Visit the official website:\nhttps://sugam.odisha.gov.in/website/homeStep 02: Click on \"Scheme & Services\" and then select the scheme by its name.Step 03: Click \"Apply\" and login. https://sugam.odisha.gov.in/website/citizen-portal/loginStep 04: On the application page, fill in all the mandatory fields and upload the required documents in the appropriate file size and file type. Upon successful submission of the application, the applicant will get an Application Reference ID.Check Application Status:Step 01: Click on the \"Track Status\" link on the menu.Step 02: Enter the Application ID or Mobile Number to get the application status.",
     "officialUrl": "https://sugam.odisha.gov.in/website/home",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34179,7 +34179,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online RegistrationStep1: Go to the official website of \"The National Scholarship Portal\" (NSP) using a web browser.Step2: Look for the option that says \"New Registration\" on the homepage and click on it.Step3: Read the registration guidelines carefully before proceeding. then click Continue.Step4: Now Select your Aadhaar Category - Enter Mobile Number - Enter OTP - Enter Captcha Code, click VerifyStep5: Fill in the required details accurately in the registration form. This typically includes personal information such as - Scholarship Category - State - Name - Date of birth - Gender - Contact details, etc.Step6: Click submit Register and you get your Student application ID.ApplyStep1: Go to the official website of \"the National Scholarship Portal\" (NSP) using a web browser.Step2: click on Login \"Fresh Application\"Step3: After that enter you - Application ID. - Password - CaptchaStep4: Click Login",
     "officialUrl": "https://scholarships.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34227,7 +34227,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). Post-Application ProcessStep 1: The applications shall be scrutinized by the Directorate of the Industries on merit basis for the grant of incentives/subsidies/assistances to determine the quantum of amount admissible will be placed before the State Level Committee.Step 2: The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy and will recommend the quantum of incentive/subsidy admissible to the unit. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ei-mesifai-vi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34316,7 +34316,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the office of the concerned authority i.e. the Department of Fisheries and Fishermen Welfare/Sub-Offices of outlying regions in all four regions.Step 1: The interested applicant should request the hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).*The affected family (legal heir) should apply immediately within 30 days from the date of the event for consideration in case of the death of the fishermen.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/wrflsncs-idra",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34392,7 +34392,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: After the issue of notification regarding the scheme in the local newspapers, the interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. ORThe interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the authority given below - Puducherry: The Deputy Director, Differently Abled Section, Directorate of Social Welfare. Karaikal: The Assistant Director, Social Welfare Department (Sub Office).Mahe / Yanam: The Welfare Officer (i\\c), Social Welfare Department (Sub Office).Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://pgportal.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34460,7 +34460,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline RegistrationStep 1: The interested construction worker should visit the Office of the Puducherry Building and Other Construction Workers Welfare Board (Industrial Estate, Thattanchavady, Puducherry - 605 009) and obtain the prescribed format of the registration form free of cost from the concerned authority exclusively entrusted to issue and collect filled-in applications.Step 2: In the registration form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required), add a declaration stating that you are a construction worker, mentioning your worksite.Step 3: The interested construction worker should submit the duly filled and signed registration form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the registration form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).Step 5: Upon verification by the inspectors under the Act towards genuineness, the concerned worker will be enrolled as a beneficiary with the approval of the Secretary (Board). *The beneficiary should pay the registration of ₹25/- at the time of enrollment and ₹100/- per year as an annual subscription.*The Board collects ₹300/- as a renewal fee once in three years. ApplicationStep 1: The interested construction worker should visit the Office of the Puducherry Building and Other Construction Workers Welfare Board (Industrial Estate, Thattanchavady, Puducherry - 605 009) and obtain the prescribed format of the application form free of cost from the concerned authority exclusively entrusted to issue and collect filled-in applications. ORThe interested construction worker should take print of the prescribed format of the application form provided in the section \"Application for Welfare Benefits\" on Page No. 77 of the Citizen's Charter.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested construction worker should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).NOTE: The application should be submitted within one year from the date of discharge.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/amas-pbaocwwb",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34584,7 +34584,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). Post-Application ProcessStep 1: The applications shall be scrutinized by the Directorate of the Industries on merit basis for the grant of incentives/subsidies/assistances to determine the quantum of amount admissible will be placed before the State Level Committee.Step 2: The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy and will recommend the quantum of incentive/subsidy admissible to the unit. Application DeadlineWithin 1 year from the date of publication/notification of the patent.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/aipps-mesifai-vi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34688,7 +34688,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Applicant can apply through the nearest Anganwadi centeresProcedure To Apply Under Arogya Lakshmi Scheme Through Anganwadi Centre\n• Go to your nearest Anganwadi centre\n• Ask for Arogya Lakshmi application form\n• Fill all the required information in this application form\n• Attach all the required documents to the application form\n• Now submit this form in the Anganwadi centre\n• By following this procedure you can apply under Arogya Lakshmi scheme through Anganwadi centre",
     "officialUrl": "https://www.myscheme.gov.in/schemes/arogya-lakshmi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34756,7 +34756,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Application Process:Step 01: Applications shall be invited by the Tourism Department, Odisha by giving wide publication both in electronic and print media.Step 02: District Collectors shall publish copies of the advertisement in different district offices, blocks, Tehsils, and Gram Panchayat Offices for wide publicity.Step 03: The application forms shall be made available at the District Collectorate/ Block, Tahasil, Gram Panchayat Office, and District Tourist Offices and also will be available online at www.odishatourism.gov.inStep 04: A senior citizen desirous to avail the benefit of the scheme should fill up the application in the prescribed proforma (Form - Odia or English) (Annexure-I & II) and submit the same at O/O the Dist. Collector/ Tourist Officer of his/her respective district or any other authority designated by the Collector for this purpose, before the prescribed time-limit.Step 05: Application complete in all respects shall be forwarded/ submitted to the concerned Collectorate/ Dist. Tourist Officer or any other authority designated by the Collector within the prescribed time limit fixed by the Tourism Dept. from time to time. Note 01: Documents relating to proof of identity, address, and undertaking regarding medical fitness, and documents in support of eligibility should be affixed to the application. Submission of documentary proof in support of identity, age, and address shall be as per norms of Govt. of India/ Govt. of Odisha. Note 02: The Applicants should duly fill out the application form furnishing their emergency contact details (Name & Address, Telephone, Mobile, email ID, etc. of his relative for contact in case of emergency), Blood Group, 2 nos. of Photographs (Passport size) along with the application. Note 03: Joint applications for couples and with attendants should be filled according to the proforma. Note 04: The incomplete application or application received after the specified deadline and without required information/ documents/ Bank draft, if any, shall be summarily rejected. Selection Procedure:Step 01: The applications received by different offices should be sent to the District Tourist Office for allotment of district-wise code and registration numbers for selection by the district-level committee.Step 02: Every application should be given a District-wise code prescribed by the Tourism Department & registration number at the time of receipt at the District Tourist Office level. In cases of joint applications of a married couple or of a senior citizen above 70 years along with an attendant, the application will be given one registration number.Step 03: All the duly filled applications received by the different offices of the District Administration shall be scrutinized by the 'Cell' formed for this purpose. The scanned copies (soft copies) of the valid/eligible applications with attachments shall be forwarded to the office of the Collectors through the District Tourist Officer.Step 04: If there are more number of Applicants than the district-wise quota allotted for each district, The Dist. Level Selection Committee will make the selection of the pilgrims through a transparent lottery system such as drawl of lots or electronically through a Random Number Generator System or any transparent method as may be decided by the Selection Committee as per the District-wise Quota fixed by the Department of Tourism.Step 05: The Dist. Level Selection Committee should also select 20% extra applicants as wait-listed to accommodate for the shortfall if any. The district-wise quota of the pilgrims fixed for each district should be, as far as possible, equitably distributed by the district Collector among the Blocks/ULBs of the district based on the population of the blocks and municipal areas. The Collector can adjust the quota within the blocks and ULBs, taking into account local factors, if any.Step 06: The selected list of pilgrims of the District should be widely published in the District Headquarters, Tourist Office, and Block Offices for information of the general public.Step 07: In case of shortfall even after adjustment of waitlisted candidates, the balance pilgrims are to be selected from the district of \"Starting Point\" i.e. originating station or by any other method as directed by the Department of Tourism.Step 08: A soft copy of the list of such selected applicants & waitlisted applicants shall also be sent to the DoT well in advance before the commencement of the train journey.Step 09: The District Collectors shall be provided with a contingency fund to meet the expenditure on scanning of the document, travel expenses, stationeries, office assistance, any other related expenses, etc.Step 10: An Applicant, who has been selected for the journey and later decided not to perform the journey due to some unavoidable circumstances, should have informed the Concerned Dist. Collector/ Tourist Officer/ Tourism Dept. at least 7 days before the date of commencement of the journey. In such case, the Applicant can be considered to avail the benefit in the next journey. In the case where the Applicant has not intimated the fact for cancellation of his journey before 7 days to the Dist. Collector/ Tourist Officer/ Tourism Dept., he will be debarred for subsequent journey and journey cost, if any deposited for the purpose shall be forfeited.",
     "officialUrl": "https://yatra.odisha.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34844,7 +34844,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the Department of Tribal Welfare, Govt. of Goa, Shram Shakti Bhavan,5th Floor, Patto, Panaji-Goa, - 403\n• 001.Step 2: Take a print of the proforma of the application form, or request a hard copy from the concerned authority.Step 3: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).Step 4: Submit the duly filled and signed application form along with the documents to the concerned authority.",
     "officialUrl": "https://www.goa.gov.in/wp-content/uploads/2022/05/Citizen-Charter-2022-tribal-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -34960,7 +34960,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Unregistered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Asangathit Shramik Panjikaran\"What do you want to do : \"Aavedan\"Click next. Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. Fill out the online \"Registration form\".Submit. Already Registered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
     "officialUrl": "https://cglabour.nic.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35012,7 +35012,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 01: The applicant needs to visit the office of the Social Welfare Department (DSWO) in his/her Block/District and collect the application form. The application form can also be downloaded from the Official Website of the Department.Step 02: The applicant should fill out the application form and attach all the essential documents.Step 03: After filling out the application form, the applicant needs to get attested to the form from the concerned authority as mentioned in the application form.Step 04: Then the application form should be submitted to the office of the Social Welfare Department (DSWO) of your Block/District.",
     "officialUrl": "https://socialjusticehry.gov.in/forms/page/2",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35104,7 +35104,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline In order to get the benefit of Odisha Mamata Yojana, The beneficiary is required to register at Anganwadi centers and mini Anganwadi centers to which the beneficiary belongs.",
     "officialUrl": "https://wcd.odisha.gov.in/ICDS/mamata",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35164,7 +35164,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The Directorate of Border Areas Development submits proposals to Border Areas Development Department, the Department then forwards the same to Planning and Finance Departments for approval and sanction.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/isbadp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35220,7 +35220,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online\n• 1. Eligible applicants can apply for the scheme through the official website of the Department of Health & family Welfare of Himachal Pradesh https://sahara.hpsbys.in/Home/Default or by submitting the application form at the nearest block development office or panchayat.\n• 2. Applicants are required to fill out the application form with accurate information and submit it along with the required documents.\n• 3. After submitting the application form, the applicant will receive an acknowledgement receipt with a unique application ID.",
     "officialUrl": "https://sahara.hpsbys.in/Home/Default",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35353,7 +35353,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE: The applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist: D+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement: D+90 days",
     "officialUrl": "https://www.goa.gov.in/wp-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35434,7 +35434,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI- Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button. Note: The application must be submitted after six months of marriage and within one year period.",
     "officialUrl": "https://suneethi.sjd.kerala.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35510,7 +35510,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Visit the official website of the Rajasthan Government http://cmrelief.rajasthan.gov.in/Look for the application form for the Kargil Package or contact the nearest Sainik Welfare and Resettlement Office for the application form. Fill in the application form with all the required details, such as the name of the martyr or disabled soldier, the relationship with the soldier, bank account details, etc. Attach all the necessary documents, such as the death or disability certificate of the soldier, identity proof, bank account details, etc. Submit the application form along with the required documents to the nearest Sainik Welfare and Resettlement Office or online, if available. The committee will review the application and process it accordingly. If the application is approved, the financial assistance will be provided to the applicant as per the scheme's guidelines.",
     "officialUrl": "http://cmrelief.rajasthan.gov.in/Look",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35575,7 +35575,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the District Differently Abled Welfare Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Differently Abled Welfare Officer.Step 4: Request a receipt or acknowledgment from the District Differently Abled Welfare Officer to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/matnpmvip-tn",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35627,7 +35627,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Unregistered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Asangathit Shramik Panjikaran\"What do you want to do : \"Aavedan\"Click next. Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. Fill out the online \"Registration form\".Submit. Already Registered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
     "officialUrl": "https://cglabour.nic.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35683,7 +35683,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). *The applications will be processed by the Industries Department to obtain sanctions. These cases need not be placed before the said State Level Committee. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ei-mesifai",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35763,7 +35763,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit the office of the concerned authority i.e. the Department of Fisheries and Fishermen Welfare/Sub-Offices of outlying regions in all four regions.Step 1: The interested applicant should request the hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).*The affected family (legal heir) should apply immediately within 30 days from the date of the event for consideration.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ira-wrflsncs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35855,7 +35855,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online RegistrationStep-1: Applicant have to visit the \"ServicesPlus\" website. Step-2: Click on \"Register\" on the homepage. Step-3: Fill out the registration form with your - Full Name - Email id - Mobile number - Password - Select State - Enter CaptchaStep-4:\nReview the details to ensure accuracy, and then submit registration. Step-5: After successful registration, you may receive a confirmation message on the website or via email, confirming that your registration was successful. ApplyStep-1: Applicant have to visit the \"ServicesPlus\" website and loginStep-2: Apply for Services. Step-3: Select the services/Scheme name. Step-4: Provide the required details in the application form. Step-5: Submit.",
     "officialUrl": "https://serviceonline.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35931,7 +35931,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The eligible person(s)/patient can avail of the cashless benefit in any empanelled hospital notified by the Administration from time to time 'by completing the codal formalities at Nodal Cell (ANISHI)'.Step 02: The patient is to be referred by the concerned specialist of GB Pant Hospital, Port Blair thereafter, he/she has to approach the Nodal Cell (ANISHI) located at the DHS Office for the cashless benefit of the scheme.Step 03: The state Nodal Cell processes the case within 02 days and after obtaining approval of the Chairman ANISHI, orders are issued to the empanelled hospital to provide cashless benefit to treat the referred patient under the ANISHI Scheme. Note 01: In case the beneficiary is on his personal visit to the mainland and had fallen sick requiring emergency treatment and gets admitted to one of the empanelled hospitals under the scheme, the Medical Superintendent /Director of the concerned empanelled hospital in the mainland will have to first inform the Nodal Officer (ANISHI) about the particulars of the patient and his/her clinical condition. Note 02: The State Nodal Cell after verification of records convey the approval to treat the patient as per the guidelines of the scheme, however, the patient/relatives have to submit the documents as the case may be. Note 03: In such cases, the travel expense to the patient /attendant will not be reimbursed. If the patient gets admitted in a 'hospital which is not empanelled' under the scheme, then the benefit will be extended only if the patient is shifted to the nearest empanelled hospital under the scheme.(Application Form)",
     "officialUrl": "https://www.myscheme.gov.in/schemes/anishi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -35987,7 +35987,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). Post-Application ProcessStep 1: The applications shall be scrutinized by the Directorate of the Industries on merit basis for the grant of incentives/subsidies/assistances to determine the quantum of amount admissible will be placed before the State Level Committee.Step 2: The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy and will recommend the quantum of incentive/subsidy admissible to the unit. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ata-mesifa-cii",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36072,7 +36072,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 01: The only way to apply for this scheme is through Application Form.Step 02: To take benefit of the scheme, the family has to nominate a woman from their home.Step 03: Then all the information of the nominated woman will have to be filled in the Application Form as follows: Applicant Details:• Block/ULB Name.\n• Gram Panchayat/Town Name.\n• Village Name/Ward Number.\n• Locality in Town.\n• Applicant First Name.\n• Applicant Middle Name.\n• Applicant Last Name.\n• Gender.\n• Age as on 01.04.2020.\n• House Number.\n• Locality.\n• Police Station Name.\n• Pin Code.\n• Contact/Mobile Number. Family Details:• Name.\n• Age.\n• Gender.\n• Relationship Status.\n• Priority Status: D - Divorced, S - Separated, W - Widow, DY - Divyang. Bank Account Details:• IFSC Code.\n• Bank Name.\n• Bank Branch Name.\n• Bank Account Number.\n• Annual Family Income. Documents to be Attached:• Bank Passbook First Page. (Yes or No).\n• Priority Supporting Documents. (Yes or No).\n• Any Other Document. (Yes or No).Step 04: The duly filled Application Form by the applicant shall be submitted to his/her nearest Urban Local Body Office or in a Gram Panchayat Office.Step 05: After submission of the Application Form, an acknowledgement slip will be given to the applicant by the Urban Local Body or Gram Panchayat Office.Step 06: This acknowledgement slip will be the proof that the Applicant's Application Form has been submitted.Step 07: Then then various level committees will scrutinize the applications received and verify them thoroughly.Step 08: After thorough verification, the list of selected and eligible beneficiaries will be uploaded on the portal and they will get the amount transferred to their bank accounts on the first day of every month.",
     "officialUrl": "https://govtschemes.in/sites/default/files/2022-",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36186,7 +36186,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The Collector of the district shall organize the Samarthya Sibir through the concerned BDO/ EO of ULBs by coordinating with other Government officials, medical personnel and other agencies/ authorities/ NGOs/ persons.",
     "officialUrl": "https://ssepd.gov.in/system/download/BBSA%20Guideline%202019.pdfFrequently",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36254,7 +36254,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline How to get register and apply for the schemeApplicant must visit the below officesNearest labor office. Tehsildar of the concerned tehsil. Block Development Officer of the concerned development block. Get the application form and fill out the completely. Attach required documents in the prescribed format. Submit the application form in the same office.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/aavy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36310,7 +36310,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Unregistered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service :\n\"Asangathit Shramik Panjikaran\"What do you want to do : \"Aavedan\"Click next. Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. Fill out the online \"Registration form\".Submit. Already Registered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
     "officialUrl": "https://cglabour.nic.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36362,7 +36362,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI-Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button.",
     "officialUrl": "https://suneethi.sjd.kerala.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36442,7 +36442,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mmbsy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36485,7 +36485,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE:\nThe applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist: D+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement: D+90 days",
     "officialUrl": "https://www.myscheme.gov.in/schemes/intss",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36569,7 +36569,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online RegistrationStep-1: Applicant have to visit the official portal. Step-2: Click on the option \"Register\".Step-3: Then you will be redirected to the SSO registration page. The registration page will appear with the following options. CitizenStep-4: Choose the either one option from the Jan Aadhaar Or Google to process further. Jan Aadhaar : Enter the Jan Aadhaar number, click on the 'Next' button,Select your name, the name of the head of the family and all the other members and Click on the 'Send OTP' button. Enter the 'OTP' and Click on the 'Verify OTP' button to Complete the registration. Google : Enter the Gmail ID, click on the 'Next' button, Enter the password. A new link appear on screen, now click on new SSO link. SSO id will appear on screen, now create the password. Enter Mobile number, click on registration. Apply Step-1: Applicant have to visit the official portal. Step-2: After login, dashboard will open. Step-3: Click on \"IFMS-RAJSSP\" option. Step-4: In \"IFMS-RAJSSP\", click on \"Application Entry Request\".Step-5: Enter the \"Bhamashah Family ID\" and search. Step-6: Select the person name and scheme name. Step-7: Complete the Aadhaar Authentication and click on get details. Step-8: Provide the required details. - Pensioner Details. - Bank Details. - Disability Details. - Verification Details. - Upload Documents. Step-9: Submit.",
     "officialUrl": "http://wcd.rajasthan.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36633,7 +36633,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Registration Process: Visit West Bengal Freeship Scheme portal: https://wbhed.gov.in/wbfs/ Click on \"How to Apply\" on menu bar. Read the instructions carefully, after that click on the checkbox to agree terms and then \"Proceed for Registration\".After proceed, the Registration form will be opened. Fill up the registration formand click on \"Submit\" button. Now set and confirm a password after filling all the details very carefully. On clicking the \"Submit Registration\" button OTP will be sent to the given mobile number for authentication. After successful OTP verification the WBFS registration process will be completed. After successful registration, an Applicant Id will be generated and the same will be sent to the registered email id. Post-Registration Process: Visit West Bengal Freeship Scheme portal: https://wbhed.gov.in/wbfs/ Now at home page Applicant Login section, enter the Applicant Id, Password(Which was setduring registration process), Security Code and then click on the \"Login\" button. After successful login, Dashboard of the concerned applicant will be appeared. Click on \"Edit Profile\" or \"Edit Application\" to continue the application process. First fill up the Basic Details form and then click on \"Save & Continue\" button. Star (*) marked fields are mandatory fields. Now, Personal Details form will appear after successful submission of Basic Details. Fill up the form and then click on \"Save & Continue\" button. After successful submission of Personal Details form, Scanned Supporting Documents form will be appeared. Upload all the necessary documents as required and then click on \"Submit Profile\" button. While uploading the documents, please maintain the File Format and File Size as instructed in the form. After successful submission of the Application, a success message regarding the submission will be displayed. Applicants may download the Application details by clicking on the \"Download Profile\" button. Click on \"Final Submit\" Application button to complete the application Process. To view the Profile/Application, click on \"View Profile\" option in Dashboard or click on \"View Application\" option under Application Details tab in Menu area. Note: After final submission there is no option to modify the online application form.",
     "officialUrl": "https://wbhed.gov.in/wbfs/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36757,7 +36757,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit the official website. Navigate to the \"Click here for Loan Subsidy\" section.Step 2: Click \"Assam Abhinandan (Education Loan Subsidy Scheme)\". You will be taken to \"Application for Release for Subsidy\". Fill in all the mandatory details:\nApplicant Name, Father's Name, Date Of Birth, Address, Mobile Number, PAN Card Details, and Bank Details. Upload the Supporting Documents: Loan Proof (Loan Sanction Letter, Loan Account Passbook, Statement of Loan), Address Proof, and PAN Card.Step 3: Check the Declaration, and click \"Save\".Check Application Status:Step 1: Visit the official website. At the bottom right of the page, in the \"Application Tracking\" section, click \"Track\".Step 2: On the next page, provide your Mobile Number, and Loan Account Number or Application Number, and click \"Submit\".",
     "officialUrl": "https://assam.gov.in/assam-abhinandan-education-loan-subsidy-scheme",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36813,7 +36813,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the Deputy Functional Manager (EI) of the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/edpedp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36877,7 +36877,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the Block Level Office.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mmky-iaftufffp",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -36960,7 +36960,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Adi Dravidar Welfare and Scheduled Tribes Welfare Department, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://py.gov.in/sites/default/files/citizencharter-adidravidar.pdf",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37080,7 +37080,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Women and Child Development, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. ORThe interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the Deputy Director (Women Development) or the Child Development Project Officer (depending on the location), at least 30 days before the proposed marriage date.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://wcd.py.gov.in/contact-us",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37224,7 +37224,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). Post-Application ProcessStep 1: The applications shall be scrutinized by the Directorate of the Industries on a merit basis for the grant of incentives/subsidies/assistance to determine the quantum of amount admissible will be placed before the State Level Committee.Step 2: The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy and will recommend the quantum of incentive/subsidy admissible to the unit. Application DeadlineWithin one year from the date of commencement of regular commercial production. The delay can be condoned by the State Level Committee.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cis-mesifa-cii",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37312,7 +37312,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online & OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Women and Child Development, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. ORThe interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the Deputy Director (Women Development) or the Child Development Project Officer (depending on the location), at least 30 days before the proposed marriage date.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://wcd.py.gov.in/contact-us",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37452,7 +37452,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application process:Step 01: Advertisement for the award shall be uploaded every year in January on the Department Website with the prescribed format for the application.Step 02: The applicant/Applicant organization can download the application form from the official website or collect it from the office of the District Collector, DSOs, SPs, NYKS, Odisha Council of Sports and Sports & Youth Services Department.Step 03: Fill in the all necessary details in the application form and attach all the relevant documents.Step 04: The application forms can be sent by the Collector, SP, DSO, NYKS concerned Sports Association, the person himself/herself or Odisha Council of Sports to the Sports & Youth Services Department. Note 01: The Department of Sports and Youth Services also reserves the right to suo moto nominate names for the award. Note 02: The application form and all supporting documents must be self-attested by the applicant, i.e. there is no need for attestation by any Gazetted officerScrutiny of Application: The Secretary, Sports and Youth Services Department will constitute a five-member scrutiny Committee comprising senior officials and coaches of the Department with Director-cum-Addl. Secretary, Sports and Youth Services Department or the senior most officer of the Department as head of the Committee to scrutinize all the applications and place the scrutiny result before the selection committee for consideration. Selection Procedure: An eight-member Selection Committee will be constituted by Govt. under the chairmanship of the Secretary, Sports and Youth Services Department for the selection of awardees. The Selection Committee shall examine the scrutinized nominations/ applications and recommend names for each award for approval of the Government at the level of Hon'ble Minister, Sports & Youth ServicesTimeline for the Award: Invitation of application through issue of Advertisement: By 31st January. Last date for receipt of applications: By 31st MarchScrutiny and Selection: By 31st MayAward Ceremony: 29th August (National Sports Day)",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bpsabcpsg",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37521,7 +37521,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline How to get register and apply for the schemeApplicant must visit the below officesNearest labor office. Tehsildar of the concerned tehsil. Block Development Officer of the concerned development block. Get the application form and fill out the completely. Attach required documents in the prescribed format. Submit the application form in the same office.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/avy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37569,7 +37569,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Applicants have to visit the official portal. Click on Applicant Registration. On the new page, the registration form will appear. Applicants have to provide the required details. Submit.",
     "officialUrl": "https://ashirwad.punjab.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37621,7 +37621,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: Visit the official web portal of the Odisha Working Journalist Welfare Scheme Application. i.e. https://owjws.odisha.gov.in/Step 02: Click on 'Apply for Financial Assistance' found on the bottom of the page.Step 03: One new page appears 'Application for Financial Assistance in case of death of a working journalist'.Step 04: The journalist will have to fill up all the mandatory details.Step 05: Upon successful form submission One application number is generated which a journalist can use for further reference. i.e. for application status.Step 06: The applicant will receive an SMS in respective registered mobile number regarding successful submission of the application.Step 07: The applicant can login into the application by giving the respective registered mobile number.Step 08: After giving the mobile number, the journalist will receive an OTP on the mobile number. On successful submission of OTP, the applicant will able to login into the application.Step 09: On the page, the applicant will be able to view the application status.",
     "officialUrl": "https://owjws.odisha.gov.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37705,7 +37705,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Applicants have to download the application form from the official website or from here. Applicants can also get the application form from the village Patwari office in their area. Fill out the application form. Attach the necessary documentsSubmit the application form and all the necessary documents to the Village Patwari. Village Patwari will get the application approved and applicants can receive the confirmed through the given mobile number and email id.",
     "officialUrl": "https://pmkisan.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37761,7 +37761,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 01: First go to the official website, and fill out the application form.Step 02: Print the application form.Step 03: Submit this application form along with other relevant documents to the Selection Panel of your concerned district.Step 04: After the approval of the Selection Panel, Subsidy will be transferred to your bank account.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/subsidy-scheme-for-taxi",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37833,7 +37833,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline\n• 1. The application form for the scheme can be obtained from the nearest Leprosy Control Unit or the District Social Welfare Office.\n• 2. The duly filled application form along with the required documents should be submitted to the concerned authorities.\n• 3. After the verification of the documents, the applicant will be enrolled in the scheme and will receive financial assistance.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ral",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37908,7 +37908,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Mode of application: Application for the scholarship is submitted to the Head of school/college/ institution who after verifying it shall forward it to the DSSO of the concerned district. Whom to contact: Office of District Social Security OfficerGrievances Redressal: District Social Security OfficerHead Office, Helpline (0172-2\n• 608746) Email: dsswcd@punjab.gov.indddwcd8@gmail.com",
     "officialUrl": "https://www.myscheme.gov.in/schemes/assgsdra",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -37980,7 +37980,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the District Industries Centre (Thattanchavady, Puducherry - 605 009), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/edp-dc",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38032,7 +38032,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The scheme shall be advertised through the Departmental website, newspapers and wall posters in the District and Block Fisheries Offices across the state.Step 1: The interested PFCS should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the District Fisheries Officer of the concerned district.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mmky-rfcs",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38108,7 +38108,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OnlineStep 1: Visit www.ssepd.gov.in. In the \"Beneficiary Services\" section, click \"Marriage Incentive\". You will be redirected to the Online Application Form: https://ssepd.gov.in: 8443/swp/applyMarriageIncentiveScheme.htmStep 2: Fill in the application form, upload the signature of your spouse and yourself, and click \"Submit\". The applicants may take printout of the system-generated application on complete documentation for his/her record.",
     "officialUrl": "https://ssepd.gov.in:8443/swp/applyMarriageIncentiveScheme.htm",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38188,7 +38188,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Social Welfare, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the authority given below - Puducherry: The Deputy Director, Differently Abled Section, Directorate of Social Welfare. Karaikal: The Assistant Director, Social Welfare Department (Sub Office).Mahe / Yanam: The Welfare Officer (i\\c), Social Welfare Department (Sub Office).Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://socwelfare.py.gov.in/aravanaippu-illam-puducherry",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38241,7 +38241,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). *The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cis5aciskr-mesifai",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38337,7 +38337,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Firstly, Applicant have to register at labor office of the area. Get the application form and full fill the form with required detailsAttach the required documents. The application will have to be submitted within the time limit to same office.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bpsy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38393,7 +38393,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application process:Step 01: Advertisement for the award shall be uploaded every year in January on the Department Website with the prescribed format for the application.Step 02: The applicants can download the application form from the official website or collect it from the office of District Collector, DSOs, SPs, NYKS, Odisha Council of Sports and Sports & Youth Services Department.Step 03: Fill in the all necessary details in the application form and attach all the relevant documents.Step 04: The application forms can be sent by the Collector, SP, DSO, NYKS concerned Sports Association, the person himself/herself, or Odisha Council of Sports to the Sports & Youth Services Department. Note 01: The Department of Sports and Youth Services also reserves the right to suo moto nominate names for the award. Note 02: The application form and all supporting documents must be self-attested by the applicant, i.e. there is no need for attestation by any Gazetted officer. Scrutiny of Application: The Secretary, Sports, and Youth Services Department will constitute a five-member scrutiny Committee comprising senior officials and coaches of the Department with Director-cum-Addl. Secretary, Sports and Youth Services Department or the senior most officer of the Department as head of the Committee to scrutinize all the applications and place the scrutiny result before the selection committee for consideration. Selection Procedure: An eight-member Selection Committee will be constituted by Govt. under the chairmanship of Secretary, Sports and Youth Services Department for the selection of awardees. The Selection Committee shall examine the scrutinized nominations/applications and recommend names for each award for approval of Government at the level of Hon'ble Minister, Sports & Youth Services. Timeline for the Award: Invitation of application through issue of Advertisement: By 31st January. Last date for receipt of applications: By 31st MarchScrutiny and Selection: By 31st MayAward Ceremony: 29th August (National Sports Day)",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bpsaec",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38462,7 +38462,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: Visit the District Social Welfare Office, and request a hard copy of the format of the application form for the scheme from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents.Step 3: Submit the duly filled and signed application form along with the documents to the District Social Welfare Officer.Step 4: Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office. Post-Application Processes:Step 1: On receipt of the application duly completed by the applicant, the DSWO shall consolidate the list and forward it to the District Level Sanctioning Committee.Step 2: The superintendent shall admit/discharge any inmate with the approval of the District Social Welfare Officer concerned and the Deputy Director of Administration, Directorate of Social Welfare Jammu. Check Application Status: The District Social Welfare Officer (DSWO) can be contacted regarding the application status of the scheme.",
     "officialUrl": "https://jkdswdj.jk.gov.in/whowho/tsoOffice.pdfWho",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38530,7 +38530,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online To take advantage of this scheme, the application form will be available at all Anganwadi centers of the Child Development Project. The application form for this scheme will be made available free of cost by the maids of all Anganwadi centers. For the benefit of this scheme, the applicant will fill the application in the prescribed form and submit it at the concerned Anganwadi centers along with all the necessary documents. Child Development Project Officer will be the acceptance officer for this. Registering the application form filled by the acceptance officer, the Assistant Director will make it available to the District Child Protection Unit. Office of the Assistant Director District Child Protection Unit will compile the list of applications and take action to transfer the allocated amount to the beneficiary's mother/father/guardian's account.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmkuy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38586,7 +38586,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).Step 2: The applicant should send the application to: Director, Directorate of Women And Child Development, Panaji-Goa, 2nd floor, Old Education Building, 18th June Road, Altinho, Panaji, Goa - 403 001.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/gas",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38702,7 +38702,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Applicants can get the application form from the Women's Empowerment and Child Development Office. Fill out the application form carefully and submit it to the office along with all the necessary documents. The submitted application will be verified by the Women Empowerment and Child Development Department. After the clean verification, the applicant can avail the benefits of the scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/msay",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38758,7 +38758,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline The Applicant should contact District Differently Abled Welfare Officer and submit an application at the address of Assistant Director (DAW), O/o. The Commissionerate for Welfare of the Differently Abled, No.5, Kamarajar salai, Chennai - 600\n• 005. Ph: 044-28444940 District Collector / Managing Director of the Metropolitan / State Transport Corporation.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/tcdapsotcb",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38818,7 +38818,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Open the Nation Scholarship portal web siteNavigate to 'Applicant Corner'and click on 'New Registration'.Now click on 'Click here for other Scholarship Schemes hosted. Read the guidelines carefully, select the undertaking, and 'Continue'. Select the state of domicile, scholarship category (Pre Matric), scheme type (scholarship scheme), gender, and write the applicant's name, date of birth, mobile number, and email ID.Provide the bank details (Bank name, IFSC Code, Account Number) Select Aadhaar or Bank Account Number as identification detail and click on the 'Register' button. The mobile number will be verified and an OTP will be generated. Now, log in using OTP and fill out the application form. After successful submission of the application form, an application ID and password will be generated which can be used for future references.",
     "officialUrl": "https://scholarships.gov.in/.Do",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38866,7 +38866,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should visit (on a working day, and during office hours) the General Manager of the District Industries Centre (Thattanchavady, Puducherry - 605 009, 2248391, 2249392, 2248987, dic_pdy@bsnl.in), and submit the duly filled and signed application form and the documents to the concerned authority.Step 4: On receipt of the application, necessary entries will be made in the application receipt register and a unique number is assigned to the applicant for identifying each applicant which shall be used for all further references and also as acknowledgement for the receipt of the application. Time of Submission of Application: Month of January (Advertisement will be floated in local dailies during December).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/ipt",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -38930,7 +38930,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The applicant should take print of the prescribed format of the application form.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: Submit the duly filled and signed application form along with the documents to the Assistant Fisheries Officer (AFO)of the concerned block.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
     "officialUrl": "https://www.myscheme.gov.in/schemes/mmky-smsff",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39009,7 +39009,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Visit the official website. Registration is mandatory for e-filling up the form. Use login credentials to log in. Only eligible candidates as per guidelines/advertisement should fill up the form with Personal Details. Upload Photo & Signature. Upload Documents. Finalise and submit application.",
     "officialUrl": "https://online.bih.nic.in/Which",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39069,7 +39069,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Unregistered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Asangathit Shramik Panjikaran\"What do you want to do : \"Aavedan\"Click next. Check the eligibility criteria for registration in Chhattisgarh Unorganized Workers State Social Security Board and click next. Fill out the online \"Registration form\".Submit. Already Registered Applicant :All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Unorganized Workers State Social Security Board\".Enter the following detailsSelect Group Name : \"Asangathit Marmakaar Mandal\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
     "officialUrl": "https://cglabour.nic.in",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39121,7 +39121,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The industrial unit should register the claim for the grant of incentive/subsidy in the prescribed form available on the Official Website of the Directorate of Industries and Commerce, Puducherry.Step 2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 3: The unit should submit the duly filled and signed application form and the documents to the concerned authority.Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application form has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). *The State Level Committee will go into the merits of each case to decide whether the unit qualifies for the grant of incentive/subsidy. Application DeadlineFor New UnitsWithin one year from the date of commencement of obtaining the Entrepreneurs Memorandum Part-2/ Permanent Registration/ Commencement of Production Certificate. For Existing UnitsWithin one year of completion of Expansion/ Diversification/ Modernization.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cisitites-mesifai",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39217,7 +39217,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: OfflineStep 1: The interested applicant should take print of the prescribed format of the application form for the concerned scheme from the Official Website of the Department of Sainik Welfare. ORThe interested applicant should visit (on a working day, and during working hours) the Rajya Sainik Board, Jawan Bhawan, Department of Sainik Welfare, Government of Puducherry, 261, Lawspet Main Road, Pakkamudianpet, Puducherry Road, Lawspet, Puducherry - 605013, India, and request a hard copy of the prescribed format of the application form from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Step 3: The interested applicant should submit the duly filled and signed application form and the documents to the concerned authority at the Rajya Sainik Board.Step 4: A receipt of the application will be assigned to the applicant by the concerned authority. Queries/Complaints/Suggestions/GrievancesAddress: 261, Lawspet Main Road, Pakkamudianpet, Puduchery Rd, Lawspet, Puducherry - 605013, IndiaPhone Number: (+91)(0413) 2253107Email:\ndirdsw.pon@nic.inHours: Monday - Friday, 2:30 pm to 5:00 pm",
     "officialUrl": "https://sainik.py.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39277,7 +39277,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application process:Step 01: The advertisement for the award shall be uploaded every year in January on the Department Website with the prescribed format for the application.Step 02: The applicant can download the application form from the official website or collect it from the office of District Collector, DSOs, SPs, NYKS, Odisha Council of Sports and Sports & Youth Services Department.Step 03: Fill in the all necessary details in the application form and attach all the relevant documents.Step 04: The application forms can be sent by the Collector, SP, DSO, NYKS concerned Sports Association, the person himself/herself, or Odisha Council of Sports to the Sports & Youth Services Department. Note 01: The Department of Sports and Youth Services also reserves the right to suo moto nominate names for the award. Note 02: The application form and all supporting documents must be self-attested by the applicant, i.e. there is no need for attestation by any Gazetted officer. Scrutiny of Application: The Secretary, Sports and Youth Services Department will constitute a five-member scrutiny Committee comprising senior officials and coaches of the Department with Director-cum-Addl. Secretary, Sports and Youth Services Department or the senior most officer of the Department as head of the Committee to scrutinize all the applications and place the scrutiny result before the selection committee for consideration. Selection Procedure: An eight-member Selection Committee will be constituted by Govt. under the chairmanship of the Secretary, Sports and Youth Services Department for the selection of awardees. The Selection Committee shall examine the scrutinized nominations/applications and recommend names for each award for approval of Government at the level of Hon'ble Minister, Sports & Youth Services. Timeline for the Award: Invitation of application through issue of Advertisement: By 31st January. Last date for receipt of applications: By 31st MarchScrutiny and Selection: By 31st MayAward Ceremony: 29th August (National Sports Day)",
     "officialUrl": "https://www.myscheme.gov.in/schemes/bpsaesj",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39337,7 +39337,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Online - via CSCsApplication Process:Step 01: The owners of the residential properties, desirous of getting their property registered as a Bed & Breakfast unit/Homestay unit, shall submit their application on the web portal of the Department of Tourism (https://punjabtourism.punjab.gov.in/).Step 02: The applicants need to visit the official Portal, on the middle of the home page, and click on 'BNB/Homestay Scheme' under \"Registered your Units With Punjab Tourism\".Step 03: On the scheme window page, in case, the applicant is not registered yet, click on 'Register Yourself' and fill in all the mandatory details for registering yourself.Step 04: After successful registration, click on \"Apply for Service\" and select 'Online'.Step 05: Now, the applicant can login through his/her Login ID & Password.Step 06: After successful login, the applicant can fill out the application form and submit the form after uploading all the requisite documents.Step 07: The application fee shall be deposited online in the account of the Punjab Heritage & Tourism Promotion Board as given on the website. Proof of having paid the necessary fee shall be uploaded on the website.Step 08: On successful submission of the application, a system-generated email shall be sent to the applicant as an acknowledgement. Application Fee: A non-refundable application fees shall be payable for registration/renewal of Bed & Breakfast units and Homestay units as follows:• For Gold Category: ₹5,000/-• For Silver Category: ₹3,000/- Registration of the Property: On receipt of the online application and the requisite documents, the certificate of provisional registration will be, automatically issued to the applicant. After this, the applicant shall be eligible to operate till the registration is cancelled. A certificate of registration will be issued to the applicant within 7 working days. In case of failure to issue the certificate of registration within the stipulated period of time, the property shall be deemed to have been registered. Submission of periodic Reports by the BnB/Homestay units: The owners of the registered BnB/Homestays shall submit online a quarterly report about the number of guests served, on the prescribed Proforma (Annexure V) through the online system. Cancellation of Registration: Any violation of the terms and conditions of the scheme may attract cancellation of registration by the CEO, PHTPB after giving a due opportunity of being heard to the owner of the registered unit. If at any stage, it is found that the information given by the applicant was not correct, the registration of the property shall be cancelled. Failure on more than one occasion to submit the quarterly reports within the prescribed time limit may result in the cancellation of the certificate of registration. Complaints by customers may be investigated by an authorized officer and if the allegations are found to be true, then the certificate of registration may become liable for cancellation. The Bed & Breakfast/Homestay Certificate will stand cancelled automatically on change of ownership of the property. It shall be incumbent upon the applicant to inform the CEO, PHTPB regarding any change in the ownership of the property.",
     "officialUrl": "https://punjabtourism.punjab.gov.in/",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39421,7 +39421,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Offline Application forms will be available at Gram Panchayat / Ward Office / Camp siteApplicants have to fill out the application form with the photograph. Application forms will be submitted in Ladli Bahna Portal/App at camp site/gram panchayat/ward office.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/cmlby",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39473,7 +39473,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": "Mode: Online Application FormWithin one year of the completion of the marriage, an application will have to be made from the website of Public Service Center / Board along with all necessary records, but in case of mass marriage, the application can be made 15 days before the date fixed for the marriage. For all those registered construction workers who will be eligible under this scheme, who are the latest duly registered members of the board, as well as the age of the daughter of such registered construction worker or the registered female worker herself should not be less than the age prescribed by the government from time to time. Such updated registered construction workers who have completed at least one year (365 days) membership of the board after registration will be able to apply for benefits under this scheme.",
     "officialUrl": "https://www.myscheme.gov.in/schemes/kvsy",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [
@@ -39577,7 +39577,7 @@ export const schemes = [
     "level": "State",
     "applicationProcess": ": The application process for the scheme is easy, and the forms are available both online and offline. This ensures that eligible families can easily apply for the scheme without facing any bureaucratic hurdles. Timely Assistance: The scheme can be applied for three months before the date of marriage and up to one year after the date of marriage. This ensures that eligible families can receive timely assistance for the wedding expenses of their daughters. Overall, the Rupashree Prakalpa Scheme is an excellent initiative that aims to provide financial assistance to economically disadvantaged families of West Bengal for the marriage of their daughters. The scheme has several benefits, including financial assistance, dignity, encouragement for education, an easy application process, and timely assistance, which can help improve the social status of girls in the state and promote gender equality.",
     "officialUrl": "http://wbcdwdsw.gov.in/User/rupashree_prakalpa",
-    "status": "NeedsVerification",
+    "status": "Active",
     "lastVerifiedAt": null,
     "eligibility": {
       "create": [

@@ -1,4 +1,11 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { PrismaClient } from '@prisma/client';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const generatedPath = path.resolve(__dirname, '..', 'src', 'data', 'translations.generated.json');
 
 const prisma = new PrismaClient();
 
@@ -119,6 +126,62 @@ async function seedTranslations() {
     });
 
     console.log(`✅ Seeded [${t.language}] translation for: ${scheme.name}`);
+  }
+
+  // Also seed generated translations if available
+  if (fs.existsSync(generatedPath)) {
+    try {
+      const generated = JSON.parse(fs.readFileSync(generatedPath, 'utf8'));
+      const entries = Object.entries(generated);
+      console.log(`\n📦 Found ${entries.length} additional generated translations in ${path.basename(generatedPath)}...`);
+
+      let count = 0;
+      for (const [slug, data] of entries) {
+        const scheme = await prisma.scheme.findUnique({ where: { slug } });
+        if (!scheme) continue;
+
+        if (data.hi?.name) {
+          await prisma.schemeTranslation.upsert({
+            where: { schemeId_language: { schemeId: scheme.id, language: 'hi' } },
+            update: {
+              name: data.hi.name,
+              description: data.hi.description || '',
+              applicationProcess: data.hi.applicationProcess || '',
+            },
+            create: {
+              schemeId: scheme.id,
+              language: 'hi',
+              name: data.hi.name,
+              description: data.hi.description || '',
+              applicationProcess: data.hi.applicationProcess || '',
+            },
+          });
+          count++;
+        }
+
+        if (data.bn?.name) {
+          await prisma.schemeTranslation.upsert({
+            where: { schemeId_language: { schemeId: scheme.id, language: 'bn' } },
+            update: {
+              name: data.bn.name,
+              description: data.bn.description || '',
+              applicationProcess: data.bn.applicationProcess || '',
+            },
+            create: {
+              schemeId: scheme.id,
+              language: 'bn',
+              name: data.bn.name,
+              description: data.bn.description || '',
+              applicationProcess: data.bn.applicationProcess || '',
+            },
+          });
+          count++;
+        }
+      }
+      console.log(`✅ Seeded ${count} translations from generated file.`);
+    } catch (err) {
+      console.warn(`⚠️ Error reading generated translations: ${err.message}`);
+    }
   }
 
   console.log('🎉 Scheme translations seeded successfully!');

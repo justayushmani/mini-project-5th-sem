@@ -255,7 +255,7 @@ function mapScheme(row, usedSlugs) {
     level,
     applicationProcess,
     officialUrl,
-    status: 'NeedsVerification',
+    status: 'Active',
     lastVerifiedAt: null,
     eligibility: {
       create: eligibility ? [{

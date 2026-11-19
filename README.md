@@ -254,6 +254,18 @@ Runs:
   - Created 141 translation keys under the `home` namespace in `en.json`, `hi.json`, and `bn.json`.
   - Connected `useTranslation()` across all 10 landing sections: Hero, Marquee, Challenges, Personas, Solution Steps, How It Works, Capabilities, Trust, Social Impact, Final CTA, and Footer.
 
+### 5. Scheme Status & Multilingual Data Architecture
+- **Files**: `server/src/data/schemes.generated.js`, `server/scripts/importSchemes.js`, `server/scripts/activateSchemes.js`, `server/scripts/generateTranslations.js`, `server/prisma/seedTranslations.js`
+- **Issues Solved**:
+  - 500 imported schemes were originally marked `NeedsVerification` in `schemes.generated.js`. Since recommendation and chat services query `where: { status: 'Active' }`, imported schemes would have been excluded if re-imported on a fresh database.
+  - Translations were originally provided only for the baseline 5 seed schemes in `seedTranslations.js`, with the remaining schemes falling back to English.
+- **Solutions Implemented**:
+  - **Committed Active Status**: Updated all 500 records in `schemes.generated.js`, `generate-myscheme-500.mjs`, and `importSchemes.js` to `status: 'Active'`. Added idempotent `scripts/activateSchemes.js` (`npm run db:activate`).
+  - **Live Database Status**: All 505 schemes in the PostgreSQL database are verified `Active`.
+  - **Automated Translation Pipeline**: Created `scripts/generateTranslations.js` (`npm run db:translate`) with Groq LLM to translate scheme names, descriptions, and application processes into Hindi and Bengali. Persists progress to `server/src/data/translations.generated.json`.
+  - **Seeding Integration**: Updated `prisma/seedTranslations.js` to seed both the hand-crafted seeds and all entries from `translations.generated.json` upon running `npm run db:seed`.
+  - **Graceful Translation Fallback**: `scheme.service.js` dynamically overlays localized records for the active citizen language (`hi` / `bn`), and seamlessly falls back to English when a translation is pending.
+
 ---
 
 ## 🌐 API Route Reference

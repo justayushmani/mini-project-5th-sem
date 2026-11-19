@@ -52,7 +52,7 @@ test('Multilingual - Scheme service returns translated content for hi and bn', a
 });
 
 test('Multilingual - getSchemes paginated list with Bengali translation', async () => {
-  const result = await getSchemes({ page: 1, limit: 5, language: 'bn' });
+  const result = await getSchemes({ page: 1, limit: 5, language: 'bn', search: 'PM-KISAN' });
   assert.ok(result.schemes.length > 0, 'Should return schemes');
   const translated = result.schemes.find((s) => s.slug === 'pm-kisan-samman-nidhi');
   assert.ok(translated, 'PM-KISAN should be present in results');

@@ -1,0 +1,197 @@
+{
+  "ahst": {
+    "name": "\"Advance / High Skill Training\" Component of the \"Development of Industries\" Scheme",
+    "hi": {
+      "name": "“एडवांस / हाई स्किल ट्रेनिंग” घटक “डिवेलपमेंट ऑफ इंडस्ट्रीज” योजना का",
+      "description": "डिस्ट्रिक्ट इंडस्ट्रीज सेंटर, डिपार्टमेंट ऑफ इंडस्ट्रीज एंड कॉमर्स, यूनियन टेरिटरी ऑफ पुदुचेरी द्वारा “एडवांस / हाई स्किल ट्रेनिंग” घटक “डिवेलपमेंट ऑफ इंडस्ट्रीज” योजना का उद्देश्य उन लोगों की कौशल क्षमता को बढ़ाना है जिन्होंने बुनियादी प्रशिक्षण पूरा कर लिया है और आगे की उन्नत प्रशिक्षण में रुचि रखते हैं…",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: इच्छुक आवेदक को आवेदन फ़ॉर्म के निर्धारित फॉर्मेट को प्रिंट करना चाहिए।"
+    },
+    "bn": {
+      "name": "“Advance / High Skill Training” উপাদান “Development of Industries” স্কিমের",
+      "description": "ডিস্ট্রিক্ট ইন্ডাস্ট্রি সেন্টার, ডিপার্টমেন্ট অফ ইন্ডাস্ট্রি অ্যান্ড কমার্স, ইউনিয়ন টেরিটরি অফ পুডুচেরি দ্বারা “Advance / High Skill Training” উপাদান “Development of Industries” স্কিমের লক্ষ্য হল বেসিক প্রশিক্ষণ সম্পন্ন করা এবং উচ্চতর প্রশিক্ষণে আগ্রহী ব্যক্তিদের দক্ষতা বৃদ্ধি করা…",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: আগ্রহী আবেদনকারীকে আবেদন ফর্মের নির্ধারিত ফরম্যাটটি প্রিন্ট করতে হবে।"
+    }
+  },
+  "ahstc-dc": {
+    "name": "\"Advance/High Skill Training in Coir\" Component of the \"Development of Coir\" Scheme",
+    "hi": {
+      "name": "“एडवांस/हाई स्किल ट्रेनिंग इन कोयर” घटक “डिवेलपमेंट ऑफ कोयर” योजना का",
+      "description": "डिपार्टमेंट ऑफ इंडस्ट्रीज एंड कॉमर्स, यूनियन टेरिटरी ऑफ पुदुचेरी द्वारा “एडवांस/हाई स्किल ट्रेनिंग इन कोयर” घटक “डिवेलपमेंट ऑफ कोयर” योजना का उद्देश्य कोयर कारीगरों और इच्छुक व्यक्तियों की कौशल क्षमता को बढ़ाना है।",
+      "applicationProcess": "मोड: ऑनलाइन एवं ऑफ़लाइन। चरण 1: इच्छुक आवेदक को आवेदन फ़ॉर्म के निर्धारित फॉर्मेट को प्रिंट करना चाहिए।"
+    },
+    "bn": {
+      "name": "“Advance/High Skill Training in Coir” উপাদান “Development of Coir” স্কিমের",
+      "description": "ডিপার্টমেন্ট অফ ইন্ডাস্ট্রি অ্যান্ড কমার্স, ইউনিয়ন টেরিটরি অফ পুডুচেরি দ্বারা “Advance/High Skill Training in Coir” উপাদান “Development of Coir” স্কিমের লক্ষ্য কোয়্যার কারিগর এবং আগ্রহী ব্যক্তিদের দক্ষতা বৃদ্ধি করা।",
+      "applicationProcess": "মোড: অনলাইন ও অফলাইন। ধাপ ১: আগ্রহী আবেদনকারীকে আবেদন ফর্মের নির্ধারিত ফরম্যাটটি প্রিন্ট করতে হবে।"
+    }
+  },
+  "atihcdohs": {
+    "name": "\"Advanced Training in Handicrafts\" Component of the \"Development of Handicrafts\" Scheme",
+    "hi": {
+      "name": "“एडवांस्ड ट्रेनिंग इन हैंडिक्राफ्ट्स” घटक “डिवेलपमेंट ऑफ हैंडिक्राफ्ट्स” योजना का",
+      "description": "डिपार्टमेंट ऑफ इंडस्ट्रीज एंड कॉमर्स, यूनियन टेरिटरी ऑफ पुदुचेरी द्वारा “एडवांस्ड ट्रेनिंग इन हैंडिक्राफ्ट्स” घटक “डिवेलपमेंट ऑफ हैंडिक्राफ्ट्स” योजना का उद्देश्य उन व्यक्तियों को उन्नत प्रशिक्षण प्रदान करना है जो उत्कृष्ट शिल्प कौशल में महारत हासिल करना चाहते हैं।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: इच्छुक आवेदक को आवेदन फ़ॉर्म के निर्धारित फॉर्मेट को प्रिंट करना चाहिए।"
+    },
+    "bn": {
+      "name": "“Advanced Training in Handicrafts” উপাদান “Development of Handicrafts” স্কিমের",
+      "description": "ডিপার্টমেন্ট অফ ইন্ডাস্ট্রি অ্যান্ড কমার্স, ইউনিয়ন টেরিটরি অফ পুডুচেরি দ্বারা “Advanced Training in Handicrafts” উপাদান “Development of Handicrafts” স্কিমের লক্ষ্য হল এমন ব্যক্তিদের উন্নত প্রশিক্ষণ প্রদান করা যারা চমৎকার হস্তশিল্প দক্ষতা অর্জন করতে চান।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: আগ্রহী আবেদনকারীকে আবেদন ফর্মের নির্ধারিত ফরম্যাটটি প্রিন্ট করতে হবে।"
+    }
+  },
+  "aipbo-faascdmf": {
+    "name": "\"Annual Insurance Premium for Boat Owners\" under \"Financial Assistance for Availing Subsidy Components for the Development of Marine Fisheries\"",
+    "hi": {
+      "name": "“एन्युअल इन्श्योरेंस प्रीमियम फॉर बोट ओनर्स” “फाइनेंशियल असिस्टेंस फॉर अवेलिंग सब्सिडी कंपोनेंट्स फॉर द डिवेलपमेंट ऑफ मैरीन फिशरीज” के तहत",
+      "description": "डिपार्टमेंट ऑफ फिशरीज़ एंड फिशरमेन वेलफ़ेयर, सरकार ऑफ पुदुचेरी द्वारा “एन्युअल इन्श्योरेंस प्रीमियम फॉर बोट ओनर्स” योजना “फाइनेंशियल असिस्टेंस फॉर अवेलिंग सब्सिडी कंपोनेंट्स फॉर द डिवेलपमेंट ऑफ मैरीन फिशरीज” की छत्र योजना का एक उप-घटक है।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: इच्छुक आवेदक को डिपार्टमेंट ऑफ फिशरीज़ एंड फिशरमेन वेलफ़ेयर के कार्यालय/उप-कार्यालय में जाना चाहिए।"
+    },
+    "bn": {
+      "name": "“Annual Insurance Premium for Boat Owners” “Financial Assistance for Availing Subsidy Components for the Development of Marine Fisheries” এর অধীনে",
+      "description": "ডিপার্টমেন্ট অফ ফিশরিজ অ্যান্ড ফিশারম্যান ওয়েলফেয়ার, সরকার অফ পুডুচেরি দ্বারা “Annual Insurance Premium for Boat Owners” স্কিমটি “Financial Assistance for Availing Subsidy Components for the Development of Marine Fisheries” ছাতার স্কিমের একটি উপ-উপাদান।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: আগ্রহী আবেদনকারীকে ডিপার্টমেন্ট অফ ফিশরিজ অ্যান্ড ফিশারম্যান ওয়েলফেয়ার অফিস/সাব-অফিসে যেতে হবে।"
+    }
+  },
+  "aewc-mesifai-vi": {
+    "name": "\"Assistance for Energy and Water Conservation\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\"",
+    "hi": {
+      "name": "“असिस्टेंस फॉर एनर्जी एंड वाटर कंज़र्वेशन” “मोटिवेशन ऑफ एंटरप्रेन्योरज़ टू स्टार्ट इंडस्ट्रीज़ एंड फिस्कल असिस्टेंस टू इंडस्ट्रीज़ - वैरियस इन्सेंटिव्स” के तहत",
+      "description": "इंडस्ट्रीज एंड कॉमर्स डिपार्टमेंट, यूनियन टेरिटरी ऑफ पुदुचेरी द्वारा “असिस्टेंस फॉर एनर्जी एंड वाटर कंज़र्वेशन” योजना “मोटिवेशन ऑफ एंटरप्रेन्योरज़ टू स्टार्ट इंडस्ट्रीज़ एंड फिस्कल असिस्टेंस टू इंडस्ट्रीज़ - वैरियस इन्सेंटिव्स” के अंतर्गत लागू की गई है।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: औद्योगिक इकाई को प्री-निर्धारित फॉर्म में ग्रांट/सब्सिडी के लिए दावा पंजीकृत करना चाहिए, जो आधिकारिक वेबसाइट पर उपलब्ध है।"
+    },
+    "bn": {
+      "name": "“Assistance for Energy and Water Conservation” “Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives” এর অধীনে",
+      "description": "ইন্ডাস্ট্রিজ অ্যান্ড কমার্স ডিপার্টমেন্ট, ইউনিয়ন টেরিটরি অফ পুডুচেরি দ্বারা “Assistance for Energy and Water Conservation” স্কিমটি “Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives” এর অধীনে চালু করা হয়েছে।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: শিল্প ইউনিটকে অফিসিয়াল সাইটে উপলব্ধ নির্ধারিত ফর্মে গ্রান্ট/সাবসিডির জন্য দাবি রেজিস্টার করতে হবে।"
+    }
+  },
+  "aipps-mesifai-vi": {
+    "name": "\"Assistance for Intellectual Property Protection Support\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\"",
+    "hi": {
+      "name": "बौद्धिक संपदा संरक्षण समर्थन के लिए सहायता",
+      "description": "\"Assistance for Intellectual Property Protection Support\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\" के तहत एक योजना है, जो Industries and Commerce Department, Union Territory of Puducherry द्वारा चलाई जाती है।",
+      "applicationProcess": "Mode: Offline\nStep 1: औद्योगिक इकाई को प्रोत्साहन/सब्सिडी के अनुदान के लिए दावा पंजीकृत करना चाहिए, निर्धारित फॉर्म में जो Official वेबसाइट पर उपलब्ध है…"
+    },
+    "bn": {
+      "name": "বৌদ্ধিক সম্পদ সুরক্ষা সমর্থনের জন্য সহায়তা",
+      "description": "\"Assistance for Intellectual Property Protection Support\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries - Various Incentives\" এর অধীনে একটি স্কিম, যা Industries and Commerce Department, Union Territory of Puducherry দ্বারা পরিচালিত।",
+      "applicationProcess": "Mode: Offline\nStep 1: শিল্প ইউনিটকে প্রণোদনা/সাবসিডির অনুদানের জন্য দাবি রেজিস্টার করতে হবে, নির্ধারিত ফর্মে যা Official-এ উপলব্ধ…"
+    }
+  },
+  "ata-mesifa-cii": {
+    "name": "\"Assistance for Technology Acquisition\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\"",
+    "hi": {
+      "name": "प्रौद्योगिकी अधिग्रहण के लिए सहायता",
+      "description": "\"Assistance for Technology Acquisition\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\" के तहत एक योजना है, जो Industries and Commerce Department, Union Territory of Puducherry द्वारा चलाई जाती है।",
+      "applicationProcess": "Mode: Offline\nStep 1: औद्योगिक इकाई को प्रोत्साहन/सब्सिडी के अनुदान के लिए दावा पंजीकृत करना चाहिए, निर्धारित फॉर्म में जो Official वेबसाइट पर उपलब्ध है…"
+    },
+    "bn": {
+      "name": "প্রযুক্তি অর্জনের জন্য সহায়তা",
+      "description": "\"Assistance for Technology Acquisition\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\" এর অধীনে একটি স্কিম, যা Industries and Commerce Department, Union Territory of Puducherry দ্বারা পরিচালিত।",
+      "applicationProcess": "Mode: Offline\nStep 1: শিল্প ইউনিটকে প্রণোদনা/সাবসিডির অনুদানের জন্য দাবি রেজিস্টার করতে হবে, নির্ধারিত ফর্মে যা Official-এ উপলব্ধ…"
+    }
+  },
+  "cis-mesifa-cii": {
+    "name": "\"Capital Investment Subsidy (for New and Existing Industries)\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\"",
+    "hi": {
+      "name": "पूँजी निवेश सब्सिडी (नए और मौजूदा उद्योगों के लिए)",
+      "description": "\"Capital Investment Subsidy (for New and Existing Industries)\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\" के तहत एक योजना है, जो Industries and Commerce Department, Union Territory of Puducherry द्वारा चलाई जाती है।",
+      "applicationProcess": "Mode: Offline\nStep 1: औद्योगिक इकाई को प्रोत्साहन/सब्सिडी के अनुदान के लिए दावा पंजीकृत करना चाहिए, निर्धारित फॉर्म में जो Official वेबसाइट पर उपलब्ध है…"
+    },
+    "bn": {
+      "name": "মূলধন বিনিয়োগ সাবসিডি (নতুন ও বিদ্যমান শিল্পের জন্য)",
+      "description": "\"Capital Investment Subsidy (for New and Existing Industries)\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries\" এর অধীনে একটি স্কিম, যা Industries and Commerce Department, Union Territory of Puducherry দ্বারা পরিচালিত।",
+      "applicationProcess": "Mode: Offline\nStep 1: শিল্প ইউনিটকে প্রণোদনা/সাবসিডির অনুদানের জন্য দাবি রেজিস্টার করতে হবে, নির্ধারিত ফর্মে যা Official-এ উপলব্ধ…"
+    }
+  },
+  "cis5aciskr-mesifai": {
+    "name": "\"Capital Investment Subsidy: 5% Additional Capital Investment Subsidy to Karaikal Region\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+    "hi": {
+      "name": "पूँजी निवेश सब्सिडी: करैकाल क्षेत्र के लिए 5% अतिरिक्त पूँजी निवेश सब्सिडी",
+      "description": "\"Capital Investment Subsidy: 5% Additional Capital Investment Subsidy to Karaikal Region\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" योजना का एक घटक है, जो Department of Industrial Development (Industries and Commerce) द्वारा चलाई जाती है।",
+      "applicationProcess": "Mode: Offline\nStep 1: औद्योगिक इकाई को प्रोत्साहन/सब्सिडी के अनुदान के लिए दावा पंजीकृत करना चाहिए, निर्धारित फॉर्म में जो Official वेबसाइट पर उपलब्ध है…"
+    },
+    "bn": {
+      "name": "মূলধন বিনিয়োগ সাবসিডি: করাইকাল অঞ্চলের জন্য 5% অতিরিক্ত মূলধন বিনিয়োগ সাবসিডি",
+      "description": "\"Capital Investment Subsidy: 5% Additional Capital Investment Subsidy to Karaikal Region\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" স্কিমের একটি উপাদান, যা Department of Industrial Development (Industries and Commerce) দ্বারা পরিচালিত।",
+      "applicationProcess": "Mode: Offline\nStep 1: শিল্প ইউনিটকে প্রণোদনা/সাবসিডির অনুদানের জন্য দাবি রেজিস্টার করতে হবে, নির্ধারিত ফর্মে যা Official-এ উপলব্ধ…"
+    }
+  },
+  "cisitites-mesifai": {
+    "name": "\"Capital Investment Subsidy: Information Technology (IT) / Information Technology Enabled Services (ITES) Industries\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+    "hi": {
+      "name": "पूँजी निवेश सब्सिडी: सूचना प्रौद्योगिकी (IT) / सूचना प्रौद्योगिकी सक्षम सेवाएँ (ITES) उद्योग",
+      "description": "\"Capital Investment Subsidy: Information Technology (IT) / Information Technology Enabled Services (ITES) Industries\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" योजना का एक घटक है, जो Department of Industrial Development द्वारा चलाई जाती है।",
+      "applicationProcess": "Mode: Offline\nStep 1: औद्योगिक इकाई को प्रोत्साहन/सब्सिडी के अनुदान के लिए दावा पंजीकृत करना चाहिए, निर्धारित फॉर्म में जो Official वेबसाइट पर उपलब्ध है…"
+    },
+    "bn": {
+      "name": "মূলধন বিনিয়োগ সাবসিডি: তথ্য প্রযুক্তি (IT) / তথ্য প্রযুক্তি সক্ষম সেবা (ITES) শিল্প",
+      "description": "\"Capital Investment Subsidy: Information Technology (IT) / Information Technology Enabled Services (ITES) Industries\" \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" স্কিমের একটি উপাদান, যা Department of Industrial Development দ্বারা পরিচালিত।",
+      "applicationProcess": "Mode: Offline\nStep 1: শিল্প ইউনিটকে প্রণোদনা/সাবসিডির অনুদানের জন্য দাবি রেজিস্টার করতে হবে, নির্ধারিত ফর্মে যা Official-এ উপলব্ধ…"
+    }
+  },
+  "cisphpes-mesifai": {
+    "name": "\"Capital Investment Subsidy: Physically Handicapped Persons/ Ex-Servicemen\" under \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\"",
+    "hi": {
+      "name": "पूँजी निवेश सब्सिडी: शारीरिक रूप से विकलांग व्यक्ति/ पूर्व सैनिक",
+      "description": "यह पूँजी निवेश सब्सिडी: शारीरिक रूप से विकलांग व्यक्ति/ पूर्व सैनिक, “उद्यमियों को उद्योग शुरू करने के लिए प्रेरित करना और उद्योगों को वित्तीय सहायता प्रदान करना” योजना का एक घटक है, जिसे Department of Industrial Development (Industries and Commerce), Union Territory द्वारा लागू किया गया है।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: औद्योगिक इकाई को प्रोत्साहन/सब्सिडी के अनुदान के लिए दावा निर्धारित फॉर्म में पंजीकृत करना चाहिए, जो आधिकारिक साइट पर उपलब्ध है।"
+    },
+    "bn": {
+      "name": "পুঁজি বিনিয়োগ ভর্তুকি: শারীরিকভাবে প্রতিবন্ধী ব্যক্তি/ প্রাক্তন সৈনিক",
+      "description": "এটি পুঁজি বিনিয়োগ ভর্তুকি: শারীরিকভাবে প্রতিবন্ধী ব্যক্তি/ প্রাক্তন সৈনিক, “উদ্যোক্তাদের শিল্প শুরু করতে উত্সাহিত করা এবং শিল্পগুলোকে আর্থিক সহায়তা প্রদান করা” স্কিমের একটি উপাদান, যা Department of Industrial Development (Industries and Commerce), Union Territory দ্বারা চালু করা হয়েছে।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: শিল্প ইউনিটকে প্রণোদনা/ভর্তুকি অনুদানের জন্য দাবি নির্ধারিত ফর্মে রেজিস্টার করতে হবে, যা অফিসিয়াল সাইটে উপলব্ধ।"
+    }
+  },
+  "cisscstwe-mesifai": {
+    "name": "\"Capital Investment Subsidy: SC/ST/Women Entrepreneurs\" Component of the \"Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries\" Scheme",
+    "hi": {
+      "name": "पूँजी निवेश सब्सिडी: एससी/एसटी/महिला उद्यमी",
+      "description": "यह पूँजी निवेश सब्सिडी: एससी/एसटी/महिला उद्यमी, “उद्यमियों को उद्योग शुरू करने के लिए प्रेरित करना और उद्योगों को वित्तीय सहायता प्रदान करना” योजना का एक घटक है, जिसे Department of Industrial Development (Industries and Commerce), Union Territory of Puducherry द्वारा लागू किया गया है।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: औद्योगिक इकाई को प्रोत्साहन/सब्सिडी के अनुदान के लिए दावा निर्धारित फॉर्म में पंजीकृत करना चाहिए, जो आधिकारिक साइट पर उपलब्ध है।"
+    },
+    "bn": {
+      "name": "পুঁজি বিনিয়োগ ভর্তুকি: এসসি/এসটি/মহিলা উদ্যোক্তা",
+      "description": "এটি পুঁজি বিনিয়োগ ভর্তুকি: এসসি/এসটি/মহিলা উদ্যোক্তা, “উদ্যোক্তাদের শিল্প শুরু করতে উত্সাহিত করা এবং শিল্পগুলোকে আর্থিক সহায়তা প্রদান করা” স্কিমের একটি উপাদান, যা Department of Industrial Development (Industries and Commerce), Union Territory of Puducherry দ্বারা চালু করা হয়েছে।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: শিল্প ইউনিটকে প্রণোদনা/ভর্তুকি অনুদানের জন্য দাবি নির্ধারিত ফর্মে রেজিস্টার করতে হবে, যা অফিসিয়াল সাইটে উপলব্ধ।"
+    }
+  },
+  "cecdcs": {
+    "name": "\"Conducting of Exhibitions\" Component of the \"Development of Coir\" Scheme",
+    "hi": {
+      "name": "प्रदर्शनी का आयोजन",
+      "description": "Department of Industries and Commerce, Union Territory of Puducherry द्वारा “कोइर विकास” योजना के अंतर्गत “प्रदर्शनी का आयोजन” घटक का उद्देश्य विभिन्न कोइर उत्पादों के बारे में जागरूकता बढ़ाना और उनके बाजार में उपस्थिति को सुदृढ़ करना है।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: इच्छुक आवेदक को आवेदन फॉर्म के निर्धारित प्रारूप को प्रिंट करके ले लेना चाहिए।"
+    },
+    "bn": {
+      "name": "প্রদর্শনী আয়োজন",
+      "description": "Department of Industries and Commerce, Union Territory of Puducherry দ্বারা “কয়র উন্নয়ন” স্কিমের অধীনে “প্রদর্শনী আয়োজন” উপাদানের লক্ষ্য হল বিভিন্ন কয়র পণ্যের সম্পর্কে সচেতনতা বৃদ্ধি করা এবং তাদের বাজারে উপস্থিতি শক্তিশালী করা।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: আগ্রহী আবেদনকারীকে আবেদন ফর্মের নির্ধারিত ফরম্যাটটি প্রিন্ট করে নিতে হবে।"
+    }
+  },
+  "cmmfbdsf-faascdmf": {
+    "name": "\"Conversion/Modernisation of Mechanised Fishing Boats for Deep Sea Fishing\" under \"Financial Assistance for Availing Subsidy Components for the Development of Marine Fisheries\"",
+    "hi": {
+      "name": "गहरी समुद्री मछली पकड़ने के लिए यांत्रिक मत्स्य नौकों का रूपांतरण/आधुनिकीकरण",
+      "description": "यह योजना “गहरी समुद्री मछली पकड़ने के लिए यांत्रिक मत्स्य नौकों का रूपांतरण/आधुनिकीकरण” “समुद्री मत्स्य पालन के विकास के लिए सब्सिडी घटकों को प्राप्त करने हेतु वित्तीय सहायता” मुख्य योजना के तहत एक उप-घटक है, जिसे Department of Fisheries and Fishermen Welfare द्वारा लागू किया गया है।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: इच्छुक आवेदक को Department of Fisheries and Fishermen Welfare के कार्यालय/उप-कार्यालय में जाना होगा।"
+    },
+    "bn": {
+      "name": "গভীর সমুদ্রের মাছ ধরার জন্য যান্ত্রিক মাছ ধরা নৌকাগুলোর রূপান্তর/আধুনিকীকরণ",
+      "description": "এই স্কিম “গভীর সমুদ্রের মাছ ধরার জন্য যান্ত্রিক মাছ ধরা নৌকাগুলোর রূপান্তর/আধুনিকীকরণ” “মেরিন ফিশারিজের উন্নয়নের জন্য সাবসিডি কম্পোনেন্টস পেতে আর্থিক সহায়তা” মূল স্কিমের অধীনে একটি উপ-উপাদান, যা Department of Fisheries and Fishermen Welfare দ্বারা চালু করা হয়েছে।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: আগ্রহী আবেদনকারীকে Department of Fisheries and Fishermen Welfare এর অফিস/সাব-অফিসে যেতে হবে।"
+    }
+  },
+  "ddtmcp": {
+    "name": "\"Design Development Training For Master Crafts Persons\" Component of the \"Development of Handicrafts\" Scheme",
+    "hi": {
+      "name": "मास्टर शिल्पियों के लिए डिज़ाइन विकास प्रशिक्षण",
+      "description": "Department of Industries and Commerce, Union Territory of Puducherry द्वारा “हस्तशिल्प विकास” योजना के अंतर्गत “मास्टर शिल्पियों के लिए डिज़ाइन विकास प्रशिक्षण” घटक का उद्देश्य शिल्पकारों की पारम्परिक शिल्पों को आकार देने और डिजाइन करने की क्षमताओं को बढ़ाना है।",
+      "applicationProcess": "मोड: ऑफ़लाइन। चरण 1: इच्छुक आवेदक को आवेदन फॉर्म के निर्धारित प्रारूप को प्रिंट करके ले लेना चाहिए।"
+    },
+    "bn": {
+      "name": "মাস্টার ক্রাফট পার্সনের জন্য ডিজাইন ডেভেলপমেন্ট ট্রেনিং",
+      "description": "Department of Industries and Commerce, Union Territory of Puducherry দ্বারা “হস্তশিল্প উন্নয়ন” স্কিমের অধীনে “মাস্টার ক্রাফট পার্সনের জন্য ডিজাইন ডেভেলপমেন্ট ট্রেনিং” উপাদানের লক্ষ্য হল শিল্পীদের ঐতিহ্যবাহী হস্তশিল্পকে গঠন ও ডিজাইন করার দক্ষতা বৃদ্ধি করা।",
+      "applicationProcess": "মোড: অফলাইন। ধাপ ১: আগ্রহী আবেদনকারীকে আবেদন ফর্মের নির্ধারিত ফরম্যাটটি প্রিন্ট করে নিতে হবে।"
+    }
+  }
+}
