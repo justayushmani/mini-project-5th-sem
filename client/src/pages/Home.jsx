@@ -1,5 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   Mic, Search, ArrowRight, Shield, BookMarked,
   MessageCircle, FileText, ExternalLink, CheckCircle, Lightbulb,
@@ -49,23 +50,23 @@ function useScrollReveal() {
 const PROBLEMS = [
   {
     num: '01',
-    title: 'Scattered across portals',
-    desc: 'Scheme information is spread across multiple government websites, ministries, and departments — making it hard to find everything in one place.',
+    titleKey: 'home.problem.p1Title',
+    descKey: 'home.problem.p1Desc',
   },
   {
     num: '02',
-    title: 'Complex eligibility rules',
-    desc: 'Eligibility criteria involve combinations of age, income, occupation, caste, state, and more. Interpreting these rules can be overwhelming.',
+    titleKey: 'home.problem.p2Title',
+    descKey: 'home.problem.p2Desc',
   },
   {
     num: '03',
-    title: 'Language and literacy barriers',
-    desc: 'Many portals are primarily in English or formal Hindi, creating barriers for citizens who are more comfortable in regional languages or conversational speech.',
+    titleKey: 'home.problem.p3Title',
+    descKey: 'home.problem.p3Desc',
   },
   {
     num: '04',
-    title: 'Not knowing what exists',
-    desc: 'Citizens may not even be aware that a relevant scheme exists for their circumstances. You can\'t apply for what you don\'t know about.',
+    titleKey: 'home.problem.p4Title',
+    descKey: 'home.problem.p4Desc',
   },
 ];
 
@@ -74,30 +75,30 @@ const PERSONAS = [
   {
     emoji: '🌾',
     emojiClass: 'farmer',
-    role: 'A farmer looking for agricultural support',
-    challenge: 'Navigating between state agriculture departments, central PM-KISAN databases, and crop insurance portals can be time-consuming and confusing.',
-    how: 'Describe your farm, location, and income — discover relevant agricultural schemes.',
+    roleKey: 'home.people.farmerRole',
+    challengeKey: 'home.people.farmerChallenge',
+    howKey: 'home.people.farmerHow',
   },
   {
     emoji: '📚',
     emojiClass: 'student',
-    role: 'A student exploring education assistance',
-    challenge: 'Scholarship and education loan schemes are spread across UGC, state education departments, and minority welfare boards with different application windows.',
-    how: 'Share your education level, category, and state — find scholarships that may fit.',
+    roleKey: 'home.people.studentRole',
+    challengeKey: 'home.people.studentChallenge',
+    howKey: 'home.people.studentHow',
   },
   {
     emoji: '👩‍💼',
     emojiClass: 'woman',
-    role: 'A woman exploring entrepreneurship opportunities',
-    challenge: 'Women-specific livelihood and entrepreneurship schemes exist across ministries of MSME, rural development, and women & child development — but finding them requires searching each separately.',
-    how: 'Explain your goal, background, and location — see relevant livelihood programmes.',
+    roleKey: 'home.people.womanRole',
+    challengeKey: 'home.people.womanChallenge',
+    howKey: 'home.people.womanHow',
   },
   {
     emoji: '👷',
     emojiClass: 'worker',
-    role: 'A worker or family seeking welfare benefits',
-    challenge: 'Welfare schemes for housing, health insurance, pensions, and employment are managed by different departments with varying eligibility thresholds.',
-    how: 'Tell us about your family, income, and occupation — explore available benefits.',
+    roleKey: 'home.people.workerRole',
+    challengeKey: 'home.people.workerChallenge',
+    howKey: 'home.people.workerHow',
   },
 ];
 
@@ -106,38 +107,38 @@ const SOLUTION_STEPS = [
   {
     icon: <Mic size={22} />,
     iconClass: 'iconYellow',
-    title: 'Speak or type naturally',
-    desc: 'Describe your circumstances in Hindi, English, or Hinglish. No complex forms to navigate.',
+    titleKey: 'home.solution.step1Title',
+    descKey: 'home.solution.step1Desc',
   },
   {
     icon: <UserCheck size={22} />,
     iconClass: 'iconBlue',
-    title: 'AI extracts your profile',
-    desc: 'Our AI interprets your description and builds a structured profile — which you can review and correct.',
+    titleKey: 'home.solution.step2Title',
+    descKey: 'home.solution.step2Desc',
   },
   {
     icon: <Search size={22} />,
     iconClass: 'iconGreen',
-    title: 'Discover relevant schemes',
-    desc: 'Your profile is compared against available scheme eligibility criteria to find potentially matching programmes.',
+    titleKey: 'home.solution.step3Title',
+    descKey: 'home.solution.step3Desc',
   },
   {
     icon: <ClipboardList size={22} />,
     iconClass: 'iconYellow',
-    title: 'Review requirements',
-    desc: 'See eligibility details, required documents, benefits, and application steps for each scheme.',
+    titleKey: 'home.solution.step4Title',
+    descKey: 'home.solution.step4Desc',
   },
   {
     icon: <ExternalLink size={22} />,
     iconClass: 'iconBlue',
-    title: 'Follow official links',
-    desc: 'Every scheme includes links to official government sources for verification and application.',
+    titleKey: 'home.solution.step5Title',
+    descKey: 'home.solution.step5Desc',
   },
   {
     icon: <CheckCircle size={22} />,
     iconClass: 'iconGreen',
-    title: 'Save and follow up',
-    desc: 'Bookmark schemes for later and use the chatbot for any follow-up questions about the process.',
+    titleKey: 'home.solution.step6Title',
+    descKey: 'home.solution.step6Desc',
   },
 ];
 
@@ -145,23 +146,23 @@ const SOLUTION_STEPS = [
 const HOW_STEPS = [
   {
     num: '1',
-    title: 'Tell us about yourself',
-    desc: 'Describe your circumstances using voice or text, in a supported language.',
+    titleKey: 'home.howItWorks.step1Title',
+    descKey: 'home.howItWorks.step1Desc',
   },
   {
     num: '2',
-    title: 'Build your profile',
-    desc: 'AI extracts relevant details and presents them for your review and correction.',
+    titleKey: 'home.howItWorks.step2Title',
+    descKey: 'home.howItWorks.step2Desc',
   },
   {
     num: '3',
-    title: 'Discover relevant schemes',
-    desc: 'The platform compares your profile with available scheme eligibility information.',
+    titleKey: 'home.howItWorks.step3Title',
+    descKey: 'home.howItWorks.step3Desc',
   },
   {
     num: '4',
-    title: 'Take the next step',
-    desc: 'Review requirements, explore benefits, and continue through official government sources.',
+    titleKey: 'home.howItWorks.step4Title',
+    descKey: 'home.howItWorks.step4Desc',
   },
 ];
 
@@ -169,44 +170,44 @@ const HOW_STEPS = [
 const CAPABILITIES = [
   {
     icon: <Mic size={22} />,
-    title: 'Voice-first discovery',
-    desc: 'Start a conversation by speaking — the fastest way to describe complex personal circumstances.',
+    titleKey: 'home.capabilities.voiceTitle',
+    descKey: 'home.capabilities.voiceDesc',
     featured: false,
   },
   {
     icon: <Languages size={22} />,
-    title: 'Hindi, English & Bengali',
-    desc: 'Interact in the language you are most comfortable with: Hindi, English, or Bengali.',
+    titleKey: 'home.capabilities.langTitle',
+    descKey: 'home.capabilities.langDesc',
     featured: false,
   },
   {
     icon: <UserCheck size={22} />,
-    title: 'Profile-based matching',
-    desc: 'Your extracted profile is matched against scheme eligibility criteria — age, income, occupation, state, category, and more.',
+    titleKey: 'home.capabilities.profileTitle',
+    descKey: 'home.capabilities.profileDesc',
     featured: true,
   },
   {
     icon: <FileText size={22} />,
-    title: 'Clear eligibility info',
-    desc: 'Each scheme shows eligibility criteria, required documents, benefits, and step-by-step application instructions.',
+    titleKey: 'home.capabilities.infoTitle',
+    descKey: 'home.capabilities.infoDesc',
     featured: false,
   },
   {
     icon: <ExternalLink size={22} />,
-    title: 'Official source links',
-    desc: 'Every scheme links directly to its official government source — so you can verify information yourself.',
+    titleKey: 'home.capabilities.linksTitle',
+    descKey: 'home.capabilities.linksDesc',
     featured: false,
   },
   {
     icon: <BookMarked size={22} />,
-    title: 'Save for later',
-    desc: 'Bookmark relevant schemes and revisit them when you are ready to start the application process.',
+    titleKey: 'home.capabilities.saveTitle',
+    descKey: 'home.capabilities.saveDesc',
     featured: false,
   },
   {
     icon: <MessageCircle size={22} />,
-    title: 'Saathi AI Assistant',
-    desc: 'Ask questions about any scheme, eligibility requirement, or documentation directly from the floating Saathi assistant on any page.',
+    titleKey: 'home.capabilities.assistantTitle',
+    descKey: 'home.capabilities.assistantDesc',
     featured: false,
   },
 ];
@@ -215,23 +216,23 @@ const CAPABILITIES = [
 const TRUST_ITEMS = [
   {
     icon: <ExternalLink size={22} />,
-    title: 'Official sources matter',
-    desc: 'Every scheme in our database includes a link to its official government source. We encourage you to verify current eligibility criteria directly.',
+    titleKey: 'home.trust.t1Title',
+    descKey: 'home.trust.t1Desc',
   },
   {
     icon: <Eye size={22} />,
-    title: 'Review your information',
-    desc: 'After AI extracts your profile, you can review and edit every field before searching for schemes. You remain in control of your data.',
+    titleKey: 'home.trust.t2Title',
+    descKey: 'home.trust.t2Desc',
   },
   {
     icon: <Shield size={22} />,
-    title: 'Discovery, not guarantee',
-    desc: 'Yojana Saathi helps you discover potentially eligible schemes. Final eligibility and approval is determined by the relevant government department.',
+    titleKey: 'home.trust.t3Title',
+    descKey: 'home.trust.t3Desc',
   },
   {
     icon: <CheckCircle size={22} />,
-    title: 'Confirm with the department',
-    desc: 'Scheme rules can change. We recommend confirming current requirements with the relevant government office before applying.',
+    titleKey: 'home.trust.t4Title',
+    descKey: 'home.trust.t4Desc',
   },
 ];
 
@@ -239,36 +240,45 @@ const TRUST_ITEMS = [
 const IMPACT_ITEMS = [
   {
     icon: '🔍',
-    title: 'Easier scheme discovery',
-    desc: 'Reducing the effort needed to find relevant government programmes — from searching dozens of portals to having one conversation.',
+    titleKey: 'home.impact.i1Title',
+    descKey: 'home.impact.i1Desc',
   },
   {
     icon: '🗣️',
-    title: 'Language-friendly access',
-    desc: 'Making scheme information explorable in Hindi, English, and Hinglish — so language is not a barrier to awareness.',
+    titleKey: 'home.impact.i2Title',
+    descKey: 'home.impact.i2Desc',
   },
   {
     icon: '📋',
-    title: 'Clearer documentation',
-    desc: 'Presenting eligibility rules, required documents, and application steps in a structured, readable format.',
+    titleKey: 'home.impact.i3Title',
+    descKey: 'home.impact.i3Desc',
   },
   {
     icon: '💡',
-    title: 'Improved awareness',
-    desc: 'Helping citizens learn about support programmes they may not have known existed for their specific circumstances.',
+    titleKey: 'home.impact.i4Title',
+    descKey: 'home.impact.i4Desc',
   },
   {
     icon: '🤝',
-    title: 'Simpler digital access',
-    desc: 'Making digital public service information easier to navigate — especially for those less familiar with complex government portals.',
+    titleKey: 'home.impact.i5Title',
+    descKey: 'home.impact.i5Desc',
   },
 ];
 
-/* ── Marquee items ── */
-const MARQUEE_ITEMS = [
-  'Agriculture', 'Education', 'Health', 'Housing', 'Employment',
-  'Social Welfare', 'Women & Child', 'Skill Development', 'Financial Inclusion',
-  'Insurance', 'Pension', 'Minority Welfare',
+/* ── Marquee keys ── */
+const MARQUEE_KEYS = [
+  'home.categories.agriculture',
+  'home.categories.education',
+  'home.categories.health',
+  'home.categories.housing',
+  'home.categories.employment',
+  'home.categories.socialWelfare',
+  'home.categories.womenChild',
+  'home.categories.skillDev',
+  'home.categories.financialInclusion',
+  'home.categories.insurance',
+  'home.categories.pension',
+  'home.categories.minorityWelfare',
 ];
 
 
@@ -276,6 +286,7 @@ const MARQUEE_ITEMS = [
    HOME COMPONENT
    ═══════════════════════════════════════════════════════════════ */
 export default function Home() {
+  const { t } = useTranslation();
   const { user } = useAuth();
   const { openChat } = useChat();
   const reveal = useScrollReveal();
@@ -294,22 +305,20 @@ export default function Home() {
           {/* Left: Content */}
           <div>
             <div className={styles.heroBadge}>
-              <span aria-hidden="true">🇮🇳</span> AI-Powered Scheme Discovery
+              <span aria-hidden="true">🇮🇳</span> {t('home.hero.badge')}
             </div>
 
             <h1 id="hero-heading" className={styles.heroTitle}>
-              The right scheme<br />
-              can <span className={styles.heroTitleHighlight}>change a life.</span>
+              {t('home.hero.titleLead')}<br />
+              {t('home.hero.titleAction')} <span className={styles.heroTitleHighlight}>{t('home.hero.titleHighlight')}</span>
             </h1>
 
             <p className={styles.heroSubhead}>
-              Finding it shouldn't be the hardest part.
+              {t('home.hero.subhead')}
             </p>
 
             <p className={styles.heroDescription}>
-              India has government programmes designed to support farmers, students, women,
-              workers, entrepreneurs, and families. Yojana Saathi helps you discover relevant
-              schemes through a simple conversation in your language.
+              {t('home.hero.description')}
             </p>
 
             <div className={styles.heroCta}>
@@ -318,20 +327,20 @@ export default function Home() {
                 className="btn btn-primary btn-lg"
                 id="hero-cta-find"
               >
-                <Mic size={20} /> Find schemes for me
+                <Mic size={20} /> {t('home.hero.findSchemes')}
               </Link>
               <a
                 href="#how-it-works"
                 className="btn btn-secondary btn-lg"
                 id="hero-cta-how"
               >
-                <ArrowDown size={18} /> See how it works
+                <ArrowDown size={18} /> {t('home.hero.seeHowItWorks')}
               </a>
             </div>
 
             {!user && (
               <p className={styles.heroNote}>
-                Free to use · Speak in Hindi, English, or Hinglish
+                {t('home.hero.freeNote')}
               </p>
             )}
           </div>
@@ -354,10 +363,10 @@ export default function Home() {
               </div>
               <div className={styles.heroBubble}>
                 <div className={styles.heroBubbleIcon}>
-                  <Mic size={16} /> Voice Input
+                  <Mic size={16} /> {t('home.hero.voiceInput')}
                 </div>
                 <p className={styles.heroBubbleText}>
-                  "I am a farmer from UP..."
+                  {t('home.hero.bubbleText')}
                 </p>
               </div>
             </div>
@@ -375,10 +384,10 @@ export default function Home() {
           ═══════════════════════════════════════ */}
       <div className={styles.marquee} aria-hidden="true">
         <div className={styles.marqueeTrack}>
-          {[...MARQUEE_ITEMS, ...MARQUEE_ITEMS].map((item, i) => (
-            <span key={`${item}-${i}`} className={styles.marqueeItem}>
+          {[...MARQUEE_KEYS, ...MARQUEE_KEYS].map((key, i) => (
+            <span key={`${key}-${i}`} className={styles.marqueeItem}>
               <span className={styles.marqueeDot} />
-              {item}
+              {t(key)}
             </span>
           ))}
         </div>
@@ -391,14 +400,13 @@ export default function Home() {
       <section className={styles.problem} aria-labelledby="problem-heading">
         <div className={styles.problemInner}>
           <div ref={reveal} className={styles.reveal}>
-            <div className={styles.problemEyebrow}>THE CHALLENGE</div>
+            <div className={styles.problemEyebrow}>{t('home.problem.eyebrow')}</div>
             <h2 id="problem-heading" className={styles.problemTitle}>
-              Support exists.<br />
-              <span className={styles.yellow}>Finding it</span> is the challenge.
+              {t('home.problem.titleLead')}<br />
+              <span className={styles.yellow}>{t('home.problem.titleHighlight')}</span> {t('home.problem.titleEnd')}
             </h2>
             <p className={styles.problemSubtitle}>
-              India runs one of the world's largest social welfare systems. But navigating it
-              can feel like searching for a needle in a haystack.
+              {t('home.problem.subtitle')}
             </p>
           </div>
 
@@ -411,8 +419,8 @@ export default function Home() {
                 style={{ transitionDelay: `${i * 0.1}s` }}
               >
                 <div className={styles.problemNum}>{p.num}</div>
-                <h3 className={styles.problemCardTitle}>{p.title}</h3>
-                <p className={styles.problemCardDesc}>{p.desc}</p>
+                <h3 className={styles.problemCardTitle}>{t(p.titleKey)}</h3>
+                <p className={styles.problemCardDesc}>{t(p.descKey)}</p>
               </div>
             ))}
           </div>
@@ -426,20 +434,19 @@ export default function Home() {
       <section className={styles.people} aria-labelledby="people-heading">
         <div className={styles.peopleInner}>
           <div ref={reveal} className={`${styles.reveal} ${styles.peopleHeader}`}>
-            <div className={styles.peopleEyebrow}>BUILT FOR PEOPLE</div>
+            <div className={styles.peopleEyebrow}>{t('home.people.eyebrow')}</div>
             <h2 id="people-heading" className={styles.peopleTitle}>
-              Built around people,<br />not paperwork.
+              {t('home.people.titleLine1')}<br />{t('home.people.titleLine2')}
             </h2>
             <p className={styles.peopleSubtitle}>
-              These illustrative scenarios show how a conversational interface can help
-              different citizens discover relevant government schemes.
+              {t('home.people.subtitle')}
             </p>
           </div>
 
           <div className={styles.personaGrid}>
             {PERSONAS.map((p, i) => (
               <div
-                key={p.role}
+                key={p.roleKey}
                 ref={reveal}
                 className={`${styles.reveal} ${styles.personaCard}`}
                 style={{ transitionDelay: `${i * 0.1}s` }}
@@ -447,19 +454,18 @@ export default function Home() {
                 <div className={`${styles.personaEmoji} ${styles[p.emojiClass]}`}>
                   {p.emoji}
                 </div>
-                <h3 className={styles.personaRole}>{p.role}</h3>
-                <p className={styles.personaChallenge}>{p.challenge}</p>
+                <h3 className={styles.personaRole}>{t(p.roleKey)}</h3>
+                <p className={styles.personaChallenge}>{t(p.challengeKey)}</p>
                 <div className={styles.personaHow}>
                   <Lightbulb size={14} style={{ display: 'inline', verticalAlign: '-2px', marginRight: 6 }} />
-                  {p.how}
+                  {t(p.howKey)}
                 </div>
               </div>
             ))}
           </div>
 
           <p ref={reveal} className={`${styles.reveal} ${styles.personaNote}`}>
-            * These are illustrative scenarios, not testimonials. Yojana Saathi helps discover
-            potentially relevant schemes — eligibility and approval are determined by government departments.
+            {t('home.people.note')}
           </p>
         </div>
       </section>
@@ -471,20 +477,19 @@ export default function Home() {
       <section className={styles.solution} aria-labelledby="solution-heading">
         <div className={styles.solutionInner}>
           <div ref={reveal} className={styles.reveal}>
-            <div className={styles.solutionEyebrow}>THE PLATFORM</div>
+            <div className={styles.solutionEyebrow}>{t('home.solution.eyebrow')}</div>
             <h2 id="solution-heading" className={styles.solutionTitle}>
-              One conversation.<br />A clearer path to support.
+              {t('home.solution.titleLine1')}<br />{t('home.solution.titleLine2')}
             </h2>
             <p className={styles.solutionSubtitle}>
-              Yojana Saathi uses AI to turn your spoken or typed description into a structured
-              profile, then matches it against available scheme eligibility information.
+              {t('home.solution.subtitle')}
             </p>
           </div>
 
           <div className={styles.solutionFlow}>
             {SOLUTION_STEPS.map((s, i) => (
               <div
-                key={s.title}
+                key={s.titleKey}
                 ref={reveal}
                 className={`${styles.reveal} ${styles.flowStep}`}
                 style={{ transitionDelay: `${i * 0.08}s` }}
@@ -492,8 +497,8 @@ export default function Home() {
                 <div className={`${styles.flowStepIcon} ${styles[s.iconClass]}`}>
                   {s.icon}
                 </div>
-                <h3 className={styles.flowStepTitle}>{s.title}</h3>
-                <p className={styles.flowStepDesc}>{s.desc}</p>
+                <h3 className={styles.flowStepTitle}>{t(s.titleKey)}</h3>
+                <p className={styles.flowStepDesc}>{t(s.descKey)}</p>
               </div>
             ))}
           </div>
@@ -511,9 +516,9 @@ export default function Home() {
       >
         <div className={styles.howInner}>
           <div ref={reveal} className={styles.reveal}>
-            <div className={styles.howEyebrow}>HOW IT WORKS</div>
+            <div className={styles.howEyebrow}>{t('home.howItWorks.eyebrow')}</div>
             <h2 id="how-heading" className={styles.howTitle}>
-              From your words<br />to your next step.
+              {t('home.howItWorks.titleLine1')}<br />{t('home.howItWorks.titleLine2')}
             </h2>
           </div>
 
@@ -527,8 +532,8 @@ export default function Home() {
               >
                 <div className={styles.stepNumber}>{s.num}</div>
                 <div>
-                  <h3 className={styles.stepTitle}>{s.title}</h3>
-                  <p className={styles.stepDesc}>{s.desc}</p>
+                  <h3 className={styles.stepTitle}>{t(s.titleKey)}</h3>
+                  <p className={styles.stepDesc}>{t(s.descKey)}</p>
                 </div>
               </div>
             ))}
@@ -543,28 +548,27 @@ export default function Home() {
       <section className={styles.capabilities} aria-labelledby="cap-heading">
         <div className={styles.capInner}>
           <div ref={reveal} className={styles.reveal}>
-            <div className={styles.capEyebrow}>CAPABILITIES</div>
+            <div className={styles.capEyebrow}>{t('home.capabilities.eyebrow')}</div>
             <h2 id="cap-heading" className={styles.capTitle}>
-              Designed to make<br />discovery simpler.
+              {t('home.capabilities.titleLine1')}<br />{t('home.capabilities.titleLine2')}
             </h2>
             <p className={styles.capSubtitle}>
-              Every feature exists to reduce the effort between learning about a scheme and
-              taking the next step toward it.
+              {t('home.capabilities.subtitle')}
             </p>
           </div>
 
           <div className={styles.capGrid}>
             {CAPABILITIES.map((c, i) => (
               <div
-                key={c.title}
+                key={c.titleKey}
                 ref={reveal}
                 className={`${styles.reveal} ${c.featured ? styles.capCardFeatured : styles.capCard}`}
                 style={{ transitionDelay: `${i * 0.06}s` }}
               >
                 <div className={styles.capCardIcon}>{c.icon}</div>
                 <div>
-                  <h3 className={styles.capCardTitle}>{c.title}</h3>
-                  <p className={styles.capCardDesc}>{c.desc}</p>
+                  <h3 className={styles.capCardTitle}>{t(c.titleKey)}</h3>
+                  <p className={styles.capCardDesc}>{t(c.descKey)}</p>
                 </div>
               </div>
             ))}
@@ -579,28 +583,27 @@ export default function Home() {
       <section className={styles.trust} aria-labelledby="trust-heading">
         <div className={styles.trustInner}>
           <div ref={reveal} className={styles.reveal}>
-            <div className={styles.trustEyebrow}>TRUST</div>
+            <div className={styles.trustEyebrow}>{t('home.trust.eyebrow')}</div>
             <h2 id="trust-heading" className={styles.trustTitle}>
-              Useful guidance. Clear sources.<br />No false promises.
+              {t('home.trust.titleLine1')}<br />{t('home.trust.titleLine2')}
             </h2>
             <p className={styles.trustSubtitle}>
-              We believe transparency is more valuable than hype. Here's how we approach
-              accuracy and trust.
+              {t('home.trust.subtitle')}
             </p>
           </div>
 
           <div className={styles.trustGrid}>
-            {TRUST_ITEMS.map((t, i) => (
+            {TRUST_ITEMS.map((tItem, i) => (
               <div
-                key={t.title}
+                key={tItem.titleKey}
                 ref={reveal}
                 className={`${styles.reveal} ${styles.trustCard}`}
                 style={{ transitionDelay: `${i * 0.1}s` }}
               >
-                <div className={styles.trustIcon}>{t.icon}</div>
+                <div className={styles.trustIcon}>{tItem.icon}</div>
                 <div>
-                  <h3 className={styles.trustCardTitle}>{t.title}</h3>
-                  <p className={styles.trustCardDesc}>{t.desc}</p>
+                  <h3 className={styles.trustCardTitle}>{t(tItem.titleKey)}</h3>
+                  <p className={styles.trustCardDesc}>{t(tItem.descKey)}</p>
                 </div>
               </div>
             ))}
@@ -615,28 +618,26 @@ export default function Home() {
       <section className={styles.impact} aria-labelledby="impact-heading">
         <div className={styles.impactInner}>
           <div ref={reveal} className={styles.reveal}>
-            <div className={styles.impactEyebrow}>SOCIAL IMPACT</div>
+            <div className={styles.impactEyebrow}>{t('home.impact.eyebrow')}</div>
             <h2 id="impact-heading" className={styles.impactTitle}>
-              Technology should make<br />opportunity easier to reach.
+              {t('home.impact.titleLine1')}<br />{t('home.impact.titleLine2')}
             </h2>
             <p className={styles.impactSubtitle}>
-              Yojana Saathi is built with the belief that awareness is the first step toward
-              access — and that technology can meaningfully lower the barriers to discovering
-              government support.
+              {t('home.impact.subtitle')}
             </p>
           </div>
 
           <div className={styles.impactGrid}>
             {IMPACT_ITEMS.map((item, i) => (
               <div
-                key={item.title}
+                key={item.titleKey}
                 ref={reveal}
                 className={`${styles.reveal} ${styles.impactCard}`}
                 style={{ transitionDelay: `${i * 0.08}s` }}
               >
                 <div className={styles.impactIcon} aria-hidden="true">{item.icon}</div>
-                <h3 className={styles.impactCardTitle}>{item.title}</h3>
-                <p className={styles.impactCardDesc}>{item.desc}</p>
+                <h3 className={styles.impactCardTitle}>{t(item.titleKey)}</h3>
+                <p className={styles.impactCardDesc}>{t(item.descKey)}</p>
               </div>
             ))}
           </div>
@@ -650,10 +651,10 @@ export default function Home() {
       <section className={styles.finalCta} aria-labelledby="final-cta-heading">
         <div className={styles.finalCtaInner}>
           <h2 id="final-cta-heading" className={styles.finalCtaTitle}>
-            The support you need<br />may already exist.
+            {t('home.finalCta.titleLine1')}<br />{t('home.finalCta.titleLine2')}
           </h2>
           <p className={styles.finalCtaDesc}>
-            Start with your story. Discover the schemes that may fit your circumstances.
+            {t('home.finalCta.desc')}
           </p>
           <div className={styles.finalCtaButtons}>
             <Link
@@ -662,14 +663,14 @@ export default function Home() {
               id="bottom-cta-find"
               style={{ background: 'var(--black)', color: 'var(--white)', boxShadow: '5px 5px 0 rgba(0,0,0,0.3)' }}
             >
-              <Mic size={20} /> Find my schemes
+              <Mic size={20} /> {t('home.finalCta.findButton')}
             </Link>
             <a
               href="#how-it-works"
               className="btn btn-secondary btn-lg"
               id="bottom-cta-how"
             >
-              <ArrowRight size={18} /> Explore how it works
+              <ArrowRight size={18} /> {t('home.finalCta.howButton')}
             </a>
           </div>
         </div>
@@ -689,37 +690,36 @@ export default function Home() {
               YOJANA <span className={styles.footerLogoAccent}>SAATHI</span>
             </div>
             <p className={styles.footerDesc}>
-              AI-powered government scheme discovery. Helping Indian citizens find
-              relevant welfare schemes through simple conversations.
+              {t('home.footer.desc')}
             </p>
           </div>
 
           <div className={styles.footerLinks}>
             <div className={styles.footerCol}>
-              <span className={styles.footerColTitle}>Platform</span>
-              <Link to={ctaLink} className={styles.footerLink}>Find Schemes</Link>
-              <Link to={user ? '/saved' : '/login'} className={styles.footerLink}>Saved Schemes</Link>
+              <span className={styles.footerColTitle}>{t('home.footer.platform')}</span>
+              <Link to={ctaLink} className={styles.footerLink}>{t('nav.findSchemes')}</Link>
+              <Link to={user ? '/saved' : '/login'} className={styles.footerLink}>{t('nav.savedSchemes')}</Link>
               <button
                 type="button"
                 onClick={openChat}
                 className={styles.footerLink}
                 style={{ background: 'none', border: 'none', padding: 0, textAlign: 'left', cursor: 'pointer', font: 'inherit' }}
               >
-                Saathi Assistant
+                {t('nav.saathiAssistant')}
               </button>
-              <Link to="/doc-simplifier" className={styles.footerLink}>Doc Simplifier</Link>
+              <Link to="/doc-simplifier" className={styles.footerLink}>{t('nav.docSimplifier')}</Link>
             </div>
             <div className={styles.footerCol}>
-              <span className={styles.footerColTitle}>Account</span>
+              <span className={styles.footerColTitle}>{t('home.footer.account')}</span>
               {user ? (
                 <>
-                  <Link to="/profile" className={styles.footerLink}>Profile</Link>
-                  <Link to="/saved" className={styles.footerLink}>My Schemes</Link>
+                  <Link to="/profile" className={styles.footerLink}>{t('nav.profile')}</Link>
+                  <Link to="/saved" className={styles.footerLink}>{t('nav.savedSchemes')}</Link>
                 </>
               ) : (
                 <>
-                  <Link to="/login" className={styles.footerLink}>Login</Link>
-                  <Link to="/register" className={styles.footerLink}>Register</Link>
+                  <Link to="/login" className={styles.footerLink}>{t('common.login')}</Link>
+                  <Link to="/register" className={styles.footerLink}>{t('common.register')}</Link>
                 </>
               )}
             </div>
@@ -728,13 +728,10 @@ export default function Home() {
 
         <div className={styles.footerBottom}>
           <p className={styles.footerDisclaimer}>
-            Yojana Saathi is a technology platform that helps discover potentially relevant
-            government schemes. Eligibility and final approval are subject to official scheme
-            rules and government verification. Information may not reflect the most recent changes.
-            Always verify with the relevant government department.
+            {t('home.footer.disclaimer')}
           </p>
           <p className={styles.footerCopy}>
-            © {new Date().getFullYear()} Yojana Saathi
+            © {new Date().getFullYear()} {t('common.appName')}
           </p>
         </div>
       </footer>
