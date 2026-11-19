@@ -1,0 +1,88 @@
+YOJANA SAATHI PILOT EVALUATION - PHASE 1 SUMMARY
+====================================================
+
+DATA / ENVIRONMENT
+{
+  "date": "2026-11-19T05:27:19.908Z",
+  "node": "v22.12.0",
+  "os": "win32 10.0.26300",
+  "gitCommit": "4d1cfea",
+  "groqModel": "openai/gpt-oss-120b",
+  "embeddingModel": "Xenova/multilingual-e5-small",
+  "schemesByStatus": {
+    "Active": 505
+  },
+  "translationsByLanguage": {
+    "hi": 20,
+    "bn": 20
+  },
+  "activeSchemesUsed": 505,
+  "activeSchemesWithEligibilityRules": 505,
+  "activeSchemesWithSource": 505
+}
+
+Profiles run: 60   extraction failures: 0
+
+EXTRACTION - ALL PROFILES
+field             tp  missed wrong spurious  P     R     F1
+age               58      0     0        0  1     1     1    
+state             60      0     0        0  1     1     1    
+occupation        38      7     0        0  1     0.844 0.916
+annualIncome      27      0     1        1  0.931 0.964 0.947
+gender            11      0     0        1  0.917 1     0.957
+category          12      1     0        0  1     0.923 0.96 
+disability         2      1     0        0  1     0.667 0.8  
+maritalStatus      9      0     0        0  1     1     1    
+landOwnership      3      3     0        0  1     0.5   0.667
+MICRO-AVERAGE     P=0.987 R=0.944 F1=0.965   exact profile match=0.8 (n=60)
+
+EXTRACTION - EN
+field             tp  missed wrong spurious  P     R     F1
+age               18      0     0        0  1     1     1    
+state             20      0     0        0  1     1     1    
+occupation        12      1     0        0  1     0.923 0.96 
+annualIncome       8      0     0        1  0.889 1     0.941
+gender             5      0     0        0  1     1     1    
+category           5      0     0        0  1     1     1    
+disability         0      1     0        0    -   0       -  
+maritalStatus      3      0     0        0  1     1     1    
+landOwnership      0      2     0        0    -   0       -  
+MICRO-AVERAGE     P=0.986 R=0.947 F1=0.966   exact profile match=0.8 (n=20)
+
+EXTRACTION - HI
+field             tp  missed wrong spurious  P     R     F1
+age               20      0     0        0  1     1     1    
+state             20      0     0        0  1     1     1    
+occupation        14      2     0        0  1     0.875 0.933
+annualIncome      10      0     0        0  1     1     1    
+gender             3      0     0        1  0.75  1     0.857
+category           4      0     0        0  1     1     1    
+disability         1      0     0        0  1     1     1    
+maritalStatus      3      0     0        0  1     1     1    
+landOwnership      1      1     0        0  1     0.5   0.667
+MICRO-AVERAGE     P=0.987 R=0.962 F1=0.974   exact profile match=0.85 (n=20)
+
+EXTRACTION - BN
+field             tp  missed wrong spurious  P     R     F1
+age               20      0     0        0  1     1     1    
+state             20      0     0        0  1     1     1    
+occupation        12      4     0        0  1     0.75  0.857
+annualIncome       9      0     1        0  0.9   0.9   0.9  
+gender             3      0     0        0  1     1     1    
+category           3      1     0        0  1     0.75  0.857
+disability         1      0     0        0  1     1     1    
+maritalStatus      3      0     0        0  1     1     1    
+landOwnership      2      0     0        0  1     1     1    
+MICRO-AVERAGE     P=0.986 R=0.924 F1=0.954   exact profile match=0.75 (n=20)
+
+EXTRACTION BY TAG (micro F1 / exact-match / n)
+  abbrev     F1=1  exact=1  n=6  spurious=0
+  lakh       F1=1  exact=1  n=5  spurious=0
+  monthly    F1=0.974  exact=0.8  n=5  spurious=0
+  partial    F1=0.957  exact=0.833  n=12  spurious=1
+  romanized  F1=0.989  exact=0.917  n=12  spurious=0
+  trap       F1=1  exact=1  n=7  spurious=0
+  words      F1=0.978  exact=0.909  n=11  spurious=0
+
+LATENCY (extraction call): median 1385 ms, p95 3513 ms, max 5467 ms
+ENGINE: extracted-vs-gold profile - mean status agreement 0.998, mean Jaccard of ELIGIBLE sets 0.967

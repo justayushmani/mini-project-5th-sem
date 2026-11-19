@@ -1,0 +1,945 @@
+{
+ "_readme": "Gold attributes list ONLY what the text explicitly states. Unlisted fields must be null. 'rec': true marks the 30 profiles used for the recommendation labelling. 'trap': text hints at a field (e.g. gender) that must NOT be inferred. 'monthly': income is given per month, gold is the x12 annual figure.",
+ "scoredFields": [
+  "age",
+  "state",
+  "occupation",
+  "annualIncome",
+  "gender",
+  "category",
+  "disability",
+  "maritalStatus",
+  "landOwnership"
+ ],
+ "profiles": [
+  {
+   "id": "en-01",
+   "lang": "en",
+   "text": "I am a 35-year-old farmer from Uttar Pradesh with an annual income of ₹1.5 lakh and I need financial assistance for agriculture.",
+   "textEn": "I am a 35-year-old farmer from Uttar Pradesh with an annual income of ₹1.5 lakh and I need financial assistance for agriculture.",
+   "gold": {
+    "age": 35,
+    "state": "Uttar Pradesh",
+    "occupation": "Farmer",
+    "annualIncome": 150000
+   },
+   "tags": [
+    "lakh"
+   ],
+   "rec": true
+  },
+  {
+   "id": "en-02",
+   "lang": "en",
+   "text": "I'm a 22 year old student in Bihar. My family's annual income is 2 lakh rupees. Looking for a scholarship.",
+   "textEn": "I'm a 22 year old student in Bihar. My family's annual income is 2 lakh rupees. Looking for a scholarship.",
+   "gold": {
+    "age": 22,
+    "state": "Bihar",
+    "occupation": "Student",
+    "annualIncome": 200000
+   },
+   "tags": [
+    "lakh"
+   ],
+   "rec": true
+  },
+  {
+   "id": "en-03",
+   "lang": "en",
+   "text": "I am a woman aged 58 living in Kerala. I am a widow and need pension support.",
+   "textEn": "I am a woman aged 58 living in Kerala. I am a widow and need pension support.",
+   "gold": {
+    "age": 58,
+    "state": "Kerala",
+    "gender": "Female",
+    "maritalStatus": "Widowed"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "en-04",
+   "lang": "en",
+   "text": "Looking for a housing scheme. I live in a kutcha house in Odisha, belong to the Scheduled Caste, and my income is 80 thousand per year.",
+   "textEn": "Looking for a housing scheme. I live in a kutcha house in Odisha, belong to the Scheduled Caste, and my income is 80 thousand per year.",
+   "gold": {
+    "state": "Odisha",
+    "category": "SC",
+    "annualIncome": 80000
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": true
+  },
+  {
+   "id": "en-05",
+   "lang": "en",
+   "text": "I am self-employed, 41 years old, based in Tamil Nadu, earning ₹25,000 per month.",
+   "textEn": "I am self-employed, 41 years old, based in Tamil Nadu, earning ₹25,000 per month.",
+   "gold": {
+    "age": 41,
+    "state": "Tamil Nadu",
+    "occupation": "Self-Employed",
+    "annualIncome": 300000
+   },
+   "tags": [
+    "monthly"
+   ],
+   "rec": true
+  },
+  {
+   "id": "en-06",
+   "lang": "en",
+   "text": "I am 67 years old and retired, living in Punjab. I need health insurance.",
+   "textEn": "I am 67 years old and retired, living in Punjab. I need health insurance.",
+   "gold": {
+    "age": 67,
+    "state": "Punjab",
+    "occupation": "Retired"
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "en-07",
+   "lang": "en",
+   "text": "Hello, I am a 30 year old man from Rajasthan. I have a disability certificate (40 percent). Which schemes are there for me?",
+   "textEn": "Hello, I am a 30 year old man from Rajasthan. I have a disability certificate (40 percent). Which schemes are there for me?",
+   "gold": {
+    "age": 30,
+    "state": "Rajasthan",
+    "gender": "Male",
+    "disability": true
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "en-08",
+   "lang": "en",
+   "text": "I belong to the OBC category, I am 27 and unemployed in Madhya Pradesh. I want a skill training scheme.",
+   "textEn": "I belong to the OBC category, I am 27 and unemployed in Madhya Pradesh. I want a skill training scheme.",
+   "gold": {
+    "age": 27,
+    "state": "Madhya Pradesh",
+    "category": "OBC",
+    "occupation": "Unemployed"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "en-09",
+   "lang": "en",
+   "text": "I am a fisherman from West Bengal, 50 years old.",
+   "textEn": "I am a fisherman from West Bengal, 50 years old.",
+   "gold": {
+    "age": 50,
+    "state": "West Bengal",
+    "occupation": "Fisherman"
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": true
+  },
+  {
+   "id": "en-10",
+   "lang": "en",
+   "text": "My income is 12 lakh per annum and I am a salaried private employee in Karnataka, age 34.",
+   "textEn": "My income is 12 lakh per annum and I am a salaried private employee in Karnataka, age 34.",
+   "gold": {
+    "age": 34,
+    "state": "Karnataka",
+    "occupation": "Private Employee",
+    "annualIncome": 1200000
+   },
+   "tags": [
+    "lakh"
+   ],
+   "rec": true
+  },
+  {
+   "id": "en-11",
+   "lang": "en",
+   "text": "I am a 19-year-old girl from Assam, a student, ST category, and my family income is ₹90,000.",
+   "textEn": "I am a 19-year-old girl from Assam, a student, ST category, and my family income is ₹90,000.",
+   "gold": {
+    "age": 19,
+    "state": "Assam",
+    "gender": "Female",
+    "occupation": "Student",
+    "category": "ST",
+    "annualIncome": 90000
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "en-12",
+   "lang": "en",
+   "text": "I want to start a business. I am 29, from UP, and I am an EWS candidate.",
+   "textEn": "I want to start a business. I am 29, from UP, and I am an EWS candidate.",
+   "gold": {
+    "age": 29,
+    "state": "Uttar Pradesh",
+    "category": "EWS"
+   },
+   "tags": [
+    "abbrev",
+    "partial"
+   ],
+   "rec": false
+  },
+  {
+   "id": "en-13",
+   "lang": "en",
+   "text": "I am a landless agricultural labourer in Jharkhand earning 150 rupees a day.",
+   "textEn": "I am a landless agricultural labourer in Jharkhand earning 150 rupees a day.",
+   "gold": {
+    "state": "Jharkhand",
+    "occupation": "Agricultural Labourer",
+    "landOwnership": false
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": false
+  },
+  {
+   "id": "en-14",
+   "lang": "en",
+   "text": "I am 45, married, and a homemaker from Gujarat.",
+   "textEn": "I am 45, married, and a homemaker from Gujarat.",
+   "gold": {
+    "age": 45,
+    "state": "Gujarat",
+    "maritalStatus": "Married",
+    "occupation": "Homemaker"
+   },
+   "tags": [
+    "trap"
+   ],
+   "rec": false
+  },
+  {
+   "id": "en-15",
+   "lang": "en",
+   "text": "I own 2 acres of land in Haryana and grow wheat. I am 52 years old.",
+   "textEn": "I own 2 acres of land in Haryana and grow wheat. I am 52 years old.",
+   "gold": {
+    "age": 52,
+    "state": "Haryana",
+    "occupation": "Farmer",
+    "landOwnership": true
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "en-16",
+   "lang": "en",
+   "text": "I need a scheme for my education loan. I am a 21-year-old from Delhi studying engineering.",
+   "textEn": "I need a scheme for my education loan. I am a 21-year-old from Delhi studying engineering.",
+   "gold": {
+    "age": 21,
+    "state": "Delhi",
+    "occupation": "Student"
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "en-17",
+   "lang": "en",
+   "text": "Daily wage worker, Maharashtra, age 38, income around 1.2 lakh a year, general category.",
+   "textEn": "Daily wage worker, Maharashtra, age 38, income around 1.2 lakh a year, general category.",
+   "gold": {
+    "age": 38,
+    "state": "Maharashtra",
+    "occupation": "Daily Wage Worker",
+    "annualIncome": 120000,
+    "category": "General"
+   },
+   "tags": [
+    "lakh"
+   ],
+   "rec": false
+  },
+  {
+   "id": "en-18",
+   "lang": "en",
+   "text": "I am 60 and live in a village in Himachal. Any old age pension?",
+   "textEn": "I am 60 and live in a village in Himachal. Any old age pension?",
+   "gold": {
+    "age": 60,
+    "state": "Himachal Pradesh"
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": false
+  },
+  {
+   "id": "en-19",
+   "lang": "en",
+   "text": "Transgender person, 26 years old, from Tamil Nadu, looking for self employment support.",
+   "textEn": "Transgender person, 26 years old, from Tamil Nadu, looking for self employment support.",
+   "gold": {
+    "age": 26,
+    "state": "Tamil Nadu",
+    "gender": "Transgender"
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": false
+  },
+  {
+   "id": "en-20",
+   "lang": "en",
+   "text": "I am a divorced woman aged 36 in Telangana with an income of ₹1.8 lakh.",
+   "textEn": "I am a divorced woman aged 36 in Telangana with an income of ₹1.8 lakh.",
+   "gold": {
+    "age": 36,
+    "state": "Telangana",
+    "gender": "Female",
+    "maritalStatus": "Divorced",
+    "annualIncome": 180000
+   },
+   "tags": [
+    "lakh"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-01",
+   "lang": "hi",
+   "text": "मैं 35 साल का किसान हूँ, उत्तर प्रदेश से। मेरी सालाना आमदनी डेढ़ लाख रुपये है।",
+   "textEn": "I am a 35-year-old farmer from Uttar Pradesh. My annual income is one and a half lakh rupees.",
+   "gold": {
+    "age": 35,
+    "state": "Uttar Pradesh",
+    "occupation": "Farmer",
+    "annualIncome": 150000
+   },
+   "tags": [
+    "words"
+   ],
+   "rec": true
+  },
+  {
+   "id": "hi-02",
+   "lang": "hi",
+   "text": "मेरी उम्र 22 साल है, मैं बिहार में पढ़ाई कर रहा हूँ। परिवार की सालाना आय दो लाख रुपये है।",
+   "textEn": "I am 22 years old and studying in Bihar. My family's annual income is two lakh rupees.",
+   "gold": {
+    "age": 22,
+    "state": "Bihar",
+    "occupation": "Student",
+    "annualIncome": 200000
+   },
+   "tags": [
+    "trap",
+    "words"
+   ],
+   "rec": true
+  },
+  {
+   "id": "hi-03",
+   "lang": "hi",
+   "text": "मैं 58 साल की महिला हूँ और केरल में रहती हूँ। मैं विधवा हूँ, मुझे पेंशन चाहिए।",
+   "textEn": "I am a 58-year-old woman and I live in Kerala. I am a widow and I need a pension.",
+   "gold": {
+    "age": 58,
+    "state": "Kerala",
+    "gender": "Female",
+    "maritalStatus": "Widowed"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "hi-04",
+   "lang": "hi",
+   "text": "mera naam Ramesh hai, umar 40 saal, main Rajasthan ka kisan hun. meri aay 1 lakh 20 hazaar saalana hai.",
+   "textEn": "My name is Ramesh, age 40, I am a farmer from Rajasthan. My income is 1 lakh 20 thousand per year.",
+   "gold": {
+    "age": 40,
+    "state": "Rajasthan",
+    "occupation": "Farmer",
+    "annualIncome": 120000
+   },
+   "tags": [
+    "romanized",
+    "trap",
+    "words"
+   ],
+   "rec": true
+  },
+  {
+   "id": "hi-05",
+   "lang": "hi",
+   "text": "मैं अनुसूचित जाति से हूँ, 30 साल का हूँ, मध्य प्रदेश में रहता हूँ और बेरोज़गार हूँ।",
+   "textEn": "I belong to the Scheduled Caste, I am 30 years old, I live in Madhya Pradesh and I am unemployed.",
+   "gold": {
+    "age": 30,
+    "state": "Madhya Pradesh",
+    "category": "SC",
+    "occupation": "Unemployed"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "hi-06",
+   "lang": "hi",
+   "text": "main dihadi mazdoor hun, Bihar se, mahine ka 8000 rupaye kamata hun, umar 33.",
+   "textEn": "I am a daily wage labourer from Bihar, I earn 8000 rupees a month, age 33.",
+   "gold": {
+    "age": 33,
+    "state": "Bihar",
+    "occupation": "Daily Wage Worker",
+    "annualIncome": 96000
+   },
+   "tags": [
+    "monthly",
+    "romanized"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-07",
+   "lang": "hi",
+   "text": "मेरी उम्र 67 साल है, मैं सेवानिवृत्त हूँ और पंजाब में रहता हूँ।",
+   "textEn": "I am 67 years old, I am retired and I live in Punjab.",
+   "gold": {
+    "age": 67,
+    "state": "Punjab",
+    "occupation": "Retired"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "hi-08",
+   "lang": "hi",
+   "text": "मैं एक विकलांग व्यक्ति हूँ, उम्र 28 साल, दिल्ली में रहता हूँ।",
+   "textEn": "I am a person with a disability, age 28, living in Delhi.",
+   "gold": {
+    "age": 28,
+    "state": "Delhi",
+    "disability": true
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": true
+  },
+  {
+   "id": "hi-09",
+   "lang": "hi",
+   "text": "meri umar 19 saal hai, main UP me padhai karti hun, OBC category se hun, ghar ki aay 1.5 lakh hai.",
+   "textEn": "I am 19 years old, I study in UP, I am from the OBC category, my household income is 1.5 lakh.",
+   "gold": {
+    "age": 19,
+    "state": "Uttar Pradesh",
+    "occupation": "Student",
+    "category": "OBC",
+    "annualIncome": 150000
+   },
+   "tags": [
+    "abbrev",
+    "romanized",
+    "trap"
+   ],
+   "rec": true
+  },
+  {
+   "id": "hi-10",
+   "lang": "hi",
+   "text": "मैं छत्तीसगढ़ की एक महिला हूँ, 45 साल की, खेतिहर मजदूर हूँ, मेरे पास अपनी ज़मीन नहीं है।",
+   "textEn": "I am a woman from Chhattisgarh, 45 years old, an agricultural labourer, and I have no land of my own.",
+   "gold": {
+    "age": 45,
+    "state": "Chhattisgarh",
+    "gender": "Female",
+    "occupation": "Agricultural Labourer",
+    "landOwnership": false
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "hi-11",
+   "lang": "hi",
+   "text": "मैं गुजरात में छोटा कारोबार चलाता हूँ, उम्र 42 साल, आय 6 लाख रुपये सालाना।",
+   "textEn": "I run a small business in Gujarat, age 42, income 6 lakh rupees per year.",
+   "gold": {
+    "age": 42,
+    "state": "Gujarat",
+    "occupation": "Business Owner",
+    "annualIncome": 600000
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "hi-12",
+   "lang": "hi",
+   "text": "main 26 saal ka hun, Jharkhand se, ST category, padhai kar raha hun.",
+   "textEn": "I am 26 years old, from Jharkhand, ST category, and I am studying.",
+   "gold": {
+    "age": 26,
+    "state": "Jharkhand",
+    "category": "ST",
+    "occupation": "Student"
+   },
+   "tags": [
+    "romanized",
+    "trap"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-13",
+   "lang": "hi",
+   "text": "मेरे पास 3 एकड़ ज़मीन है और मैं हरियाणा में खेती करता हूँ। मेरी उम्र 50 साल है।",
+   "textEn": "I have 3 acres of land and I farm in Haryana. I am 50 years old.",
+   "gold": {
+    "age": 50,
+    "state": "Haryana",
+    "occupation": "Farmer",
+    "landOwnership": true
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "hi-14",
+   "lang": "hi",
+   "text": "मैं तलाकशुदा महिला हूँ, उम्र 34 साल, महाराष्ट्र में रहती हूँ, आय सवा लाख रुपये सालाना।",
+   "textEn": "I am a divorced woman, age 34, living in Maharashtra, income one and a quarter lakh rupees per year.",
+   "gold": {
+    "age": 34,
+    "state": "Maharashtra",
+    "gender": "Female",
+    "maritalStatus": "Divorced",
+    "annualIncome": 125000
+   },
+   "tags": [
+    "words"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-15",
+   "lang": "hi",
+   "text": "mujhe ghar chahiye. main Orissa ka rehne wala hun, meri umar 37 saal hai, EWS category.",
+   "textEn": "I need a house. I live in Orissa, my age is 37, EWS category.",
+   "gold": {
+    "age": 37,
+    "state": "Odisha",
+    "category": "EWS"
+   },
+   "tags": [
+    "abbrev",
+    "partial",
+    "romanized"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-16",
+   "lang": "hi",
+   "text": "मैं सरकारी कर्मचारी हूँ, उम्र 45, कर्नाटक में, सालाना आय 9 लाख।",
+   "textEn": "I am a government employee, age 45, in Karnataka, annual income 9 lakh.",
+   "gold": {
+    "age": 45,
+    "state": "Karnataka",
+    "occupation": "Government Employee",
+    "annualIncome": 900000
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "hi-17",
+   "lang": "hi",
+   "text": "मैं मछुआरा हूँ, पश्चिम बंगाल से, 48 साल का।",
+   "textEn": "I am a fisherman, from West Bengal, 48 years old.",
+   "gold": {
+    "age": 48,
+    "state": "West Bengal",
+    "occupation": "Fisherman"
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-18",
+   "lang": "hi",
+   "text": "main ek grihini hun, umar 41, Tamil Nadu me rehti hun, shaadi shuda.",
+   "textEn": "I am a homemaker, age 41, I live in Tamil Nadu, married.",
+   "gold": {
+    "age": 41,
+    "state": "Tamil Nadu",
+    "occupation": "Homemaker",
+    "maritalStatus": "Married"
+   },
+   "tags": [
+    "romanized",
+    "trap"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-19",
+   "lang": "hi",
+   "text": "मेरी आमदनी महीने की पंद्रह हज़ार रुपये है, मैं 29 साल का हूँ और उत्तराखंड में निजी कंपनी में काम करता हूँ।",
+   "textEn": "My income is fifteen thousand rupees a month, I am 29 years old and I work for a private company in Uttarakhand.",
+   "gold": {
+    "age": 29,
+    "state": "Uttarakhand",
+    "occupation": "Private Employee",
+    "annualIncome": 180000
+   },
+   "tags": [
+    "monthly",
+    "words"
+   ],
+   "rec": false
+  },
+  {
+   "id": "hi-20",
+   "lang": "hi",
+   "text": "मैं कारीगर हूँ, राजस्थान में रहता हूँ, मेरी उम्र 55 साल है, सालाना आय 90 हज़ार रुपये है।",
+   "textEn": "I am an artisan, I live in Rajasthan, my age is 55, annual income is 90 thousand rupees.",
+   "gold": {
+    "age": 55,
+    "state": "Rajasthan",
+    "occupation": "Artisan / Craftsperson",
+    "annualIncome": 90000
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "bn-01",
+   "lang": "bn",
+   "text": "আমি ৩৫ বছর বয়সী কৃষক, পশ্চিমবঙ্গে থাকি। আমার বার্ষিক আয় দেড় লাখ টাকা।",
+   "textEn": "I am a 35-year-old farmer and I live in West Bengal. My annual income is one and a half lakh rupees.",
+   "gold": {
+    "age": 35,
+    "state": "West Bengal",
+    "occupation": "Farmer",
+    "annualIncome": 150000
+   },
+   "tags": [
+    "words"
+   ],
+   "rec": true
+  },
+  {
+   "id": "bn-02",
+   "lang": "bn",
+   "text": "আমার বয়স ২২, আমি বিহারে পড়াশোনা করি। পরিবারের বার্ষিক আয় দুই লাখ টাকা।",
+   "textEn": "I am 22 years old and I study in Bihar. My family's annual income is two lakh rupees.",
+   "gold": {
+    "age": 22,
+    "state": "Bihar",
+    "occupation": "Student",
+    "annualIncome": 200000
+   },
+   "tags": [
+    "words"
+   ],
+   "rec": true
+  },
+  {
+   "id": "bn-03",
+   "lang": "bn",
+   "text": "আমি ৫৮ বছরের একজন মহিলা, কেরলে থাকি। আমি বিধবা, পেনশন দরকার।",
+   "textEn": "I am a 58-year-old woman and I live in Kerala. I am a widow and I need a pension.",
+   "gold": {
+    "age": 58,
+    "state": "Kerala",
+    "gender": "Female",
+    "maritalStatus": "Widowed"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "bn-04",
+   "lang": "bn",
+   "text": "ami 40 bochhorer krishok, Assam e thaki. amar bochhorer income 1 lokkho 20 hajar taka.",
+   "textEn": "I am a 40-year-old farmer and I live in Assam. My yearly income is 1 lakh 20 thousand rupees.",
+   "gold": {
+    "age": 40,
+    "state": "Assam",
+    "occupation": "Farmer",
+    "annualIncome": 120000
+   },
+   "tags": [
+    "romanized",
+    "words"
+   ],
+   "rec": true
+  },
+  {
+   "id": "bn-05",
+   "lang": "bn",
+   "text": "আমি তফসিলি জাতির মানুষ, বয়স ৩০, ওড়িশায় থাকি এবং বেকার।",
+   "textEn": "I belong to the Scheduled Caste, I am 30 years old, I live in Odisha and I am unemployed.",
+   "gold": {
+    "age": 30,
+    "state": "Odisha",
+    "category": "SC",
+    "occupation": "Unemployed"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "bn-06",
+   "lang": "bn",
+   "text": "ami dinmojur, Tripura te thaki, boyosh 33, mashe 8000 taka income.",
+   "textEn": "I am a daily wage labourer, I live in Tripura, age 33, income 8000 rupees a month.",
+   "gold": {
+    "age": 33,
+    "state": "Tripura",
+    "occupation": "Daily Wage Worker",
+    "annualIncome": 96000
+   },
+   "tags": [
+    "monthly",
+    "romanized"
+   ],
+   "rec": false
+  },
+  {
+   "id": "bn-07",
+   "lang": "bn",
+   "text": "আমার বয়স ৬৭ বছর, আমি অবসরপ্রাপ্ত, পশ্চিমবঙ্গে থাকি।",
+   "textEn": "I am 67 years old, I am retired and I live in West Bengal.",
+   "gold": {
+    "age": 67,
+    "state": "West Bengal",
+    "occupation": "Retired"
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "bn-08",
+   "lang": "bn",
+   "text": "আমি একজন প্রতিবন্ধী ব্যক্তি, বয়স ২৮, দিল্লিতে থাকি।",
+   "textEn": "I am a person with a disability, age 28, living in Delhi.",
+   "gold": {
+    "age": 28,
+    "state": "Delhi",
+    "disability": true
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": true
+  },
+  {
+   "id": "bn-09",
+   "lang": "bn",
+   "text": "amar boyosh 19, ami West Bengal e porashona kori, OBC, paribarer bochhorer income 1.5 lakh.",
+   "textEn": "I am 19 years old, I study in West Bengal, OBC, my family's yearly income is 1.5 lakh.",
+   "gold": {
+    "age": 19,
+    "state": "West Bengal",
+    "occupation": "Student",
+    "category": "OBC",
+    "annualIncome": 150000
+   },
+   "tags": [
+    "abbrev",
+    "romanized"
+   ],
+   "rec": true
+  },
+  {
+   "id": "bn-10",
+   "lang": "bn",
+   "text": "আমি ঝাড়খণ্ডের একজন মহিলা, বয়স ৪৫, কৃষি শ্রমিক, আমার নিজের জমি নেই।",
+   "textEn": "I am a woman from Jharkhand, age 45, an agricultural labourer, and I have no land of my own.",
+   "gold": {
+    "age": 45,
+    "state": "Jharkhand",
+    "gender": "Female",
+    "occupation": "Agricultural Labourer",
+    "landOwnership": false
+   },
+   "tags": [],
+   "rec": true
+  },
+  {
+   "id": "bn-11",
+   "lang": "bn",
+   "text": "আমি আসামে ছোট ব্যবসা চালাই, বয়স ৪২, বার্ষিক আয় ছয় লাখ টাকা।",
+   "textEn": "I run a small business in Assam, age 42, annual income six lakh rupees.",
+   "gold": {
+    "age": 42,
+    "state": "Assam",
+    "occupation": "Business Owner",
+    "annualIncome": 600000
+   },
+   "tags": [
+    "words"
+   ],
+   "rec": true
+  },
+  {
+   "id": "bn-12",
+   "lang": "bn",
+   "text": "ami 26 bochhorer, Tripura theke, ST, porashona kori.",
+   "textEn": "I am 26 years old, from Tripura, ST, and I study.",
+   "gold": {
+    "age": 26,
+    "state": "Tripura",
+    "category": "ST",
+    "occupation": "Student"
+   },
+   "tags": [
+    "abbrev",
+    "romanized"
+   ],
+   "rec": false
+  },
+  {
+   "id": "bn-13",
+   "lang": "bn",
+   "text": "আমার ৩ বিঘা জমি আছে এবং আমি চাষ করি, আমার বয়স ৫০, পশ্চিমবঙ্গে থাকি।",
+   "textEn": "I have 3 bigha of land and I farm. My age is 50 and I live in West Bengal.",
+   "gold": {
+    "age": 50,
+    "state": "West Bengal",
+    "occupation": "Farmer",
+    "landOwnership": true
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "bn-14",
+   "lang": "bn",
+   "text": "আমি একজন ডিভোর্সি মহিলা, বয়স ৩৪, ত্রিপুরায় থাকি, বার্ষিক আয় সোয়া লাখ টাকা।",
+   "textEn": "I am a divorced woman, age 34, I live in Tripura, annual income one and a quarter lakh rupees.",
+   "gold": {
+    "age": 34,
+    "state": "Tripura",
+    "gender": "Female",
+    "maritalStatus": "Divorced",
+    "annualIncome": 125000
+   },
+   "tags": [
+    "words"
+   ],
+   "rec": false
+  },
+  {
+   "id": "bn-15",
+   "lang": "bn",
+   "text": "amar ekta ghor dorkar. ami Odisha r bashinda, boyosh 37, EWS.",
+   "textEn": "I need a house. I am a resident of Odisha, age 37, EWS.",
+   "gold": {
+    "age": 37,
+    "state": "Odisha",
+    "category": "EWS"
+   },
+   "tags": [
+    "abbrev",
+    "partial",
+    "romanized"
+   ],
+   "rec": false
+  },
+  {
+   "id": "bn-16",
+   "lang": "bn",
+   "text": "আমি সরকারি কর্মচারী, বয়স ৪৫, কর্ণাটকে থাকি, বার্ষিক আয় ৯ লাখ টাকা।",
+   "textEn": "I am a government employee, age 45, I live in Karnataka, annual income 9 lakh rupees.",
+   "gold": {
+    "age": 45,
+    "state": "Karnataka",
+    "occupation": "Government Employee",
+    "annualIncome": 900000
+   },
+   "tags": [],
+   "rec": false
+  },
+  {
+   "id": "bn-17",
+   "lang": "bn",
+   "text": "আমি জেলে, পশ্চিমবঙ্গের মানুষ, বয়স ৪৮।",
+   "textEn": "I am a fisherman, a person from West Bengal, age 48.",
+   "gold": {
+    "age": 48,
+    "state": "West Bengal",
+    "occupation": "Fisherman"
+   },
+   "tags": [
+    "partial"
+   ],
+   "rec": false
+  },
+  {
+   "id": "bn-18",
+   "lang": "bn",
+   "text": "ami grihini, boyosh 41, Assam e thaki, bibahito.",
+   "textEn": "I am a homemaker, age 41, I live in Assam, married.",
+   "gold": {
+    "age": 41,
+    "state": "Assam",
+    "occupation": "Homemaker",
+    "maritalStatus": "Married"
+   },
+   "tags": [
+    "romanized",
+    "trap"
+   ],
+   "rec": false
+  },
+  {
+   "id": "bn-19",
+   "lang": "bn",
+   "text": "আমার মাসিক আয় পনেরো হাজার টাকা, বয়স ২৯, আমি পশ্চিমবঙ্গে একটি বেসরকারি কোম্পানিতে চাকরি করি।",
+   "textEn": "My monthly income is fifteen thousand rupees, age 29, I work for a private company in West Bengal.",
+   "gold": {
+    "age": 29,
+    "state": "West Bengal",
+    "occupation": "Private Employee",
+    "annualIncome": 180000
+   },
+   "tags": [
+    "monthly",
+    "words"
+   ],
+   "rec": false
+  },
+  {
+   "id": "bn-20",
+   "lang": "bn",
+   "text": "আমি কারিগর, ত্রিপুরায় থাকি, বয়স ৫৫, বার্ষিক আয় ৯০ হাজার টাকা।",
+   "textEn": "I am an artisan, I live in Tripura, age 55, annual income 90 thousand rupees.",
+   "gold": {
+    "age": 55,
+    "state": "Tripura",
+    "occupation": "Artisan / Craftsperson",
+    "annualIncome": 90000
+   },
+   "tags": [],
+   "rec": false
+  }
+ ]
+}
