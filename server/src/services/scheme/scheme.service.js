@@ -1,4 +1,5 @@
-import prisma from '../../lib/prisma.js';
+import prisma, { withConnectionRetry } from '../../lib/prisma.js';
+import { translateScheme } from '../ai/translation.service.js';
 
 /**
  * Scheme Service
@@ -76,16 +77,18 @@ export async function getSchemes({ page = 1, limit = 10, category, state, level,
     ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
   };
 
-  const [schemes, totalCount] = await Promise.all([
-    prisma.scheme.findMany({
-      where,
-      include,
-      skip,
-      take,
-      orderBy: { name: 'asc' },
-    }),
-    prisma.scheme.count({ where }),
-  ]);
+  const [schemes, totalCount] = await withConnectionRetry(() =>
+    Promise.all([
+      prisma.scheme.findMany({
+        where,
+        include,
+        skip,
+        take,
+        orderBy: { name: 'asc' },
+      }),
+      prisma.scheme.count({ where }),
+    ])
+  );
 
   return {
     schemes: schemes.map((s) => applyTranslation(s, language)),
@@ -102,29 +105,103 @@ export async function getSchemes({ page = 1, limit = 10, category, state, level,
 
 /**
  * Get a single scheme by ID with full details.
+ * If translated text is missing for requested language, it translates on-demand and caches in DB.
  */
 export async function getSchemeById(id, language = 'en') {
-  const scheme = await prisma.scheme.findUnique({
-    where: { id },
-    include: {
-      ...SCHEME_FULL_INCLUDE,
-      ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
-    },
-  });
+  const scheme = await withConnectionRetry(() =>
+    prisma.scheme.findUnique({
+      where: { id },
+      include: {
+        ...SCHEME_FULL_INCLUDE,
+        ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
+      },
+    })
+  );
+
+  if (!scheme) return null;
+
+  if (language && language !== 'en' && (!scheme.translations || scheme.translations.length === 0)) {
+    try {
+      const translated = await translateScheme(scheme, language);
+      if (translated) {
+        const saved = await prisma.schemeTranslation.upsert({
+          where: {
+            schemeId_language: {
+              schemeId: scheme.id,
+              language,
+            },
+          },
+          update: {
+            name: translated.name,
+            description: translated.description,
+            applicationProcess: translated.applicationProcess,
+          },
+          create: {
+            schemeId: scheme.id,
+            language,
+            name: translated.name,
+            description: translated.description,
+            applicationProcess: translated.applicationProcess,
+          },
+        });
+        scheme.translations = [saved];
+      }
+    } catch (err) {
+      console.warn(`[getSchemeById] Translation failed for ${scheme.id} to ${language}:`, err.message);
+    }
+  }
+
   return applyTranslation(scheme, language);
 }
 
 /**
  * Get a single scheme by slug with full details.
+ * If translated text is missing for requested language, it translates on-demand and caches in DB.
  */
 export async function getSchemeBySlug(slug, language = 'en') {
-  const scheme = await prisma.scheme.findUnique({
-    where: { slug },
-    include: {
-      ...SCHEME_FULL_INCLUDE,
-      ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
-    },
-  });
+  const scheme = await withConnectionRetry(() =>
+    prisma.scheme.findUnique({
+      where: { slug },
+      include: {
+        ...SCHEME_FULL_INCLUDE,
+        ...(language && language !== 'en' ? { translations: { where: { language } } } : {}),
+      },
+    })
+  );
+
+  if (!scheme) return null;
+
+  if (language && language !== 'en' && (!scheme.translations || scheme.translations.length === 0)) {
+    try {
+      const translated = await translateScheme(scheme, language);
+      if (translated) {
+        const saved = await prisma.schemeTranslation.upsert({
+          where: {
+            schemeId_language: {
+              schemeId: scheme.id,
+              language,
+            },
+          },
+          update: {
+            name: translated.name,
+            description: translated.description,
+            applicationProcess: translated.applicationProcess,
+          },
+          create: {
+            schemeId: scheme.id,
+            language,
+            name: translated.name,
+            description: translated.description,
+            applicationProcess: translated.applicationProcess,
+          },
+        });
+        scheme.translations = [saved];
+      }
+    } catch (err) {
+      console.warn(`[getSchemeBySlug] Translation failed for ${slug} to ${language}:`, err.message);
+    }
+  }
+
   return applyTranslation(scheme, language);
 }
 

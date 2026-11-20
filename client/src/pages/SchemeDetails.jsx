@@ -1,13 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ExternalLink, FileText, CheckCircle, BookMarked, ArrowLeft, MessageCircle, AlertTriangle } from 'lucide-react';
+import { ExternalLink, FileText, CheckCircle, BookMarked, ArrowLeft, MessageCircle, AlertTriangle, HelpCircle } from 'lucide-react';
 import schemeService from '../services/scheme.service.js';
 import bookmarkService from '../services/bookmark.service.js';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useChat } from '../context/ChatContext.jsx';
 import { useLanguage } from '../context/LanguageContext.jsx';
 import { formatDate, getErrorMessage } from '../utils/formatters.js';
+import { parseOverview, parseApplicationProcess, parseEligibilityCriteria } from '../utils/bulletParser.js';
 import styles from './SchemeDetails.module.css';
 
 export default function SchemeDetails() {
@@ -36,6 +37,10 @@ export default function SchemeDetails() {
     }
     load();
   }, [id, language]);
+
+  const overviewData = useMemo(() => parseOverview(scheme?.description), [scheme?.description]);
+  const processData = useMemo(() => parseApplicationProcess(scheme?.applicationProcess), [scheme?.applicationProcess]);
+  const eligibilityItems = useMemo(() => parseEligibilityCriteria(scheme?.eligibility), [scheme?.eligibility]);
 
   const handleBookmark = async () => {
     if (!user) return;
@@ -128,7 +133,21 @@ export default function SchemeDetails() {
         {/* Overview */}
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>{t('schemeDetails.overview')}</h2>
-          <p className={styles.description}>{scheme.description}</p>
+          {overviewData.bullets.length > 0 ? (
+            <ul className={styles.bulletList}>
+              {overviewData.bullets.map((b, idx) => (
+                <li key={idx} className={styles.bulletItem}>
+                  <span className={styles.bulletDot} />
+                  <div className={styles.bulletContent}>
+                    {b.prefix && <strong className={styles.bulletPrefix}>{b.prefix} </strong>}
+                    <span>{b.text}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className={styles.description}>{scheme.description}</p>
+          )}
         </section>
 
         {/* Benefits */}
@@ -148,13 +167,13 @@ export default function SchemeDetails() {
         )}
 
         {/* Eligibility */}
-        {scheme.eligibility?.length > 0 && (
+        {eligibilityItems.length > 0 && (
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>{t('schemeDetails.whoCanApply')}</h2>
             <ul className={styles.eligList}>
-              {scheme.eligibility.map((e) => (
+              {eligibilityItems.map((e) => (
                 <li key={e.id} className={styles.eligItem}>
-                  <CheckCircle size={18} color={e.isRequired ? 'var(--green)' : 'var(--grey-500)'} />
+                  <CheckCircle size={18} color={e.isRequired ? 'var(--green)' : 'var(--grey-500)'} className={styles.checkIcon} />
                   <span>
                     {e.description}
                     {!e.isRequired && <span className={styles.optionalTag}> ({t('common.optional')})</span>}
@@ -187,8 +206,52 @@ export default function SchemeDetails() {
         {/* How to apply */}
         {scheme.applicationProcess && (
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>{t('schemeDetails.howToApply')}</h2>
-            <p className={styles.description}>{scheme.applicationProcess}</p>
+            <div className={styles.sectionHeaderRow}>
+              <h2 className={styles.sectionTitle}>{t('schemeDetails.howToApply')}</h2>
+              {processData.mode && (
+                <span className={`badge ${styles.modeBadge}`}>
+                  {processData.mode}
+                </span>
+              )}
+            </div>
+            {processData.steps.length > 0 ? (
+              <div className={styles.stepsList}>
+                {processData.steps.map((step, idx) => (
+                  <div key={idx} className={styles.stepCard}>
+                    <div className={styles.stepBadge}>{idx + 1}</div>
+                    <div className={styles.stepContent}>
+                      {step.stepLabel && <span className={styles.stepLabel}>{step.stepLabel}</span>}
+                      <p className={styles.stepText}>{step.text}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className={styles.description}>{scheme.applicationProcess}</p>
+            )}
+          </section>
+        )}
+
+        {/* FAQs */}
+        {overviewData.faqs.length > 0 && (
+          <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>
+              <HelpCircle size={16} /> {t('schemeDetails.faqs', 'Frequently Asked Questions')}
+            </h2>
+            <div className={styles.faqList}>
+              {overviewData.faqs.map((faq, idx) => (
+                <div key={idx} className={styles.faqCard}>
+                  <div className={styles.faqQuestion}>
+                    <span className={styles.qaBadge}>Q</span>
+                    <h4>{faq.q}</h4>
+                  </div>
+                  <div className={styles.faqAnswer}>
+                    <span className={styles.qaBadge}>A</span>
+                    <p>{faq.a}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </section>
         )}
 
