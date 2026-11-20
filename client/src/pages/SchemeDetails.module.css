@@ -143,7 +143,197 @@
   margin-top: var(--space-8);
 }
 
+/* Bullet List */
+.bulletList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.bulletItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--grey-800);
+}
+
+.bulletDot {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: var(--green, #16a34a);
+}
+
+.bulletContent {
+  flex: 1;
+}
+
+.bulletPrefix {
+  color: var(--black, #111827);
+  font-weight: 700;
+}
+
+/* Steps / Application Process */
+.sectionHeaderRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-2);
+  border-bottom: var(--border-sm);
+  border-color: var(--grey-200);
+}
+
+.sectionHeaderRow .sectionTitle {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.modeBadge {
+  background: var(--blue-light, #eff6ff);
+  color: var(--blue, #2563eb);
+  border: 1px solid var(--blue, #93c5fd);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  text-transform: capitalize;
+}
+
+.stepsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.stepCard {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  background: var(--white);
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-sm);
+}
+
+.stepBadge {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--green, #16a34a);
+  color: var(--white);
+  font-weight: 800;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepContent {
+  flex: 1;
+}
+
+.stepLabel {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--green, #16a34a);
+  margin-bottom: 4px;
+}
+
+.stepText {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--grey-800);
+  margin: 0;
+}
+
+/* FAQs */
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.faqCard {
+  background: var(--white);
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-sm);
+}
+
+.faqQuestion {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+
+.faqQuestion h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--black, #111827);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.faqAnswer {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.faqAnswer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--grey-700);
+  margin: 0;
+}
+
+.qaBadge {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faqQuestion .qaBadge {
+  background: var(--blue-light);
+  color: var(--blue);
+}
+
+.faqAnswer .qaBadge {
+  background: var(--green-light);
+  color: var(--green);
+}
+
+.checkIcon {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
 @media (max-width: 600px) {
   .actions { flex-direction: column; }
   .benefitsList { grid-template-columns: 1fr; }
+  .stepCard { flex-direction: column; gap: var(--space-2); }
 }
