@@ -1,6 +1,7 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import prisma, { withConnectionRetry } from '../lib/prisma.js';
+import { invalidateUserCache } from '../middleware/auth.middleware.js';
 import env from '../config/env.js';
 import { successResponse, errorResponse } from '../utils/apiResponse.js';
 import logger from '../utils/logger.js';
@@ -84,6 +85,9 @@ export async function login(req, res, next) {
 
 // POST /api/auth/logout
 export async function logout(req, res) {
+  if (req.user?.id) {
+    invalidateUserCache(req.user.id);
+  }
   res.clearCookie('token', {
     httpOnly: true,
     secure: env.isProd,
@@ -108,6 +112,7 @@ export async function updateLanguage(req, res, next) {
         data: { preferredLanguage: language },
       })
     );
+    invalidateUserCache(req.user.id);
     return successResponse(res, { user: safeUser(user) });
   } catch (error) {
     next(error);
